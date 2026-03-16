@@ -1,1 +1,1 @@
-TS auto-evolve: .github+2_+2_.md"+README.md+Reasoning.md" (coherence +0%)
+TS auto-evolve: obsidian (coherence +0%)
