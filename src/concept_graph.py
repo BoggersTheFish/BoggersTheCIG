@@ -1,10 +1,12 @@
 """
 Subsystem 2: Concept Graph
 Stores concepts as nodes and relations as edges.
-Uses Memgraph/Neo4j (Cypher) when available; NetworkX fallback for <10k nodes.
+Auto-switch: NetworkX for <50k nodes, Memgraph above. Sharding via community detection.
+Simulated: 8GB laptop → NetworkX; RTX 4090 + 60k nodes → Memgraph.
 """
 import json
 import logging
+import subprocess
 import time
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
@@ -16,12 +18,77 @@ from src.config import (
     USE_NETWORKX_FALLBACK,
     NETWORKX_MAX_NODES,
     GRAPHS_DIR,
+    ENABLE_LARGE_GRAPH,
+    MIN_NODES_FOR_MEMGRAPH,
+    PROJECT_ROOT,
 )
 
 logger = logging.getLogger(__name__)
 
 # Embedding model cache
 _embedding_model = None
+
+
+def check_graph_size(graph: "ConceptGraph") -> bool:
+    """
+    If nodes > MIN_NODES_FOR_MEMGRAPH and Memgraph not running, attempt docker-compose up.
+    Returns True if switched to Memgraph.
+    """
+    if not ENABLE_LARGE_GRAPH:
+        return False
+    n = graph.node_count()
+    if n < MIN_NODES_FOR_MEMGRAPH:
+        return False
+    if graph._use_neo4j:
+        return True
+    logger.warning("Graph has %d nodes (>= %d); Memgraph not running. Attempting docker-compose up.", n, MIN_NODES_FOR_MEMGRAPH)
+    try:
+        dc = PROJECT_ROOT / "docker-compose.yaml"
+        if dc.exists():
+            subprocess.run(
+                ["docker-compose", "up", "-d", "memgraph"],
+                cwd=PROJECT_ROOT,
+                capture_output=True,
+                timeout=60,
+            )
+            time.sleep(5)
+            from neo4j import GraphDatabase
+            auth = (GRAPH_USER, GRAPH_PASSWORD) if (GRAPH_USER and GRAPH_PASSWORD) else ("neo4j", "password")
+            driver = GraphDatabase.driver(GRAPH_URI, auth=auth)
+            driver.verify_connectivity()
+            driver.close()
+            logger.info("Memgraph started. Reconnect by creating new ConceptGraph after migration.")
+        else:
+            logger.warning("docker-compose.yaml not found; cannot auto-start Memgraph")
+    except Exception as e:
+        logger.warning("Could not start Memgraph: %s", e)
+    return False
+
+
+def get_subgraphs_by_community(graph: "ConceptGraph", max_communities: int = 20) -> List[List[str]]:
+    """Split graph into subgraphs by community detection. Returns list of node lists per community."""
+    import networkx as nx
+    if graph._use_neo4j:
+        recs = graph.cypher("MATCH (a:Concept)-[r:RELATES]->(b:Concept) RETURN a.name as a, b.name as b LIMIT 100000")
+        G = nx.Graph()
+        for r in recs:
+            G.add_edge(r["a"], r["b"])
+    else:
+        G = graph._nx_graph.to_undirected()
+    if G.number_of_nodes() == 0:
+        return []
+    try:
+        from networkx.algorithms import community
+        if hasattr(community, "louvain_communities"):
+            comms = list(community.louvain_communities(G))[:max_communities]
+        elif hasattr(community, "greedy_modularity_communities"):
+            comms = list(community.greedy_modularity_communities(G))[:max_communities]
+        else:
+            comms = [set(G.nodes())]
+        return [list(c) for c in comms if c]
+    except Exception as e:
+        logger.debug("Community detection failed: %s", e)
+        return [list(graph._nx_graph.nodes())] if not graph._use_neo4j else []
 
 
 def _get_embedding_model():
@@ -64,7 +131,7 @@ class ConceptGraph:
         self._init_backend()
 
     def _init_backend(self):
-        """Connect to graph DB or init NetworkX fallback."""
+        """Connect to graph DB or init NetworkX fallback. Prefer Memgraph when large graph enabled."""
         try:
             from neo4j import GraphDatabase
             auth = (GRAPH_USER, GRAPH_PASSWORD) if (GRAPH_USER and GRAPH_PASSWORD) else ("neo4j", "password")
@@ -78,6 +145,8 @@ class ConceptGraph:
             import networkx as nx
             self._nx_graph = nx.DiGraph()
             self._load_nx_from_disk()
+            if ENABLE_LARGE_GRAPH and self._nx_graph.number_of_nodes() >= MIN_NODES_FOR_MEMGRAPH:
+                check_graph_size(self)
 
     def _load_nx_from_disk(self):
         """Load NetworkX graph from disk if exists."""
@@ -192,8 +261,8 @@ class ConceptGraph:
             return {"name": name, "last_access": data.get("last_access"), "degree": self._nx_graph.degree(name)}
         return None
 
-    def get_neighbors(self, name: str, limit: int = 50) -> List[Tuple[str, str, float]]:
-        """Get (neighbor, relation, weight) for a node."""
+    def get_neighbors(self, name: str, limit: int = 50, max_depth: int = 1) -> List[Tuple[str, str, float]]:
+        """Get (neighbor, relation, weight) for a node. max_depth=1 for memory efficiency at scale."""
         if self._use_neo4j:
             with self._driver.session() as session:
                 r = session.run(
@@ -213,6 +282,29 @@ class ConceptGraph:
             out.append((t, data.get("type", "relates"), data.get("weight", 1)))
         return sorted(out, key=lambda x: -x[2])[:limit]
 
+    def get_neighbors_batch(self, names: List[str], limit: int = 20) -> Dict[str, List[Tuple[str, str, float]]]:
+        """Batch retrieval for memory efficiency. Returns {node: [(neighbor, rel, weight), ...]}."""
+        return {n: self.get_neighbors(n, limit=limit) for n in names}
+
+    def prune_low_degree_nodes(self, min_degree: int = None) -> int:
+        """Remove nodes with degree < min_degree. Returns count pruned. For coherence at scale."""
+        from src.config import PRUNE_DEGREE_THRESHOLD
+        thresh = max(min_degree or 0, PRUNE_DEGREE_THRESHOLD)
+        if self._use_neo4j:
+            r = self.cypher(
+                "MATCH (n:Concept) WHERE size((n)--()) < $thresh RETURN n.name as name",
+                {"thresh": thresh},
+            )
+            with self._driver.session() as session:
+                for rec in r:
+                    session.run("MATCH (n:Concept {name: $name}) DETACH DELETE n", name=rec["name"])
+            return len(r)
+        to_remove = [n for n in self._nx_graph.nodes() if self._nx_graph.degree(n) < thresh]
+        for n in to_remove:
+            self._nx_graph.remove_node(n)
+        self._save_nx_to_disk()
+        return len(to_remove)
+
     def cypher(self, query: str, params: Optional[Dict] = None) -> List[Dict]:
         """Run Cypher query (Neo4j only). Returns list of records as dicts."""
         if not self._use_neo4j:
@@ -222,17 +314,18 @@ class ConceptGraph:
             r = session.run(query, params or {})
             return [dict(rec) for rec in r]
 
-    def semantic_search(self, query: str, top_k: int = 10) -> List[Tuple[str, float]]:
-        """Find concepts similar to query via embeddings."""
+    def semantic_search(self, query: str, top_k: int = 10, batch_limit: int = 5000) -> List[Tuple[str, float]]:
+        """Find concepts similar to query via embeddings. batch_limit for memory efficiency at scale."""
         q_emb = _embed(query)
         if self._use_neo4j:
-            # Neo4j doesn't have built-in vector search; use FAISS or simple cosine in Python
-            r = self.cypher("MATCH (n:Concept) RETURN n.name as name, n.embedding as emb")
+            r = self.cypher("MATCH (n:Concept) RETURN n.name as name, n.embedding as emb", {})
+            r = r[:batch_limit]
             candidates = [(rec["name"], rec["emb"]) for rec in r if rec.get("emb")]
         else:
+            nodes = list(self._nx_graph.nodes(data=True))[:batch_limit]
             candidates = [
                 (n, data.get("embedding", [0.0] * 384))
-                for n, data in self._nx_graph.nodes(data=True)
+                for n, data in nodes
                 if data.get("embedding")
             ]
         if not candidates:

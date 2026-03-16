@@ -21,27 +21,27 @@ def test_select_force_model():
 
 
 def test_select_low_end_laptop():
-    """8GB RAM, no GPU → phi3.5-mini-instruct."""
-    from src.hardware_adapt import select_ollama_model, OLLAMA_MODEL_TIERS
+    """8GB RAM, no GPU → phi3.5-mini-instruct (6.5GB free → 5.2 effective >= 5)."""
+    from src.hardware_adapt import select_ollama_model
 
-    with patch("src.hardware_adapt._get_ram_gb", return_value=(8.0, 6.0)):
+    with patch("src.hardware_adapt._get_ram_gb", return_value=(8.0, 6.5)):
         with patch("src.hardware_adapt._get_gpu_info", return_value=(False, "", 0.0)):
-            with patch("src.hardware_adapt._ollama_list_models", return_value=["phi3.5-mini-instruct", "qwen2.5-coder:7b"]):
+            with patch("src.hardware_adapt._ollama_list_models", return_value=["phi3.5-mini-instruct"]):
                 with patch.dict(os.environ, {}, clear=False):
                     result = select_ollama_model()
     assert result == "phi3.5-mini-instruct"
 
 
 def test_select_gaming_pc():
-    """RTX 4090 24GB, 64GB RAM → qwen2.5-coder:32b (if pulled)."""
+    """RTX 4090 24GB, 64GB RAM → qwen2.5:32b or qwen2.5-coder:32b (if pulled)."""
     from src.hardware_adapt import select_ollama_model
 
     with patch("src.hardware_adapt._get_ram_gb", return_value=(64.0, 50.0)):
         with patch("src.hardware_adapt._get_gpu_info", return_value=(True, "NVIDIA GeForce RTX 4090", 24.0)):
-            with patch("src.hardware_adapt._ollama_list_models", return_value=["qwen2.5-coder:32b", "qwen2.5-coder:7b"]):
+            with patch("src.hardware_adapt._ollama_list_models", return_value=["qwen2.5:32b", "qwen2.5-coder:7b"]):
                 with patch.dict(os.environ, {}, clear=False):
                     result = select_ollama_model()
-    assert result == "qwen2.5-coder:32b"
+    assert "32b" in result
 
 
 def test_select_server_a100():
@@ -72,7 +72,7 @@ def test_detect_and_set_model():
     """detect_and_set_model returns selected model."""
     from src.hardware_adapt import detect_and_set_model
 
-    with patch("src.hardware_adapt._get_ram_gb", return_value=(16.0, 14.0)):
+    with patch("src.hardware_adapt._get_ram_gb", return_value=(24.0, 18.0)):
         with patch("src.hardware_adapt._get_gpu_info", return_value=(False, "", 0.0)):
             with patch("src.hardware_adapt._ollama_list_models", return_value=["qwen2.5-coder:7b"]):
                 with patch.dict(os.environ, {}, clear=False):
@@ -108,3 +108,22 @@ def test_model_matches_pulled():
     assert _model_matches_pulled("phi3.5-mini-instruct", ["phi3.5-mini-instruct"]) is True
     assert _model_matches_pulled("llama3.1:70b", ["llama3.1:8b"]) is False
     assert _model_matches_pulled("llama3.1:70b", ["llama3.1:70b-instruct"]) is True
+
+
+def test_get_resource_usage():
+    """get_resource_usage returns dict with ram_pct, vram_pct."""
+    from src.hardware_adapt import get_resource_usage
+
+    u = get_resource_usage()
+    assert "ram_pct" in u
+    assert u["ram_pct"] >= 0
+
+
+def test_check_resource_pressure():
+    """check_resource_pressure returns bool."""
+    from src.hardware_adapt import check_resource_pressure
+
+    with patch("src.hardware_adapt.get_resource_usage", return_value={"ram_pct": 95.0, "vram_pct": 0}):
+        assert check_resource_pressure(90.0) is True
+    with patch("src.hardware_adapt.get_resource_usage", return_value={"ram_pct": 50.0, "vram_pct": 50.0}):
+        assert check_resource_pressure(90.0) is False

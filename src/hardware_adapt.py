@@ -17,16 +17,27 @@ logger = logging.getLogger(__name__)
 _PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
 # Model fallback list: (model_name, min_vram_gb, min_ram_gb, description)
-# effective = actual * (1 - SAFETY_MARGIN). e.g. 48GB VRAM → 38.4GB effective.
+# Use only 80% of detected VRAM/RAM (SAFETY_MARGIN = 0.20).
 OLLAMA_MODEL_TIERS = [
     ("llama3.1:70b", 60, 64, "70B params, GPU 48GB+ VRAM"),
-    ("qwen2.5-coder:32b", 19, 16, "32B params, GPU 24GB+ VRAM (~20GB needed)"),
-    ("qwen2.5-coder:14b", 15, 32, "14B params, GPU 12GB+ or 32GB+ RAM"),
-    ("qwen2.5-coder:7b", 0, 8, "7B params, CPU 8–16GB RAM"),
-    ("phi3.5-mini-instruct", 0, 5, "3.8B params, 4GB RAM min"),
+    ("qwen2.5:32b", 19, 16, "32B params, GPU 24GB+ VRAM"),
+    ("mixtral:22b", 19, 16, "22B MoE, GPU 24GB+ VRAM"),
+    ("qwen2.5-coder:14b", 15, 26, "14B params, GPU 12GB+ or CPU 32GB+ RAM"),
+    ("qwen2.5-coder:7b", 0, 13, "7B params, CPU 16–32GB RAM"),
+    ("phi3.5-mini-instruct", 0, 5, "3.8B params, CPU <16GB RAM"),
+    ("tinyllama", 0, 3, "1.1B params, minimal RAM"),
 ]
 
-SAFETY_MARGIN = 0.20  # 20% headroom
+SAFETY_MARGIN = 0.20  # Use 80% of available (20% headroom)
+
+
+def _get_cpu_cores() -> int:
+    """Return CPU core count."""
+    try:
+        import psutil
+        return psutil.cpu_count(logical=True) or 1
+    except Exception:
+        return 1
 
 
 def _get_ram_gb() -> tuple[float, float]:
@@ -103,7 +114,9 @@ def select_ollama_model(
     """
     if force_model:
         os.environ["OLLAMA_MODEL"] = force_model
-        logger.info("Force model: %s (override)", force_model)
+        msg = f"Force model: {force_model} (override)"
+        logger.info(msg)
+        print(msg)
         return force_model
 
     ram_total, ram_avail = _get_ram_gb()
@@ -150,10 +163,11 @@ def select_ollama_model(
         reason = "minimal fallback"
         logger.warning("Hardware below minimum; using %s", selected)
 
-    hw_desc = []
+    cpu_cores = _get_cpu_cores()
+    hw_desc = [f"CPU {cpu_cores} cores"]
     if has_gpu:
         hw_desc.append(f"{gpu_name}, {vram_gb}GB VRAM")
-    hw_desc.append(f"{ram_total}GB RAM")
+    hw_desc.append(f"{ram_total}GB RAM ({ram_avail}GB free)")
     msg = f"Hardware detected: {', '.join(hw_desc)} → selecting {selected} ({reason})"
     logger.info(msg)
     print(msg)
@@ -167,3 +181,29 @@ def detect_and_set_model(force_model: str | None = None) -> str:
     Returns selected model name.
     """
     return select_ollama_model(force_model=force_model)
+
+
+def get_resource_usage() -> dict:
+    """Return current RAM and VRAM usage (percent used). For monitoring at scale."""
+    out = {"ram_pct": 0.0, "vram_pct": 0.0}
+    try:
+        import psutil
+        vm = psutil.virtual_memory()
+        out["ram_pct"] = vm.percent
+    except Exception:
+        pass
+    try:
+        import torch
+        if torch.cuda.is_available():
+            out["vram_used_gb"] = torch.cuda.memory_allocated(0) / (1024**3)
+            out["vram_total_gb"] = torch.cuda.get_device_properties(0).total_memory / (1024**3)
+            out["vram_pct"] = 100 * out["vram_used_gb"] / out["vram_total_gb"] if out["vram_total_gb"] else 0
+    except Exception:
+        pass
+    return out
+
+
+def check_resource_pressure(threshold: float = 90.0) -> bool:
+    """True if RAM or VRAM usage > threshold (should downscale)."""
+    u = get_resource_usage()
+    return u.get("ram_pct", 0) > threshold or u.get("vram_pct", 0) > threshold

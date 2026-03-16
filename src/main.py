@@ -73,7 +73,13 @@ def main():
                         help="Disable auto-commit/push after analyze-vault, organize-vault, generate-queries")
     parser.add_argument("--force-model", type=str, default=None,
                         help="Override auto-detection (e.g. llama3.1:70b, qwen2.5-coder:7b)")
+    parser.add_argument("--parallel-threads", type=int, default=None,
+                        help="Parallel Ollama threads (default: CPU cores // 2)")
     args = parser.parse_args()
+
+    if args.parallel_threads is not None:
+        import os
+        os.environ["PARALLEL_THREADS"] = str(args.parallel_threads)
 
     auto_commit = not getattr(args, "no_auto_commit", False)
 

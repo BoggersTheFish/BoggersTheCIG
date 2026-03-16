@@ -34,7 +34,25 @@ USE_4BIT = os.getenv("USE_4BIT", "true").lower() == "true"
 
 # Fallback to NetworkX when graph DB unavailable
 USE_NETWORKX_FALLBACK = os.getenv("USE_NETWORKX_FALLBACK", "true").lower() == "true"
-NETWORKX_MAX_NODES = int(os.getenv("NETWORKX_MAX_NODES", "10000"))
+NETWORKX_MAX_NODES = int(os.getenv("NETWORKX_MAX_NODES", "100000"))
+
+# Large-graph scaling: auto-switch to Memgraph above threshold
+ENABLE_LARGE_GRAPH = os.getenv("ENABLE_LARGE_GRAPH", "true").lower() == "true"
+MIN_NODES_FOR_MEMGRAPH = int(os.getenv("MIN_NODES_FOR_MEMGRAPH", "50000"))
+
+# Parallel thinking (Ollama instances on different ports)
+def _cpu_cores():
+    try:
+        import psutil
+        return psutil.cpu_count(logical=True) or 1
+    except Exception:
+        return 1
+_PARALLEL_RAW = int(os.getenv("PARALLEL_THREADS", "0"))
+PARALLEL_THREADS = max(1, _PARALLEL_RAW) if _PARALLEL_RAW > 0 else max(1, _cpu_cores() // 2)
+
+# Coherence at scale: prune low-degree nodes below this
+PRUNE_DEGREE_THRESHOLD = int(os.getenv("PRUNE_DEGREE_THRESHOLD", "1"))
+RESOURCE_PRESSURE_THRESHOLD = float(os.getenv("RESOURCE_PRESSURE_THRESHOLD", "90.0"))
 
 # Ethical filters
 HARMFUL_PATTERNS = [

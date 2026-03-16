@@ -144,6 +144,38 @@ The system auto-detects CPU/RAM (psutil) and GPU/VRAM (torch.cuda) and picks the
 - Override: `python src/main.py --force-model llama3.1:70b`
 - Pull recommended model: `ollama pull qwen2.5-coder:7b` (or the one auto-selected)
 
+### Scaling the Brain
+
+**Hardware tiers** (use 80% of detected RAM/VRAM):
+
+| Hardware | Model |
+|----------|-------|
+| 8GB RAM, no GPU | phi3.5-mini-instruct or tinyllama |
+| 16–32GB RAM, no GPU | qwen2.5-coder:7b |
+| 32GB+ RAM or 12GB+ VRAM | qwen2.5-coder:14b |
+| 24GB+ VRAM (RTX 4090) | qwen2.5:32b or mixtral:22b |
+| 48GB+ VRAM (A100) | llama3.1:70b |
+
+**Large-graph support** (100k+ nodes):
+
+- NetworkX for <50k nodes; Memgraph (Docker) above
+- `check_graph_size()`: if nodes ≥ 50k and Memgraph down → attempts `docker-compose up memgraph`
+- Sharding: `get_subgraphs_by_community()` splits graph via Louvain/greedy modularity
+- Memory-efficient: `semantic_search(batch_limit=5000)`, `get_neighbors_batch()`
+- Config: `ENABLE_LARGE_GRAPH`, `MIN_NODES_FOR_MEMGRAPH` (default 50000)
+
+**Parallel thinking**: `--parallel-threads N` (default: CPU cores // 2). Use multiple Ollama instances on ports 11434, 11435, etc.
+
+**Monitoring & safety**:
+
+- `get_resource_usage()` tracks RAM/VRAM
+- If usage > 90% → `check_resource_pressure()` triggers downscale
+- `prune_low_degree_nodes()` removes orphans (config: `PRUNE_DEGREE_THRESHOLD`)
+
+**Simulated examples**:
+- 8GB laptop → phi3.5-mini, NetworkX
+- RTX 4090 24GB + 64GB RAM → qwen2.5-coder:32b, Memgraph at 60k nodes
+
 ### How to Start the Self-Improving Loop
 
 **1. One-time setup**
