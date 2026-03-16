@@ -14,11 +14,12 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 # Hardware detection + Ollama model selection (before config import)
-_early_parser = argparse.ArgumentParser()
-_early_parser.add_argument("--force-model", type=str, default=None, help="Override auto-detection (e.g. llama3.1:70b)")
-_early_args, _ = _early_parser.parse_known_args()
-from src.hardware_adapt import detect_and_set_model
-detect_and_set_model(force_model=_early_args.force_model)
+if "--help" not in sys.argv and "-h" not in sys.argv:
+    _early_parser = argparse.ArgumentParser()
+    _early_parser.add_argument("--force-model", type=str, default=None, help="Override auto-detection (e.g. llama3.1:70b)")
+    _early_args, _ = _early_parser.parse_known_args()
+    from src.hardware_adapt import detect_and_set_model
+    detect_and_set_model(force_model=_early_args.force_model)
 
 from src.config import PROJECT_ROOT
 
@@ -52,7 +53,7 @@ def main():
     parser.add_argument("--notify-on-change", action="store_true",
                         help="Notify (webhook) only if meaningful changes occurred")
     parser.add_argument("--safe-evolve", action="store_true",
-                        help="Backup before commit, revert if coherence drops >10% or tests fail")
+                        help="Backup before commit, revert if coherence drops >10%% or tests fail")
     parser.add_argument("--skip-git-push", action="store_true", dest="skip_git_push",
                         help="Disable commit & push in self-improve (default: push)")
     parser.add_argument("--ollama", action="store_true",

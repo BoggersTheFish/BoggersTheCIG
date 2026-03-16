@@ -154,12 +154,9 @@ def select_ollama_model(
     if has_gpu:
         hw_desc.append(f"{gpu_name}, {vram_gb}GB VRAM")
     hw_desc.append(f"{ram_total}GB RAM")
-    logger.info(
-        "Hardware detected: %s → selecting %s (%s)",
-        ", ".join(hw_desc),
-        selected,
-        reason,
-    )
+    msg = f"Hardware detected: {', '.join(hw_desc)} → selecting {selected} ({reason})"
+    logger.info(msg)
+    print(msg)
     os.environ["OLLAMA_MODEL"] = selected
     return selected
 
