@@ -69,6 +69,20 @@ def _extract_triples_ollama(text: str) -> List[Tuple[str, str, str]]:
     return extract_triples(text, use_llm=False)
 
 
+def _extract_triples_ollama_batch(chunks: List[str]) -> List[Tuple[str, str, str]]:
+    """Use Ollama to extract triples from multiple chunks in parallel when possible."""
+    try:
+        from ollama_integration import extract_triples_from_text_batch, check_ollama_available
+        if check_ollama_available() and chunks:
+            return extract_triples_from_text_batch(chunks)
+    except ImportError:
+        pass
+    result = []
+    for chunk in chunks:
+        result.extend(_extract_triples_ollama(chunk))
+    return result
+
+
 def _filter_harmful(triples: List[Tuple[str, str, str]]) -> List[Tuple[str, str, str]]:
     """Reject harmful triples."""
     return [
@@ -116,13 +130,14 @@ def analyze_vault(vault_path: Path = None, use_ollama: bool = True) -> dict:
         triples = _extract_triples_from_vault_format(md, raw)
         if not triples and text.strip():
             chunks = _chunk_text(text)
-            for chunk in chunks:
-                stats["chunks_processed"] += 1
-                t = _extract_triples_ollama(chunk) if use_ollama else []
-                if not t:
-                    from src.language_layer import extract_triples
-                    t = extract_triples(chunk, use_llm=False)
+            stats["chunks_processed"] += len(chunks)
+            if use_ollama and chunks:
+                t = _extract_triples_ollama_batch(chunks)
                 triples.extend(t)
+            if not triples:
+                from src.language_layer import extract_triples
+                for chunk in chunks:
+                    triples.extend(extract_triples(chunk, use_llm=False))
         if triples or text.strip():
             stats["files_read"] += 1
         triples = _filter_harmful(triples)

@@ -207,3 +207,31 @@ def check_resource_pressure(threshold: float = 90.0) -> bool:
     """True if RAM or VRAM usage > threshold (should downscale)."""
     u = get_resource_usage()
     return u.get("ram_pct", 0) > threshold or u.get("vram_pct", 0) > threshold
+
+
+def select_downscaled_model(threshold: float = 90.0) -> str | None:
+    """
+    If resource pressure > threshold, pick next smaller model tier.
+    Returns new model name or None if already at smallest or no pressure.
+    Sets os.environ["OLLAMA_MODEL"] when downscaling.
+    Tiers: 0=largest, -1=smallest.
+    """
+    if not check_resource_pressure(threshold):
+        return None
+    current = os.environ.get("OLLAMA_MODEL", "")
+    idx = None
+    for i in range(len(OLLAMA_MODEL_TIERS) - 1, -1, -1):
+        name = OLLAMA_MODEL_TIERS[i][0]
+        if name == current or current.startswith(name.split(":")[0] + ":") or current.startswith(name + "-"):
+            idx = i
+            break
+    if idx is None or idx >= len(OLLAMA_MODEL_TIERS) - 1:
+        return None
+    pulled = _ollama_list_models()
+    for j in range(idx + 1, len(OLLAMA_MODEL_TIERS)):
+        candidate = OLLAMA_MODEL_TIERS[j][0]
+        if _model_matches_pulled(candidate, pulled):
+            os.environ["OLLAMA_MODEL"] = candidate
+            logger.warning("Resource pressure > %.0f%% → downscaling to %s", threshold, candidate)
+            return candidate
+    return None

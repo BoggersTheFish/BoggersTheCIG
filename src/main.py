@@ -17,7 +17,11 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 if "--help" not in sys.argv and "-h" not in sys.argv:
     _early_parser = argparse.ArgumentParser()
     _early_parser.add_argument("--force-model", type=str, default=None, help="Override auto-detection (e.g. llama3.1:70b)")
+    _early_parser.add_argument("--parallel-threads", type=int, default=None, help="Parallel Ollama instances (default: CPU cores // 2)")
     _early_args, _ = _early_parser.parse_known_args()
+    if _early_args.parallel_threads is not None:
+        import os
+        os.environ["PARALLEL_THREADS"] = str(_early_args.parallel_threads)
     from src.hardware_adapt import detect_and_set_model
     detect_and_set_model(force_model=_early_args.force_model)
 
@@ -76,10 +80,6 @@ def main():
     parser.add_argument("--parallel-threads", type=int, default=None,
                         help="Parallel Ollama threads (default: CPU cores // 2)")
     args = parser.parse_args()
-
-    if args.parallel_threads is not None:
-        import os
-        os.environ["PARALLEL_THREADS"] = str(args.parallel_threads)
 
     auto_commit = not getattr(args, "no_auto_commit", False)
 

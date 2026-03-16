@@ -127,3 +127,25 @@ def test_check_resource_pressure():
         assert check_resource_pressure(90.0) is True
     with patch("src.hardware_adapt.get_resource_usage", return_value={"ram_pct": 50.0, "vram_pct": 50.0}):
         assert check_resource_pressure(90.0) is False
+
+
+def test_select_downscaled_model():
+    """select_downscaled_model downscales when under pressure."""
+    from src.hardware_adapt import select_downscaled_model
+
+    with patch("src.hardware_adapt.check_resource_pressure", return_value=True):
+        with patch("src.hardware_adapt._ollama_list_models", return_value=["qwen2.5-coder:7b", "phi3.5-mini-instruct"]):
+            with patch.dict(os.environ, {"OLLAMA_MODEL": "qwen2.5-coder:7b"}, clear=False):
+                result = select_downscaled_model(90.0)
+                assert result == "phi3.5-mini-instruct"
+                assert os.environ.get("OLLAMA_MODEL") == "phi3.5-mini-instruct"
+
+    with patch("src.hardware_adapt.check_resource_pressure", return_value=False):
+        with patch.dict(os.environ, {"OLLAMA_MODEL": "qwen2.5-coder:7b"}, clear=False):
+            result = select_downscaled_model(90.0)
+            assert result is None
+
+    with patch("src.hardware_adapt.check_resource_pressure", return_value=True):
+        with patch.dict(os.environ, {"OLLAMA_MODEL": "tinyllama"}, clear=False):
+            result = select_downscaled_model(90.0)
+            assert result is None

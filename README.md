@@ -164,12 +164,25 @@ The system auto-detects CPU/RAM (psutil) and GPU/VRAM (torch.cuda) and picks the
 - Memory-efficient: `semantic_search(batch_limit=5000)`, `get_neighbors_batch()`
 - Config: `ENABLE_LARGE_GRAPH`, `MIN_NODES_FOR_MEMGRAPH` (default 50000)
 
-**Parallel thinking**: `--parallel-threads N` (default: CPU cores // 2). Use multiple Ollama instances on ports 11434, 11435, etc.
+**Parallel thinking**: `--parallel-threads N` (default: CPU cores // 2). Run multiple Ollama instances on different ports:
+
+```bash
+# Terminal 1: default (port 11434)
+ollama serve
+
+# Terminal 2: second instance (port 11435)
+OLLAMA_HOST=0.0.0.0:11435 ollama serve
+
+# Terminal 3: third instance (port 11436)
+OLLAMA_HOST=0.0.0.0:11436 ollama serve
+```
+
+Then: `python src/main.py --parallel-threads 3 --analyze-vault`. Requests are round-robin across URLs; batch extraction (vault, external ingest) runs in parallel.
 
 **Monitoring & safety**:
 
 - `get_resource_usage()` tracks RAM/VRAM
-- If usage > 90% → `check_resource_pressure()` triggers downscale
+- Before each Ollama inference: `check_resource_pressure()` → if > 90%, `select_downscaled_model()` switches to next smaller tier
 - `prune_low_degree_nodes()` removes orphans (config: `PRUNE_DEGREE_THRESHOLD`)
 
 **Simulated examples**:

@@ -1,16 +1,33 @@
 """
 Ollama integration for local LLM calls.
 Uses qwen2.5-coder:7b or llama3.1:8b for TS analysis and code generation.
+Supports multi-port parallel instances and resource-pressure downscaling.
 """
 import json
 import logging
 import re
-import urllib.request
+import threading
 import urllib.error
+import urllib.request
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
-from src.config import OLLAMA_URL, OLLAMA_MODEL
+from src.config import OLLAMA_URL, OLLAMA_MODEL, OLLAMA_URLS, RESOURCE_PRESSURE_THRESHOLD
 
 logger = logging.getLogger(__name__)
+
+_url_index = 0
+_url_lock = threading.Lock()
+
+
+def _get_next_ollama_url() -> str:
+    """Round-robin across configured Ollama URLs for load distribution."""
+    if len(OLLAMA_URLS) <= 1:
+        return OLLAMA_URLS[0] if OLLAMA_URLS else OLLAMA_URL
+    with _url_lock:
+        global _url_index
+        url = OLLAMA_URLS[_url_index % len(OLLAMA_URLS)]
+        _url_index += 1
+        return url
 
 
 def _get_ollama_model() -> str:
@@ -31,15 +48,21 @@ def _get_ollama_model() -> str:
     return OLLAMA_MODEL
 
 
-def _ollama_request(prompt: str, model: str = None, system: str = None, timeout: int = 120) -> str:
+def _ollama_request(prompt: str, model: str = None, system: str = None, timeout: int = 120, url: str = None) -> str:
     """Call Ollama API. Returns generated text or empty string on failure."""
+    from src.hardware_adapt import check_resource_pressure, select_downscaled_model
+
+    if check_resource_pressure(RESOURCE_PRESSURE_THRESHOLD):
+        select_downscaled_model(RESOURCE_PRESSURE_THRESHOLD)
+
     model = model or _get_ollama_model()
-    url = f"{OLLAMA_URL.rstrip('/')}/api/generate"
+    base = url or _get_next_ollama_url()
+    api_url = f"{base.rstrip('/')}/api/generate"
     payload = {"model": model, "prompt": prompt, "stream": False}
     if system:
         payload["system"] = system
     data = json.dumps(payload).encode("utf-8")
-    req = urllib.request.Request(url, data=data, method="POST", headers={"Content-Type": "application/json"})
+    req = urllib.request.Request(api_url, data=data, method="POST", headers={"Content-Type": "application/json"})
     try:
         with urllib.request.urlopen(req, timeout=timeout) as resp:
             out = json.loads(resp.read().decode())
@@ -50,6 +73,41 @@ def _ollama_request(prompt: str, model: str = None, system: str = None, timeout:
     except json.JSONDecodeError as e:
         logger.error("Ollama response parse failed: %s", e)
         return ""
+
+
+def parallel_ollama_requests(
+    prompts: list[str],
+    system: str = None,
+    timeout: int = 60,
+    max_workers: int = None,
+) -> list[str]:
+    """
+    Run multiple Ollama requests in parallel across configured URLs.
+    Each prompt is sent to a different URL (round-robin). Returns list of responses.
+    """
+    if not prompts:
+        return []
+    urls = OLLAMA_URLS if len(OLLAMA_URLS) > 1 else [OLLAMA_URL] * len(prompts)
+    workers = min(max_workers or len(OLLAMA_URLS) or 1, len(prompts), len(urls) or 1)
+    results = [""] * len(prompts)
+
+    def _run_one(i: int, prompt: str, base_url: str) -> tuple[int, str]:
+        resp = _ollama_request(prompt, system=system, timeout=timeout, url=base_url)
+        return (i, resp)
+
+    with ThreadPoolExecutor(max_workers=workers) as ex:
+        futures = {
+            ex.submit(_run_one, i, p, urls[i % len(urls)]): i
+            for i, p in enumerate(prompts)
+        }
+        for fut in as_completed(futures):
+            try:
+                i, resp = fut.result()
+                results[i] = resp
+            except Exception as e:
+                idx = futures[fut]
+                logger.warning("Parallel Ollama request %d failed: %s", idx, e)
+    return results
 
 
 def analyze_repo_for_tensions(repo_summary: str) -> str:
@@ -85,18 +143,14 @@ Propose a concrete code change (full function or diff-style). Output only code."
     return _ollama_request(prompt, system=system, timeout=180)
 
 
-def extract_triples_from_text(text: str) -> list:
-    """
-    Use Ollama to extract (Subject, Relation, Object) triples from text.
-    Returns list of tuples. Structured output for knowledge ingestion.
-    """
-    system = """Extract factual concept triples from the text. Each triple is (Subject, Relation, Object).
+_EXTRACT_SYSTEM = """Extract factual concept triples from the text. Each triple is (Subject, Relation, Object).
 Output ONLY a list of triples, one per line, format: (Subject, Relation, Object)
 No harmful, violent, or discriminatory content. Scientific/factual entities only."""
-    prompt = f"Text:\n{text[:3000]}\n\nTriples:"
-    response = _ollama_request(prompt, system=system, timeout=60)
+
+
+def _parse_triples_from_response(response: str) -> list:
+    """Parse triples from Ollama response text."""
     triples = []
-    import re
     for line in response.strip().split("\n"):
         m = re.search(r"\(([^,]+),\s*([^,]+),\s*([^)]+)\)", line)
         if m:
@@ -104,6 +158,33 @@ No harmful, violent, or discriminatory content. Scientific/factual entities only
             if len(s) > 1 and len(o) > 1:
                 triples.append((s, r, o))
     return triples
+
+
+def extract_triples_from_text(text: str) -> list:
+    """
+    Use Ollama to extract (Subject, Relation, Object) triples from text.
+    Returns list of tuples. Structured output for knowledge ingestion.
+    """
+    prompt = f"Text:\n{text[:3000]}\n\nTriples:"
+    response = _ollama_request(prompt, system=_EXTRACT_SYSTEM, timeout=60)
+    return _parse_triples_from_response(response)
+
+
+def extract_triples_from_text_batch(texts: list[str], flatten: bool = True) -> list:
+    """
+    Extract triples from multiple texts in parallel across Ollama instances.
+    If flatten=True, returns flattened list of (Subject, Relation, Object).
+    If flatten=False, returns list of lists (one per input text).
+    """
+    if not texts:
+        return [] if flatten else []
+    if len(texts) == 1:
+        t = extract_triples_from_text(texts[0])
+        return t if flatten else [t]
+    prompts = [f"Text:\n{t[:3000]}\n\nTriples:" for t in texts]
+    responses = parallel_ollama_requests(prompts, system=_EXTRACT_SYSTEM, timeout=60)
+    per_text = [_parse_triples_from_response(r) for r in responses]
+    return [x for lst in per_text for x in lst] if flatten else per_text
 
 
 def is_duplicate_subidea(text1: str, text2: str, use_embeddings: bool = True, threshold: float = 0.85) -> bool:

@@ -148,32 +148,40 @@ def ingest_external_knowledge(
         stats["queries_run"] += 1
         stats["results_fetched"] += len(results)
 
-        for r in results:
-            text = f"{r.get('title', '')} {r.get('body', '')}"[:2000]
-            if not text.strip():
-                continue
+        items = [(r, f"{r.get('title', '')} {r.get('body', '')}"[:2000]) for r in results]
+        items = [(r, t) for r, t in items if t.strip()]
+        if not items:
+            continue
 
-            triples = []
-            if use_ollama:
-                try:
-                    from ollama_integration import extract_triples_from_text, check_ollama_available
-                    if check_ollama_available():
-                        triples = extract_triples_from_text(text)
-                except ImportError:
-                    pass
-            if not triples:
-                from src.language_layer import extract_triples
-                triples = extract_triples(text, use_llm=False)
+        if use_ollama:
+            try:
+                from ollama_integration import extract_triples_from_text_batch, check_ollama_available
+                if check_ollama_available():
+                    texts = [t for _, t in items]
+                    per_text = extract_triples_from_text_batch(texts, flatten=False)
+                    for (r, _), triples in zip(items, per_text):
+                        triples = _filter_harmful(triples)
+                        stats["triples_extracted"] += len(triples)
+                        valid = val.validate_batch(triples)
+                        for t in valid:
+                            graph.ingest_triples([t], source="external")
+                            stats["triples_ingested"] += 1
+                            stats["sources"].append({"query": q, "href": r.get("href", ""), "triple": list(t)})
+                        _log_ingest(q, r.get("href", ""), triples, valid)
+                    continue
+            except ImportError:
+                pass
 
+        from src.language_layer import extract_triples
+        for r, text in items:
+            triples = extract_triples(text, use_llm=False)
             triples = _filter_harmful(triples)
             stats["triples_extracted"] += len(triples)
-
             valid = val.validate_batch(triples)
             for t in valid:
                 graph.ingest_triples([t], source="external")
                 stats["triples_ingested"] += 1
                 stats["sources"].append({"query": q, "href": r.get("href", ""), "triple": list(t)})
-
             _log_ingest(q, r.get("href", ""), triples, valid)
 
     _INGEST_LOG.parent.mkdir(parents=True, exist_ok=True)

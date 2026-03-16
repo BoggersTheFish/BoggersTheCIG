@@ -41,10 +41,13 @@ ENABLE_LARGE_GRAPH = os.getenv("ENABLE_LARGE_GRAPH", "true").lower() == "true"
 MIN_NODES_FOR_MEMGRAPH = int(os.getenv("MIN_NODES_FOR_MEMGRAPH", "50000"))
 
 # Parallel thinking (Ollama instances on different ports)
-def _cpu_cores():
+def _cpu_cores() -> int:
+    """Return CPU core count. Safe when psutil is not installed."""
     try:
         import psutil
         return psutil.cpu_count(logical=True) or 1
+    except ImportError:
+        return 1
     except Exception:
         return 1
 _PARALLEL_RAW = int(os.getenv("PARALLEL_THREADS", "0"))
@@ -65,6 +68,10 @@ SELF_IMPROVE_INTERVAL = 100
 # Ollama (local LLM) - set by hardware_adapt.detect_and_set_model() before first use
 OLLAMA_URL = os.getenv("OLLAMA_URL", "http://localhost:11434")
 OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "qwen2.5-coder:7b")
+OLLAMA_BASE_PORT = int(os.getenv("OLLAMA_BASE_PORT", "11434"))
+# Multi-port URLs for parallel Ollama instances (e.g. 11434, 11435, 11436)
+_OLLAMA_PORTS = [OLLAMA_BASE_PORT + i for i in range(PARALLEL_THREADS)]
+OLLAMA_URLS = [f"http://localhost:{p}" for p in _OLLAMA_PORTS]
 
 # Obsidian TS Knowledge Vault (visual memory layer)
 OBSIDIAN_VAULT = PROJECT_ROOT / os.getenv("OBSIDIAN_VAULT", "obsidian/TS-Knowledge-Vault")
