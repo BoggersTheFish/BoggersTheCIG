@@ -1,0 +1,51 @@
+# Full-TS Cognitive Architecture - Dependencies
+# Python 3.12+
+
+# Core ML
+torch>=2.0.0
+transformers>=4.36.0
+datasets>=2.16.0
+sentence-transformers>=2.2.0
+accelerate>=0.25.0
+bitsandbytes>=0.41.0
+
+# Fine-tuning (optional, for LoRA)
+peft>=0.7.0
+trl>=0.7.0
+
+# Vector search
+faiss-cpu>=1.7.4
+
+# Fairness / debiasing
+fairlearn>=0.9.0
+evaluate>=0.4.0
+
+# Graph
+networkx>=3.2.0
+matplotlib>=3.7.0
+Pillow>=10.0.0
+
+# Graph DB drivers (use one)
+neo4j>=5.15.0
+# memgraph (pip: memgraph) - alternative
+
+# API & async
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+
+# Background tasks
+celery[redis]>=5.3.0
+redis>=5.0.0
+
+# HTTP & utilities
+requests>=2.31.0
+python-dotenv>=1.0.0
+duckduckgo-search>=4.0.0
+tqdm>=4.66.0
+
+# Testing
+pytest>=7.4.0
+pytest-asyncio>=0.23.0
+
+# Optional: Obsidian (manual install or pip if available)
+# obsidian - not on PyPI; use manual viz export

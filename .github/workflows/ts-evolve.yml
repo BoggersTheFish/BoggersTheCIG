@@ -1,0 +1,95 @@
+# TS Evolve - Headless self-improvement every 6 hours
+#
+# USAGE:
+#   1. Push this workflow to your repo. It runs on schedule (every 6h) or manually.
+#   2. For commit & push: ensure workflow has write access (permissions below).
+#   3. Optional: Add GH_PAT secret (Settings → Secrets → Actions) for push from forks.
+#      Create PAT at github.com/settings/tokens with "repo" scope.
+#
+# STEPS: checkout → Python + deps → Ollama (optional) → self-improve → coherence → tests → commit & push
+# On failure: logs error and creates a workflow summary (no external notifications by default).
+
+name: TS Evolve
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  evolve:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GH_PAT || github.token }}
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          pip install -e .
+
+      - name: Install Ollama
+        id: ollama
+        run: |
+          curl -fsSL https://ollama.com/install.sh | sh
+          ollama serve &
+          sleep 15
+          ollama pull tinyllama || echo "Ollama pull failed"
+        continue-on-error: true
+
+      - name: Run self-improvement cycle
+        env:
+          OLLAMA_MODEL: tinyllama
+        run: |
+          python src/main.py --self-improve --skip-tests
+        continue-on-error: true
+
+      - name: Run TS coherence check
+        id: coherence
+        run: |
+          python -c "
+          from src.eval import run_eval, graph_coherence
+          from src.concept_graph import ConceptGraph
+          g = ConceptGraph()
+          c = graph_coherence(g)
+          run_eval()
+          assert c.get('conflicts', 0) <= 10, 'Too many graph conflicts'
+          print('TS coherence OK:', c)
+          "
+
+      - name: Run tests
+        id: tests
+        run: pytest tests/ -v --tb=short -x
+        continue-on-error: true
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if ! git diff --staged --quiet; then
+            MSG=$(cat eval/last_commit_message.txt 2>/dev/null || echo "TS auto-evolve: CI update $(date -u +%Y%m%d-%H%M)")
+            git commit -m "$MSG"
+            git push
+          else
+            echo "No changes to commit"
+          fi
+        continue-on-error: true
+
+      - name: Notify on failure
+        if: failure()
+        run: |
+          echo "## TS Evolve Failed" >> $GITHUB_STEP_SUMMARY
+          echo "Workflow run: ${{ github.run_id }}" >> $GITHUB_STEP_SUMMARY
+          echo "Check the logs above for details." >> $GITHUB_STEP_SUMMARY

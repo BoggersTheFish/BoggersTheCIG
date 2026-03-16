@@ -1,0 +1,13 @@
+---
+description: Enforce graph stability & conflict detection in TS core
+alwaysApply: true
+glob: "**/*.py"              # or more specific: "src/*_graph*.py" "src/*_engine*.py"
+priority: high
+---
+
+When generating or editing graph-related code (concept_graph.py, validation_engine.py, core_engine.py, hypothesis_generator.py, etc.):
+
+- ALWAYS check for cycles and logical conflicts **before** any node/edge creation or update.
+- Use Cypher queries for detection (MATCH (a)-[*]->(a) RETURN a for cycles, or pattern contradictions).
+- If a conflict is possible, add validation logic and raise or log instead of silently failing.
+- Prefer immutable operations where reasonable to avoid accidental graph corruption.

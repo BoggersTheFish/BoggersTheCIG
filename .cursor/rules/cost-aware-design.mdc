@@ -1,0 +1,11 @@
+---
+description: Keep everything maximally cheap & local-first
+alwaysApply: true
+glob: "**/*.py" "**/Dockerfile*" "README.md"
+---
+
+- Prefer local Docker containers (Memgraph, Redis) over any paid cloud service.
+- Use 4-bit / 8-bit quantization for all LLM loading (bitsandbytes).
+- Include fallback paths for CPU-only execution.
+- Document free GPU rotation (Colab → Kaggle → Lightning AI) in scripts and README.
+- Never assume paid APIs or high-RAM machines.

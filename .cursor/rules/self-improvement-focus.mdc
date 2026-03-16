@@ -1,0 +1,11 @@
+---
+description: Strict logging & testing for meta-graph changes
+alwaysApply: true
+glob: "src/self_improve.py" "src/memory_layers.py"
+---
+
+In self_improve.py and meta-layer updates:
+
+- Log EVERY meta-graph change (old rule → new rule, reason, before/after metrics).
+- Run at least one small test loop after update to measure efficiency / success rate change.
+- Only accept improvements that show ≥5% better hypothesis acceptance or loop speed.

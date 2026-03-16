@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Data & models
+data/raw/*
+data/inputs/*
+!data/raw/.gitkeep
+!data/inputs/.gitkeep
+models/
+*.pt
+*.bin
+*.safetensors
+
+# Graphs (exports)
+graphs/*.json
+!graphs/.gitkeep
+
+# Eval logs
+eval/*.json
+eval/*.jsonl
+!eval/.gitkeep
+
+# Memory
+memory/raw/*
+memory/structured/*
+memory/hypothesis/*
+memory/meta/*
+!memory/raw/.gitkeep
+!memory/structured/.gitkeep
+!memory/hypothesis/.gitkeep
+!memory/meta/.gitkeep
+
+# Viz
+viz/*.md
+viz/*.png
+!viz/.gitkeep
+
+# Env
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,70 @@
+"""Configuration for Full-TS Cognitive Architecture."""
+import os
+from pathlib import Path
+
+# Paths
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+DATA_DIR = PROJECT_ROOT / "data"
+GRAPHS_DIR = PROJECT_ROOT / "graphs"
+MODELS_DIR = PROJECT_ROOT / "models"
+MEMORY_DIR = PROJECT_ROOT / "memory"
+EVAL_DIR = PROJECT_ROOT / "eval"
+VIZ_DIR = PROJECT_ROOT / "viz"
+
+# Ensure directories exist
+for d in [DATA_DIR, GRAPHS_DIR, MODELS_DIR, MEMORY_DIR, EVAL_DIR, VIZ_DIR]:
+    d.mkdir(parents=True, exist_ok=True)
+for sub in ["inputs", "raw"]:
+    (DATA_DIR / sub).mkdir(parents=True, exist_ok=True)
+for sub in ["raw", "structured", "hypothesis", "meta"]:
+    (MEMORY_DIR / sub).mkdir(parents=True, exist_ok=True)
+
+# Graph DB (Memgraph/Neo4j compatible)
+GRAPH_URI = os.getenv("GRAPH_URI", "bolt://localhost:7687")
+GRAPH_USER = os.getenv("GRAPH_USER", "")
+GRAPH_PASSWORD = os.getenv("GRAPH_PASSWORD", "")
+
+# Redis (Celery broker)
+REDIS_URL = os.getenv("REDIS_URL", "redis://localhost:6379/0")
+
+# LLM
+LLM_MODEL = os.getenv("LLM_MODEL", "meta-llama/Llama-3.2-3B-Instruct")
+EMBEDDING_MODEL = os.getenv("EMBEDDING_MODEL", "sentence-transformers/all-MiniLM-L6-v2")
+USE_4BIT = os.getenv("USE_4BIT", "true").lower() == "true"
+
+# Fallback to NetworkX when graph DB unavailable
+USE_NETWORKX_FALLBACK = os.getenv("USE_NETWORKX_FALLBACK", "true").lower() == "true"
+NETWORKX_MAX_NODES = int(os.getenv("NETWORKX_MAX_NODES", "10000"))
+
+# Ethical filters
+HARMFUL_PATTERNS = [
+    "harm", "violence", "illegal", "weapon", "explosive",
+    "hate", "discrimination", "self-harm", "suicide",
+]
+SIMILARITY_THRESHOLD = 0.8
+SELF_IMPROVE_INTERVAL = 100
+
+# Ollama (local LLM)
+OLLAMA_URL = os.getenv("OLLAMA_URL", "http://localhost:11434")
+OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "qwen2.5-coder:7b")
+
+# Obsidian TS Knowledge Vault (visual memory layer)
+OBSIDIAN_VAULT = PROJECT_ROOT / os.getenv("OBSIDIAN_VAULT", "obsidian/TS-Knowledge-Vault")
+
+# External knowledge ingestion
+ENABLE_EXTERNAL_INGEST = os.getenv("ENABLE_EXTERNAL_INGEST", "false").lower() == "true"
+INGEST_RATE_LIMIT_SEC = float(os.getenv("INGEST_RATE_LIMIT_SEC", "2.0"))
+INGEST_MAX_RESULTS_PER_QUERY = int(os.getenv("INGEST_MAX_RESULTS_PER_QUERY", "5"))
+QUERIES_PATH = DATA_DIR / "queries.json"
+QUERY_GENERATE_EVERY_N_CYCLES = int(os.getenv("QUERY_GENERATE_EVERY_N_CYCLES", "3"))
+
+# Obsidian vault analysis
+VAULT_MAX_FILES = int(os.getenv("VAULT_MAX_FILES", "200"))
+
+# Graph snapshots (saved after vault-modifying operations)
+SNAPSHOTS_DIR = OBSIDIAN_VAULT / "snapshots"
+SNAPSHOT_MAX_WIDTH = int(os.getenv("SNAPSHOT_MAX_WIDTH", "1920"))
+SNAPSHOT_MAX_HEIGHT = int(os.getenv("SNAPSHOT_MAX_HEIGHT", "1080"))
+
+# Notifications (optional webhook on failure / change)
+WEBHOOK_URL = os.getenv("WEBHOOK_URL", "")  # Slack, Discord, or custom webhook

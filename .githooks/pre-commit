@@ -1,0 +1,15 @@
+#!/bin/bash
+# TS coherence check before commit
+cd "$(git rev-parse --show-toplevel)"
+export PYTHONPATH="$PWD"
+python -c "
+from src.eval import graph_coherence, run_eval
+from src.concept_graph import ConceptGraph
+g = ConceptGraph()
+c = graph_coherence(g)
+if c.get('conflicts', 0) > 10:
+    print('TS coherence FAIL: too many conflicts:', c['conflicts'])
+    exit(1)
+run_eval()
+print('TS coherence OK')
+" || exit 1

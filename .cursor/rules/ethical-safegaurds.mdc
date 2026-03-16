@@ -1,0 +1,12 @@
+---
+description: Hardcode ethical & bias checks in validation & hypothesis steps
+alwaysApply: true
+glob: "**/*.py"
+---
+
+In validation_engine.py, hypothesis_generator.py, self_improve.py and any prompt construction:
+
+- Use fairlearn or simple statistical checks to detect demographic/ideological bias in generated triples/hypotheses.
+- Add keyword block lists for harmful, violent, illegal, or discriminatory content.
+- If detected → reject, log reason, and do NOT add to graph.
+- Every hypothesis / validation step must include an ethical alignment check.

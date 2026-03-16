@@ -1,0 +1,40 @@
+# Full-TS Cognitive Architecture - Docker Services
+# Run: docker-compose up -d
+
+version: "3.8"
+
+services:
+  memgraph:
+    image: memgraph/memgraph-platform:latest
+    container_name: full-ts-memgraph
+    ports:
+      - "7687:7687"   # Bolt protocol
+      - "7444:7444"   # Memgraph Studio (optional)
+    volumes:
+      - memgraph_data:/var/lib/memgraph
+    environment:
+      - MEMGRAPH=--log-level=WARNING
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "mgconsole", "--host", "127.0.0.1", "--port", "7687", "-e", "RETURN 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  redis:
+    image: redis:7-alpine
+    container_name: full-ts-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  memgraph_data:
+  redis_data:
