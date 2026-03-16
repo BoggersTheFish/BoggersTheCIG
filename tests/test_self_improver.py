@@ -15,7 +15,9 @@ def test_run_one_cycle_skip_ollama():
     """Run one self-improvement cycle with Ollama skipped (no local server)."""
     from src.self_improver import run_one_cycle
 
-    stats = run_one_cycle(skip_ollama=True, skip_git_push=True, skip_tests=True)
+    stats = run_one_cycle(
+        skip_ollama=True, skip_git_push=True, skip_tests=True, skip_git_pull=True
+    )
     assert "pull_ok" in stats
     assert "coherence_ok" in stats
     assert "tests_ok" in stats
@@ -28,7 +30,7 @@ def test_run_one_cycle_dry_run():
     from src.self_improver import run_one_cycle
 
     stats = run_one_cycle(
-        skip_ollama=True, skip_git_push=True, skip_tests=True, dry_run=True
+        skip_ollama=True, skip_git_push=True, skip_tests=True, skip_git_pull=True, dry_run=True
     )
     assert stats["success"] is True
     assert stats["commit_ok"] is None
@@ -59,3 +61,13 @@ def test_ollama_integration_check():
 
     result = check_ollama_available()
     assert isinstance(result, bool)
+
+
+def test_auto_commit_if_changes_dry_run():
+    """auto_commit_if_changes with dry_run returns success and skipped_reason."""
+    from src.self_improver import auto_commit_if_changes
+
+    result = auto_commit_if_changes("test-reason", dry_run=True)
+    assert "success" in result
+    assert result.get("skipped_reason") == "dry-run"
+    assert "commit_message" in result

@@ -61,6 +61,10 @@ QUERY_GENERATE_EVERY_N_CYCLES = int(os.getenv("QUERY_GENERATE_EVERY_N_CYCLES", "
 # Obsidian vault analysis
 VAULT_MAX_FILES = int(os.getenv("VAULT_MAX_FILES", "200"))
 
+# Vault auto-organization (run when root files > threshold or coherence low)
+ORGANIZE_VAULT_ROOT_FILES_THRESHOLD = int(os.getenv("ORGANIZE_VAULT_ROOT_FILES_THRESHOLD", "50"))
+ORGANIZE_VAULT_COHERENCE_THRESHOLD = float(os.getenv("ORGANIZE_VAULT_COHERENCE_THRESHOLD", "0.01"))
+
 # Graph snapshots (saved after vault-modifying operations)
 SNAPSHOTS_DIR = OBSIDIAN_VAULT / "snapshots"
 SNAPSHOT_MAX_WIDTH = int(os.getenv("SNAPSHOT_MAX_WIDTH", "1920"))

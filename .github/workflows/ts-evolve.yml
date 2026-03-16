@@ -51,6 +51,7 @@ jobs:
       - name: Run self-improvement cycle
         env:
           OLLAMA_MODEL: tinyllama
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           python src/main.py --self-improve --skip-tests
         continue-on-error: true
@@ -73,15 +74,17 @@ jobs:
         run: pytest tests/ -v --tb=short -x
         continue-on-error: true
 
-      - name: Commit and push changes
+      - name: Commit and push changes (fallback if self-improve did not push)
+        if: success() || failure()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -A
+          git add .
           if ! git diff --staged --quiet; then
             MSG=$(cat eval/last_commit_message.txt 2>/dev/null || echo "TS auto-evolve: CI update $(date -u +%Y%m%d-%H%M)")
             git commit -m "$MSG"
             git push
+            echo "Pushed to GitHub"
           else
             echo "No changes to commit"
           fi

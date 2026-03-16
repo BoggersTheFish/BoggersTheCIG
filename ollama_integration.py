@@ -4,6 +4,7 @@ Uses qwen2.5-coder:7b or llama3.1:8b for TS analysis and code generation.
 """
 import json
 import logging
+import re
 import urllib.request
 import urllib.error
 
@@ -103,6 +104,89 @@ No harmful, violent, or discriminatory content. Scientific/factual entities only
             if len(s) > 1 and len(o) > 1:
                 triples.append((s, r, o))
     return triples
+
+
+def is_duplicate_subidea(text1: str, text2: str, use_embeddings: bool = True, threshold: float = 0.85) -> bool:
+    """
+    Determine if two sub-idea texts are duplicates (same or very similar).
+    Uses embeddings cosine similarity if available (>= threshold), else Ollama judgment.
+    Returns True if duplicate.
+    """
+    if use_embeddings:
+        try:
+            from src.concept_graph import _embed
+            a, b = _embed(text1[:2000]), _embed(text2[:2000])
+            import numpy as np
+            x, y = np.array(a, dtype=np.float32), np.array(b, dtype=np.float32)
+            sim = float(np.dot(x, y) / (np.linalg.norm(x) * np.linalg.norm(y) + 1e-9))
+            return sim >= threshold
+        except Exception:
+            pass
+    prompt = f"""Two text blocks. Are they about the SAME sub-idea (duplicate/semantically equivalent)?
+Reply ONLY with YES or NO.
+
+Text 1:
+{text1[:800]}
+
+Text 2:
+{text2[:800]}
+
+YES or NO?"""
+    resp = _ollama_request(prompt, timeout=30).strip().upper()
+    return "YES" in resp[:10]
+
+
+def is_meaningful_subidea(text: str, word_count: int = 0) -> bool:
+    """
+    Decide if text is a meaningful sub-idea worth extracting into its own file.
+    Criteria: >=150 words OR has internal structure (sections, bullets, subsections).
+    Uses Ollama when available for semantic judgment.
+    """
+    words = len(text.split())
+    if words >= 150:
+        return True
+    if re.search(r"^#{2,3}\s+\w", text, re.MULTILINE) or re.search(r"^\s*[-*]\s+.{20,}", text, re.MULTILINE):
+        if words >= 50:
+            return True
+    try:
+        if check_ollama_available():
+            prompt = f"""Is this a meaningful sub-idea worth extracting into its own note?
+(Standalone concept, detailed explanation, or coherent section with internal structure)
+Reply ONLY with YES or NO.
+
+Text ({words} words):
+{text[:600]}
+
+YES or NO?"""
+            resp = _ollama_request(prompt, timeout=20).strip().upper()
+            return "YES" in resp[:10]
+    except Exception:
+        pass
+    return words >= 150
+
+
+def suggest_extraction_name(text: str) -> str:
+    """
+    Suggest a short kebab-case filename for a sub-idea.
+    Uses Ollama when available; fallback: first 3 words lowercased, spaces to hyphens.
+    """
+    try:
+        if check_ollama_available():
+            prompt = f"""Suggest a short filename (kebab-case, no spaces) for this sub-idea.
+One to four words. No file extension. Example: quantum-mechanics, wave-particle-duality.
+
+Text:
+{text[:400]}
+
+Filename only:"""
+            resp = _ollama_request(prompt, timeout=15).strip()
+            name = re.sub(r"[^\w\-]", "", resp.replace(" ", "-").lower())[:50]
+            if name:
+                return name
+    except Exception:
+        pass
+    words = text.split()[:4]
+    return "-".join(w.lower() for w in words if w.isalnum())[:50] or "sub-idea"
 
 
 def check_ollama_available() -> bool:

@@ -46,14 +46,26 @@ def main():
                         help="Notify (webhook) only if meaningful changes occurred")
     parser.add_argument("--safe-evolve", action="store_true",
                         help="Backup before commit, revert if coherence drops >10% or tests fail")
+    parser.add_argument("--skip-git-push", action="store_true", dest="skip_git_push",
+                        help="Disable commit & push in self-improve (default: push)")
+    parser.add_argument("--ollama", action="store_true",
+                        help="Enable Ollama analysis in self-improve (default: skip for speed)")
     parser.add_argument("--generate-queries", action="store_true",
                         help="Generate search queries from graph gaps via Ollama, save to data/queries.json")
     parser.add_argument("--analyze-vault", action="store_true",
                         help="Analyze Obsidian vault with Ollama, extract concepts, ingest into graph")
+    parser.add_argument("--organize-vault", action="store_true",
+                        help="Auto-organize vault: cluster Concepts by embeddings+Ollama, create folders, move files")
+    parser.add_argument("--extract-subideas", action="store_true",
+                        help="Extract sub-ideas into hierarchical files, merge duplicates into Shared-Sub-ideas")
     parser.add_argument("--no-ollama", action="store_true",
                         help="Skip Ollama in analyze-vault (use rule-based extraction only)")
     parser.add_argument("--no-llm", action="store_true", help="Skip LLM, use rule-based extraction only")
+    parser.add_argument("--no-auto-commit", action="store_true",
+                        help="Disable auto-commit/push after analyze-vault, organize-vault, generate-queries")
     args = parser.parse_args()
+
+    auto_commit = not getattr(args, "no_auto_commit", False)
 
     if args.generate_queries and not args.self_improve:
         from src.knowledge_ingest import generate_queries_from_graph
@@ -61,6 +73,11 @@ def main():
         print("\n--- Generated Queries ---")
         for k, v in result.items():
             print(f"  {k}: {v}")
+        if auto_commit:
+            from src.self_improver import auto_commit_if_changes
+            ac = auto_commit_if_changes("generate-queries", require_coherence=False)
+            if ac.get("commit_ok"):
+                print(f"  Auto-committed: {ac.get('commit_hash', '?')}")
         return
 
     if args.analyze_vault:
@@ -69,13 +86,44 @@ def main():
         print("\n--- Vault Analysis ---")
         for k, v in stats.items():
             print(f"  {k}: {v}")
+        if auto_commit:
+            from src.self_improver import auto_commit_if_changes
+            ac = auto_commit_if_changes("analyze-vault")
+            if ac.get("commit_ok"):
+                print(f"  Auto-committed: {ac.get('commit_hash', '?')}")
+        return
+
+    if args.organize_vault:
+        from src.obsidian_filesystem_manager import auto_organize_vault
+        result = auto_organize_vault(force=True)
+        print("\n--- Vault Organization ---")
+        for k, v in result.items():
+            print(f"  {k}: {v}")
+        if auto_commit:
+            from src.self_improver import auto_commit_if_changes
+            ac = auto_commit_if_changes("organize-vault")
+            if ac.get("commit_ok"):
+                print(f"  Auto-committed: {ac.get('commit_hash', '?')}")
+        return
+
+    if args.extract_subideas:
+        from src.obsidian_filesystem_manager import auto_extract_and_merge_subideas
+        result = auto_extract_and_merge_subideas(use_ollama=not args.no_ollama)
+        print("\n--- Extract & Merge Sub-ideas ---")
+        for k, v in result.items():
+            print(f"  {k}: {v}")
+        if auto_commit:
+            from src.self_improver import auto_commit_if_changes
+            ac = auto_commit_if_changes("extract-subideas")
+            if ac.get("commit_ok"):
+                print(f"  Auto-committed: {ac.get('commit_hash', '?')}")
         return
 
     if args.self_improve:
         from src.self_improver import run_one_cycle
         stats = run_one_cycle(
-            skip_ollama=True,
-            skip_git_push=True,
+            skip_ollama=not getattr(args, "ollama", False),
+            skip_git_push=getattr(args, "skip_git_push", False),
             skip_tests=args.skip_tests,
             ingest_external=args.ingest_external,
             generate_queries=getattr(args, "generate_queries", False),
@@ -142,6 +190,11 @@ def main():
         export_coherence_metrics()
     except Exception as e:
         logger.debug("Coherence metrics failed: %s", e)
+    try:
+        from src.obsidian_filesystem_manager import auto_extract_and_merge_subideas
+        auto_extract_and_merge_subideas(use_ollama=not args.no_llm)
+    except Exception as e:
+        logger.debug("Sub-idea extract/merge failed: %s", e)
     try:
         auto_snapshot_graph(reason="after-export", change_desc="single-run export")
     except Exception as e:

@@ -148,4 +148,10 @@ def analyze_vault(vault_path: Path = None, use_ollama: bool = True) -> dict:
             )
         except Exception as e:
             logger.debug("Snapshot after vault analysis failed: %s", e)
+        try:
+            from src.obsidian_filesystem_manager import auto_extract_and_merge_subideas
+            sub = auto_extract_and_merge_subideas(vault_path=vault, use_ollama=use_ollama)
+            stats["subideas"] = sub
+        except Exception as e:
+            logger.debug("Sub-idea extract/merge failed: %s", e)
     return stats

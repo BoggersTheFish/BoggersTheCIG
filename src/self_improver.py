@@ -1,6 +1,10 @@
 """
 Self-improving loop: git pull, Ollama analysis, code diffs, tests, commit, push.
 Governed by .cursor/rules/self-improving-loop.md and ts-evolution principles.
+
+Auto-commit: At end of meaningful tasks (analyze-vault, organize-vault, generate-queries),
+auto_commit_if_changes() commits and pushes if changes exist and coherence passes.
+Example: Would commit: TS auto-evolve: added rollback safety (coherence +4.2%)
 """
 import json
 import logging
@@ -155,26 +159,68 @@ def _coherence_dropped_more_than_10pct(before: dict, after: dict) -> bool:
     return a_dens < b_dens * 0.9
 
 
-def _git_commit_and_push(message: str) -> bool:
-    """Commit all changes and push. Returns True on success."""
+def _git_push_with_auth() -> tuple[int, str]:
+    """
+    Push to origin. Uses GITHUB_TOKEN or GH_PAT for auth when set.
+    Returns (returncode, output).
+    """
+    token = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_PAT", "")
+    if token:
+        code, out = _run_cmd(["git", "config", "--get", "remote.origin.url"])
+        if code == 0 and out.strip():
+            url = out.strip()
+            if "github.com" in url and "@" not in url:
+                if url.startswith("git@github.com:"):
+                    path = url.replace("git@github.com:", "").replace(".git", "")
+                    push_url = f"https://x-access-token:{token}@github.com/{path}"
+                elif url.startswith("https://github.com/"):
+                    push_url = url.replace("https://github.com/", f"https://x-access-token:{token}@github.com/")
+                else:
+                    push_url = url
+                return _run_cmd(["git", "push", push_url])
+    return _run_cmd(["git", "push"])
+
+
+def _git_commit_and_push(message: str) -> tuple[bool, str | None]:
+    """
+    Commit all changes and push. Respects .gitignore via git add .
+    Uses GITHUB_TOKEN or GH_PAT for auth. Handles push conflicts (pull --rebase, retry).
+    Returns (success, commit_hash). Logs commit hash and push status.
+    """
     if not (PROJECT_ROOT / ".git").exists():
         logger.info("Not a git repo, skipping commit")
-        return False
-    _run_cmd(["git", "add", "-A"])
+        return False, None
+    _run_cmd(["git", "add", "."])
     code, _ = _run_cmd(["git", "diff", "--staged", "--quiet"])
     if code == 0:
         logger.info("No changes to commit")
-        return True
+        return True, None
     code, out = _run_cmd(["git", "commit", "-m", message])
     if code != 0:
         logger.warning("git commit failed: %s", out)
-        return False
-    code, out = _run_cmd(["git", "push"])
+        return False, None
+    code_hash, _ = _run_cmd(["git", "rev-parse", "--short", "HEAD"])
+    commit_hash = None
+    if code_hash == 0:
+        _, hash_out = _run_cmd(["git", "rev-parse", "--short", "HEAD"])
+        commit_hash = hash_out.strip() if hash_out else None
+    code, out = _git_push_with_auth()
     if code != 0:
-        logger.warning("git push failed: %s", out)
-        return False
-    logger.info("Committed and pushed: %s", message)
-    return True
+        logger.warning("git push failed, attempting pull --rebase: %s", out)
+        _run_cmd(["git", "pull", "--rebase"])
+        code, out = _git_push_with_auth()
+        if code != 0:
+            _run_cmd(["git", "rebase", "--abort"])
+            code_stash, _ = _run_cmd(["git", "stash"])
+            if code_stash == 0:
+                _run_cmd(["git", "pull", "--rebase"])
+                _run_cmd(["git", "stash", "pop"])
+                code, out = _git_push_with_auth()
+        if code != 0:
+            logger.warning("git push failed after retries: %s", out)
+            return False, commit_hash
+    logger.info("Committed and pushed: %s (hash: %s)", message, commit_hash or "?")
+    return True, commit_hash
 
 
 def _get_repo_summary() -> str:
@@ -248,6 +294,17 @@ def _send_notification(payload: dict, reason: str = "failure"):
             logger.warning("Webhook failed: %s", e)
 
 
+def _short_ollama_summary(analysis: str, max_len: int = 60) -> str:
+    """Extract first meaningful line from Ollama analysis for commit message."""
+    if not analysis or not isinstance(analysis, str):
+        return ""
+    for line in analysis.strip().split("\n"):
+        line = line.strip().lstrip("-*• ")
+        if line and len(line) > 5:
+            return line[:max_len].replace('"', "'")
+    return analysis[:max_len].replace('"', "'") if analysis else ""
+
+
 def _coherence_delta(before: dict, after: dict) -> str:
     """Compute coherence change as +X% or -X% for commit message."""
     if not before or not after:
@@ -276,7 +333,8 @@ def _should_generate_queries_this_cycle() -> bool:
 
 def run_one_cycle(
     skip_ollama: bool = False,
-    skip_git_push: bool = True,
+    skip_git_push: bool = False,
+    skip_git_pull: bool = False,
     skip_tests: bool = False,
     ingest_external: bool = False,
     generate_queries: bool = False,
@@ -312,6 +370,7 @@ def run_one_cycle(
         "query_generation": {},
         "changes_made": "",
         "commit_ok": None,
+        "commit_hash": None,
         "rollback": False,
         "safe_evolve_rollback": False,
         "success": False,
@@ -327,15 +386,18 @@ def run_one_cycle(
             logger.info(desc)
             return [1]
 
-    # 1. Git pull
-    for _ in _step("git pull"):
-        stats["pull_ok"] = _git_pull()
-        if not stats["pull_ok"]:
-            stats["error"] = "git pull failed"
-            stats["end_time"] = datetime.now(timezone.utc).isoformat()
-            _append_log(stats)
-            _send_notification(stats, "failure")
-            return stats
+    # 1. Git pull (skip when skip_git_pull, e.g. tests in dirty repo)
+    if skip_git_pull:
+        stats["pull_ok"] = True
+    else:
+        for _ in _step("git pull"):
+            stats["pull_ok"] = _git_pull()
+            if not stats["pull_ok"]:
+                stats["error"] = "git pull failed"
+                stats["end_time"] = datetime.now(timezone.utc).isoformat()
+                _append_log(stats)
+                _send_notification(stats, "failure")
+                return stats
 
     # 2. Coherence before (baseline, no failure)
     for _ in _step("coherence (before)"):
@@ -382,10 +444,22 @@ def run_one_cycle(
                 logger.warning("External ingest failed: %s", e)
                 stats["external_ingest"] = {"error": str(e)}
 
-    # 6. Export + coherence metrics + snapshot (metrics before snapshot for delta overlay)
+    # 6. Export + optional organize + coherence metrics + snapshot
     for _ in _step("export to Obsidian"):
         _export_to_obsidian_vault()
         stats["export_ok"] = True
+        try:
+            from src.obsidian_filesystem_manager import auto_organize_vault
+            org = auto_organize_vault()
+            stats["vault_organize"] = org
+        except Exception as e:
+            logger.debug("Vault organize failed: %s", e)
+        try:
+            from src.obsidian_filesystem_manager import auto_extract_and_merge_subideas
+            sub = auto_extract_and_merge_subideas(use_ollama=not skip_ollama)
+            stats["subideas"] = sub
+        except Exception as e:
+            logger.debug("Sub-idea extract/merge failed: %s", e)
         try:
             from src.viz import export_coherence_metrics
             stats["coherence_metrics"] = export_coherence_metrics()
@@ -438,15 +512,21 @@ def run_one_cycle(
     changes = _git_status_short()
     meaningful = changes not in ("no-repo", "no-changes")
     delta = _coherence_delta(stats["coherence_before"], stats["coherence_after"])
-    commit_msg = f"TS auto-evolve: {changes} ({delta})" if delta else f"TS auto-evolve: {changes}"
+    ollama_summary = _short_ollama_summary(stats.get("ollama_analysis", ""))
+    if ollama_summary:
+        commit_msg = f"TS auto-evolve: {ollama_summary} ({delta})" if delta else f"TS auto-evolve: {ollama_summary}"
+    else:
+        commit_msg = f"TS auto-evolve: {changes} ({delta})" if delta else f"TS auto-evolve: {changes}"
 
     if not dry_run and not skip_git_push and meaningful:
         if safe_evolve:
             _git_create_backup_branch()
             _git_prune_backups(max_keep=3)
-        stats["commit_ok"] = _git_commit_and_push(commit_msg)
+        ok, chash = _git_commit_and_push(commit_msg)
+        stats["commit_ok"] = ok
+        stats["commit_hash"] = chash
         stats["commit_message"] = commit_msg
-        if stats["commit_ok"] and safe_evolve:
+        if ok and safe_evolve:
             coh_dict = graph_coherence(ConceptGraph())
             tests_ok_safe, _ = _run_small_test_suite()
             if _coherence_dropped_more_than_10pct(stats["coherence_before"], coh_dict) or not tests_ok_safe:
@@ -489,6 +569,56 @@ def run_one_cycle(
     return stats
 
 
+def auto_commit_if_changes(
+    reason: str,
+    dry_run: bool = False,
+    require_coherence: bool = True,
+) -> dict:
+    """
+    At end of meaningful task: commit and push if changes exist.
+    Only commits if coherence check passes (when require_coherence).
+    Returns {success, commit_ok, commit_hash, commit_message, skipped_reason}.
+    """
+    result = {"success": False, "commit_ok": None, "commit_hash": None, "commit_message": None, "skipped_reason": None}
+    if not (PROJECT_ROOT / ".git").exists():
+        result["skipped_reason"] = "not-a-git-repo"
+        return result
+    changes = _git_status_short()
+    if changes in ("no-repo", "no-changes"):
+        result["success"] = True
+        result["skipped_reason"] = "no-changes"
+        return result
+    if dry_run:
+        result["success"] = True
+        result["skipped_reason"] = "dry-run"
+        result["commit_message"] = f"TS auto-evolve: {reason} (would commit)"
+        return result
+    if require_coherence:
+        coh_ok, coh = _ts_coherence_check()
+        if not coh_ok:
+            result["skipped_reason"] = "coherence-failed"
+            return result
+        n, e = coh.get("nodes", 0), coh.get("edges", 0)
+        delta = f"nodes {n}, edges {e}"
+    else:
+        delta = ""
+    msg = f"TS auto-evolve: {reason} ({delta})" if delta else f"TS auto-evolve: {reason}"
+    ok, chash = _git_commit_and_push(msg)
+    result["success"] = ok
+    result["commit_ok"] = ok
+    result["commit_hash"] = chash
+    result["commit_message"] = msg
+    _append_log({
+        "event": "auto_commit",
+        "reason": reason,
+        "commit_ok": ok,
+        "commit_hash": chash,
+        "commit_message": msg,
+        "changes": changes,
+    })
+    return result
+
+
 def _append_log(entry: dict):
     """Append cycle log to self_improve_log.jsonl."""
     _LOG_PATH.parent.mkdir(parents=True, exist_ok=True)
@@ -505,8 +635,7 @@ def main():
     parser.add_argument("--skip-ollama", action="store_true", help="Skip Ollama analysis")
     parser.add_argument("--skip-tests", action="store_true", help="Skip pytest (faster demo)")
     parser.add_argument("--ingest-external", action="store_true", help="Run external knowledge ingest")
-    parser.add_argument("--skip-git-push", action="store_true", default=True, help="Do not push (default)")
-    parser.add_argument("--no-skip-git-push", action="store_false", dest="skip_git_push")
+    parser.add_argument("--skip-git-push", action="store_true", help="Do not push (default: push)")
     parser.add_argument("--dry-run", action="store_true", help="Simulate cycle without committing")
     parser.add_argument("--notify-on-change", action="store_true", help="Notify only if meaningful changes occurred")
     parser.add_argument("--safe-evolve", action="store_true", help="Backup before commit, revert if coherence drops >10%% or tests fail")
@@ -514,7 +643,7 @@ def main():
     logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(name)s: %(message)s")
     stats = run_one_cycle(
         skip_ollama=args.skip_ollama,
-        skip_git_push=args.skip_git_push,
+        skip_git_push=getattr(args, "skip_git_push", False),
         skip_tests=args.skip_tests,
         ingest_external=getattr(args, "ingest_external", False),
         dry_run=getattr(args, "dry_run", False),

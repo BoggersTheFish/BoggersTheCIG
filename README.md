@@ -155,7 +155,7 @@ python src/main.py --self-improve --dry-run
 python src/main.py --self-improve --notify-on-change
 
 # Safe evolve: backup before commit, revert if coherence drops >10% or tests fail
-python src/main.py --self-improve --no-skip-git-push --safe-evolve
+python src/main.py --self-improve --safe-evolve
 
 # Or via script
 scripts/run_self_improvement.sh      # Linux/Mac
@@ -178,6 +178,7 @@ python src/main.py --mode continuous --sleep 60 --evolve-every 5
   - Top 10 most-linked concepts, orphan concepts (degree < 2)
   - Recent commits affecting vault, coherence trend chart (matplotlib PNG)
   - Auto-refreshes when Dataview re-evaluates
+- **Snapshots** — `snapshots/` stores annotated graph PNGs after ingest, analyze-vault, organize-vault, self-improve. Open `snapshots/index.md` for clickable images with timestamp, reason, and metrics delta.
 
 **5. GitHub Actions (headless evolution)**
 
@@ -190,20 +191,25 @@ python src/main.py --mode continuous --sleep 60 --evolve-every 5
 - **Failure notification**: On failure, logs to workflow summary (GitHub Actions UI)
 - **Commit message**: Uses `TS auto-evolve: [changes] (coherence +X%)` from `eval/last_commit_message.txt`
 
-**5b. Safe evolution (--safe-evolve)**
+**5b. Safety (rollback & --safe-evolve)**
 
-When committing, `--safe-evolve` adds a rollback safety net:
-
-1. **Before commit**: Create backup branch `ts-backup-YYYYMMDD-HHMM` at current HEAD
-2. **After commit**: Run coherence check + small test suite (self_improver, concept_graph)
-3. **If coherence drops >10%** (density) **or tests fail**: `git revert` last commit, push revert, log "Rollback: bad evolution"
-4. **Backups**: Keep max 3 `ts-backup-*` branches; delete oldest when creating new
-
-Use with `--no-skip-git-push` to enable commits:
+- On coherence drop >10% or test failure: git revert last commit, restore stash, log "Rollback: bad evolution"
+- `--safe-evolve`: create backup branch `ts-backup-YYYYMMDD-HHMM` before commit; keep max 3 backups
+- Webhook: set `WEBHOOK_URL` in config for failure notifications (Slack/Discord JSON)
 
 ```bash
-python src/main.py --self-improve --no-skip-git-push --safe-evolve
+python src/main.py --self-improve --safe-evolve
 ```
+
+**5c. Auto-commit & push (end of meaningful tasks)**
+
+- After `--analyze-vault`, `--organize-vault`, `--generate-queries`: automatically commits and pushes if changes exist
+- Commit message: `TS auto-evolve: [reason] (nodes N, edges E)` or `(coherence +X%)`
+- Only commits if coherence check passes (except `--generate-queries`)
+- Uses `GITHUB_TOKEN` or `GH_PAT` from environment for push auth
+- On push conflict: `git pull --rebase`, retry; on failure: `git rebase --abort`, stash, pull, stash pop, retry
+- Logs commit hash and push status to `eval/self_improve_log.jsonl`
+- Disable with `--no-auto-commit`
 
 **6. External knowledge ingestion**
 
@@ -241,12 +247,43 @@ python src/main.py --analyze-vault
 python src/main.py --analyze-vault --no-ollama   # Use rule-based only (no Ollama)
 ```
 
+**7b. Auto-organize vault**
+
+```bash
+# Standalone: cluster Concepts by embeddings + Ollama, create folders (Physics/, Hypotheses/, etc.)
+python src/main.py --organize-vault
+
+# Runs automatically in self-improve when root files > 50 or coherence low
+```
+
+- Clusters by Ollama structural role (Physics, Hypotheses, External, etc.)
+- Moves files, fixes wikilinks, logs to Evolution-Log.md
+- Snapshot saved after organize. Config: `ORGANIZE_VAULT_ROOT_FILES_THRESHOLD`, `ORGANIZE_VAULT_COHERENCE_THRESHOLD`
+
+**7c. Extract & merge sub-ideas**
+
+```bash
+# Standalone: extract sub-ideas into hierarchical files, merge duplicates
+python src/main.py --extract-subideas
+
+# Runs automatically after ingest, analyze-vault, self-improve
+```
+
+- **Extract**: Sections or bullet groups ≥50 words → `ParentConcept/Sub-ideas/name.md` with backlink "Used in: [[Parent]]"
+- **Merge**: Duplicate sub-ideas across notes (embedding sim ≥0.85 or Ollama) → `Shared-Sub-ideas/name.md` with "Used in: [[Physics]], [[Chemistry]]"
+- Replaces original content with wikilinks. Logs to Evolution-Log.md
+- Ollama: `is_meaningful_subidea`, `is_duplicate_subidea`, `suggest_extraction_name` (kebab-case)
+
+**Example (simulated):**
+- Before: `Physics.md` with long quantum section, `Chemistry.md` with similar section
+- After: Both link to `[[Shared-Sub-ideas/Quantum-Mechanics]]`; shared file has "Used in: [[Physics]], [[Chemistry]]"
+
 - Reads vault recursively, parses neighbor format `[[X]] (rel, weight=N)`
 - Chunks large notes (1500 chars, 200 overlap), sends to Ollama for concept extraction
 - Detects contradictions via core_engine
 - Progress logging every 20 files. Limit: `VAULT_MAX_FILES` (default 200)
 
-**8. Graph snapshots**
+**9. Graph snapshots**
 
 - Auto-saved after: knowledge ingest, vault analysis, self-improve cycle, single-run export
 - Location: `obsidian/TS-Knowledge-Vault/snapshots/`
@@ -256,7 +293,7 @@ python src/main.py --analyze-vault --no-ollama   # Use rule-based only (no Ollam
 - Size: Resized to 1920×1080 or smaller (configurable via `SNAPSHOT_MAX_WIDTH`, `SNAPSHOT_MAX_HEIGHT`)
 - View: Open `snapshots/index.md` in Obsidian or any markdown viewer to browse graph evolution
 
-**9. Notifications (optional)**
+**10. Notifications (optional)**
 
 - Set `WEBHOOK_URL` (Slack, Discord, or custom webhook) to receive alerts
 - **On failure**: Always prints to console + POSTs to webhook (error, rollback status)
@@ -270,7 +307,7 @@ export WEBHOOK_URL="https://hooks.slack.com/services/YOUR/WEBHOOK/URL"
 export WEBHOOK_URL="https://discord.com/api/webhooks/..."
 
 # Run with notifications
-python src/main.py --self-improve --no-skip-git-push --notify-on-change
+python src/main.py --self-improve --notify-on-change
 ```
 
 **Obsidian plugin combo** (optional two-way sync): Text Extractor + Obsidian Advanced URI
@@ -292,12 +329,14 @@ python src/main.py --self-improve --no-skip-git-push --notify-on-change
 1. **git pull** — Get latest code (tqdm progress)
 2. **Coherence (before)** — Baseline metrics for commit message
 3. **Ollama analysis** — Detect tensions, gaps, performance issues (if Ollama running)
-4. **External ingest** — (optional) Search web, extract triples, ingest (tqdm)
-5. **Export to Obsidian** — Concepts → Markdown with wikilinks + graph snapshot
-6. **Coherence (after)** — Fail and rollback if conflicts > 5
-7. **Run tests** — pytest; on failure: rollback, log, notify
-8. **Commit** — `TS auto-evolve: [changes] (coherence +X%)` on success; rollback on failure
-9. **Log** — `eval/self_improve_log.jsonl` (start/end time, coherence before/after, changes, test results)
+4. **Query generation** — (every N cycles) Generate search queries from graph gaps
+5. **External ingest** — (optional) Search web, extract triples, ingest (tqdm)
+6. **Export to Obsidian** — Concepts → Markdown; auto-organize if >50 root files or low coherence
+7. **Coherence metrics + snapshot** — Export metrics, Pillow-overlay snapshot
+8. **Coherence (after)** — Fail and rollback if conflicts > 5
+9. **Run tests** — pytest; on failure: rollback, log, notify
+10. **Commit** — `TS auto-evolve: [short Ollama summary] (coherence +X%)` on success
+11. **Log** — `eval/self_improve_log.jsonl` (start/end time, coherence before/after, changes, test results)
 
 ## Free Resource Rotation
 
@@ -391,8 +430,28 @@ Processing file 1/N: Gravity.md
 
 **Graph snapshot (after vault-modifying ops):**
 1. Load ConceptGraph, build NetworkX subgraph (≤200 nodes)
-2. Render via matplotlib, save to snapshots/graph-{timestamp}-{reason}.png
-3. Append entry to snapshots/index.md with link and summary
+2. Render via matplotlib, Pillow overlay (timestamp, "After: [reason]", delta metrics)
+3. Append entry to snapshots/index.md with clickable image, summary, commit link
+
+**Simulated full cycle (self-improve + ingest + organize):**
+```
+# python src/main.py --self-improve --ingest-external --safe-evolve
+git pull ✓
+coherence (before) ✓ {nodes: 16, edges: 9, density: 0.07}
+Ollama analysis ✓ "Structural tensions: orphan nodes in Gravity, spacetime"
+Query generation ✓ (cycle % 3 == 0) → 5 queries saved to data/queries.json
+external ingest ✓ tqdm 3/3 queries, triples_ingested: 4
+export to Obsidian ✓
+vault_organize ✓ skipped (root=16 < 50)
+coherence_metrics ✓ coherence_log.jsonl appended
+snapshot ✓ graph-2026-03-16-23-00-self-improve.png (Pillow overlay)
+coherence (after) ✓
+tests ✓
+commit ✓ "TS auto-evolve: Structural tensions: orphan nodes (coherence +5%)"
+push ✓
+eval/self_improve_log.jsonl: {"start_time":"...","coherence_before":{...},"coherence_after":{...},"commit_message":"...","end_time":"..."}
+snapshots/index.md: ### 2026-03-16 23:00 UTC **After:** eval+obsidian — nodes +2, edges +3, coherence +5% [![graph](...)](...)
+```
 
 ## License
 

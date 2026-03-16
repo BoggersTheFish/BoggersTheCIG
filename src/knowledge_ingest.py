@@ -261,11 +261,11 @@ def generate_queries_from_graph(use_ollama: bool = True, reason: str = "graph-ga
             if not check_ollama_available():
                 logger.info("Ollama not available, using fallback queries")
                 return {"queries": manual[:5], "saved": False, "reason": "ollama-unavailable"}
-            system = """You are a TS-aligned knowledge curator. Look at the concept graph gaps (low-degree nodes, contradictions).
-Suggest 5-10 high-value DuckDuckGo search queries to ingest knowledge that would increase coherence.
+            system = """You are a TS-aligned knowledge curator. Analyze current graph gaps (low-degree nodes, contradictions).
+Suggest 5-10 high-value DuckDuckGo/X search queries to fill them and increase coherence.
 Output ONLY one query per line, no numbering, no bullets. Short, searchable phrases (2-6 words each).
 No harmful, violent, or discriminatory content."""
-            prompt = f"""Current graph gaps:\n{gaps}\n\nSuggested search queries (one per line):"""
+            prompt = f"""Graph gaps:\n{gaps}\n\nSuggested search queries (one per line):"""
             resp = _ollama_request(prompt, system=system, timeout=60)
             raw = resp.strip()
             queries = []
