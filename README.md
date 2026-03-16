@@ -126,8 +126,23 @@ The TS engine can evolve itself using Cursor + Obsidian + Ollama (local). No pai
 ### Prerequisites
 
 - **Ollama** installed and running (`ollama serve`)
-- Model: `ollama pull qwen2.5-coder:7b` or `ollama pull llama3.1:8b`
 - **Obsidian** with Dataview plugin (for TS-Dashboard queries)
+
+### Hardware auto-detection & Ollama model selection
+
+The system auto-detects CPU/RAM (psutil) and GPU/VRAM (torch.cuda) and picks the largest model that fits with a 20% safety margin:
+
+| Hardware | Selected model |
+|----------|----------------|
+| 8GB RAM, no GPU | phi3.5-mini-instruct |
+| 16GB RAM, no GPU | qwen2.5-coder:7b |
+| 32GB+ RAM or 12GB+ VRAM | qwen2.5-coder:14b |
+| 24GB+ VRAM (e.g. RTX 4090) | qwen2.5-coder:32b |
+| 48GB+ VRAM (e.g. A100 80GB) | llama3.1:70b |
+
+- If the selected model is not pulled, falls back to next tier. Logs: `Hardware detected: NVIDIA RTX 4090, 24GB VRAM, 64GB RAM → selecting qwen2.5-coder:32b`
+- Override: `python src/main.py --force-model llama3.1:70b`
+- Pull recommended model: `ollama pull qwen2.5-coder:7b` (or the one auto-selected)
 
 ### How to Start the Self-Improving Loop
 

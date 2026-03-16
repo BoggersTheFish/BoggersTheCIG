@@ -44,7 +44,7 @@ HARMFUL_PATTERNS = [
 SIMILARITY_THRESHOLD = 0.8
 SELF_IMPROVE_INTERVAL = 100
 
-# Ollama (local LLM)
+# Ollama (local LLM) - set by hardware_adapt.detect_and_set_model() before first use
 OLLAMA_URL = os.getenv("OLLAMA_URL", "http://localhost:11434")
 OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "qwen2.5-coder:7b")
 

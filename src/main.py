@@ -13,6 +13,13 @@ from pathlib import Path
 # Ensure project root is on path when run as "python src/main.py"
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
+# Hardware detection + Ollama model selection (before config import)
+_early_parser = argparse.ArgumentParser()
+_early_parser.add_argument("--force-model", type=str, default=None, help="Override auto-detection (e.g. llama3.1:70b)")
+_early_args, _ = _early_parser.parse_known_args()
+from src.hardware_adapt import detect_and_set_model
+detect_and_set_model(force_model=_early_args.force_model)
+
 from src.config import PROJECT_ROOT
 
 # Setup logging
@@ -63,6 +70,8 @@ def main():
     parser.add_argument("--no-llm", action="store_true", help="Skip LLM, use rule-based extraction only")
     parser.add_argument("--no-auto-commit", action="store_true",
                         help="Disable auto-commit/push after analyze-vault, organize-vault, generate-queries")
+    parser.add_argument("--force-model", type=str, default=None,
+                        help="Override auto-detection (e.g. llama3.1:70b, qwen2.5-coder:7b)")
     args = parser.parse_args()
 
     auto_commit = not getattr(args, "no_auto_commit", False)
