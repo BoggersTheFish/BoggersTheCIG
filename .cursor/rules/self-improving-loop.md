@@ -9,7 +9,7 @@ When editing code that participates in the self-improving loop (self_improver.py
 3. **Generate** — Produce real code diffs, not placeholders. Every change must be functional.
 4. **Validate** — Run pytest before committing. No commits with failing tests.
 5. **Commit** — Atomic commits with clear messages. Include before/after metrics when applicable.
-6. **Push** — Push only after local tests pass.
+6. **Push** — Always push to origin after commit. No unpushed commits.
 
 ## Tension Detection (Ollama Prompts)
 
