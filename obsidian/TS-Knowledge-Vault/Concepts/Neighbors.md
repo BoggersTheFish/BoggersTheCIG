@@ -1,3 +1,6 @@
 # Neighbors
 
-[[Shared-Sub-ideas/neighborhood-theory-and-structure]]
+## Neighbors
+
+- [[Used in]] (influences, weight=2)
+- [[Networks Used in]] (influences, weight=2)

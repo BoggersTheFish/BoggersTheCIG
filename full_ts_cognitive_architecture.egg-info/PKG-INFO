@@ -1,0 +1,32 @@
+Metadata-Version: 2.4
+Name: full-ts-cognitive-architecture
+Version: 0.1.0
+Summary: Full-scale Thinking System cognitive architecture (GOAT-TS)
+Author: Full-TS
+Requires-Python: >=3.12
+Requires-Dist: torch>=2.0.0
+Requires-Dist: transformers>=4.36.0
+Requires-Dist: datasets>=2.16.0
+Requires-Dist: sentence-transformers>=2.2.0
+Requires-Dist: networkx>=3.2.0
+Requires-Dist: neo4j>=5.15.0
+Requires-Dist: faiss-cpu>=1.7.4
+Requires-Dist: fairlearn>=0.9.0
+Requires-Dist: fastapi>=0.109.0
+Requires-Dist: uvicorn[standard]>=0.27.0
+Requires-Dist: celery[redis]>=5.3.0
+Requires-Dist: redis>=5.0.0
+Requires-Dist: requests>=2.31.0
+Requires-Dist: python-dotenv>=1.0.0
+Provides-Extra: dev
+Requires-Dist: pytest>=7.4.0; extra == "dev"
+Requires-Dist: pytest-asyncio>=0.23.0; extra == "dev"
+Provides-Extra: finetune
+Requires-Dist: peft>=0.7.0; extra == "finetune"
+Requires-Dist: trl>=0.7.0; extra == "finetune"
+Requires-Dist: bitsandbytes>=0.41.0; extra == "finetune"
+Dynamic: author
+Dynamic: provides-extra
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary

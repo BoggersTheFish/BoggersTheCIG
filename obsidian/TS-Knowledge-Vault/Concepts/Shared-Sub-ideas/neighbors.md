@@ -1,4 +1,8 @@
-# Orphan Concepts (degree < 2)
+# Neighbors
+
+Used in: [[-quantum-mechanics-wave-particle-duality]], [[Orphan Concepts _degree _ 2_]]
+
+---
 
 ## Neighbors
 

@@ -1,0 +1,2 @@
+[console_scripts]
+full-ts = src.main:main

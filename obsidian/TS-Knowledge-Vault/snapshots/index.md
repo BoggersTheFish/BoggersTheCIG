@@ -185,3 +185,45 @@ Auto-generated after vault-modifying operations.
 **After:** eval+obsidian — nodes +0, edges +0, coherence +0%
 
 [![graph](graph-2026-03-16-23-51-self-improve.png)](graph-2026-03-16-23-51-self-improve.png) [commit](https://github.com/BoggersTheFish/BoggersTheCIG/commit/0b473f2)
+
+### 2026-03-17 01:21 UTC
+
+**After:** external ingest (+1 triples) — nodes +4, edges +2, coherence +333233%
+
+[![graph](graph-2026-03-17-01-21-after-ingest.png)](graph-2026-03-17-01-21-after-ingest.png) [commit](https://github.com/BoggersTheFish/BoggersTheCIG/commit/c260423)
+
+### 2026-03-17 01:21 UTC
+
+**After:** vault analysis (+17 triples) — nodes +25, edges +16, coherence -86%
+
+[![graph](graph-2026-03-17-01-21-after-analyze-vault.png)](graph-2026-03-17-01-21-after-analyze-vault.png) [commit](https://github.com/BoggersTheFish/BoggersTheCIG/commit/c260423)
+
+### 2026-03-17 01:21 UTC
+
+**After:** vault analysis (+17 triples) — nodes +0, edges +1, coherence +5%
+
+[![graph](graph-2026-03-17-01-21-after-analyze-vault.png)](graph-2026-03-17-01-21-after-analyze-vault.png) [commit](https://github.com/BoggersTheFish/BoggersTheCIG/commit/c260423)
+
+### 2026-03-17 01:21 UTC
+
+**After:** 1 extracts, 0 merges — nodes +0, edges +0, coherence +0%
+
+[![graph](graph-2026-03-17-01-21-extract-subideas.png)](graph-2026-03-17-01-21-extract-subideas.png) [commit](https://github.com/BoggersTheFish/BoggersTheCIG/commit/c260423)
+
+### 2026-03-17 01:21 UTC
+
+**After:** 2_+2_.md"+Reasoning.md"+Theory.md"+architecture.md" — nodes +0, edges +0, coherence +0%
+
+[![graph](graph-2026-03-17-01-21-self-improve.png)](graph-2026-03-17-01-21-self-improve.png) [commit](https://github.com/BoggersTheFish/BoggersTheCIG/commit/c260423)
+
+### 2026-03-17 01:21 UTC
+
+**After:** 0 extracts, 1 merges — nodes +0, edges +0, coherence +0%
+
+[![graph](graph-2026-03-17-01-21-extract-subideas.png)](graph-2026-03-17-01-21-extract-subideas.png) [commit](https://github.com/BoggersTheFish/BoggersTheCIG/commit/c260423)
+
+### 2026-03-17 01:21 UTC
+
+**After:** 2_+2_.md"+Reasoning.md"+Theory.md"+architecture.md" — nodes +0, edges +0, coherence +0%
+
+[![graph](graph-2026-03-17-01-21-self-improve.png)](graph-2026-03-17-01-21-self-improve.png) [commit](https://github.com/BoggersTheFish/BoggersTheCIG/commit/c260423)
