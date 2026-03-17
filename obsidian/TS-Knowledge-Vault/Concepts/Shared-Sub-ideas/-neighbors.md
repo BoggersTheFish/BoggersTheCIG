@@ -1,8 +1,20 @@
-# Orphan Concepts (degree < 2)
+#  Neighbors
 
+Used in: [[Orphan Concepts _degree _ 2_]], [[neighbors]]
+
+---
+
+## Neighbors
+
+- [[Gravity]] (degree=1)
+- [[spacetime]] (degree=1)
+- [[Subject]] (degree=1)
+- [[Object]] (degree=1), weight=1)
+- [[spacetime]] (degree=1)
 - [[Subject]] (degree=1)
 - [[Object]] (degree=1)
 - [[sky]] (degree=1)
+- [[Orphan Concepts (degree < 2)]] (degree=1)
 - [[Its]] (degree=1)
 - [[Used in]] (degree=1)
 - [[Networks Used in]] (degree=1)
@@ -21,4 +33,4 @@
 - [[why the sky is blue]] (degree=1)
 - [[topic]] (degree=1)
 - [[A]] (degree=1)
-- [[C]] (degree=1)
+- [[C]] (degree=1), weight=1)
