@@ -81,3 +81,29 @@ Tracks self-improvement cycles. See `eval/self_improve_log.jsonl` for machine-re
 ## Extract & Merge Sub-ideas 2026-03-17 06:59 UTC
 
 - MERGE: ['Orphan Concepts _degree _ 2_', 'neighbors'] -> Shared-Sub-ideas/-neighbors.md
+
+## Auto-organize 2026-03-17 12:52 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Knowledge Graph Reasoning.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/Knowledge Graph Reasoning.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Networks Used in.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/Networks Used in.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Cognitive architecture.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/Cognitive architecture.md
+
+## Extract & Merge Sub-ideas 2026-03-17 12:53 UTC
+
+- MERGE: ['-neighbors', 'Orphan Concepts _degree _ 2_'] -> Shared-Sub-ideas/short-filename-kebaab-case-no-spaces-qm-wnpdyu.md
+
+## Extract & Merge Sub-ideas 2026-03-17 12:53 UTC
+
+- EXTRACT: short-filename-kebaab-case-no-spaces-qm-wnpdyu -> short-filename-kebaab-case-no-spaces-qm-wnpdyu/Sub-ideas/neighbors.md
+
+## Extract & Merge Sub-ideas 2026-03-17 12:53 UTC
+
+- EXTRACT: neighbors -> neighbors/Sub-ideas/sugest-a-short-filename-kebaab-case-no-spaces-for-.md
+
+## Extract & Merge Sub-ideas 2026-03-17 12:53 UTC
+
+- MERGE: ['Neighbors', 'Orphan Concepts _degree _ 2_', 'Short Filename Kebaab Case No Spaces Qm Wnpdyu', 'sugest-a-short-filename-kebaab-case-no-spaces-for-'] -> Shared-Sub-ideas/neighbors.md
+
+## Extract & Merge Sub-ideas 2026-03-17 12:53 UTC
+
+- MERGE: ['Neighbors', 'Orphan Concepts _degree _ 2_', 'Short Filename Kebaab Case No Spaces Qm Wnpdyu'] -> Shared-Sub-ideas/neighborpbfnetworks-used-inpbfgraviyyyyypbfspaceti.md

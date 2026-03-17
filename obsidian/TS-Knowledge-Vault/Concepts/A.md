@@ -2,4 +2,4 @@
 
 ## Neighbors
 
-- [[B]] (relates, weight=2)
+- [[B]] (relates, weight=4)

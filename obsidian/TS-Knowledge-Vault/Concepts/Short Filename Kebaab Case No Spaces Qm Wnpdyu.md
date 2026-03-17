@@ -1,9 +1,7 @@
-# Neighbors
+# Short Filename Kebaab Case No Spaces Qm Wnpdyu
 
 ## Neighbors
 
-- [[Used in]] (influences, weight=4)
-- [[Networks Used in]] (influences, weight=4)
 - [[Gravity]] (degree=1)
 - [[spacetime]] (degree=1)
 - [[Subject]] (degree=1)
