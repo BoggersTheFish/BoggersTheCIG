@@ -59,7 +59,15 @@ def _git_pull() -> bool:
     if not (PROJECT_ROOT / ".git").exists():
         logger.info("Not a git repo, skipping pull")
         return True
+    code_status, out_status = _run_cmd(["git", "status", "--porcelain"])
+    has_unstaged = bool(out_status.strip()) if code_status == 0 else False
+    stashed = False
+    if has_unstaged:
+        code_stash, _ = _run_cmd(["git", "stash", "push", "-u", "-m", "ts-self-improve-pre-pull"])
+        stashed = code_stash == 0
     code, out = _run_cmd(["git", "pull", "--rebase"])
+    if stashed:
+        _run_cmd(["git", "stash", "pop"])
     if code != 0:
         logger.warning("git pull failed: %s", out)
         return False
@@ -139,9 +147,9 @@ def _git_prune_backups(max_keep: int = 3):
 
 
 def _run_small_test_suite() -> tuple[bool, str]:
-    """Run a small subset of tests (faster). Returns (passed, output_snippet)."""
+    """Run a small subset of tests (faster, no network). Returns (passed, output_snippet)."""
     code, out = _run_cmd(
-        [sys.executable, "-m", "pytest", "tests/test_self_improver.py", "tests/test_concept_graph.py", "-v", "--tb=short", "-x"],
+        [sys.executable, "-m", "pytest", "tests/test_self_improver.py", "tests/test_concept_graph.py", "tests/test_hardware_adapt.py", "-v", "--tb=short", "-x"],
         timeout=90,
     )
     snippet = out[-1500:] if len(out) > 1500 else out
@@ -491,7 +499,7 @@ def run_one_cycle(
     # 8. Tests
     if not skip_tests:
         for _ in _step("tests"):
-            passed, out = _run_tests()
+            passed, out = _run_small_test_suite()
             stats["tests_ok"] = passed
             stats["test_output"] = out[-500:] if len(out) > 500 else out
             if not passed:

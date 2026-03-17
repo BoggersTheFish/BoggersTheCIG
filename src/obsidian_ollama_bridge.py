@@ -9,10 +9,11 @@ import re
 from pathlib import Path
 from typing import List, Tuple
 
-from src.config import OBSIDIAN_VAULT, HARMFUL_PATTERNS, VAULT_MAX_FILES
+from src.config import OBSIDIAN_VAULT, VAULT_MAX_FILES
 from src.concept_graph import ConceptGraph
 from src.validation_engine import ValidationEngine
 from src.core_engine import CoreEngine
+from src.language_layer import _filter_harmful
 
 logger = logging.getLogger(__name__)
 
@@ -81,14 +82,6 @@ def _extract_triples_ollama_batch(chunks: List[str]) -> List[Tuple[str, str, str
     for chunk in chunks:
         result.extend(_extract_triples_ollama(chunk))
     return result
-
-
-def _filter_harmful(triples: List[Tuple[str, str, str]]) -> List[Tuple[str, str, str]]:
-    """Reject harmful triples."""
-    return [
-        (s, r, o) for s, r, o in triples
-        if not any(p in f"{s} {r} {o}".lower() for p in HARMFUL_PATTERNS)
-    ]
 
 
 def _detect_contradictions(graph: ConceptGraph) -> List[dict]:

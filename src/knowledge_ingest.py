@@ -17,9 +17,9 @@ from src.config import (
     INGEST_RATE_LIMIT_SEC,
     INGEST_MAX_RESULTS_PER_QUERY,
     QUERIES_PATH,
-    HARMFUL_PATTERNS,
 )
 from src.concept_graph import ConceptGraph
+from src.language_layer import _filter_harmful
 from src.validation_engine import ValidationEngine
 
 logger = logging.getLogger(__name__)
@@ -91,17 +91,6 @@ def _search_duckduckgo(query: str, max_results: int = 5) -> List[dict]:
     except Exception as e:
         logger.warning("DuckDuckGo search failed: %s", e)
         return []
-
-
-def _filter_harmful(triples: List[Tuple[str, str, str]]) -> List[Tuple[str, str, str]]:
-    """Reject triples containing harmful patterns."""
-    filtered = []
-    for s, r, o in triples:
-        text = f"{s} {r} {o}".lower()
-        if any(p in text for p in HARMFUL_PATTERNS):
-            continue
-        filtered.append((s, r, o))
-    return filtered
 
 
 def ensure_queries_file() -> None:

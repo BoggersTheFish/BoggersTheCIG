@@ -166,6 +166,7 @@ def main():
     from src.language_layer import extract_triples
     from src.concept_graph import ConceptGraph
     from src.core_engine import CoreEngine
+    from src.validation_engine import ValidationEngine
     from src.viz import export_to_obsidian, auto_snapshot_graph
 
     text = args.input
@@ -178,9 +179,11 @@ def main():
     if not triples:
         logger.warning("No triples extracted. Try different phrasing or --no-llm for rule-based fallback.")
 
-    # Ingest
+    # Ingest (validate before mutation per graph-stability)
     graph = ConceptGraph()
-    count = graph.ingest_triples(triples, source="main")
+    val = ValidationEngine(graph)
+    valid = val.validate_batch(triples)
+    count = graph.ingest_triples(valid, source="main")
     logger.info("Ingested %d edges", count)
 
     if args.ingest_only:
@@ -217,7 +220,7 @@ def main():
         logger.debug("Snapshot failed: %s", e)
 
     print("\n--- Result ---")
-    print(f"Triples: {triples}")
+    print(f"Triples: {valid}")
     print(f"Graph: {graph.node_count()} nodes, {graph.edge_count()} edges")
     print(f"Similar concepts: {[s[0] for s in similar]}")
 

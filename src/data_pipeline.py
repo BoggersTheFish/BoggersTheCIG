@@ -9,6 +9,7 @@ from typing import List, Tuple
 from src.config import DATA_DIR
 from src.language_layer import extract_triples
 from src.concept_graph import ConceptGraph
+from src.validation_engine import ValidationEngine
 
 logger = logging.getLogger(__name__)
 
@@ -56,6 +57,8 @@ def run_pipeline(limit: int = 50, ingest: bool = True) -> List[Tuple[str, str, s
         all_triples.extend(triples)
     if ingest and all_triples:
         graph = ConceptGraph()
-        graph.ingest_triples(all_triples, source="pipeline")
-        logger.info("Ingested %d triples from pipeline", len(all_triples))
+        val = ValidationEngine(graph)
+        valid = val.validate_batch(all_triples)
+        graph.ingest_triples(valid, source="pipeline")
+        logger.info("Ingested %d triples from pipeline (validated %d)", len(valid), len(all_triples))
     return all_triples

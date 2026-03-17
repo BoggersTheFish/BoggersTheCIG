@@ -9,7 +9,7 @@ import random
 from pathlib import Path
 from typing import List, Optional, Tuple
 
-from src.config import EVAL_DIR, HARMFUL_PATTERNS
+from src.config import EVAL_DIR
 from src.concept_graph import ConceptGraph
 from src.language_layer import extract_triples, _get_llm, _filter_harmful
 

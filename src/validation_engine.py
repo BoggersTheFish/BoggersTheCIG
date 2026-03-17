@@ -42,9 +42,8 @@ class ValidationEngine:
     def check_empirical(self, triple: Tuple[str, str, str]) -> bool:
         """
         Cross-check with external APIs (e.g. Wikipedia) if available.
-        For now, pass-through.
+        Pass-through: no external API wired; override to add empirical validation.
         """
-        # TODO: optional Wikipedia API check
         return True
 
     def check_bias(self, triple: Tuple[str, str, str]) -> bool:

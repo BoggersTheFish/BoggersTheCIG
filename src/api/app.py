@@ -14,6 +14,7 @@ from src.concept_graph import ConceptGraph
 from src.core_engine import CoreEngine
 from src.hypothesis_generator import HypothesisGenerator
 from src.language_layer import extract_triples
+from src.validation_engine import ValidationEngine
 from src.viz import export_to_obsidian
 
 logger = logging.getLogger(__name__)
@@ -82,8 +83,10 @@ def ingest_text(req: IngestRequest, _=Depends(verify_auth)):
     """Ingest text, extract triples, add to graph."""
     triples = extract_triples(req.text, use_llm=False)
     graph = ConceptGraph()
-    count = graph.ingest_triples(triples, source="api")
-    return {"triples_extracted": len(triples), "edges_created": count}
+    val = ValidationEngine(graph)
+    valid = val.validate_batch(triples)
+    count = graph.ingest_triples(valid, source="api")
+    return {"triples_extracted": len(triples), "triples_valid": len(valid), "edges_created": count}
 
 
 @app.get("/stats")
