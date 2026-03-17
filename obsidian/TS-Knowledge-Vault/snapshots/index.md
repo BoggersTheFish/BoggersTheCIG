@@ -317,3 +317,45 @@ Auto-generated after vault-modifying operations.
 **After:** 2_.md"+Reasoning.md"+Theory.md"+Wnpdyu.md"+architecture.md" — nodes +0, edges +0, coherence +0%
 
 [![graph](graph-2026-03-17-12-53-self-improve.png)](graph-2026-03-17-12-53-self-improve.png) [commit](https://github.com/BoggersTheFish/BoggersTheCIG/commit/f874834)
+
+### 2026-03-17 18:56 UTC
+
+**After:** external ingest (+2 triples) — nodes +6, edges +3, coherence +199900%
+
+[![graph](graph-2026-03-17-18-56-after-ingest.png)](graph-2026-03-17-18-56-after-ingest.png) [commit](https://github.com/BoggersTheFish/BoggersTheCIG/commit/5bd2496)
+
+### 2026-03-17 18:56 UTC
+
+**After:** vault analysis (+32 triples) — nodes +28, edges +18, coherence -81%
+
+[![graph](graph-2026-03-17-18-56-after-analyze-vault.png)](graph-2026-03-17-18-56-after-analyze-vault.png) [commit](https://github.com/BoggersTheFish/BoggersTheCIG/commit/5bd2496)
+
+### 2026-03-17 18:56 UTC
+
+**After:** vault analysis (+32 triples) — nodes +0, edges +1, coherence +4%
+
+[![graph](graph-2026-03-17-18-56-after-analyze-vault.png)](graph-2026-03-17-18-56-after-analyze-vault.png) [commit](https://github.com/BoggersTheFish/BoggersTheCIG/commit/5bd2496)
+
+### 2026-03-17 18:56 UTC
+
+**After:** 1 extracts, 0 merges — nodes +0, edges +0, coherence +0%
+
+[![graph](graph-2026-03-17-18-56-extract-subideas.png)](graph-2026-03-17-18-56-extract-subideas.png) [commit](https://github.com/BoggersTheFish/BoggersTheCIG/commit/5bd2496)
+
+### 2026-03-17 18:56 UTC
+
+**After:** 2_+2_.md"+Reasoning.md"+Skill.md"+Wnpdyu.md" — nodes +0, edges +0, coherence +0%
+
+[![graph](graph-2026-03-17-18-56-self-improve.png)](graph-2026-03-17-18-56-self-improve.png) [commit](https://github.com/BoggersTheFish/BoggersTheCIG/commit/5bd2496)
+
+### 2026-03-17 18:56 UTC
+
+**After:** 0 extracts, 1 merges — nodes +0, edges +0, coherence +0%
+
+[![graph](graph-2026-03-17-18-56-extract-subideas.png)](graph-2026-03-17-18-56-extract-subideas.png) [commit](https://github.com/BoggersTheFish/BoggersTheCIG/commit/5bd2496)
+
+### 2026-03-17 18:56 UTC
+
+**After:** 2_+2_.md"+Reasoning.md"+Skill.md"+Wnpdyu.md" — nodes +0, edges +0, coherence +0%
+
+[![graph](graph-2026-03-17-18-56-self-improve.png)](graph-2026-03-17-18-56-self-improve.png) [commit](https://github.com/BoggersTheFish/BoggersTheCIG/commit/5bd2496)
