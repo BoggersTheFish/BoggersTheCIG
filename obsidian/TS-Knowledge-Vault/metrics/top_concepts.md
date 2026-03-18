@@ -10,5 +10,5 @@
 | [[B]] | 2 |
 | [[Knowledge Graph Reasoning]] | 2 |
 | [[Neighbors]] | 2 |
-| [[Subject1]] | 1 |
-| [[Object1]] | 1 |
+| [[such as thinking]] | 1 |
+| [[or remembering]] | 1 |

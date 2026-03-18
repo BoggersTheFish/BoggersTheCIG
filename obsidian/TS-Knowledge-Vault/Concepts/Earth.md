@@ -2,4 +2,4 @@
 
 ## Neighbors
 
-- [[gravity]] (has, weight=2)
+- [[gravity]] (has, weight=4)
