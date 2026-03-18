@@ -162,3 +162,29 @@ Tracks self-improvement cycles. See `eval/self_improve_log.jsonl` for machine-re
 ## Extract & Merge Sub-ideas 2026-03-18 06:58 UTC
 
 - MERGE: ['Orphan Concepts _degree _ 2_', 'qa_neighborstxt'] -> Shared-Sub-ideas/neighbors.md
+
+## Auto-organize 2026-03-18 12:53 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/situations.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/situations.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Knowledge - Wikipedia Knowledge.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/Knowledge - Wikipedia Knowledge.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/such as thinking.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/such as thinking.md
+
+## Extract & Merge Sub-ideas 2026-03-18 12:53 UTC
+
+- EXTRACT: Orphan Concepts _degree _ 2_ -> Orphan Concepts _degree _ 2_/Sub-ideas/neighbors.md
+
+## Extract & Merge Sub-ideas 2026-03-18 12:54 UTC
+
+- EXTRACT: neighbors -> neighbors/Sub-ideas/neighbors.md
+
+## Extract & Merge Sub-ideas 2026-03-18 12:54 UTC
+
+- EXTRACT: neighbors -> neighbors/Sub-ideas/sub-ideatxt.md
+
+## Extract & Merge Sub-ideas 2026-03-18 12:54 UTC
+
+- MERGE: ['Neighbors', 'Orphan Concepts _degree _ 2_', 'sub-ideatxt'] -> Shared-Sub-ideas/neighbors.md
+
+## Extract & Merge Sub-ideas 2026-03-18 12:54 UTC
+
+- MERGE: ['Neighbors', 'Orphan Concepts _degree _ 2_'] -> Shared-Sub-ideas/suggestations.md

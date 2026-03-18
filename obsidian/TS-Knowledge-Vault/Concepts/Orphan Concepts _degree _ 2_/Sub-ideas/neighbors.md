@@ -17,3 +17,7 @@ Used in: [[Orphan Concepts _degree _ 2_]]
 ---
 
 [[Shared-Sub-ideas/quantum-mechanics-wave-particle-duality-such-as-th]]
+
+---
+
+[[neighbors/Sub-ideas/neighbors]]
