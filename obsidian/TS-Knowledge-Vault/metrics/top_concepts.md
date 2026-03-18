@@ -2,13 +2,13 @@
 
 | Concept | Degree |
 |---------|--------|
-| [[Neighbors]] | 5 |
 | [[Cognitive architecture]] | 4 |
-| [[Gravity]] | 3 |
 | [[Orphan Concepts (degree < 2)]] | 3 |
+| [[Gravity]] | 2 |
 | [[spacetime]] | 2 |
-| [[(Subject)]] | 2 |
-| [[sky]] | 2 |
 | [[blue]] | 2 |
+| [[A]] | 2 |
 | [[B]] | 2 |
 | [[Knowledge Graph Reasoning]] | 2 |
+| [[Neighbors]] | 2 |
+| [[Relation: Augmenting and combining the strengths of statistical AI]] | 1 |

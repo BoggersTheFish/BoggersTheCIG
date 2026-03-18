@@ -2,4 +2,4 @@
 
 ## Neighbors
 
-- [[or remembering]] (reasoning, weight=2)
+- [[or remembering]] (reasoning, weight=4)

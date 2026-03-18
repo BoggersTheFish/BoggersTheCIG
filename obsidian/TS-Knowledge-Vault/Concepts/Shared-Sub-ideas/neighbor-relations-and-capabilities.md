@@ -1,16 +1,29 @@
-# Orphan Concepts (degree < 2)
+# Neighbor Relations And Capabilities
 
+Used in: [[Orphan Concepts _degree _ 2_]], [[neighbors]]
+
+---
+
+## Neighbors
+
+- [[Gravity]] (degree=1)
+- [[spacetime]] (degree=1)
+- [[Relation: Augmenting and combining the strengths of statistical AI]] (degree=1)
+- [[with the capabilities of neuroscience to achieve artificial general intelligence.]] (degree=1), weight=1)
+- [[spacetime]] (degree=1)
 - [[Relation: Augmenting and combining the strengths of statistical AI]] (degree=1)
 - [[with the capabilities of neuroscience to achieve artificial general intelligence.]] (degree=1)
 - [[sky]] (degree=1)
 - [[Augmenting]] (degree=1)
 - [[combining the strengths of statistical AI]] (degree=1)
+- [[Orphan Concepts (degree < 2)]] (degree=1)
 - [[Science/Facts]] (degree=1)
 - [[Practical Skill]] (degree=1)
 - [[why the sky is blue]] (degree=1)
 - [[topic]] (degree=1)
 - [[Knowledge - Wikipedia Knowledge]] (degree=1)
-- [[familiarity with individuals and situations, or practical skill]] (degree=1)
+- [[familiarity with individuals and situations, weight=1)
+- [[A]] (degree=1)
 - [[Its]] (degree=1)
 - [[such as thinking]] (degree=1)
 - [[or remembering]] (degree=1)
@@ -36,4 +49,4 @@
 - [[Used in]] (degree=1)
 - [[Networks Used in]] (degree=1)
 - [[Subject1]] (degree=1)
-- [[Object1]] (degree=1)
+- [[Object1]] (degree=1), weight=1)
