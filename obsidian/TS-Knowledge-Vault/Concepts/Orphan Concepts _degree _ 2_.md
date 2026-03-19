@@ -2,6 +2,7 @@
 
 ## Neighbors
 
+- [[Gravity]] (degree=1)
 - [[spacetime]] (degree=1)
 - [[sky]] (degree=1)
 - [[situations or practical skill]] (degree=1)
@@ -11,9 +12,8 @@
 - [[topic]] (degree=1)
 - [[Knowledge - Wikipedia Knowledge]] (degree=1)
 - [[familiarity with individuals and situations, weight=1)
+- [[A]] (degree=1)
 - [[Its]] (degree=1)
-- [[Used in]] (degree=1)
-- [[Networks Used in]] (degree=1)
 - [[such as thinking]] (degree=1)
 - [[or remembering]] (degree=1)
 - [[Foo]] (degree=1)
@@ -41,4 +41,6 @@
 - [[Neighbor Relations]] (degree=1)
 - [[Capabilities Used in]] (degree=1)
 - [[(Subject)]] (degree=1)
-- [["Is True"]] (degree=1), weight=1)
+- [["Is True"]] (degree=1)
+- [[Used in]] (degree=1)
+- [[Networks Used in]] (degree=1), weight=1)
