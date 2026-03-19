@@ -1,5 +1,15 @@
-# Orphan Concepts (degree < 2)
+# Suffix Qm Wpd
 
+Used in: [[Neighbors]], [[Orphan Concepts _degree _ 2_]]
+
+---
+
+## Neighbors
+
+- [[Used in]] (influences, weight=6)
+- [[Networks Used in]] (influences, weight=6)
+- [[Gravity]] (degree=1)
+- [[spacetime]] (degree=1)
 - [[sky]] (degree=1)
 - [[situations or practical skill]] (degree=1)
 - [[Science/Facts]] (degree=1)
@@ -7,7 +17,9 @@
 - [[why the sky is blue]] (degree=1)
 - [[topic]] (degree=1)
 - [[Knowledge - Wikipedia Knowledge]] (degree=1)
-- [[familiarity with individuals and situations, or practical skill]] (degree=1)
+- [[familiarity with individuals and situations, weight=2)
+- [[A]] (degree=1)
+- [[Its]] (degree=1)
 - [[Used in]] (degree=1)
 - [[Networks Used in]] (degree=1)
 - [[such as thinking]] (degree=1)
@@ -15,8 +27,6 @@
 - [[Foo]] (degree=1)
 - [[Bar]] (degree=1)
 - [[situations]] (degree=1)
-- [[Augmenting]] (degree=1)
-- [[combining the strengths of statistical AI]] (degree=1)
 - [[Earth]] (degree=1)
 - [[gravity]] (degree=1)
 - [[Neighborhood Theory]] (degree=1)
@@ -34,7 +44,9 @@
 - [[C]] (degree=1)
 - [[Subject1]] (degree=1)
 - [[Object1]] (degree=1)
-- [[Neighbor Relations]] (degree=1)
-- [[Capabilities Used in]] (degree=1)
 - [[(Subject)]] (degree=1)
 - [["Is True"]] (degree=1)
+- [[Neighbor Relations]] (degree=1)
+- [[Capabilities Used in]] (degree=1)
+- [[Augmenting]] (degree=1)
+- [[combining the strengths of statistical AI]] (degree=1), weight=2)

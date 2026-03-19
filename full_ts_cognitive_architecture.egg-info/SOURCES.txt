@@ -7,6 +7,7 @@ full_ts_cognitive_architecture.egg-info/entry_points.txt
 full_ts_cognitive_architecture.egg-info/requires.txt
 full_ts_cognitive_architecture.egg-info/top_level.txt
 src/__init__.py
+src/build_graph.py
 src/concept_graph.py
 src/config.py
 src/continuous_thinker.py

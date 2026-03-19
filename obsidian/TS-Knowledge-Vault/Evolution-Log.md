@@ -239,3 +239,27 @@ Tracks self-improvement cycles. See `eval/self_improve_log.jsonl` for machine-re
 ## Extract & Merge Sub-ideas 2026-03-19 06:34 UTC
 
 - MERGE: ['Orphan Concepts _degree _ 2_', 'neighborstxt-neighborhoods--gravitydegree1--time-a'] -> Shared-Sub-ideas/neighbors.md
+
+## Auto-organize 2026-03-19 06:53 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Capabilities Used in.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/Capabilities Used in.md
+
+## Extract & Merge Sub-ideas 2026-03-19 06:53 UTC
+
+- EXTRACT: Orphan Concepts _degree _ 2_ -> Orphan Concepts _degree _ 2_/Sub-ideas/neighbors.md
+
+## Extract & Merge Sub-ideas 2026-03-19 06:53 UTC
+
+- EXTRACT: neighbors -> neighbors/Sub-ideas/neighbors.md
+
+## Extract & Merge Sub-ideas 2026-03-19 06:53 UTC
+
+- EXTRACT: neighbors -> neighbors/Sub-ideas/quantum-mechanics-wave-particle-dualitytxt.md
+
+## Extract & Merge Sub-ideas 2026-03-19 06:54 UTC
+
+- MERGE: ['Neighbors', 'Orphan Concepts _degree _ 2_', 'quantum-mechanics-wave-particle-dualitytxt'] -> Shared-Sub-ideas/neighbors.md
+
+## Extract & Merge Sub-ideas 2026-03-19 06:54 UTC
+
+- MERGE: ['Neighbors', 'Orphan Concepts _degree _ 2_'] -> Shared-Sub-ideas/suffix-qm-wpd.md

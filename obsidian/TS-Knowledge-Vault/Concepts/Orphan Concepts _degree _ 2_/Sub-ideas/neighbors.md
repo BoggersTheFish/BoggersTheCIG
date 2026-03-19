@@ -29,3 +29,7 @@ Used in: [[Orphan Concepts _degree _ 2_]]
 ---
 
 [[Shared-Sub-ideas/neighboring-substxt]]
+
+---
+
+[[neighbors/Sub-ideas/neighbors]]

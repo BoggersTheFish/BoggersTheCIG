@@ -2,4 +2,4 @@
 
 ## Neighbors
 
-- [[Capabilities Used in]] (related_to, weight=4)
+- [[Capabilities Used in]] (related_to, weight=6)

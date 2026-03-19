@@ -2,7 +2,6 @@
 
 ## Neighbors
 
-- [[Gravity]] (degree=1)
 - [[spacetime]] (degree=1)
 - [[sky]] (degree=1)
 - [[situations or practical skill]] (degree=1)
@@ -12,7 +11,6 @@
 - [[topic]] (degree=1)
 - [[Knowledge - Wikipedia Knowledge]] (degree=1)
 - [[familiarity with individuals and situations, weight=1)
-- [[A]] (degree=1)
 - [[Its]] (degree=1)
 - [[Used in]] (degree=1)
 - [[Networks Used in]] (degree=1)
@@ -21,6 +19,8 @@
 - [[Foo]] (degree=1)
 - [[Bar]] (degree=1)
 - [[situations]] (degree=1)
+- [[Augmenting]] (degree=1)
+- [[combining the strengths of statistical AI]] (degree=1)
 - [[Earth]] (degree=1)
 - [[gravity]] (degree=1)
 - [[Neighborhood Theory]] (degree=1)
@@ -38,9 +38,7 @@
 - [[C]] (degree=1)
 - [[Subject1]] (degree=1)
 - [[Object1]] (degree=1)
-- [[(Subject)]] (degree=1)
-- [["Is True"]] (degree=1)
 - [[Neighbor Relations]] (degree=1)
 - [[Capabilities Used in]] (degree=1)
-- [[Augmenting]] (degree=1)
-- [[combining the strengths of statistical AI]] (degree=1), weight=1)
+- [[(Subject)]] (degree=1)
+- [["Is True"]] (degree=1), weight=1)
