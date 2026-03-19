@@ -25,3 +25,7 @@ Used in: [[Orphan Concepts _degree _ 2_]]
 ---
 
 [[Shared-Sub-ideas/neighbor-relations-and-capabilities]]
+
+---
+
+[[Shared-Sub-ideas/neighboring-substxt]]

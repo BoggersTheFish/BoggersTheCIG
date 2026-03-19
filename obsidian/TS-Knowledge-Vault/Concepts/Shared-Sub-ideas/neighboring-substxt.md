@@ -1,4 +1,8 @@
-# Orphan Concepts (degree < 2)
+# Neighboring Substxt
+
+Used in: [[Orphan Concepts _degree _ 2_]], [[neighbors]]
+
+---
 
 ## Neighbors
 

@@ -11,4 +11,4 @@
 | [[B]] | 2 |
 | [[Knowledge Graph Reasoning]] | 2 |
 | [[Neighbors]] | 2 |
-| [[Relation: Augmenting and combining the strengths of statistical AI]] | 1 |
+| [[Subject]] | 1 |
