@@ -2,4 +2,4 @@
 
 ## Neighbors
 
-- [[or (3]] ((2) acquaintance with individuals and situations, weight=1)
+- [[or (3]] ((2) acquaintance with individuals and situations, weight=2)

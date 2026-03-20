@@ -13,3 +13,7 @@ Used in: [[neighbors]]
 ---
 
 [[neighbors/Sub-ideas/quantum-mechanics-wave-particle-dualitytxt]]
+
+---
+
+[[neighbors/Sub-ideas/neighbors---sub-ideastext-neighbors--gravity-degre]]
