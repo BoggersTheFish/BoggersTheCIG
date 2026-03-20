@@ -2,13 +2,13 @@
 
 | Concept | Degree |
 |---------|--------|
-| [[Neighbors]] | 6 |
-| [[Gravity]] | 4 |
-| [[Orphan Concepts (degree < 2)]] | 4 |
 | [[Cognitive architecture]] | 4 |
-| [[Qm_Wpdmdmarkdowntitle Quantum Mechanics Waves Part]] | 4 |
-| [[sky]] | 3 |
-| [[Its]] | 3 |
-| [[Knowledge]] | 3 |
-| [[spacetime]] | 2 |
+| [[Orphan Concepts (degree < 2)]] | 3 |
+| [[Gravity]] | 2 |
 | [[blue]] | 2 |
+| [[familiarity with individuals]] | 2 |
+| [[combining the strengths of statistical AI]] | 2 |
+| [[A]] | 2 |
+| [[B]] | 2 |
+| [[Knowledge Graph Reasoning]] | 2 |
+| [[(Subject)]] | 2 |
