@@ -333,3 +333,38 @@ Tracks self-improvement cycles. See `eval/self_improve_log.jsonl` for machine-re
 
 - EXTRACT: Neighbors -> Neighbors/Sub-ideas/neighbors.md
 - MERGE: ['Orphan Concepts _degree _ 2_', 'quantum-mechanics-wave-particle-duality'] -> Shared-Sub-ideas/quantum-mechanics-wave-particle-duality-kebab-case.md
+
+## Extract & Merge Sub-ideas 2026-03-20 06:49 UTC
+
+- MERGE: ['Neighbors', 'neighbors'] -> Shared-Sub-ideas/suffix--quantum-mechanics.md
+- MERGE: ['Orphan Concepts _degree _ 2_', 'quantum-mechanics-wave-particle-duality-kebab-case'] -> Shared-Sub-ideas/neighbors.md
+
+## Extract & Merge Sub-ideas 2026-03-20 06:49 UTC
+
+- EXTRACT: suffix--quantum-mechanics -> suffix--quantum-mechanics/Sub-ideas/neighbors.md
+
+## Extract & Merge Sub-ideas 2026-03-20 06:50 UTC
+
+- EXTRACT: neighbors -> neighbors/Sub-ideas/neighborhoods_2022txt.md
+
+## Auto-organize 2026-03-20 06:53 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/or remembering.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/or remembering.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/1_ Knowledge - Wikipedia Knowledge is an awareness of facts.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/1_ Knowledge - Wikipedia Knowledge is an awareness of facts.md
+
+## Extract & Merge Sub-ideas 2026-03-20 06:53 UTC
+
+- MERGE: ['Neighbors', 'Suffix  Quantum Mechanics', 'neighborhoods_2022txt'] -> Shared-Sub-ideas/sub-ideakebaab-case-no-spaces-no-file-extensionqua.md
+- EXTRACT: Orphan Concepts _degree _ 2_ -> Orphan Concepts _degree _ 2_/Sub-ideas/neighbors.md
+
+## Auto-organize 2026-03-20 06:56 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Knowledge.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/Knowledge.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Relation_ Object.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/Relation_ Object.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/truthful belief.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/truthful belief.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Relation Augmenting.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/Relation Augmenting.md
+
+## Extract & Merge Sub-ideas 2026-03-20 06:56 UTC
+
+- MERGE: ['Neighbors', 'Suffix  Quantum Mechanics', 'sub-ideakebaab-case-no-spaces-no-file-extensionqua'] -> Shared-Sub-ideas/neighbors.md
+- MERGE: ['Orphan Concepts _degree _ 2_', 'neighbors'] -> Shared-Sub-ideas/quantum-mechanics-wave-particle-dualitytxt.md

@@ -1,7 +1,3 @@
 # Quantum Mechanics Wave Particle Dualitytxt
 
-Used in: [[Orphan Concepts _degree _ 2_]], [[neighbors]]
-
----
-
-[[Shared-Sub-ideas/neighbors]]
+Used in: [[Orphan Concepts _degree _ 2_]], [[Shared-Sub-ideas/neighbors]], [[neighbors]]

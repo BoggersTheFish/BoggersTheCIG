@@ -2,14 +2,14 @@
 
 ## Neighbors
 
-- [[Used in]] (influences, weight=6)
-- [[Networks Used in]] (influences, weight=6)
+- [[Used in]] (influences, weight=5)
+- [[Networks Used in]] (influences, weight=5)
 - [[Gravity]] (degree=1)
 - [[spacetime]] (degree=1)
 - [[1) Knowledge - Wikipedia Knowledge is an awareness of facts]] (degree=1)
 - [[or (3]] (degree=1)
 - [[1) is the subject of the triple (Knowledge - Wikipedia Knowledge is an awareness of facts]] (degree=1)
-- [[or a practical skill]] (degree=1), weight=2)
+- [[or a practical skill]] (degree=1), weight=1)
 - [[spacetime]] (degree=1)
 - [[1) Knowledge - Wikipedia Knowledge is an awareness of facts]] (degree=1)
 - [[or (3]] (degree=1)
@@ -25,7 +25,7 @@
 - [[why the sky is blue]] (degree=1)
 - [[topic]] (degree=1)
 - [[Knowledge - Wikipedia Knowledge]] (degree=1)
-- [[familiarity with individuals and situations, weight=2)
+- [[familiarity with individuals and situations, weight=1)
 - [[A]] (degree=1)
 - [[Its]] (degree=1)
 - [[Used in]] (degree=1)
@@ -57,4 +57,4 @@
 - [[Neighbor Relations]] (degree=1)
 - [[Capabilities Used in]] (degree=1)
 - [[(Subject)]] (degree=1)
-- [["Is True"]] (degree=1), weight=2)
+- [["Is True"]] (degree=1), weight=1)

@@ -2,4 +2,4 @@
 
 ## Neighbors
 
-- [[What Do You Mimic?]] (Brown Bear, weight=1)
+- [[What Do You Mimic?]] (Brown Bear, weight=2)
