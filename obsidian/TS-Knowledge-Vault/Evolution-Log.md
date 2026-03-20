@@ -368,3 +368,32 @@ Tracks self-improvement cycles. See `eval/self_improve_log.jsonl` for machine-re
 
 - MERGE: ['Neighbors', 'Suffix  Quantum Mechanics', 'sub-ideakebaab-case-no-spaces-no-file-extensionqua'] -> Shared-Sub-ideas/neighbors.md
 - MERGE: ['Orphan Concepts _degree _ 2_', 'neighbors'] -> Shared-Sub-ideas/quantum-mechanics-wave-particle-dualitytxt.md
+
+## Auto-organize 2026-03-20 12:43 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Suffix  Quantum Mechanics.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/Suffix  Quantum Mechanics.md
+
+## Extract & Merge Sub-ideas 2026-03-20 12:43 UTC
+
+- MERGE: ['Neighbors', 'Suffix  Quantum Mechanics'] -> Shared-Sub-ideas/neighbors.md
+- EXTRACT: Orphan Concepts _degree _ 2_ -> Orphan Concepts _degree _ 2_/Sub-ideas/qm_wpdmdmarkdowntitle-quantum-mechanics-waves-part.md
+
+## Extract & Merge Sub-ideas 2026-03-20 12:44 UTC
+
+- EXTRACT: qm_wpdmdmarkdowntitle-quantum-mechanics-waves-part -> qm_wpdmdmarkdowntitle-quantum-mechanics-waves-part/Sub-ideas/neighbors.md
+
+## Extract & Merge Sub-ideas 2026-03-20 12:44 UTC
+
+- EXTRACT: neighbors -> neighbors/Sub-ideas/shortfilenamebebaab-case-no-spaces-single-word-sub.md
+
+## Extract & Merge Sub-ideas 2026-03-20 12:47 UTC
+
+- MERGE: ['Neighbors', 'Orphan Concepts _degree _ 2_', 'Qm_Wpdmdmarkdowntitle Quantum Mechanics Waves Part', 'shortfilenamebebaab-case-no-spaces-single-word-sub'] -> Shared-Sub-ideas/sub-ideaneighborhubskebaab-case-with-no-spaces-and.md
+
+## Auto-organize 2026-03-20 12:49 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/e_g_.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/e_g_.md
+
+## Extract & Merge Sub-ideas 2026-03-20 12:50 UTC
+
+- MERGE: ['Neighbors', 'Orphan Concepts _degree _ 2_', 'Qm_Wpdmdmarkdowntitle Quantum Mechanics Waves Part', 'sub-ideaneighborhubskebaab-case-with-no-spaces-and'] -> Shared-Sub-ideas/suffix-qmsub-idea-quantum-mechanics-wave-particle-.md
