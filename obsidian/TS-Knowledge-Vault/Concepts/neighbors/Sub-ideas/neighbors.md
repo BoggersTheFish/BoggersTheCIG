@@ -17,3 +17,7 @@ Used in: [[neighbors]]
 ---
 
 [[neighbors/Sub-ideas/neighbors---sub-ideastext-neighbors--gravity-degre]]
+
+---
+
+[[neighbors/Sub-ideas/suffix--quantum-mechanics-wave-particle-duality]]

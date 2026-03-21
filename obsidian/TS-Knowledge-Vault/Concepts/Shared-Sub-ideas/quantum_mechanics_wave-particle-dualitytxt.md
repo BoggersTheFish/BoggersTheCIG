@@ -1,5 +1,15 @@
-# Orphan Concepts (degree < 2)
+# Quantum_Mechanics_Wave Particle Dualitytxt
 
+Used in: [[Neighbors]], [[Orphan Concepts _degree _ 2_]], [[suitablefilenames_ai_assistant_subideastxt]]
+
+---
+
+## Neighbors
+
+- [[Used in]] (influences, weight=6)
+- [[Networks Used in]] (influences, weight=6)
+- [[Gravity]] (degree=1)
+- [[spacetime]] (degree=1)
 - [[sky]] (degree=1)
 - [[situations or practical skill]] (degree=1)
 - [[Relation Augmenting]] (degree=1)
@@ -10,8 +20,9 @@
 - [[why the sky is blue]] (degree=1)
 - [[topic]] (degree=1)
 - [[Knowledge - Wikipedia Knowledge]] (degree=1)
-- [[familiarity with individuals and situations, or practical skill]] (degree=1)
-- [[Networks Used in]] (degree=1)
+- [[familiarity with individuals and situations, weight=2)
+- [[A]] (degree=1)
+- [[Its]] (degree=1)
 - [[such as thinking]] (degree=1)
 - [[or remembering]] (degree=1)
 - [[Brown Bear]] (degree=1)
@@ -23,7 +34,6 @@
 - [[Foo]] (degree=1)
 - [[Bar]] (degree=1)
 - [[situations]] (degree=1)
-- [[Sub Ideaneighborhubskebaab Case With No Spaces]] (degree=1)
 - [[Augmenting]] (degree=1)
 - [[Earth]] (degree=1)
 - [[gravity]] (degree=1)
@@ -47,4 +57,8 @@
 - [[Neighbor Relations]] (degree=1)
 - [[Capabilities Used in]] (degree=1)
 - [[e.g.]] (degree=1)
-- [[Relation, Object]] (degree=1)
+- [[Relation, weight=2)
+- [[(Subject)]] (degree=1)
+- [["Is True"]] (degree=1)
+- [[Sub Ideaneighborhubskebaab Case With No Spaces]] (degree=1)
+- [[Networks Used in]] (degree=1), weight=2)
