@@ -11,4 +11,4 @@
 | [[A]] | 2 |
 | [[B]] | 2 |
 | [[Knowledge Graph Reasoning]] | 2 |
-| [[Used in]] | 2 |
+| [[Neighbors]] | 2 |
