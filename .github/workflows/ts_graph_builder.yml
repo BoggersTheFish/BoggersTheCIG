@@ -2,13 +2,16 @@ name: TS Graph Builder (Near-Real-Time)
 
 on:
   schedule:
-    - cron: '*/10 * * * *'   # Every 10 minutes
+    - cron: '*/10 * * * *'    # Every 10 minutes
   workflow_dispatch:
+
+# REQUIRED for auto-commits to work
+permissions:
+  contents: write
 
 jobs:
   build_graph:
     runs-on: ubuntu-latest
-
     steps:
     - name: Checkout repo
       uses: actions/checkout@v4
@@ -26,10 +29,17 @@ jobs:
     - name: Run incremental graph build
       run: python src/build_graph.py --incremental True
 
-    - name: Commit updated files (only if changed)
+    - name: Commit and push changes (only if changed)
       run: |
         git config user.name "github-actions[bot]"
         git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        git add "obsidian/TS-Knowledge-Vault/snapshots/coherence-trend.png" "eval/coherence_log.jsonl"
-        git commit -m "TS auto-evolve: coherence-trend.png + log [10min]" || echo "No changes to commit"
-        git push
+        
+        # Add everything the incremental builder touches
+        git add "obsidian/TS-Knowledge-Vault/" "eval/" || true
+        
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "TS auto-evolve: graph builder update [10min]"
+          git push
+        fi
