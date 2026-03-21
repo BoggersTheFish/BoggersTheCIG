@@ -21,3 +21,7 @@ Used in: [[neighbors]]
 ---
 
 [[neighbors/Sub-ideas/suffix--quantum-mechanics-wave-particle-duality]]
+
+---
+
+[[neighbors/Sub-ideas/-neighboring-subtopics--quantum-mechanics-1-word--]]

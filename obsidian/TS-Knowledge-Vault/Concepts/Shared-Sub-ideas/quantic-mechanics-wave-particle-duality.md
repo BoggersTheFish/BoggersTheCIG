@@ -1,7 +1,15 @@
-# Orphan Concepts (degree < 2)
+# Quantic Mechanics Wave Particle Duality
 
-- [[Subject]] (degree=1)
-- [[Object]] (degree=1)
+Used in: [[Neighbors]], [[Orphan Concepts _degree _ 2_]], [[quasi-mecanics-wave-particle-duality-qmwd]]
+
+---
+
+## Neighbors
+
+- [[Used in]] (influences, weight=6)
+- [[Networks Used in]] (influences, weight=6)
+- [[Gravity]] (degree=1)
+- [[spacetime]] (degree=1)
 - [[sky]] (degree=1)
 - [[situations or practical skill]] (degree=1)
 - [[Relation Augmenting]] (degree=1)
@@ -12,7 +20,9 @@
 - [[why the sky is blue]] (degree=1)
 - [[topic]] (degree=1)
 - [[Knowledge - Wikipedia Knowledge]] (degree=1)
-- [[familiarity with individuals and situations, or practical skill]] (degree=1)
+- [[familiarity with individuals and situations, weight=2)
+- [[A]] (degree=1)
+- [[Its]] (degree=1)
 - [[Networks Used in]] (degree=1)
 - [[such as thinking]] (degree=1)
 - [[or remembering]] (degree=1)
@@ -31,6 +41,8 @@
 - [[gravity]] (degree=1)
 - [[Neighborhood Theory]] (degree=1)
 - [[Structure Used in]] (degree=1)
+- [[Subject]] (degree=1)
+- [[Object]] (degree=1)
 - [[theory]] (degree=1)
 - [[structure]] (degree=1)
 - [[mind]] (degree=1)
@@ -47,4 +59,6 @@
 - [[Neighbor Relations]] (degree=1)
 - [[Capabilities Used in]] (degree=1)
 - [[e.g.]] (degree=1)
-- [[Relation, Object]] (degree=1)
+- [[Relation, weight=2)
+- [[(Subject)]] (degree=1)
+- [["Is True"]] (degree=1), weight=2)
