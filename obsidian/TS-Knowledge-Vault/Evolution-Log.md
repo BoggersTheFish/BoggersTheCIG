@@ -541,3 +541,34 @@ Tracks self-improvement cycles. See `eval/self_improve_log.jsonl` for machine-re
 ## Extract & Merge Sub-ideas 2026-03-22 02:20 UTC
 
 - MERGE: ['Neighbors', 'Orphan Concepts _degree _ 2_', 'Sub Ideas For Neighbor Are Neighbors Nearby Or Clo', 'quantum-mechanics-wave-particle-duality'] -> Shared-Sub-ideas/neighbors.md
+
+## Auto-organize 2026-03-22 06:00 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Neighborhood Theory.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Biology/Neighborhood Theory.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Relation_ Augmenting and combining the strengths of statistical AI.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Biology/Relation_ Augmenting and combining the strengths of statistical AI.md
+
+## Extract & Merge Sub-ideas 2026-03-22 06:00 UTC
+
+- MERGE: ['Neighbors', 'Orphan Concepts _degree _ 2_', 'Sub Ideas For Neighbor Are Neighbors Nearby Or Clo'] -> Shared-Sub-ideas/sub-ideaqmechws.md
+
+## Extract & Merge Sub-ideas 2026-03-22 06:01 UTC
+
+- EXTRACT: sub-ideaqmechws -> sub-ideaqmechws/Sub-ideas/sub-ideatxt.md
+
+## Extract & Merge Sub-ideas 2026-03-22 06:01 UTC
+
+- EXTRACT: sub-ideatxt -> sub-ideatxt/Sub-ideas/neighbors.md
+
+## Auto-organize 2026-03-22 06:05 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Sub Ideaqmechws.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/Sub Ideaqmechws.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/1_ the concept itself _e_g_.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/1_ the concept itself _e_g_.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/_2.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/_2.md
+
+## Extract & Merge Sub-ideas 2026-03-22 06:05 UTC
+
+- MERGE: ['Orphan Concepts _degree _ 2_', 'Sub Ideaqmechws', 'Sub Ideatxt', 'neighbors'] -> Shared-Sub-ideas/qm-networks-weight1networks_used_in-weight1gradian.md
+
+## Extract & Merge Sub-ideas 2026-03-22 06:09 UTC
+
+- MERGE: ['Orphan Concepts _degree _ 2_', 'Sub Ideaqmechws', 'Sub Ideatxt', 'qm-networks-weight1networks_used_in-weight1gradian'] -> Shared-Sub-ideas/neighbors.md
