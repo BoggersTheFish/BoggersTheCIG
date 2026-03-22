@@ -605,3 +605,39 @@ Tracks self-improvement cycles. See `eval/self_improve_log.jsonl` for machine-re
 ## Extract & Merge Sub-ideas 2026-03-22 10:43 UTC
 
 - MERGE: ['Neighborhoods Networks Gravity Skies Situations Pr', 'Neighbors', 'Orphan Concepts _degree _ 2_', 'qm-nwtxt'] -> Shared-Sub-ideas/suqmw.md
+
+## Auto-organize 2026-03-22 15:31 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/1856.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/1856.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Neighborhoods Networks Gravity Skies Situations Pr.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/Neighborhoods Networks Gravity Skies Situations Pr.md
+
+## Extract & Merge Sub-ideas 2026-03-22 15:32 UTC
+
+- MERGE: ['Neighborhoods Networks Gravity Skies Situations Pr', 'Neighbors', 'Orphan Concepts _degree _ 2_', 'suqmw'] -> Shared-Sub-ideas/quantum_mechanics-wave-particle-duality.md
+
+## Extract & Merge Sub-ideas 2026-03-22 15:32 UTC
+
+- EXTRACT: quantum_mechanics-wave-particle-duality -> quantum_mechanics-wave-particle-duality/Sub-ideas/-neighborhoods-kebaab-hyphenated-with-no-spaces--u.md
+
+## Extract & Merge Sub-ideas 2026-03-22 15:33 UTC
+
+- EXTRACT: -neighborhoods-kebaab-hyphenated-with-no-spaces--u -> -neighborhoods-kebaab-hyphenated-with-no-spaces--u/Sub-ideas/neighbors.md
+
+## Auto-organize 2026-03-22 15:36 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Object2.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/Object2.md
+
+## Extract & Merge Sub-ideas 2026-03-22 15:36 UTC
+
+- MERGE: ['Neighborhoods Kebaab Hyphenated With No Spaces  U', 'Quantum_Mechanics Wave Particle Duality', 'neighbors'] -> Shared-Sub-ideas/neighbors.md
+- EXTRACT: Orphan Concepts _degree _ 2_ -> Orphan Concepts _degree _ 2_/Sub-ideas/sub-ideakebaab-caseno_spacestxt.md
+
+## Auto-organize 2026-03-22 15:39 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Object3.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/Object3.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Relation2.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/Relation2.md
+
+## Extract & Merge Sub-ideas 2026-03-22 15:40 UTC
+
+- MERGE: ['Neighborhoods Kebaab Hyphenated With No Spaces  U', 'Quantum_Mechanics Wave Particle Duality'] -> Shared-Sub-ideas/quantum-mechanics-wave-particle-duality.md
+- MERGE: ['Orphan Concepts _degree _ 2_', 'sub-ideakebaab-caseno_spacestxt'] -> Shared-Sub-ideas/neighbors.md
