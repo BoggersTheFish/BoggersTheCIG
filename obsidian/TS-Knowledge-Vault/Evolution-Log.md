@@ -517,3 +517,27 @@ Tracks self-improvement cycles. See `eval/self_improve_log.jsonl` for machine-re
 ## Extract & Merge Sub-ideas 2026-03-21 20:38 UTC
 
 - MERGE: ['Orphan Concepts _degree _ 2_', 'neighbors'] -> Shared-Sub-ideas/neighbors.md
+
+## Extract & Merge Sub-ideas 2026-03-22 02:13 UTC
+
+- EXTRACT: Orphan Concepts _degree _ 2_ -> Orphan Concepts _degree _ 2_/Sub-ideas/neighbors.md
+
+## Extract & Merge Sub-ideas 2026-03-22 02:14 UTC
+
+- EXTRACT: neighbors -> neighbors/Sub-ideas/sub-ideas-for-neighbor-are-neighbors-nearby-or-clo.md
+
+## Extract & Merge Sub-ideas 2026-03-22 02:14 UTC
+
+- EXTRACT: sub-ideas-for-neighbor-are-neighbors-nearby-or-clo -> sub-ideas-for-neighbor-are-neighbors-nearby-or-clo/Sub-ideas/neighbors.md
+
+## Auto-organize 2026-03-22 02:17 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Sub Ideas For Neighbor Are Neighbors Nearby Or Clo.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/Sub Ideas For Neighbor Are Neighbors Nearby Or Clo.md
+
+## Extract & Merge Sub-ideas 2026-03-22 02:17 UTC
+
+- MERGE: ['Neighbors', 'Orphan Concepts _degree _ 2_', 'Sub Ideas For Neighbor Are Neighbors Nearby Or Clo', 'neighbors'] -> Shared-Sub-ideas/quantum-mechanics-wave-particle-duality.md
+
+## Extract & Merge Sub-ideas 2026-03-22 02:20 UTC
+
+- MERGE: ['Neighbors', 'Orphan Concepts _degree _ 2_', 'Sub Ideas For Neighbor Are Neighbors Nearby Or Clo', 'quantum-mechanics-wave-particle-duality'] -> Shared-Sub-ideas/neighbors.md
