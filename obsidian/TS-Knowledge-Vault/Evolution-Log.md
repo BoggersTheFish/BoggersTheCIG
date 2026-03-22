@@ -641,3 +641,12 @@ Tracks self-improvement cycles. See `eval/self_improve_log.jsonl` for machine-re
 
 - MERGE: ['Neighborhoods Kebaab Hyphenated With No Spaces  U', 'Quantum_Mechanics Wave Particle Duality'] -> Shared-Sub-ideas/quantum-mechanics-wave-particle-duality.md
 - MERGE: ['Orphan Concepts _degree _ 2_', 'sub-ideakebaab-caseno_spacestxt'] -> Shared-Sub-ideas/neighbors.md
+
+## Auto-organize 2026-03-22 20:34 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Relation3.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/Relation3.md
+
+## Extract & Merge Sub-ideas 2026-03-22 20:34 UTC
+
+- MERGE: ['Neighborhoods Kebaab Hyphenated With No Spaces  U', 'Quantum_Mechanics Wave Particle Duality'] -> Shared-Sub-ideas/neighbors.md
+- EXTRACT: Orphan Concepts _degree _ 2_ -> Orphan Concepts _degree _ 2_/Sub-ideas/-neighbors--gradix--spacetime--subject1--object1--.md
