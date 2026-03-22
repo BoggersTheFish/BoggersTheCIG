@@ -1,9 +1,13 @@
-# Sub Ideatxt
+# Suqmw
+
+Used in: [[Neighborhoods Networks Gravity Skies Situations Pr]], [[Neighbors]], [[Orphan Concepts _degree _ 2_]], [[qm-nwtxt]]
+
+---
 
 ## Neighbors
 
-- [[Used in]] (influences, weight=1)
-- [[Networks Used in]] (influences, weight=1)
+- [[Used in]] (influences, weight=7)
+- [[Networks Used in]] (influences, weight=7)
 - [[Gravity]] (degree=1)
 - [[spacetime]] (degree=1)
 - [[sky]] (degree=1)

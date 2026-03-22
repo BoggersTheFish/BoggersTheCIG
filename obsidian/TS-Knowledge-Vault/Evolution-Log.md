@@ -572,3 +572,36 @@ Tracks self-improvement cycles. See `eval/self_improve_log.jsonl` for machine-re
 ## Extract & Merge Sub-ideas 2026-03-22 06:09 UTC
 
 - MERGE: ['Orphan Concepts _degree _ 2_', 'Sub Ideaqmechws', 'Sub Ideatxt', 'qm-networks-weight1networks_used_in-weight1gradian'] -> Shared-Sub-ideas/neighbors.md
+
+## Auto-organize 2026-03-22 10:34 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Quantum Mechanics.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/Quantum Mechanics.md
+
+## Extract & Merge Sub-ideas 2026-03-22 10:35 UTC
+
+- MERGE: ['Orphan Concepts _degree _ 2_', 'Sub Ideaqmechws', 'Sub Ideatxt'] -> Shared-Sub-ideas/neighborhoods-networks-gravity-skies-situations-pr.md
+
+## Extract & Merge Sub-ideas 2026-03-22 10:35 UTC
+
+- EXTRACT: neighborhoods-networks-gravity-skies-situations-pr -> neighborhoods-networks-gravity-skies-situations-pr/Sub-ideas/neighbors.md
+
+## Extract & Merge Sub-ideas 2026-03-22 10:35 UTC
+
+- EXTRACT: neighbors -> neighbors/Sub-ideas/quantum-mechanics-wave-particle-duality.md
+
+## Auto-organize 2026-03-22 10:39 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Wave Particle Dualitytxt Used in.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/Wave Particle Dualitytxt Used in.md
+
+## Extract & Merge Sub-ideas 2026-03-22 10:39 UTC
+
+- MERGE: ['Neighborhoods Networks Gravity Skies Situations Pr', 'Neighbors', 'Orphan Concepts _degree _ 2_', 'quantum-mechanics-wave-particle-duality'] -> Shared-Sub-ideas/qm-nwtxt.md
+
+## Auto-organize 2026-03-22 10:43 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Sub Ideatxt.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/Sub Ideatxt.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Otto _Pop_ Carter.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/Otto _Pop_ Carter.md
+
+## Extract & Merge Sub-ideas 2026-03-22 10:43 UTC
+
+- MERGE: ['Neighborhoods Networks Gravity Skies Situations Pr', 'Neighbors', 'Orphan Concepts _degree _ 2_', 'qm-nwtxt'] -> Shared-Sub-ideas/suqmw.md
