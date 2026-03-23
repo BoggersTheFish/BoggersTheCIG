@@ -25,3 +25,7 @@ Used in: [[neighbors]]
 ---
 
 [[neighbors/Sub-ideas/-neighboring-subtopics--quantum-mechanics-1-word--]]
+
+---
+
+[[neighbors/Sub-ideas/neighbors]]
