@@ -675,3 +675,34 @@ Tracks self-improvement cycles. See `eval/self_improve_log.jsonl` for machine-re
 ## Extract & Merge Sub-ideas 2026-03-23 02:24 UTC
 
 - MERGE: ['Orphan Concepts _degree _ 2_', 'quantum-mechanics-wave-particle-duality-subject-ob'] -> Shared-Sub-ideas/neighbors.md
+
+## Extract & Merge Sub-ideas 2026-03-23 06:16 UTC
+
+- EXTRACT: Orphan Concepts _degree _ 2_ -> Orphan Concepts _degree _ 2_/Sub-ideas/suqmh.md
+
+## Extract & Merge Sub-ideas 2026-03-23 06:17 UTC
+
+- EXTRACT: suqmh -> suqmh/Sub-ideas/quantum-mechanics-wave-particle-duality-subject-ob.md
+
+## Extract & Merge Sub-ideas 2026-03-23 06:17 UTC
+
+- EXTRACT: quantum-mechanics-wave-particle-duality-subject-ob -> quantum-mechanics-wave-particle-duality-subject-ob/Sub-ideas/neighbors.md
+
+## Auto-organize 2026-03-23 06:20 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/surrounded by parentheses.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/surrounded by parentheses.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Subject_ Knowledge _Relation_ Object_.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/Subject_ Knowledge _Relation_ Object_.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/the target of knowledge.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/the target of knowledge.md
+
+## Extract & Merge Sub-ideas 2026-03-23 06:21 UTC
+
+- MERGE: ['Orphan Concepts _degree _ 2_', 'neighbors'] -> Shared-Sub-ideas/neighbors-quantum-mechanics-wave-particle-duality.md
+
+## Auto-organize 2026-03-23 06:25 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/The object.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/The object.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/separated by a comma and surrounded by parentheses_ The object is the target of knowledge _e_g__ _Knowledge_.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/separated by a comma and surrounded by parentheses_ The object is the target of knowledge _e_g__ _Knowledge_.md
+
+## Extract & Merge Sub-ideas 2026-03-23 06:25 UTC
+
+- MERGE: ['Orphan Concepts _degree _ 2_', 'neighbors-quantum-mechanics-wave-particle-duality'] -> Shared-Sub-ideas/neighbors.md
