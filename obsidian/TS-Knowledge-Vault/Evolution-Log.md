@@ -706,3 +706,27 @@ Tracks self-improvement cycles. See `eval/self_improve_log.jsonl` for machine-re
 ## Extract & Merge Sub-ideas 2026-03-23 06:25 UTC
 
 - MERGE: ['Orphan Concepts _degree _ 2_', 'neighbors-quantum-mechanics-wave-particle-duality'] -> Shared-Sub-ideas/neighbors.md
+
+## Extract & Merge Sub-ideas 2026-03-23 10:59 UTC
+
+- EXTRACT: Orphan Concepts _degree _ 2_ -> Orphan Concepts _degree _ 2_/Sub-ideas/quantum-mechanics-wave-particle-dualitymd.md
+
+## Extract & Merge Sub-ideas 2026-03-23 10:59 UTC
+
+- EXTRACT: quantum-mechanics-wave-particle-dualitymd -> quantum-mechanics-wave-particle-dualitymd/Sub-ideas/neighbors.md
+
+## Extract & Merge Sub-ideas 2026-03-23 10:59 UTC
+
+- EXTRACT: neighbors -> neighbors/Sub-ideas/qm-wpdtxt.md
+
+## Auto-organize 2026-03-23 11:03 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/the target of knowledge e g Knowledge.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/the target of knowledge e g Knowledge.md
+
+## Extract & Merge Sub-ideas 2026-03-23 11:03 UTC
+
+- MERGE: ['Orphan Concepts _degree _ 2_', 'qm-wpdtxt'] -> Shared-Sub-ideas/quantum-mechanics_wave-particle-dualityabba.md
+
+## Extract & Merge Sub-ideas 2026-03-23 11:08 UTC
+
+- MERGE: ['Orphan Concepts _degree _ 2_', 'quantum-mechanics_wave-particle-dualityabba'] -> Shared-Sub-ideas/-neighbors-gravity-time-and-space-subject-object-w.md

@@ -2,4 +2,4 @@
 
 ## Neighbors
 
-- [[Relation, Object]] (scientific/factual entities). Each triple is defined as (Subject, weight=4)
+- [[Relation, Object]] (scientific/factual entities). Each triple is defined as (Subject, weight=2)
