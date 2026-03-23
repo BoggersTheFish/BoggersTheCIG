@@ -2,4 +2,4 @@
 
 ## Neighbors
 
-- [[blue]] (is_a, weight=4)
+- [[blue]] (is_a, weight=2)

@@ -73,3 +73,7 @@ Used in: [[Orphan Concepts _degree _ 2_]]
 ---
 
 [[neighbors/Sub-ideas/sub-ideas-for-neighbor-are-neighbors-nearby-or-clo]]
+
+---
+
+[[Shared-Sub-ideas/neighbors]]
