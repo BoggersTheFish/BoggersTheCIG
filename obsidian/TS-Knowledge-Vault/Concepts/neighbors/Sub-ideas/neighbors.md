@@ -29,3 +29,7 @@ Used in: [[neighbors]]
 ---
 
 [[neighbors/Sub-ideas/neighbors]]
+
+---
+
+[[neighbors/Sub-ideas/neighbors_quantum-mechanics-wave-particle-duality]]
