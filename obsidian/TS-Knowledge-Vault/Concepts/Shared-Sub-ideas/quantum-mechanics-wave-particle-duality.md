@@ -1,3 +1,3 @@
 # Quantum Mechanics Wave Particle Duality
 
-Used in: [[Neighborhoods Kebaab Hyphenated With No Spaces  U]], [[Neighbors]], [[Orphan Concepts _degree _ 2_]], [[Quantum_Mechanics Wave Particle Duality]], [[Shared-Sub-ideas/neighbors]], [[Sub Ideas For Neighbor Are Neighbors Nearby Or Clo]], [[neighbors]]
+Used in: [[Neighborhoods Kebaab Hyphenated With No Spaces  U]], [[Neighbors]], [[Orphan Concepts _degree _ 2_]], [[Quantum_Mechanics Wave Particle Duality]], [[Shared-Sub-ideas/neighbors]], [[Sub Ideas For Neighbor Are Neighbors Nearby Or Clo]], [[neighbors]], [[quantum-mechanics-wave-particle-dualityno-file-ext]]
