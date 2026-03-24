@@ -850,3 +850,25 @@ Tracks self-improvement cycles. See `eval/self_improve_log.jsonl` for machine-re
 ## Extract & Merge Sub-ideas 2026-03-24 16:21 UTC
 
 - MERGE: ['Orphan Concepts _degree _ 2_', 'Quantum Mechanics Wave Particle Duality 1 Word'] -> Shared-Sub-ideas/neighbors.md
+
+## Extract & Merge Sub-ideas 2026-03-24 20:48 UTC
+
+- MERGE: ['Orphan Concepts _degree _ 2_', 'Quantum Mechanics Wave Particle Duality 1 Word'] -> Shared-Sub-ideas/neighbors.md
+
+## Auto-organize 2026-03-24 20:53 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/_advances__ _neural networks_.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/_advances__ _neural networks_.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/_is_.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/_is_.md
+
+## Extract & Merge Sub-ideas 2026-03-24 20:53 UTC
+
+- EXTRACT: Orphan Concepts _degree _ 2_ -> Orphan Concepts _degree _ 2_/Sub-ideas/sugressqrtlkjgdfbvhqfyxjwvhdfjsnjwjkmrqgtkfjgdgdsq.md
+
+## Auto-organize 2026-03-24 20:57 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/_is__ _conscious_.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/_is__ _conscious_.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Person A.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/Person A.md
+
+## Extract & Merge Sub-ideas 2026-03-24 20:57 UTC
+
+- MERGE: ['Orphan Concepts _degree _ 2_', 'sugressqrtlkjgdfbvhqfyxjwvhdfjsnjwjkmrqgtkfjgdgdsq'] -> Shared-Sub-ideas/neighbors.md
