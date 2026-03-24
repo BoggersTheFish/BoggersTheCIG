@@ -830,3 +830,23 @@ Tracks self-improvement cycles. See `eval/self_improve_log.jsonl` for machine-re
 ## Extract & Merge Sub-ideas 2026-03-24 11:06 UTC
 
 - MERGE: ['Orphan Concepts _degree _ 2_', 'neighbors'] -> Shared-Sub-ideas/-neighboring-concepts--gravity-degree1--spacetime-.md
+
+## Extract & Merge Sub-ideas 2026-03-24 16:13 UTC
+
+- MERGE: ['-neighboring-concepts--gravity-degree1--spacetime-', 'Orphan Concepts _degree _ 2_'] -> Shared-Sub-ideas/quantum-mechanics-wave-particle-duality-1-word.md
+
+## Extract & Merge Sub-ideas 2026-03-24 16:14 UTC
+
+- EXTRACT: quantum-mechanics-wave-particle-duality-1-word -> quantum-mechanics-wave-particle-duality-1-word/Sub-ideas/quantum-mechanics-wave-particle-duality-neighborho.md
+
+## Extract & Merge Sub-ideas 2026-03-24 16:14 UTC
+
+- EXTRACT: quantum-mechanics-wave-particle-duality-neighborho -> quantum-mechanics-wave-particle-duality-neighborho/Sub-ideas/neighbors.md
+
+## Extract & Merge Sub-ideas 2026-03-24 16:17 UTC
+
+- MERGE: ['Orphan Concepts _degree _ 2_', 'Quantum Mechanics Wave Particle Duality 1 Word', 'neighbors'] -> Shared-Sub-ideas/neighbors.md
+
+## Extract & Merge Sub-ideas 2026-03-24 16:21 UTC
+
+- MERGE: ['Orphan Concepts _degree _ 2_', 'Quantum Mechanics Wave Particle Duality 1 Word'] -> Shared-Sub-ideas/neighbors.md
