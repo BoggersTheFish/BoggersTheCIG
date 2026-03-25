@@ -2,4 +2,4 @@
 
 ## Neighbors
 
-- [[Wave Particle Dualitytxt Used in]] (related_to, weight=6)
+- [[Wave Particle Dualitytxt Used in]] (related_to, weight=4)
