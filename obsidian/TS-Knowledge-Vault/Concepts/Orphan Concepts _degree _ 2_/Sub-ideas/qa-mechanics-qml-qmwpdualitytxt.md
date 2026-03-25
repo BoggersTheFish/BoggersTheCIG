@@ -1,4 +1,8 @@
-# Orphan Concepts (degree < 2)
+# Qa Mechanics Qml Qmwpdualitytxt
+
+Used in: [[Orphan Concepts _degree _ 2_]]
+
+---
 
 ## Neighbors
 

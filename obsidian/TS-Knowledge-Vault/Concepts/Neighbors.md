@@ -2,5 +2,5 @@
 
 ## Neighbors
 
-- [[Used in]] (influences, weight=6)
-- [[Networks Used in]] (influences, weight=6)
+- [[Used in]] (influences, weight=8)
+- [[Networks Used in]] (influences, weight=8)

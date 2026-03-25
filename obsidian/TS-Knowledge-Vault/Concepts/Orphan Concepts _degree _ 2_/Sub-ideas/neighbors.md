@@ -93,3 +93,7 @@ Used in: [[Orphan Concepts _degree _ 2_]]
 ---
 
 [[Shared-Sub-ideas/-neighboring-concepts--gravity-degree1--spacetime-]]
+
+---
+
+[[neighbors/Sub-ideas/neighbors]]
