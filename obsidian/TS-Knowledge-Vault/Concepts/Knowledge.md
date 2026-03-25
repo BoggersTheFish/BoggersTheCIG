@@ -2,4 +2,4 @@
 
 ## Neighbors
 
-- [[truthful belief]] (propositional knowledge, weight=4)
+- [[truthful belief]] (propositional knowledge, weight=2)

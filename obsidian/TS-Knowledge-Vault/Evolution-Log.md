@@ -989,3 +989,30 @@ Tracks self-improvement cycles. See `eval/self_improve_log.jsonl` for machine-re
 
 - EXTRACT: Orphan Concepts _degree _ 2_ -> Orphan Concepts _degree _ 2_/Sub-ideas/qa-mechanics-qml-qmwpdualitytxt.md
 - EXTRACT: quantum-mechanics-wave-particle-dualitytxt -> quantum-mechanics-wave-particle-dualitytxt/Sub-ideas/neighbors.md
+
+## Extract & Merge Sub-ideas 2026-03-25 16:18 UTC
+
+- MERGE: ['Orphan Concepts _degree _ 2_', 'qa-mechanics-qml-qmwpdualitytxt'] -> Shared-Sub-ideas/neighbors.md
+- EXTRACT: neighbors -> neighbors/Sub-ideas/neighborshipstxt.md
+
+## Extract & Merge Sub-ideas 2026-03-25 16:18 UTC
+
+- EXTRACT: neighborshipstxt -> neighborshipstxt/Sub-ideas/neighbor-listtxt.md
+
+## Extract & Merge Sub-ideas 2026-03-25 16:18 UTC
+
+- EXTRACT: neighbor-listtxt -> neighbor-listtxt/Sub-ideas/neighbors.md
+
+## Extract & Merge Sub-ideas 2026-03-25 16:23 UTC
+
+- EXTRACT: Orphan Concepts _degree _ 2_ -> Orphan Concepts _degree _ 2_/Sub-ideas/neighbors.md
+- EXTRACT: neighbors -> neighbors/Sub-ideas/qm_nbrstxt.md
+
+## Auto-organize 2026-03-25 16:28 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/surrounded by parentheses The object is the target of knowledge e g K.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/surrounded by parentheses The object is the target of knowledge e g K.md
+
+## Extract & Merge Sub-ideas 2026-03-25 16:28 UTC
+
+- MERGE: ['Orphan Concepts _degree _ 2_', 'neighbors'] -> Shared-Sub-ideas/neighborqmach.md
+- EXTRACT: qm_nbrstxt -> qm_nbrstxt/Sub-ideas/neighbors.md

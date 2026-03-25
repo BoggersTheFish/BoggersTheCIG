@@ -4,8 +4,8 @@
 |---------|--------|
 | [[Orphan Concepts (degree < 2)]] | 6 |
 | [[separated by a comma]] | 4 |
+| [[surrounded by parentheses The object]] | 4 |
 | [[Cognitive architecture]] | 4 |
-| [[surrounded by parentheses The object]] | 3 |
 | [[Gravity]] | 2 |
 | [[blue]] | 2 |
 | [[familiarity with individuals]] | 2 |

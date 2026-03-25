@@ -3,4 +3,4 @@
 ## Neighbors
 
 - [[the target of knowledge e g Knowledge]] (is_a, weight=12)
-- [[the target of knowledge e g K]] (is_a, weight=2)
+- [[the target of knowledge e g K]] (is_a, weight=4)
