@@ -7,7 +7,6 @@
 - [[Wikipedia Knowledge]] (degree=1)
 - [[an awareness of facts]] (degree=1)
 - [[surrounded by parentheses The object is the target of knowledge e g Knowledge]] (degree=1)
-- [[the target of knowledge e g K]] (degree=1)
 - [[surrounded by parentheses The object is the target of knowledge e g K]] (degree=1)
 - [[practical skills in various fields]] (degree=1)
 - [[Science/Facts]] (degree=1)

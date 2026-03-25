@@ -3,8 +3,8 @@
 | Concept | Degree |
 |---------|--------|
 | [[Orphan Concepts (degree < 2)]] | 6 |
+| [[surrounded by parentheses The object]] | 5 |
 | [[separated by a comma]] | 4 |
-| [[surrounded by parentheses The object]] | 4 |
 | [[Cognitive architecture]] | 4 |
 | [[Gravity]] | 2 |
 | [[blue]] | 2 |

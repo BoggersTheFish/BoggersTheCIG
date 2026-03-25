@@ -1016,3 +1016,26 @@ Tracks self-improvement cycles. See `eval/self_improve_log.jsonl` for machine-re
 
 - MERGE: ['Orphan Concepts _degree _ 2_', 'neighbors'] -> Shared-Sub-ideas/neighborqmach.md
 - EXTRACT: qm_nbrstxt -> qm_nbrstxt/Sub-ideas/neighbors.md
+
+## Extract & Merge Sub-ideas 2026-03-25 20:45 UTC
+
+- MERGE: ['Orphan Concepts _degree _ 2_', 'neighborqmach'] -> Shared-Sub-ideas/neighbors.md
+- EXTRACT: neighbors -> neighbors/Sub-ideas/quantum-mechanics-wave-particle-dualitytxt.md
+
+## Extract & Merge Sub-ideas 2026-03-25 20:45 UTC
+
+- EXTRACT: quantum-mechanics-wave-particle-dualitytxt -> quantum-mechanics-wave-particle-dualitytxt/Sub-ideas/neighbor-experiencetxt.md
+
+## Extract & Merge Sub-ideas 2026-03-25 20:45 UTC
+
+- EXTRACT: neighbor-experiencetxt -> neighbor-experiencetxt/Sub-ideas/neighbors.md
+
+## Extract & Merge Sub-ideas 2026-03-25 20:51 UTC
+
+- EXTRACT: Orphan Concepts _degree _ 2_ -> Orphan Concepts _degree _ 2_/Sub-ideas/neighbors.md
+- EXTRACT: neighbors -> neighbors/Sub-ideas/quantum-mechanics-wave-particle-duality.md
+
+## Extract & Merge Sub-ideas 2026-03-25 20:56 UTC
+
+- MERGE: ['Orphan Concepts _degree _ 2_', 'neighbors'] -> Shared-Sub-ideas/-neighbor--quantum-mechanics-wave-particle-duality.md
+- EXTRACT: quantum-mechanics-wave-particle-duality -> quantum-mechanics-wave-particle-duality/Sub-ideas/neighbors.md
