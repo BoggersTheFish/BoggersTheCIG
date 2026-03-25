@@ -872,3 +872,38 @@ Tracks self-improvement cycles. See `eval/self_improve_log.jsonl` for machine-re
 ## Extract & Merge Sub-ideas 2026-03-24 20:57 UTC
 
 - MERGE: ['Orphan Concepts _degree _ 2_', 'sugressqrtlkjgdfbvhqfyxjwvhdfjsnjwjkmrqgtkfjgdgdsq'] -> Shared-Sub-ideas/neighbors.md
+
+## Extract & Merge Sub-ideas 2026-03-25 02:13 UTC
+
+- EXTRACT: Orphan Concepts _degree _ 2_ -> Orphan Concepts _degree _ 2_/Sub-ideas/quantum-mechanics_wikitxt.md
+
+## Extract & Merge Sub-ideas 2026-03-25 02:13 UTC
+
+- EXTRACT: quantum-mechanics_wikitxt -> quantum-mechanics_wikitxt/Sub-ideas/neighbors.md
+
+## Extract & Merge Sub-ideas 2026-03-25 02:13 UTC
+
+- EXTRACT: neighbors -> neighbors/Sub-ideas/quantum_mechanicswq2.md
+
+## Auto-organize 2026-03-25 02:18 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/_stocks_.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/_stocks_.md
+
+## Extract & Merge Sub-ideas 2026-03-25 02:18 UTC
+
+- EXTRACT: Orphan Concepts _degree _ 2_ -> Orphan Concepts _degree _ 2_/Sub-ideas/quantum-mechanics-wave-particle-dualitytxt.md
+- EXTRACT: quantum_mechanicswq2 -> quantum_mechanicswq2/Sub-ideas/neighbors.md
+
+## Auto-organize 2026-03-25 02:23 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/_iPhone_.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/_iPhone_.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Quantum Mechanics Wave Particle Duality 1 Word.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/Quantum Mechanics Wave Particle Duality 1 Word.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/separated by a comma and surrounded by parentheses The object.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/separated by a comma and surrounded by parentheses The object.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/_book_.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/_book_.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Scientists.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/Scientists.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/_black_.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/_black_.md
+
+## Extract & Merge Sub-ideas 2026-03-25 02:23 UTC
+
+- MERGE: ['Orphan Concepts _degree _ 2_', 'quantum-mechanics-wave-particle-dualitytxt'] -> Shared-Sub-ideas/neighbors.md
+- EXTRACT: neighbors -> neighbors/Sub-ideas/quantum-mechanics-wave-particle-dualitytxt.md
