@@ -1,6 +1,6 @@
 # Orphan Concepts (degree < 2)
 
-- [[Object]] (degree=1)
+- [[spacetime]] (degree=1)
 - [[sky]] (degree=1)
 - [[situations or practical skill]] (degree=1)
 - [[Relation Augmenting]] (degree=1)
@@ -51,6 +51,7 @@
 - [[Structure Used in]] (degree=1)
 - [[Scientists]] (degree=1)
 - [["advances", "neural networks"]] (degree=1)
+- [[theory]] (degree=1)
 - [[structure]] (degree=1)
 - [[mind]] (degree=1)
 - [[computational_instantiation]] (degree=1)

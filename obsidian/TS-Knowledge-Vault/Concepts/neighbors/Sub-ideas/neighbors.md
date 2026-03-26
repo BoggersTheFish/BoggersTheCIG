@@ -41,3 +41,11 @@ Used in: [[neighbors]]
 ---
 
 [[neighbors/Sub-ideas/neighborsbaffle]]
+
+---
+
+[[neighbors/Sub-ideas/quantum-mechanics_wave-particle-dualitytxt]]
+
+---
+
+[[neighbors/Sub-ideas/quan-tum-mechanics_wap-particle-dualitytxt]]

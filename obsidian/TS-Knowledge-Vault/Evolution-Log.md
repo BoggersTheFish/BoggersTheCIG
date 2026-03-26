@@ -1070,3 +1070,34 @@ Tracks self-improvement cycles. See `eval/self_improve_log.jsonl` for machine-re
 
 - MERGE: ['Orphan Concepts _degree _ 2_', 'suprisingly-conjunctive-meaningstxt'] -> Shared-Sub-ideas/neighbors.md
 - EXTRACT: neighbors -> neighbors/Sub-ideas/neighborqbwab-case-no-spaces-one-four-words.md
+
+## Extract & Merge Sub-ideas 2026-03-26 06:21 UTC
+
+- EXTRACT: Orphan Concepts _degree _ 2_ -> Orphan Concepts _degree _ 2_/Sub-ideas/neighbors.md
+- EXTRACT: neighborqbwab-case-no-spaces-one-four-words -> neighborqbwab-case-no-spaces-one-four-words/Sub-ideas/qa_sub-ideas_neighborsjson.md
+
+## Extract & Merge Sub-ideas 2026-03-26 06:22 UTC
+
+- EXTRACT: neighbors -> neighbors/Sub-ideas/neighbors.md
+- EXTRACT: qa_sub-ideas_neighborsjson -> qa_sub-ideas_neighborsjson/Sub-ideas/sugressuithe_subidea_shortfilenametxt.md
+
+## Extract & Merge Sub-ideas 2026-03-26 06:22 UTC
+
+- EXTRACT: sugressuithe_subidea_shortfilenametxt -> sugressuithe_subidea_shortfilenametxt/Sub-ideas/neighbors.md
+- EXTRACT: neighbors -> neighbors/Sub-ideas/quantum-mechanics_wave-particle-dualitytxt.md
+
+## Auto-organize 2026-03-26 06:27 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/as demonstrated through _Relation.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/External/as demonstrated through _Relation.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/the target of knowledge.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/External/the target of knowledge.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/_advances__ _neural networks_.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/External/_advances__ _neural networks_.md
+
+## Extract & Merge Sub-ideas 2026-03-26 06:27 UTC
+
+- MERGE: ['Orphan Concepts _degree _ 2_', 'quantum-mechanics_wave-particle-dualitytxt'] -> Shared-Sub-ideas/-neighbors--quantum-mechanics-no-space-or-extensio.md
+- EXTRACT: neighbors -> neighbors/Sub-ideas/neighbors.md
+
+## Extract & Merge Sub-ideas 2026-03-26 06:33 UTC
+
+- MERGE: ['-neighbors--quantum-mechanics-no-space-or-extensio', 'Orphan Concepts _degree _ 2_'] -> Shared-Sub-ideas/neighbors.md
+- EXTRACT: neighbors -> neighbors/Sub-ideas/quan-tum-mechanics_wap-particle-dualitytxt.md
