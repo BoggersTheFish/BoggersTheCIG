@@ -1039,3 +1039,34 @@ Tracks self-improvement cycles. See `eval/self_improve_log.jsonl` for machine-re
 
 - MERGE: ['Orphan Concepts _degree _ 2_', 'neighbors'] -> Shared-Sub-ideas/-neighbor--quantum-mechanics-wave-particle-duality.md
 - EXTRACT: quantum-mechanics-wave-particle-duality -> quantum-mechanics-wave-particle-duality/Sub-ideas/neighbors.md
+
+## Auto-organize 2026-03-26 02:17 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/practical skills in various fields.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/practical skills in various fields.md
+
+## Extract & Merge Sub-ideas 2026-03-26 02:18 UTC
+
+- MERGE: ['-neighbor--quantum-mechanics-wave-particle-duality', 'Orphan Concepts _degree _ 2_'] -> Shared-Sub-ideas/neighbors.md
+- EXTRACT: neighbors -> neighbors/Sub-ideas/qa-mech-part-wpa.md
+
+## Extract & Merge Sub-ideas 2026-03-26 02:18 UTC
+
+- EXTRACT: qa-mech-part-wpa -> qa-mech-part-wpa/Sub-ideas/neighbors.md
+
+## Extract & Merge Sub-ideas 2026-03-26 02:19 UTC
+
+- EXTRACT: neighbors -> neighbors/Sub-ideas/quantum-mechanics-wave-particle-duality-neighborst.md
+
+## Auto-organize 2026-03-26 02:24 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/the target of knowledge e g K Neighbors.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/the target of knowledge e g K Neighbors.md
+
+## Extract & Merge Sub-ideas 2026-03-26 02:24 UTC
+
+- EXTRACT: Orphan Concepts _degree _ 2_ -> Orphan Concepts _degree _ 2_/Sub-ideas/suprisingly-conjunctive-meaningstxt.md
+- EXTRACT: quantum-mechanics-wave-particle-duality-neighborst -> quantum-mechanics-wave-particle-duality-neighborst/Sub-ideas/neighbors.md
+
+## Extract & Merge Sub-ideas 2026-03-26 02:29 UTC
+
+- MERGE: ['Orphan Concepts _degree _ 2_', 'suprisingly-conjunctive-meaningstxt'] -> Shared-Sub-ideas/neighbors.md
+- EXTRACT: neighbors -> neighbors/Sub-ideas/neighborqbwab-case-no-spaces-one-four-words.md
