@@ -1,5 +1,16 @@
-# Orphan Concepts (degree < 2)
+# Qm_Wns
 
+Used in: [[-neighbors--gravity-degree1--spacetime-degree1--su]], [[Orphan Concepts _degree _ 2_]]
+
+---
+
+## Neighbors
+
+- [[Gravity]] (degree=1)
+- [[spacetime]] (degree=1)
+- [[Subject of Knowledge - Wikipedia]] (degree=1)
+- [[Object of Knowledge - Wikipedia]] (degree=1), weight=1)
+- [[spacetime]] (degree=1)
 - [[Subject of Knowledge - Wikipedia]] (degree=1)
 - [[Object of Knowledge - Wikipedia]] (degree=1)
 - [[sky]] (degree=1)
@@ -10,6 +21,7 @@
 - [[surrounded by parentheses The object is the target of knowledge e g Knowledge]] (degree=1)
 - [[surrounded by parentheses The object is the target of knowledge e g K]] (degree=1)
 - [[practical skills in various fields]] (degree=1)
+- [[Orphan Concepts (degree < 2)]] (degree=1)
 - [[1) Knowledge - Wikipedia Knowledge is an awareness of facts]] (degree=1)
 - [[or (3]] (degree=1)
 - [[(Subject)]] (degree=1)
@@ -20,7 +32,8 @@
 - [[mind]] (degree=1)
 - [[computational_instantiation]] (degree=1)
 - [["is"]] (degree=1)
-- [["is", "conscious"]] (degree=1)
+- [["is", weight=1)
+- [[Jaguar]] (degree=1)
 - [["black"]] (degree=1)
 - [[the target of knowledge e g K Neighbors]] (degree=1)
 - [[the target of knowledge e g Knowledge Neighbors]] (degree=1)
@@ -50,7 +63,8 @@
 - [[1) is the subject of the triple (Knowledge - Wikipedia Knowledge is an awareness of facts]] (degree=1)
 - [[or a practical skill]] (degree=1)
 - [[Subject) Knowledge (Relation) Object"]] (degree=1)
-- [[separated by a comma and surrounded by parentheses. The object is the target of knowledge (e.g., "Knowledge"]] (degree=1)
+- [[separated by a comma and surrounded by parentheses. The object is the target of knowledge (e.g., weight=1)
+- [[surrounded by parentheses]] (degree=1)
 - [[The object]] (degree=1)
 - [[the target of knowledge]] (degree=1)
 - [[Relation2]] (degree=1)
@@ -73,14 +87,17 @@
 - [[Space Subject Object W Used in]] (degree=1)
 - [[Augmenting]] (degree=1)
 - [[Knowledge - Wikipedia Knowledge]] (degree=1)
-- [[familiarity with individuals and situations, or practical skill]] (degree=1)
-- [[machine learning, graph matching,...]] (degree=1)
+- [[familiarity with individuals and situations, weight=1)
+- [[Relation, Object]] (degree=1)
+- [[machine learning, weight=1)
+- [[Neighbor Relations]] (degree=1)
 - [[Capabilities Used in]] (degree=1)
 - [[why the sky is blue]] (degree=1)
 - [[topic]] (degree=1)
 - [[such as thinking]] (degree=1)
 - [[or remembering]] (degree=1)
 - [[Scientists]] (degree=1)
-- [["advances", "neural networks"]] (degree=1)
+- [["advances", weight=1)
+- [[C]] (degree=1)
 - [[Relation3]] (degree=1)
-- [[Object3]] (degree=1)
+- [[Object3]] (degree=1), weight=1)

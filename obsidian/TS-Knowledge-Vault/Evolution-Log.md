@@ -1101,3 +1101,37 @@ Tracks self-improvement cycles. See `eval/self_improve_log.jsonl` for machine-re
 
 - MERGE: ['-neighbors--quantum-mechanics-no-space-or-extensio', 'Orphan Concepts _degree _ 2_'] -> Shared-Sub-ideas/neighbors.md
 - EXTRACT: neighbors -> neighbors/Sub-ideas/quan-tum-mechanics_wap-particle-dualitytxt.md
+
+## Extract & Merge Sub-ideas 2026-03-26 10:58 UTC
+
+- EXTRACT: Orphan Concepts _degree _ 2_ -> Orphan Concepts _degree _ 2_/Sub-ideas/neighbors.md
+- EXTRACT: quan-tum-mechanics_wap-particle-dualitytxt -> quan-tum-mechanics_wap-particle-dualitytxt/Sub-ideas/neighbor-01txt.md
+
+## Extract & Merge Sub-ideas 2026-03-26 10:59 UTC
+
+- EXTRACT: neighbor-01txt -> neighbor-01txt/Sub-ideas/quantum-mechanics_wave-particle-dualitybaa.md
+- EXTRACT: neighbors -> neighbors/Sub-ideas/neighbors.md
+
+## Extract & Merge Sub-ideas 2026-03-26 10:59 UTC
+
+- EXTRACT: neighbors -> neighbors/Sub-ideas/-neighbors--quantum-mechanics-degree1--wave-partic.md
+- EXTRACT: quantum-mechanics_wave-particle-dualitybaa -> quantum-mechanics_wave-particle-dualitybaa/Sub-ideas/neighbors.md
+
+## Auto-organize 2026-03-26 11:04 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Object of Knowledge - Wikipedia.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/Object of Knowledge - Wikipedia.md
+
+## Extract & Merge Sub-ideas 2026-03-26 11:05 UTC
+
+- MERGE: ['-neighbors--quantum-mechanics-degree1--wave-partic', 'Orphan Concepts _degree _ 2_'] -> Shared-Sub-ideas/-neighbors--gravity-degree1--spacetime-degree1--su.md
+- EXTRACT: neighbors -> neighbors/Sub-ideas/neighbors.md
+
+## Auto-organize 2026-03-26 11:10 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Wikipedia Knowledge.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Biology/Wikipedia Knowledge.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/_Is True_.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Biology/_Is True_.md
+
+## Extract & Merge Sub-ideas 2026-03-26 11:10 UTC
+
+- MERGE: ['-neighbors--gravity-degree1--spacetime-degree1--su', 'Orphan Concepts _degree _ 2_'] -> Shared-Sub-ideas/qm_wns.md
+- EXTRACT: neighbors -> neighbors/Sub-ideas/neighbors.md

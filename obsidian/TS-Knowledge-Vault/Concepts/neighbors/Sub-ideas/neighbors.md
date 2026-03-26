@@ -49,3 +49,11 @@ Used in: [[neighbors]]
 ---
 
 [[neighbors/Sub-ideas/quan-tum-mechanics_wap-particle-dualitytxt]]
+
+---
+
+[[neighbors/Sub-ideas/-neighbors--quantum-mechanics-degree1--wave-partic]]
+
+---
+
+[[neighbors/Sub-ideas/neighbors]]
