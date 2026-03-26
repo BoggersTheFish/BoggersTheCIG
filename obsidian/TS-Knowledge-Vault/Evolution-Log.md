@@ -1159,3 +1159,19 @@ Tracks self-improvement cycles. See `eval/self_improve_log.jsonl` for machine-re
 ## Extract & Merge Sub-ideas 2026-03-26 16:29 UTC
 
 - MERGE: ['Orphan Concepts _degree _ 2_', 'Suffix   Quantum Mechanics Wave Particle Dualityte', 'qmlbs-qmrts-qmspy-qmscti'] -> Shared-Sub-ideas/quantum-mechanics-wave-particle-duality-neighbors-.md
+
+## Auto-organize 2026-03-26 20:42 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Suffix   Quantum Mechanics Wave Particle Dualityte.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/Suffix   Quantum Mechanics Wave Particle Dualityte.md
+
+## Extract & Merge Sub-ideas 2026-03-26 20:42 UTC
+
+- MERGE: ['Orphan Concepts _degree _ 2_', 'Suffix   Quantum Mechanics Wave Particle Dualityte', 'quantum-mechanics-wave-particle-duality-neighbors-'] -> Shared-Sub-ideas/neighbors.md
+
+## Extract & Merge Sub-ideas 2026-03-26 20:48 UTC
+
+- EXTRACT: Orphan Concepts _degree _ 2_ -> Orphan Concepts _degree _ 2_/Sub-ideas/neighbors.md
+
+## Extract & Merge Sub-ideas 2026-03-26 20:54 UTC
+
+- MERGE: ['Orphan Concepts _degree _ 2_', 'neighbors'] -> Shared-Sub-ideas/neighbors.md

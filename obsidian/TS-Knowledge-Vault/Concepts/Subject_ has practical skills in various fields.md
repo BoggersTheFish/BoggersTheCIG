@@ -2,4 +2,4 @@
 
 ## Neighbors
 
-- [[as demonstrated through (Relation]] (such as science or technology, weight=4)
+- [[as demonstrated through (Relation]] (such as science or technology, weight=2)
