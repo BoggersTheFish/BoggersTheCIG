@@ -1,13 +1,18 @@
-# Orphan Concepts (degree < 2)
+# Quantum Mechanics Wave Particle Duality Neighbors 
+
+Used in: [[Orphan Concepts _degree _ 2_]], [[Suffix   Quantum Mechanics Wave Particle Dualityte]], [[qmlbs-qmrts-qmspy-qmscti]]
+
+---
 
 ## Neighbors
 
 - [[Gravity]] (degree=1)
 - [[spacetime]] (degree=1)
-- [[subject: "Neuro-symbolic AI - IBM Research"]] (degree=1)
-- [[object: "Artificial General Intelligence"]] (degree=1), weight=1)
-- [[subject: "Neuro-symbolic AI - IBM Research"]] (degree=1)
-- [[object: "Artificial General Intelligence"]] (degree=1)
+- [[Subject of Knowledge - Wikipedia]] (degree=1)
+- [[Object of Knowledge - Wikipedia]] (degree=1), weight=1)
+- [[spacetime]] (degree=1)
+- [[Subject of Knowledge - Wikipedia]] (degree=1)
+- [[Object of Knowledge - Wikipedia]] (degree=1)
 - [[sky]] (degree=1)
 - [[situations or practical skill]] (degree=1)
 - [[Relation Augmenting]] (degree=1)
@@ -28,12 +33,11 @@
 - [[computational_instantiation]] (degree=1)
 - [["is"]] (degree=1)
 - [["is", weight=1)
+- [[Jaguar]] (degree=1)
 - [["black"]] (degree=1)
-- [[the target of knowledge e g Knowledge Neighbors]] (degree=1)
 - [[the target of knowledge e g K Neighbors]] (degree=1)
+- [[the target of knowledge e g Knowledge Neighbors]] (degree=1)
 - [[Networks Used in]] (degree=1)
-- [[Relation3]] (degree=1)
-- [[Object3]] (degree=1)
 - [[Subject) has practical skills in various fields]] (degree=1)
 - [[as demonstrated through (Relation]] (degree=1)
 - [[Quantum Mechanics]] (degree=1)
@@ -60,6 +64,7 @@
 - [[or a practical skill]] (degree=1)
 - [[Subject) Knowledge (Relation) Object"]] (degree=1)
 - [[separated by a comma and surrounded by parentheses. The object is the target of knowledge (e.g., weight=1)
+- [[surrounded by parentheses]] (degree=1)
 - [[The object]] (degree=1)
 - [[the target of knowledge]] (degree=1)
 - [[Relation2]] (degree=1)
@@ -81,11 +86,11 @@
 - [[Neighbors Gravity Time]] (degree=1)
 - [[Space Subject Object W Used in]] (degree=1)
 - [[Augmenting]] (degree=1)
-- [[Subject of Knowledge - Wikipedia]] (degree=1)
-- [[Object of Knowledge - Wikipedia]] (degree=1)
 - [[Knowledge - Wikipedia Knowledge]] (degree=1)
 - [[familiarity with individuals and situations, weight=1)
-- [[machine learning, graph matching,...]] (degree=1)
+- [[Relation, Object]] (degree=1)
+- [[machine learning, weight=1)
+- [[Neighbor Relations]] (degree=1)
 - [[Capabilities Used in]] (degree=1)
 - [[why the sky is blue]] (degree=1)
 - [[topic]] (degree=1)
@@ -93,3 +98,6 @@
 - [[or remembering]] (degree=1)
 - [[Scientists]] (degree=1)
 - [["advances", weight=1)
+- [[C]] (degree=1)
+- [[Relation3]] (degree=1)
+- [[Object3]] (degree=1), weight=1)

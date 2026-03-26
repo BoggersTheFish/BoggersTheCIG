@@ -1135,3 +1135,27 @@ Tracks self-improvement cycles. See `eval/self_improve_log.jsonl` for machine-re
 
 - MERGE: ['-neighbors--gravity-degree1--spacetime-degree1--su', 'Orphan Concepts _degree _ 2_'] -> Shared-Sub-ideas/qm_wns.md
 - EXTRACT: neighbors -> neighbors/Sub-ideas/neighbors.md
+
+## Extract & Merge Sub-ideas 2026-03-26 16:18 UTC
+
+- MERGE: ['Orphan Concepts _degree _ 2_', 'qm_wns'] -> Shared-Sub-ideas/suffix---quantum-mechanics-wave-particle-dualityte.md
+
+## Extract & Merge Sub-ideas 2026-03-26 16:19 UTC
+
+- EXTRACT: suffix---quantum-mechanics-wave-particle-dualityte -> suffix---quantum-mechanics-wave-particle-dualityte/Sub-ideas/neighbors.md
+
+## Extract & Merge Sub-ideas 2026-03-26 16:19 UTC
+
+- EXTRACT: neighbors -> neighbors/Sub-ideas/quantum-mechanics-wave-particle-duality.md
+
+## Extract & Merge Sub-ideas 2026-03-26 16:24 UTC
+
+- MERGE: ['Orphan Concepts _degree _ 2_', 'Suffix   Quantum Mechanics Wave Particle Dualityte', 'quantum-mechanics-wave-particle-duality'] -> Shared-Sub-ideas/qmlbs-qmrts-qmspy-qmscti.md
+
+## Auto-organize 2026-03-26 16:29 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/object_ _Artificial General Intelligence_.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/object_ _Artificial General Intelligence_.md
+
+## Extract & Merge Sub-ideas 2026-03-26 16:29 UTC
+
+- MERGE: ['Orphan Concepts _degree _ 2_', 'Suffix   Quantum Mechanics Wave Particle Dualityte', 'qmlbs-qmrts-qmspy-qmscti'] -> Shared-Sub-ideas/quantum-mechanics-wave-particle-duality-neighbors-.md

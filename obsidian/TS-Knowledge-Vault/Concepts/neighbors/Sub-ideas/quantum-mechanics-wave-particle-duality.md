@@ -9,3 +9,7 @@ Used in: [[neighbors]]
 ---
 
 [[quantum-mechanics-wave-particle-duality/Sub-ideas/neighbors]]
+
+---
+
+[[Shared-Sub-ideas/qmlbs-qmrts-qmspy-qmscti]]
