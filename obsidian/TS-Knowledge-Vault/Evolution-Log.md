@@ -1226,3 +1226,33 @@ Tracks self-improvement cycles. See `eval/self_improve_log.jsonl` for machine-re
 ## Extract & Merge Sub-ideas 2026-03-27 06:33 UTC
 
 - MERGE: ['Orphan Concepts _degree _ 2_', 'neighbors'] -> Shared-Sub-ideas/neighbors.md
+
+## Auto-organize 2026-03-27 10:57 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Understanding.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/Understanding.md
+
+## Extract & Merge Sub-ideas 2026-03-27 10:57 UTC
+
+- EXTRACT: Orphan Concepts _degree _ 2_ -> Orphan Concepts _degree _ 2_/Sub-ideas/neighbors.md
+
+## Extract & Merge Sub-ideas 2026-03-27 10:57 UTC
+
+- EXTRACT: neighbors -> neighbors/Sub-ideas/-neighbors-a-collection-of-concepts-and-thoughts--.md
+
+## Extract & Merge Sub-ideas 2026-03-27 10:58 UTC
+
+- EXTRACT: -neighbors-a-collection-of-concepts-and-thoughts-- -> -neighbors-a-collection-of-concepts-and-thoughts--/Sub-ideas/neighbors.md
+
+## Auto-organize 2026-03-27 11:03 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Reality.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/Reality.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Facts.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/Facts.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/subject_ _Neuro-symbolic AI - IBM Research_.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/subject_ _Neuro-symbolic AI - IBM Research_.md
+
+## Extract & Merge Sub-ideas 2026-03-27 11:03 UTC
+
+- MERGE: ['Orphan Concepts _degree _ 2_', 'neighbors'] -> Shared-Sub-ideas/neighbors.md
+
+## Extract & Merge Sub-ideas 2026-03-27 11:09 UTC
+
+- EXTRACT: Orphan Concepts _degree _ 2_ -> Orphan Concepts _degree _ 2_/Sub-ideas/neighbors.md

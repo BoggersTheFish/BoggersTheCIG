@@ -2,4 +2,4 @@
 
 ## Neighbors
 
-- [[1856]] (born on October 31, weight=2)
+- [[1856]] (born on October 31, weight=4)

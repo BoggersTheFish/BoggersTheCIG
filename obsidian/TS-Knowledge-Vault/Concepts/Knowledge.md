@@ -3,7 +3,7 @@
 ## Neighbors
 
 - [[truthful belief]] (propositional knowledge, weight=2)
-- [[Facts]] (Propositional, weight=1)
-- [[Reality]] (Propriety, weight=1)
-- [[Understanding]] (Perspicacity, weight=1)
-- [[Consciousness]] (Awareness, weight=1)
+- [[Facts]] (Propositional, weight=2)
+- [[Reality]] (Propriety, weight=2)
+- [[Understanding]] (Perspicacity, weight=2)
+- [[Consciousness]] (Awareness, weight=2)
