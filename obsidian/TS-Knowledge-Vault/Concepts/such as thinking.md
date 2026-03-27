@@ -3,4 +3,4 @@
 ## Neighbors
 
 - [[or remembering]] (reasoning, weight=2)
-- [[or mem'r'ng]] (reasoning, weight=1)
+- [[or mem'r'ng]] (reasoning, weight=2)

@@ -1,6 +1,6 @@
 # Orphan Concepts (degree < 2)
 
-- [[or mem'r'ng]] (degree=1)
+- [[spacetime]] (degree=1)
 - [[sky]] (degree=1)
 - [[situations or practical skill]] (degree=1)
 - [[Relation Augmenting]] (degree=1)
@@ -84,5 +84,6 @@
 - [[why the sky is blue]] (degree=1)
 - [[topic]] (degree=1)
 - [[or remembering]] (degree=1)
+- [[or mem'r'ng]] (degree=1)
 - [[Scientists]] (degree=1)
 - [["advances", "neural networks"]] (degree=1)
