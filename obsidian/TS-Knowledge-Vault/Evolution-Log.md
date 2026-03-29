@@ -1499,3 +1499,27 @@ Tracks self-improvement cycles. See `eval/self_improve_log.jsonl` for machine-re
 ## Extract & Merge Sub-ideas 2026-03-29 15:49 UTC
 
 - MERGE: ['Orphan Concepts _degree _ 2_', 'neighborsbaab-kebaab-case-no-spaces'] -> Shared-Sub-ideas/qm-wnrs-wpd.md
+
+## Extract & Merge Sub-ideas 2026-03-29 20:40 UTC
+
+- MERGE: ['Orphan Concepts _degree _ 2_', 'qm-wnrs-wpd'] -> Shared-Sub-ideas/neighbors.md
+
+## Auto-organize 2026-03-29 20:46 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/subject1.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/subject1.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/object1.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/object1.md
+
+## Extract & Merge Sub-ideas 2026-03-29 20:46 UTC
+
+- EXTRACT: Orphan Concepts _degree _ 2_ -> Orphan Concepts _degree _ 2_/Sub-ideas/quantum-mechanicswtp-kebaab-case-no-spacesexample-.md
+
+## Auto-organize 2026-03-29 20:51 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/rule-based_ probabilistic.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/rule-based_ probabilistic.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/the target of knowledge e g Knowledge Neighbors.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Hypotheses/the target of knowledge e g Knowledge Neighbors.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/or mem_r_ng.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Hypotheses/or mem_r_ng.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/practical skills in various fields.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Hypotheses/practical skills in various fields.md
+
+## Extract & Merge Sub-ideas 2026-03-29 20:51 UTC
+
+- MERGE: ['Orphan Concepts _degree _ 2_', 'quantum-mechanicswtp-kebaab-case-no-spacesexample-'] -> Shared-Sub-ideas/sub-ideaqmechanicswpt.md
