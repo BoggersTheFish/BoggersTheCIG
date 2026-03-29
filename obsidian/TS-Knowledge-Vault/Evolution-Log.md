@@ -1465,3 +1465,37 @@ Tracks self-improvement cycles. See `eval/self_improve_log.jsonl` for machine-re
 ## Extract & Merge Sub-ideas 2026-03-29 10:52 UTC
 
 - MERGE: ['Orphan Concepts _degree _ 2_', 'neighbors'] -> Shared-Sub-ideas/neighbors.md
+
+## Auto-organize 2026-03-29 15:38 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/What Do You Mimic_.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Hypotheses/What Do You Mimic_.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Knowledge.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Hypotheses/Knowledge.md
+
+## Extract & Merge Sub-ideas 2026-03-29 15:38 UTC
+
+- EXTRACT: Orphan Concepts _degree _ 2_ -> Orphan Concepts _degree _ 2_/Sub-ideas/neighbors.md
+
+## Extract & Merge Sub-ideas 2026-03-29 15:38 UTC
+
+- EXTRACT: neighbors -> neighbors/Sub-ideas/neighbors.md
+
+## Extract & Merge Sub-ideas 2026-03-29 15:39 UTC
+
+- EXTRACT: neighbors -> neighbors/Sub-ideas/succinct-case-no-spaces-no-extension.md
+
+## Auto-organize 2026-03-29 15:44 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/surrounded by parentheses.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Biology/surrounded by parentheses.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/surrounded by parentheses The object is the target of knowledge e g Knowledge.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Biology/surrounded by parentheses The object is the target of knowledge e g Knowledge.md
+
+## Extract & Merge Sub-ideas 2026-03-29 15:45 UTC
+
+- MERGE: ['Orphan Concepts _degree _ 2_', 'succinct-case-no-spaces-no-extension'] -> Shared-Sub-ideas/neighborsbaab-kebaab-case-no-spaces.md
+
+## Auto-organize 2026-03-29 15:49 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Relation_ Created_ Object_ Infectious Diseases.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/Relation_ Created_ Object_ Infectious Diseases.md
+
+## Extract & Merge Sub-ideas 2026-03-29 15:49 UTC
+
+- MERGE: ['Orphan Concepts _degree _ 2_', 'neighborsbaab-kebaab-case-no-spaces'] -> Shared-Sub-ideas/qm-wnrs-wpd.md
