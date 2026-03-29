@@ -169,3 +169,7 @@ Used in: [[Orphan Concepts _degree _ 2_]]
 ---
 
 [[neighbors/Sub-ideas/neighbors]]
+
+---
+
+[[Shared-Sub-ideas/neighbors]]
