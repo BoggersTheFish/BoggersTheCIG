@@ -1,6 +1,6 @@
 # Orphan Concepts (degree < 2)
 
-- [[Object]] (degree=1)
+- [[spacetime]] (degree=1)
 - [[sky]] (degree=1)
 - [[situations or practical skill]] (degree=1)
 - [[Relation Augmenting]] (degree=1)
@@ -76,6 +76,7 @@
 - [[Understanding]] (degree=1)
 - [[Consciousness]] (degree=1)
 - [[situations]] (degree=1)
+- [[Object]] (degree=1)
 - [[A]] (degree=1)
 - [[Neighbors Gravity Time]] (degree=1)
 - [[Space Subject Object W Used in]] (degree=1)

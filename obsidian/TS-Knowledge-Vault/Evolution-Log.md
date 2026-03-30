@@ -1598,3 +1598,29 @@ Tracks self-improvement cycles. See `eval/self_improve_log.jsonl` for machine-re
 ## Extract & Merge Sub-ideas 2026-03-30 11:20 UTC
 
 - EXTRACT: Orphan Concepts _degree _ 2_ -> Orphan Concepts _degree _ 2_/Sub-ideas/-neighbors--quantum-mechanics-degree1--wave-partic.md
+
+## Extract & Merge Sub-ideas 2026-03-30 16:15 UTC
+
+- MERGE: ['-neighbors--quantum-mechanics-degree1--wave-partic', 'Orphan Concepts _degree _ 2_'] -> Shared-Sub-ideas/-neighbors--gravity-degree1--spacetime-1--subject-.md
+
+## Extract & Merge Sub-ideas 2026-03-30 16:15 UTC
+
+- EXTRACT: -neighbors--gravity-degree1--spacetime-1--subject- -> -neighbors--gravity-degree1--spacetime-1--subject-/Sub-ideas/qa-neighborstxt.md
+
+## Extract & Merge Sub-ideas 2026-03-30 16:15 UTC
+
+- EXTRACT: qa-neighborstxt -> qa-neighborstxt/Sub-ideas/neighbors.md
+
+## Extract & Merge Sub-ideas 2026-03-30 16:21 UTC
+
+- MERGE: ['Orphan Concepts _degree _ 2_', 'neighbors'] -> Shared-Sub-ideas/qm-wave-particle-dualitywpdualitytxt.md
+
+## Auto-organize 2026-03-30 16:26 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/nded by parentheses The object.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/nded by parentheses The object.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Money.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Philosophy/Money.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Relation Augmenting.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Philosophy/Relation Augmenting.md
+
+## Extract & Merge Sub-ideas 2026-03-30 16:26 UTC
+
+- MERGE: ['Orphan Concepts _degree _ 2_', 'qm-wave-particle-dualitywpdualitytxt'] -> Shared-Sub-ideas/neighbors.md
