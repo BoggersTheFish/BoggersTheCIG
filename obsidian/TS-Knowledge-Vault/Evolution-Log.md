@@ -1552,3 +1552,29 @@ Tracks self-improvement cycles. See `eval/self_improve_log.jsonl` for machine-re
 ## Extract & Merge Sub-ideas 2026-03-30 02:45 UTC
 
 - MERGE: ['Orphan Concepts _degree _ 2_', 'neighbors'] -> Shared-Sub-ideas/qm_neighborstxt.md
+
+## Extract & Merge Sub-ideas 2026-03-30 07:00 UTC
+
+- MERGE: ['Orphan Concepts _degree _ 2_', 'qm_neighborstxt'] -> Shared-Sub-ideas/sub-idea-quantum-mechanics-wave-particle-dualityfi.md
+
+## Extract & Merge Sub-ideas 2026-03-30 07:01 UTC
+
+- EXTRACT: sub-idea-quantum-mechanics-wave-particle-dualityfi -> sub-idea-quantum-mechanics-wave-particle-dualityfi/Sub-ideas/neighbors.md
+
+## Extract & Merge Sub-ideas 2026-03-30 07:01 UTC
+
+- EXTRACT: neighbors -> neighbors/Sub-ideas/quantum-mechanics-wave-particle-duality.md
+
+## Auto-organize 2026-03-30 07:06 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/computational_instantiation.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Mathematics/computational_instantiation.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/familiarity with individuals and situations_ or practical skill.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Mathematics/familiarity with individuals and situations_ or practical skill.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/_advances__ _neural networks_.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Mathematics/_advances__ _neural networks_.md
+
+## Extract & Merge Sub-ideas 2026-03-30 07:06 UTC
+
+- MERGE: ['Orphan Concepts _degree _ 2_', 'quantum-mechanics-wave-particle-duality'] -> Shared-Sub-ideas/neighbors.md
+
+## Extract & Merge Sub-ideas 2026-03-30 07:11 UTC
+
+- EXTRACT: Orphan Concepts _degree _ 2_ -> Orphan Concepts _degree _ 2_/Sub-ideas/-neighborsgravitydegree1-spacetimedegree1-subjectd.md
