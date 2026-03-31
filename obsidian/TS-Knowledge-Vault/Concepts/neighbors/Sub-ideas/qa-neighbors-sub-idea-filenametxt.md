@@ -1,27 +1,13 @@
-# Orphan Concepts (degree < 2)
+# Qa Neighbors Sub Idea Filenametxt
+
+Used in: [[neighbors]]
+
+---
 
 ## Neighbors
 
 - [[Gravity]] (degree=1)
 - [[spacetime]] (degree=1)
-- [[such as thinking]] (degree=1)
-- [[or analysis]] (degree=1)
-- [["COGNITIVE Definition & Meaning - Merriae/Webster The meaning of Cognitive is of]] (degree=1)
-- [[being, weight=1)
-- [[token.lower()]] (degree=1)
-- [[dialect="american"]] (degree=1)
-- [[triplet[0]]] (degree=1)
-- [[triplet[1], weight=1)
-- [[subject]] (degree=1)
-- [[object]] (degree=1), weight=1)
-- [[spacetime]] (degree=1)
-- [[or analysis]] (degree=1)
-- [["COGNITIVE Definition & Meaning - Merriae/Webster The meaning of Cognitive is of]] (degree=1)
-- [[being, weight=1)
-- [[dialect="american"]] (degree=1)
-- [[triplet[0]]] (degree=1)
-- [[triplet[1], weight=1)
-- [[object]] (degree=1)
 - [[sky]] (degree=1)
 - [[situations or practical skill]] (degree=1)
 - [[Relation Augmenting]] (degree=1)
@@ -31,8 +17,6 @@
 - [[surrounded by parentheses The object is the target of knowledge e g K]] (degree=1)
 - [[practical skills in various fields]] (degree=1)
 - [[nded by parentheses The object]] (degree=1)
-- [[Webster The meaning of Cognitive]] (degree=1)
-- [[of]] (degree=1)
 - [[1) Knowledge - Wikipedia Knowledge is an awareness of facts]] (degree=1)
 - [[or (3]] (degree=1)
 - [[(Subject)]] (degree=1)
@@ -65,6 +49,8 @@
 - [[Alice]] (degree=1)
 - [["book"]] (degree=1)
 - [[Sub Ideaneighborhubskebaab Case With No Spaces]] (degree=1)
+- [[subject]] (degree=1)
+- [[object]] (degree=1)
 - [[Earth]] (degree=1)
 - [[gravity]] (degree=1)
 - [[Brown Bear]] (degree=1)
@@ -113,4 +99,10 @@
 - [[rule-based, probabilistic]] (degree=1)
 - [[Relation: Created, weight=1)
 - [[subject: "Neuro-symbolic AI - IBM Research"]] (degree=1)
-- [[object: "Artificial General Intelligence"]] (degree=1), weight=1)
+- [[object: "Artificial General Intelligence"]] (degree=1)
+- [[Neighbor Relations]] (degree=1)
+- [[Capabilities Used in]] (degree=1)
+- [[why the sky is blue]] (degree=1)
+- [[topic]] (degree=1)
+- [[or remembering]] (degree=1)
+- [[or mem'r'ng]] (degree=1), weight=1)

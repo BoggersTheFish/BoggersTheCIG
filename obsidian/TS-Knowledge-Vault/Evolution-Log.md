@@ -1669,3 +1669,39 @@ Tracks self-improvement cycles. See `eval/self_improve_log.jsonl` for machine-re
 ## Extract & Merge Sub-ideas 2026-03-31 02:32 UTC
 
 - EXTRACT: Orphan Concepts _degree _ 2_ -> Orphan Concepts _degree _ 2_/Sub-ideas/sub-idea_quantum-mechanics-wave-particle-duality-n.md
+
+## Extract & Merge Sub-ideas 2026-03-31 06:23 UTC
+
+- MERGE: ['Orphan Concepts _degree _ 2_', 'sub-idea_quantum-mechanics-wave-particle-duality-n'] -> Shared-Sub-ideas/suffix-to-file-quantum-mechanics-wave-particle-dua.md
+
+## Extract & Merge Sub-ideas 2026-03-31 06:24 UTC
+
+- EXTRACT: suffix-to-file-quantum-mechanics-wave-particle-dua -> suffix-to-file-quantum-mechanics-wave-particle-dua/Sub-ideas/neighbors.md
+
+## Extract & Merge Sub-ideas 2026-03-31 06:25 UTC
+
+- EXTRACT: neighbors -> neighbors/Sub-ideas/neighbor-augmenting-skillmd.md
+
+## Auto-organize 2026-03-31 06:31 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/of.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/of.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/or analysis.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/or analysis.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Relation_ Created_ Object_ Infectious Diseases.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Biology/Relation_ Created_ Object_ Infectious Diseases.md
+
+## Extract & Merge Sub-ideas 2026-03-31 06:32 UTC
+
+- EXTRACT: Orphan Concepts _degree _ 2_ -> Orphan Concepts _degree _ 2_/Sub-ideas/quanta-mechanics-wave-particle-dualityexplanation-.md
+- EXTRACT: neighbor-augmenting-skillmd -> neighbor-augmenting-skillmd/Sub-ideas/neighbors.md
+
+## Auto-organize 2026-03-31 06:38 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/triplet_0_.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/triplet_0_.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/being_ or involving conscious intellectual activity _such as thinking_ reasoning_ or analysis.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/being_ or involving conscious intellectual activity _such as thinking_ reasoning_ or analysis.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/dialect__american_.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/dialect__american_.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/_advances__ _neural networks_.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Biology/_advances__ _neural networks_.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/A.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Biology/A.md
+
+## Extract & Merge Sub-ideas 2026-03-31 06:38 UTC
+
+- MERGE: ['Orphan Concepts _degree _ 2_', 'quanta-mechanics-wave-particle-dualityexplanation-'] -> Shared-Sub-ideas/neighbors.md
+- EXTRACT: neighbors -> neighbors/Sub-ideas/qa-neighbors-sub-idea-filenametxt.md
