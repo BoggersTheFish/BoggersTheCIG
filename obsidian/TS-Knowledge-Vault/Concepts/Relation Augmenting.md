@@ -2,4 +2,4 @@
 
 ## Neighbors
 
-- [[combining the strengths of statistical AI]] (related_to, weight=16)
+- [[combining the strengths of statistical AI]] (related_to, weight=18)

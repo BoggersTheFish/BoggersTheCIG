@@ -2,7 +2,7 @@
 
 | Concept | Degree |
 |---------|--------|
-| [[Orphan Concepts (degree < 2)]] | 6 |
+| [[Orphan Concepts (degree < 2)]] | 7 |
 | [[surrounded by parentheses The object]] | 5 |
 | [[Knowledge]] | 5 |
 | [[separated by a comma]] | 4 |
@@ -11,4 +11,4 @@
 | [[the target of knowledge e g Knowledge]] | 3 |
 | [[such as thinking]] | 3 |
 | [[Gravity]] | 2 |
-| [[blue]] | 2 |
+| [[spacetime]] | 2 |
