@@ -65,3 +65,7 @@ Used in: [[neighbors]]
 ---
 
 [[neighbors/Sub-ideas/succinct-case-no-spaces-no-extension]]
+
+---
+
+[[Shared-Sub-ideas/neighbors]]

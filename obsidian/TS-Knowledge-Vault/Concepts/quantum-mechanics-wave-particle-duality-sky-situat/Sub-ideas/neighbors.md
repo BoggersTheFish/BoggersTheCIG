@@ -9,3 +9,7 @@ Used in: [[quantum-mechanics-wave-particle-duality-sky-situat]]
 ---
 
 [[neighbors/Sub-ideas/-neighbor]]
+
+---
+
+[[neighbors/Sub-ideas/neighbors]]

@@ -1705,3 +1705,37 @@ Tracks self-improvement cycles. See `eval/self_improve_log.jsonl` for machine-re
 
 - MERGE: ['Orphan Concepts _degree _ 2_', 'quanta-mechanics-wave-particle-dualityexplanation-'] -> Shared-Sub-ideas/neighbors.md
 - EXTRACT: neighbors -> neighbors/Sub-ideas/qa-neighbors-sub-idea-filenametxt.md
+
+## Extract & Merge Sub-ideas 2026-03-31 11:01 UTC
+
+- EXTRACT: Orphan Concepts _degree _ 2_ -> Orphan Concepts _degree _ 2_/Sub-ideas/neighbors.md
+- EXTRACT: qa-neighbors-sub-idea-filenametxt -> qa-neighbors-sub-idea-filenametxt/Sub-ideas/quantum-mechanics-wave-particle-duality-sky-situat.md
+
+## Extract & Merge Sub-ideas 2026-03-31 11:01 UTC
+
+- EXTRACT: neighbors -> neighbors/Sub-ideas/quantum-mechanics_3nvptxt.md
+- EXTRACT: quantum-mechanics-wave-particle-duality-sky-situat -> quantum-mechanics-wave-particle-duality-sky-situat/Sub-ideas/neighbors.md
+
+## Extract & Merge Sub-ideas 2026-03-31 11:02 UTC
+
+- EXTRACT: quantum-mechanics_3nvptxt -> quantum-mechanics_3nvptxt/Sub-ideas/quantum-mechanics-wave-particle-duality.md
+- EXTRACT: neighbors -> neighbors/Sub-ideas/neighbors.md
+
+## Auto-organize 2026-03-31 11:07 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/_COGNITIVE Definition _ Meaning - Merriae_Webster The meaning of Cognitive is of.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/_COGNITIVE Definition _ Meaning - Merriae_Webster The meaning of Cognitive is of.md
+
+## Extract & Merge Sub-ideas 2026-03-31 11:08 UTC
+
+- MERGE: ['Orphan Concepts _degree _ 2_', 'neighbors'] -> Shared-Sub-ideas/neighbors.md
+- EXTRACT: quantum-mechanics-wave-particle-duality -> quantum-mechanics-wave-particle-duality/Sub-ideas/quantum-mechanics_wave-particle-dualitytxt.md
+
+## Auto-organize 2026-03-31 11:13 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/triplet_1__ _____ triplet_2_.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/triplet_1__ _____ triplet_2_.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/such as thinking.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Hypotheses/such as thinking.md
+
+## Extract & Merge Sub-ideas 2026-03-31 11:13 UTC
+
+- EXTRACT: Orphan Concepts _degree _ 2_ -> Orphan Concepts _degree _ 2_/Sub-ideas/sub-ideakaibab-case-no-spacestxt.md
+- EXTRACT: quantum-mechanics_wave-particle-dualitytxt -> quantum-mechanics_wave-particle-dualitytxt/Sub-ideas/neighbors.md

@@ -1,4 +1,8 @@
-# Orphan Concepts (degree < 2)
+# Sub Ideakaibab Case No Spacestxt
+
+Used in: [[Orphan Concepts _degree _ 2_]]
+
+---
 
 ## Neighbors
 
