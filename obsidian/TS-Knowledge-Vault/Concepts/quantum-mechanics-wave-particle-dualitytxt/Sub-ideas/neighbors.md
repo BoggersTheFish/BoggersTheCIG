@@ -9,3 +9,11 @@ Used in: [[quantum-mechanics-wave-particle-dualitytxt]]
 ---
 
 [[neighbors/Sub-ideas/neighborshipstxt]]
+
+---
+
+[[neighbors/Sub-ideas/neighbors]]
+
+---
+
+[[neighbors/Sub-ideas/sub-ideaneighbors]]

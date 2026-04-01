@@ -1,6 +1,6 @@
 # Quantum Mechanics Wave Particle Dualitytxt
 
-Used in: [[sub-ideakaebischemeabebaqa-mechansics-wpt-particle]]
+Used in: [[qa-mechanics-wptdtext-neighboring-quantum-mechanic]]
 
 ---
 

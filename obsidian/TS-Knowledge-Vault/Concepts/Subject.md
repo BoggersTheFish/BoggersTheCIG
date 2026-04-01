@@ -2,5 +2,5 @@
 
 ## Neighbors
 
-- [[practical skills in various fields]] (has, weight=8)
-- [[Object]] (Relation, weight=2)
+- [[practical skills in various fields]] (has, weight=10)
+- [[Object]] (Relation, weight=4)
