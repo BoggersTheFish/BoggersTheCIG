@@ -77,3 +77,7 @@ Used in: [[neighbors]]
 ---
 
 [[Shared-Sub-ideas/neighbors]]
+
+---
+
+[[neighbors/Sub-ideas/sub-ideakaibab-case-no-spaces-suffix_qaumechana]]
