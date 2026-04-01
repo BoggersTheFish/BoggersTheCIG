@@ -1,13 +1,25 @@
-# Orphan Concepts (degree < 2)
+# Neighbors
+
+Used in: [[-neighbors--gravitydegree1--spacetimedegree1--such]]
+
+---
 
 ## Neighbors
 
 - [[Gravity]] (degree=1)
 - [[spacetime]] (degree=1)
 - [[such as thinking]] (degree=1)
-- [[or remembering]] (degree=1), weight=1)
+- [[or ...]] (degree=1)
+- [[(triplet[0]]] (degree=1)
+- [[triplet[2]]] (degree=1)
+- [[Subject)]] (degree=1)
+- [[(Relation]] (degree=1), weight=1)
 - [[spacetime]] (degree=1)
-- [[or remembering]] (degree=1)
+- [[or ...]] (degree=1)
+- [[(triplet[0]]] (degree=1)
+- [[triplet[2]]] (degree=1)
+- [[Subject)]] (degree=1)
+- [[(Relation]] (degree=1)
 - [[sky]] (degree=1)
 - [[situations or practical skill]] (degree=1)
 - [[Relation Augmenting]] (degree=1)
@@ -71,8 +83,6 @@
 - [[surrounded by parentheses]] (degree=1)
 - [[The object]] (degree=1)
 - [[the target of knowledge]] (degree=1)
-- [[Subject)]] (degree=1)
-- [[(Relation]] (degree=1)
 - [[Relation2]] (degree=1)
 - [[Object2]] (degree=1)
 - [[1) the concept itself (e.g.]] (degree=1)
@@ -90,7 +100,6 @@
 - [[Understanding]] (degree=1)
 - [[Consciousness]] (degree=1)
 - [[situations]] (degree=1)
-- [[Object]] (degree=1)
 - [[A]] (degree=1)
 - [[token.lower()]] (degree=1)
 - [[dialect="american"]] (degree=1)
@@ -105,4 +114,3 @@
 - [[machine learning, weight=1)
 - [[rule-based, probabilistic]] (degree=1)
 - [[Relation: Created, weight=1)
-- [[subject: "Neuro-symbolic AI - IBM Research"]] (degree=1), weight=1)

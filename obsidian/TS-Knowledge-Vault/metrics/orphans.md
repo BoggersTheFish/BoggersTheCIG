@@ -1,6 +1,6 @@
 # Orphan Concepts (degree < 2)
 
-- [[spacetime]] (degree=1)
+- [[or remembering]] (degree=1)
 - [[sky]] (degree=1)
 - [[situations or practical skill]] (degree=1)
 - [[Relation Augmenting]] (degree=1)

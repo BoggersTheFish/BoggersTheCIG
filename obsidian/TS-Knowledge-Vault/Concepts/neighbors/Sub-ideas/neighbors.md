@@ -85,3 +85,7 @@ Used in: [[neighbors]]
 ---
 
 [[neighbors/Sub-ideas/neighbors]]
+
+---
+
+[[neighbors/Sub-ideas/-neighbors--gravitydegree1--spacetimedegree1--such]]

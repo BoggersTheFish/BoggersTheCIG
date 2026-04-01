@@ -1865,3 +1865,33 @@ Tracks self-improvement cycles. See `eval/self_improve_log.jsonl` for machine-re
 
 - MERGE: ['-neighbors--qm-degree1-quantum-mechanics--wpt-degr', 'Orphan Concepts _degree _ 2_'] -> Shared-Sub-ideas/neighbors.md
 - EXTRACT: neighbors -> neighbors/Sub-ideas/sub-ideaneighbors.md
+
+## Extract & Merge Sub-ideas 2026-04-01 11:03 UTC
+
+- EXTRACT: Orphan Concepts _degree _ 2_ -> Orphan Concepts _degree _ 2_/Sub-ideas/neighbors.md
+- EXTRACT: sub-ideaneighbors -> sub-ideaneighbors/Sub-ideas/neighbor-related.md
+
+## Extract & Merge Sub-ideas 2026-04-01 11:04 UTC
+
+- EXTRACT: neighbors -> neighbors/Sub-ideas/succinct_filenametxt.md
+- EXTRACT: neighbor-related -> neighbor-related/Sub-ideas/neighbors.md
+
+## Extract & Merge Sub-ideas 2026-04-01 11:04 UTC
+
+- EXTRACT: succinct_filenametxt -> succinct_filenametxt/Sub-ideas/quantum-mechanics-wave-particle-dualitymd.md
+- EXTRACT: neighbors -> neighbors/Sub-ideas/neighbors.md
+
+## Extract & Merge Sub-ideas 2026-04-01 11:11 UTC
+
+- MERGE: ['Orphan Concepts _degree _ 2_', 'quantum-mechanics-wave-particle-dualitymd'] -> Shared-Sub-ideas/neighbors.md
+- EXTRACT: neighbors -> neighbors/Sub-ideas/-neighbors--gravitydegree1--spacetimedegree1--such.md
+
+## Auto-organize 2026-04-01 11:17 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Networks Used in.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Biology/Networks Used in.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/_COGNITIVE Definition _ Meaning - Merriae_Webster The meaning of Cognitive is of.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Biology/_COGNITIVE Definition _ Meaning - Merriae_Webster The meaning of Cognitive is of.md
+
+## Extract & Merge Sub-ideas 2026-04-01 11:17 UTC
+
+- EXTRACT: Orphan Concepts _degree _ 2_ -> Orphan Concepts _degree _ 2_/Sub-ideas/suqmwpdtxtkebaab-case-no-spaces-file-extension-add.md
+- EXTRACT: -neighbors--gravitydegree1--spacetimedegree1--such -> -neighbors--gravitydegree1--spacetimedegree1--such/Sub-ideas/neighbors.md
