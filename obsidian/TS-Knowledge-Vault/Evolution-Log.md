@@ -1895,3 +1895,24 @@ Tracks self-improvement cycles. See `eval/self_improve_log.jsonl` for machine-re
 
 - EXTRACT: Orphan Concepts _degree _ 2_ -> Orphan Concepts _degree _ 2_/Sub-ideas/suqmwpdtxtkebaab-case-no-spaces-file-extension-add.md
 - EXTRACT: -neighbors--gravitydegree1--spacetimedegree1--such -> -neighbors--gravitydegree1--spacetimedegree1--such/Sub-ideas/neighbors.md
+
+## Extract & Merge Sub-ideas 2026-04-01 16:15 UTC
+
+- MERGE: ['Orphan Concepts _degree _ 2_', 'suqmwpdtxtkebaab-case-no-spaces-file-extension-add'] -> Shared-Sub-ideas/neighbors.md
+- EXTRACT: neighbors -> neighbors/Sub-ideas/suggested-filename-neighborhood.md
+
+## Extract & Merge Sub-ideas 2026-04-01 16:16 UTC
+
+- EXTRACT: suggested-filename-neighborhood -> suggested-filename-neighborhood/Sub-ideas/neighbors.md
+
+## Extract & Merge Sub-ideas 2026-04-01 16:16 UTC
+
+- EXTRACT: neighbors -> neighbors/Sub-ideas/quantum_mechanics-wave-particle-duality.md
+
+## Extract & Merge Sub-ideas 2026-04-01 16:24 UTC
+
+- MERGE: ['Orphan Concepts _degree _ 2_', 'quantum_mechanics-wave-particle-duality'] -> Shared-Sub-ideas/quantum-mechanics-wave-particle-dualitytxt.md
+
+## Extract & Merge Sub-ideas 2026-04-01 16:30 UTC
+
+- EXTRACT: Orphan Concepts _degree _ 2_ -> Orphan Concepts _degree _ 2_/Sub-ideas/-neighbors--gravity-degree1--spacetime-degree1--su.md
