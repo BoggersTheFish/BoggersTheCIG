@@ -2,7 +2,7 @@
 
 ## Neighbors
 
-- [[or remembering]] (reasoning, weight=6)
+- [[or remembering]] (reasoning, weight=4)
 - [[or mem'r'ng]] (reasoning, weight=4)
 - [[or analysis]] (reasoning, weight=4)
 - [[or ...]] (reasoning, weight=2)

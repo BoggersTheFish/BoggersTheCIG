@@ -1,1 +1,1 @@
-TS auto-evolve: 2_+2_.md"+Cognitive.md"+eval+obsidian (coherence +0%)
+TS auto-evolve: 2_+2_.md"+eval+obsidian+thinking.md" (coherence +0%)
