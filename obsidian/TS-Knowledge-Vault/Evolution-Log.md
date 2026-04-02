@@ -2000,3 +2000,27 @@ Tracks self-improvement cycles. See `eval/self_improve_log.jsonl` for machine-re
 ## Extract & Merge Sub-ideas 2026-04-02 11:12 UTC
 
 - MERGE: ['Orphan Concepts _degree _ 2_', 'sub-ideaqaab'] -> Shared-Sub-ideas/neighbors.md
+
+## Extract & Merge Sub-ideas 2026-04-02 16:09 UTC
+
+- EXTRACT: Orphan Concepts _degree _ 2_ -> Orphan Concepts _degree _ 2_/Sub-ideas/sub-ideatxt.md
+
+## Extract & Merge Sub-ideas 2026-04-02 16:10 UTC
+
+- EXTRACT: sub-ideatxt -> sub-ideatxt/Sub-ideas/-neighborneighbors---degree--1.md
+
+## Extract & Merge Sub-ideas 2026-04-02 16:10 UTC
+
+- EXTRACT: -neighborneighbors---degree--1 -> -neighborneighbors---degree--1/Sub-ideas/neighbors.md
+
+## Auto-organize 2026-04-02 16:16 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/statistics-based reasoning _i_e__ statistics-based reasoning.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/statistics-based reasoning _i_e__ statistics-based reasoning.md
+
+## Extract & Merge Sub-ideas 2026-04-02 16:16 UTC
+
+- MERGE: ['Orphan Concepts _degree _ 2_', 'neighbors'] -> Shared-Sub-ideas/qm-wpdkf-where-qm-is-a-shortened-version-of-quantu.md
+
+## Extract & Merge Sub-ideas 2026-04-02 16:23 UTC
+
+- MERGE: ['Orphan Concepts _degree _ 2_', 'qm-wpdkf-where-qm-is-a-shortened-version-of-quantu'] -> Shared-Sub-ideas/neighbors.md
