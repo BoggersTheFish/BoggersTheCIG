@@ -89,3 +89,7 @@ Used in: [[neighbors]]
 ---
 
 [[neighbors/Sub-ideas/-neighbors--gravitydegree1--spacetimedegree1--such]]
+
+---
+
+[[neighbors/Sub-ideas/succinctfilename_quantummechanics]]

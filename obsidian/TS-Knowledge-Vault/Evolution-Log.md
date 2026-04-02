@@ -1928,3 +1928,27 @@ Tracks self-improvement cycles. See `eval/self_improve_log.jsonl` for machine-re
 ## Extract & Merge Sub-ideas 2026-04-01 21:06 UTC
 
 - MERGE: ['Orphan Concepts _degree _ 2_', 'neighbors'] -> Shared-Sub-ideas/neighbors.md
+
+## Auto-organize 2026-04-02 02:17 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/1_ is the subject of the triple _Knowledge - Wikipedia Knowledge is an awareness of facts.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Biology/1_ is the subject of the triple _Knowledge - Wikipedia Knowledge is an awareness of facts.md
+
+## Extract & Merge Sub-ideas 2026-04-02 02:17 UTC
+
+- EXTRACT: Orphan Concepts _degree _ 2_ -> Orphan Concepts _degree _ 2_/Sub-ideas/neighbors.md
+
+## Extract & Merge Sub-ideas 2026-04-02 02:17 UTC
+
+- EXTRACT: neighbors -> neighbors/Sub-ideas/neighbors.md
+
+## Extract & Merge Sub-ideas 2026-04-02 02:18 UTC
+
+- EXTRACT: neighbors -> neighbors/Sub-ideas/succinctfilename_quantummechanics.md
+
+## Extract & Merge Sub-ideas 2026-04-02 02:24 UTC
+
+- MERGE: ['Orphan Concepts _degree _ 2_', 'succinctfilename_quantummechanics'] -> Shared-Sub-ideas/neighbors.md
+
+## Extract & Merge Sub-ideas 2026-04-02 02:30 UTC
+
+- EXTRACT: Orphan Concepts _degree _ 2_ -> Orphan Concepts _degree _ 2_/Sub-ideas/suggest_file_name_qmtxtwhere-_qm-stands-for-quantu.md
