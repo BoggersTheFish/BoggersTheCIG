@@ -1952,3 +1952,26 @@ Tracks self-improvement cycles. See `eval/self_improve_log.jsonl` for machine-re
 ## Extract & Merge Sub-ideas 2026-04-02 02:30 UTC
 
 - EXTRACT: Orphan Concepts _degree _ 2_ -> Orphan Concepts _degree _ 2_/Sub-ideas/suggest_file_name_qmtxtwhere-_qm-stands-for-quantu.md
+
+## Auto-organize 2026-04-02 06:19 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/separated by a comma and surrounded by parentheses_ The object is the target of knowledge _e_g__ _Knowledge_.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Hypotheses/separated by a comma and surrounded by parentheses_ The object is the target of knowledge _e_g__ _Knowledge_.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Sub Ideas For Neighbor Are Neighbors Nearby Or Clo.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Biology/Sub Ideas For Neighbor Are Neighbors Nearby Or Clo.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/object1.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Biology/object1.md
+
+## Extract & Merge Sub-ideas 2026-04-02 06:19 UTC
+
+- MERGE: ['Orphan Concepts _degree _ 2_', 'suggest_file_name_qmtxtwhere-_qm-stands-for-quantu'] -> Shared-Sub-ideas/quantum-mechanics-wave-particle-duality.md
+
+## Extract & Merge Sub-ideas 2026-04-02 06:27 UTC
+
+- EXTRACT: Orphan Concepts _degree _ 2_ -> Orphan Concepts _degree _ 2_/Sub-ideas/sub-ideakebaab-caseno-space-extensiontxtkebab-case.md
+
+## Auto-organize 2026-04-02 06:33 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/1_ _Subject.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/1_ _Subject.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/nd surrounded by parentheses The object.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/nd surrounded by parentheses The object.md
+
+## Extract & Merge Sub-ideas 2026-04-02 06:33 UTC
+
+- MERGE: ['Orphan Concepts _degree _ 2_', 'sub-ideakebaab-caseno-space-extensiontxtkebab-case'] -> Shared-Sub-ideas/neighbors.md
