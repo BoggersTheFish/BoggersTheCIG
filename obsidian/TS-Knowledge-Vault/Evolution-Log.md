@@ -1975,3 +1975,28 @@ Tracks self-improvement cycles. See `eval/self_improve_log.jsonl` for machine-re
 ## Extract & Merge Sub-ideas 2026-04-02 06:33 UTC
 
 - MERGE: ['Orphan Concepts _degree _ 2_', 'sub-ideakebaab-caseno-space-extensiontxtkebab-case'] -> Shared-Sub-ideas/neighbors.md
+
+## Extract & Merge Sub-ideas 2026-04-02 10:59 UTC
+
+- EXTRACT: Orphan Concepts _degree _ 2_ -> Orphan Concepts _degree _ 2_/Sub-ideas/-neighbors--neighber-a-fellow-neighbor-in-a-nearby.md
+
+## Extract & Merge Sub-ideas 2026-04-02 11:00 UTC
+
+- EXTRACT: -neighbors--neighber-a-fellow-neighbor-in-a-nearby -> -neighbors--neighber-a-fellow-neighbor-in-a-nearby/Sub-ideas/qa-neighborsmd.md
+
+## Extract & Merge Sub-ideas 2026-04-02 11:00 UTC
+
+- EXTRACT: qa-neighborsmd -> qa-neighborsmd/Sub-ideas/neighbors.md
+
+## Auto-organize 2026-04-02 11:06 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/subject.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/External/subject.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Subject_.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/External/Subject_.md
+
+## Extract & Merge Sub-ideas 2026-04-02 11:06 UTC
+
+- MERGE: ['Orphan Concepts _degree _ 2_', 'neighbors'] -> Shared-Sub-ideas/sub-ideaqaab.md
+
+## Extract & Merge Sub-ideas 2026-04-02 11:12 UTC
+
+- MERGE: ['Orphan Concepts _degree _ 2_', 'sub-ideaqaab'] -> Shared-Sub-ideas/neighbors.md
