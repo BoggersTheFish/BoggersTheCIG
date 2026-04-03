@@ -2048,3 +2048,24 @@ Tracks self-improvement cycles. See `eval/self_improve_log.jsonl` for machine-re
 ## Extract & Merge Sub-ideas 2026-04-02 20:55 UTC
 
 - EXTRACT: Orphan Concepts _degree _ 2_ -> Orphan Concepts _degree _ 2_/Sub-ideas/neighbors.md
+
+## Extract & Merge Sub-ideas 2026-04-03 02:19 UTC
+
+- MERGE: ['Orphan Concepts _degree _ 2_', 'neighbors'] -> Shared-Sub-ideas/neighbors.md
+
+## Auto-organize 2026-04-03 02:26 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/object_ _Artificial General Intelligence_.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Mathematics/object_ _Artificial General Intelligence_.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/with the capabilities of neuroscience to achieve artificial general intelligence_.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Mathematics/with the capabilities of neuroscience to achieve artificial general intelligence_.md
+
+## Extract & Merge Sub-ideas 2026-04-03 02:26 UTC
+
+- EXTRACT: Orphan Concepts _degree _ 2_ -> Orphan Concepts _degree _ 2_/Sub-ideas/shortfilename-quantum-mechanics-wave-particle-dual.md
+
+## Auto-organize 2026-04-03 02:33 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/artificial intelligence.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/artificial intelligence.md
+
+## Extract & Merge Sub-ideas 2026-04-03 02:33 UTC
+
+- MERGE: ['Orphan Concepts _degree _ 2_', 'shortfilename-quantum-mechanics-wave-particle-dual'] -> Shared-Sub-ideas/short-filename-quantum-mechanics-wave-particle-dua.md
