@@ -2069,3 +2069,12 @@ Tracks self-improvement cycles. See `eval/self_improve_log.jsonl` for machine-re
 ## Extract & Merge Sub-ideas 2026-04-03 02:33 UTC
 
 - MERGE: ['Orphan Concepts _degree _ 2_', 'shortfilename-quantum-mechanics-wave-particle-dual'] -> Shared-Sub-ideas/short-filename-quantum-mechanics-wave-particle-dua.md
+
+## Auto-organize 2026-04-03 06:21 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/augmentation.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/augmentation.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/neuro-symbolic ai.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/neuro-symbolic ai.md
+
+## Extract & Merge Sub-ideas 2026-04-03 06:21 UTC
+
+- MERGE: ['Orphan Concepts _degree _ 2_', 'short-filename-quantum-mechanics-wave-particle-dua'] -> Shared-Sub-ideas/neighbors.md
