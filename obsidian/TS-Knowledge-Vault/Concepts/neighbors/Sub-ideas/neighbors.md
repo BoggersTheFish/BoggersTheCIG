@@ -93,3 +93,7 @@ Used in: [[neighbors]]
 ---
 
 [[neighbors/Sub-ideas/succinctfilename_quantummechanics]]
+
+---
+
+[[neighbors/Sub-ideas/-neighbor-relationships-neighborhood--quantum-mech]]

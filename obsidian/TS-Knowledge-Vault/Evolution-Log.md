@@ -2095,3 +2095,23 @@ Tracks self-improvement cycles. See `eval/self_improve_log.jsonl` for machine-re
 ## Extract & Merge Sub-ideas 2026-04-03 11:03 UTC
 
 - MERGE: ['-neighboring', 'Orphan Concepts _degree _ 2_'] -> Shared-Sub-ideas/quantum-mechanics-wave-particle-duality.md
+
+## Extract & Merge Sub-ideas 2026-04-03 15:47 UTC
+
+- EXTRACT: Orphan Concepts _degree _ 2_ -> Orphan Concepts _degree _ 2_/Sub-ideas/neighbors.md
+
+## Extract & Merge Sub-ideas 2026-04-03 15:48 UTC
+
+- EXTRACT: neighbors -> neighbors/Sub-ideas/neighbors.md
+
+## Extract & Merge Sub-ideas 2026-04-03 15:48 UTC
+
+- EXTRACT: neighbors -> neighbors/Sub-ideas/-neighbor-relationships-neighborhood--quantum-mech.md
+
+## Extract & Merge Sub-ideas 2026-04-03 15:54 UTC
+
+- MERGE: ['-neighbor-relationships-neighborhood--quantum-mech', 'Orphan Concepts _degree _ 2_'] -> Shared-Sub-ideas/quantum-mechanics-wave-particle-duality-eg-degree1.md
+
+## Extract & Merge Sub-ideas 2026-04-03 16:01 UTC
+
+- MERGE: ['Orphan Concepts _degree _ 2_', 'quantum-mechanics-wave-particle-duality-eg-degree1'] -> Shared-Sub-ideas/neighbor-neighbors.md
