@@ -2078,3 +2078,20 @@ Tracks self-improvement cycles. See `eval/self_improve_log.jsonl` for machine-re
 ## Extract & Merge Sub-ideas 2026-04-03 06:21 UTC
 
 - MERGE: ['Orphan Concepts _degree _ 2_', 'short-filename-quantum-mechanics-wave-particle-dua'] -> Shared-Sub-ideas/neighbors.md
+
+## Auto-organize 2026-04-03 10:50 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/artificial general intelligence.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/artificial general intelligence.md
+
+## Auto-organize 2026-04-03 10:57 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/triplet_0_.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Biology/triplet_0_.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/situations.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Biology/situations.md
+
+## Extract & Merge Sub-ideas 2026-04-03 10:57 UTC
+
+- EXTRACT: Orphan Concepts _degree _ 2_ -> Orphan Concepts _degree _ 2_/Sub-ideas/-neighboring.md
+
+## Extract & Merge Sub-ideas 2026-04-03 11:03 UTC
+
+- MERGE: ['-neighboring', 'Orphan Concepts _degree _ 2_'] -> Shared-Sub-ideas/quantum-mechanics-wave-particle-duality.md
