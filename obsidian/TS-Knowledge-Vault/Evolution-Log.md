@@ -2212,3 +2212,28 @@ Tracks self-improvement cycles. See `eval/self_improve_log.jsonl` for machine-re
 ## Extract & Merge Sub-ideas 2026-04-04 15:52 UTC
 
 - MERGE: ['Orphan Concepts _degree _ 2_', 'neighbors'] -> Shared-Sub-ideas/neighbors.md
+
+## Extract & Merge Sub-ideas 2026-04-04 20:38 UTC
+
+- EXTRACT: Orphan Concepts _degree _ 2_ -> Orphan Concepts _degree _ 2_/Sub-ideas/neighbors.md
+
+## Extract & Merge Sub-ideas 2026-04-04 20:39 UTC
+
+- EXTRACT: neighbors -> neighbors/Sub-ideas/suggested-filename-quantum-mechanics-wave-particle.md
+
+## Extract & Merge Sub-ideas 2026-04-04 20:39 UTC
+
+- EXTRACT: suggested-filename-quantum-mechanics-wave-particle -> suggested-filename-quantum-mechanics-wave-particle/Sub-ideas/neighbors.md
+
+## Extract & Merge Sub-ideas 2026-04-04 20:45 UTC
+
+- MERGE: ['Orphan Concepts _degree _ 2_', 'neighbors'] -> Shared-Sub-ideas/neighbors.md
+
+## Auto-organize 2026-04-04 20:52 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/being_ or involving conscious intellectual activity _such as thinking_ reasoning_ or analysis.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Hypotheses/being_ or involving conscious intellectual activity _such as thinking_ reasoning_ or analysis.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/the target of knowledge e g K Neighbors.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Hypotheses/the target of knowledge e g K Neighbors.md
+
+## Extract & Merge Sub-ideas 2026-04-04 20:52 UTC
+
+- EXTRACT: Orphan Concepts _degree _ 2_ -> Orphan Concepts _degree _ 2_/Sub-ideas/neighbors.md
