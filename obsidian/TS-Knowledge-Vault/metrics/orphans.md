@@ -1,6 +1,5 @@
 # Orphan Concepts (degree < 2)
 
-- [[spacetime]] (degree=1)
 - [[sky]] (degree=1)
 - [[situations or practical skill]] (degree=1)
 - [[Relation Augmenting]] (degree=1)
@@ -100,3 +99,4 @@
 - [[object: "Artificial General Intelligence"]] (degree=1)
 - [[Neighbor Relations]] (degree=1)
 - [[Capabilities Used in]] (degree=1)
+- [["COGNITIVE Definition & Meaning - Merriae/Webster The meaning of Cognitive is of]] (degree=1)

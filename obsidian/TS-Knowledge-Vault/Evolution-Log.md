@@ -2160,3 +2160,23 @@ Tracks self-improvement cycles. See `eval/self_improve_log.jsonl` for machine-re
 ## Extract & Merge Sub-ideas 2026-04-04 02:24 UTC
 
 - MERGE: ['Orphan Concepts _degree _ 2_', 'qm-neighborstxt'] -> Shared-Sub-ideas/suffix-quantum-mechanics.md
+
+## Auto-organize 2026-04-04 06:04 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/What Do You Mimic_.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Biology/What Do You Mimic_.md
+
+## Extract & Merge Sub-ideas 2026-04-04 06:04 UTC
+
+- MERGE: ['Orphan Concepts _degree _ 2_', 'suffix-quantum-mechanics'] -> Shared-Sub-ideas/neighbors.md
+
+## Auto-organize 2026-04-04 06:11 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/quick check.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Biology/quick check.md
+
+## Extract & Merge Sub-ideas 2026-04-04 06:11 UTC
+
+- EXTRACT: Orphan Concepts _degree _ 2_ -> Orphan Concepts _degree _ 2_/Sub-ideas/quanta-mechanics_quantum-mechanics-wave-particle-d.md
+
+## Extract & Merge Sub-ideas 2026-04-04 06:17 UTC
+
+- MERGE: ['Orphan Concepts _degree _ 2_', 'quanta-mechanics_quantum-mechanics-wave-particle-d'] -> Shared-Sub-ideas/quantum-mechanics-wave-particle-duality.md

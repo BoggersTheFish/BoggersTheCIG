@@ -4,6 +4,9 @@
 
 - [[Gravity]] (degree=1)
 - [[spacetime]] (degree=1)
+- [[Subject]] (degree=1)
+- [[Object]] (degree=1), weight=1)
+- [[spacetime]] (degree=1)
 - [[sky]] (degree=1)
 - [[situations or practical skill]] (degree=1)
 - [[Relation Augmenting]] (degree=1)
@@ -15,6 +18,7 @@
 - [[nded by parentheses The object]] (degree=1)
 - [[Merriae Webster The meaning of Cognitive]] (degree=1)
 - [[nd surrounded by parentheses The object]] (degree=1)
+- [[Orphan Concepts (degree < 2)]] (degree=1)
 - [[1) Knowledge - Wikipedia Knowledge is an awareness of facts]] (degree=1)
 - [[or (3]] (degree=1)
 - [[(Subject)]] (degree=1)
