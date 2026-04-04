@@ -2,4 +2,4 @@
 
 ## Neighbors
 
-- [[quick check]] (quick check, weight=1)
+- [[quick check]] (quick check, weight=2)

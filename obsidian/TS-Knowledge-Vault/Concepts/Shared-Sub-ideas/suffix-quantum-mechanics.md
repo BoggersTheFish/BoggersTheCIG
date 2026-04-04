@@ -1,5 +1,12 @@
-# Orphan Concepts (degree < 2)
+# Suffix Quantum Mechanics
 
+Used in: [[Orphan Concepts _degree _ 2_]], [[qm-neighborstxt]]
+
+---
+
+## Neighbors
+
+- [[Gravity]] (degree=1)
 - [[spacetime]] (degree=1)
 - [[sky]] (degree=1)
 - [[situations or practical skill]] (degree=1)
@@ -24,7 +31,8 @@
 - [[subject1]] (degree=1)
 - [[object1]] (degree=1)
 - [["is"]] (degree=1)
-- [["is", "conscious"]] (degree=1)
+- [["is", weight=1)
+- [[Jaguar]] (degree=1)
 - [["black"]] (degree=1)
 - [[the target of knowledge e g Knowledge Neighbors]] (degree=1)
 - [[the target of knowledge e g K Neighbors]] (degree=1)
@@ -60,7 +68,8 @@
 - [[1) is the subject of the triple (Knowledge - Wikipedia Knowledge is an awareness of facts]] (degree=1)
 - [[or a practical skill]] (degree=1)
 - [[Subject) Knowledge (Relation) Object"]] (degree=1)
-- [[separated by a comma and surrounded by parentheses. The object is the target of knowledge (e.g., "Knowledge"]] (degree=1)
+- [[separated by a comma and surrounded by parentheses. The object is the target of knowledge (e.g., weight=1)
+- [[surrounded by parentheses]] (degree=1)
 - [[The object]] (degree=1)
 - [[the target of knowledge]] (degree=1)
 - [[Subject)]] (degree=1)
@@ -93,10 +102,7 @@
 - [[Subject of Knowledge - Wikipedia]] (degree=1)
 - [[Object of Knowledge - Wikipedia]] (degree=1)
 - [[Knowledge - Wikipedia Knowledge]] (degree=1)
-- [[familiarity with individuals and situations, or practical skill]] (degree=1)
-- [[machine learning, graph matching,...]] (degree=1)
-- [[Relation: Created, Object: Infectious Diseases]] (degree=1)
-- [[subject: "Neuro-symbolic AI - IBM Research"]] (degree=1)
-- [[object: "Artificial General Intelligence"]] (degree=1)
-- [[Neighbor Relations]] (degree=1)
-- [[Capabilities Used in]] (degree=1)
+- [[familiarity with individuals and situations, weight=1)
+- [[Relation, Object]] (degree=1)
+- [[machine learning, weight=1)
+- [[rule-based, probabilistic]] (degree=1), weight=1)
