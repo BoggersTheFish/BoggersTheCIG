@@ -101,3 +101,7 @@ Used in: [[neighbors]]
 ---
 
 [[neighbors/Sub-ideas/-relational-aggregrations--subject-object-and-time]]
+
+---
+
+[[neighbors/Sub-ideas/neighbors]]

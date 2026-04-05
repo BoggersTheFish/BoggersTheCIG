@@ -2308,3 +2308,30 @@ Tracks self-improvement cycles. See `eval/self_improve_log.jsonl` for machine-re
 
 - MERGE: ['Orphan Concepts _degree _ 2_', 'neighbors'] -> Shared-Sub-ideas/-neighbors-part-1--gravity-degree--1--spacetime-de.md
 - EXTRACT: quantum-mechanics-wave-particle-dualityexample-nei -> quantum-mechanics-wave-particle-dualityexample-nei/Sub-ideas/neighbors.md
+
+## Auto-organize 2026-04-05 15:41 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/_df_iloc_i___text__.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/_df_iloc_i___text__.md
+
+## Extract & Merge Sub-ideas 2026-04-05 15:41 UTC
+
+- MERGE: ['-neighbors-part-1--gravity-degree--1--spacetime-de', 'Orphan Concepts _degree _ 2_'] -> Shared-Sub-ideas/neighbors.md
+- EXTRACT: neighbors -> neighbors/Sub-ideas/-neighbor--gravidegree1--spacetimedegree1--docdegr.md
+
+## Extract & Merge Sub-ideas 2026-04-05 15:42 UTC
+
+- EXTRACT: -neighbor--gravidegree1--spacetimedegree1--docdegr -> -neighbor--gravidegree1--spacetimedegree1--docdegr/Sub-ideas/-neighbors-kebab-case-no-extension--gravi-ty-degre.md
+
+## Extract & Merge Sub-ideas 2026-04-05 15:42 UTC
+
+- EXTRACT: -neighbors-kebab-case-no-extension--gravi-ty-degre -> -neighbors-kebab-case-no-extension--gravi-ty-degre/Sub-ideas/neighbors.md
+
+## Extract & Merge Sub-ideas 2026-04-05 15:49 UTC
+
+- EXTRACT: Orphan Concepts _degree _ 2_ -> Orphan Concepts _degree _ 2_/Sub-ideas/neighbors.md
+- EXTRACT: neighbors -> neighbors/Sub-ideas/neighbors.md
+
+## Extract & Merge Sub-ideas 2026-04-05 15:55 UTC
+
+- MERGE: ['Orphan Concepts _degree _ 2_', 'neighbors'] -> Shared-Sub-ideas/qa_2021_sub-ideas_short_filenametxt.md
+- EXTRACT: neighbors -> neighbors/Sub-ideas/neighbors.md
