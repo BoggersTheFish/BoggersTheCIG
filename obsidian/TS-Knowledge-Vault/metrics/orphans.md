@@ -1,6 +1,6 @@
 # Orphan Concepts (degree < 2)
 
-- [[spacetime]] (degree=1)
+- [[bracketed subject]] (degree=1)
 - [[sky]] (degree=1)
 - [[blue]] (degree=1)
 - [[situations or practical skill]] (degree=1)
@@ -48,7 +48,6 @@
 - [[jupyter={'display_start_end': display_start_ends}]] (degree=1)
 - [[Sub Ideaneighborhubskebaab Case With No Spaces]] (degree=1)
 - [[subject]] (degree=1)
-- [[object]] (degree=1)
 - [[Earth]] (degree=1)
 - [[gravity]] (degree=1)
 - [[Brown Bear]] (degree=1)
@@ -100,3 +99,4 @@
 - [[Relation, Object]] (degree=1)
 - [[machine learning, graph matching,...]] (degree=1)
 - [[rule-based, probabilistic]] (degree=1)
+- [[Relation: Created, Object: Infectious Diseases]] (degree=1)

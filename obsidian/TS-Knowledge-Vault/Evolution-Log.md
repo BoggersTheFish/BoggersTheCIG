@@ -2335,3 +2335,19 @@ Tracks self-improvement cycles. See `eval/self_improve_log.jsonl` for machine-re
 
 - MERGE: ['Orphan Concepts _degree _ 2_', 'neighbors'] -> Shared-Sub-ideas/qa_2021_sub-ideas_short_filenametxt.md
 - EXTRACT: neighbors -> neighbors/Sub-ideas/neighbors.md
+
+## Extract & Merge Sub-ideas 2026-04-05 20:41 UTC
+
+- MERGE: ['Orphan Concepts _degree _ 2_', 'qa_2021_sub-ideas_short_filenametxt'] -> Shared-Sub-ideas/quantum-mechanics-wave-particle-duality.md
+
+## Extract & Merge Sub-ideas 2026-04-05 20:48 UTC
+
+- EXTRACT: Orphan Concepts _degree _ 2_ -> Orphan Concepts _degree _ 2_/Sub-ideas/qaai0829txt.md
+
+## Auto-organize 2026-04-05 20:54 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/B.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Biology/B.md
+
+## Extract & Merge Sub-ideas 2026-04-05 20:54 UTC
+
+- MERGE: ['Orphan Concepts _degree _ 2_', 'qaai0829txt'] -> Shared-Sub-ideas/-neighbors.md
