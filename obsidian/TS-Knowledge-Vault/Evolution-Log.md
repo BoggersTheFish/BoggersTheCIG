@@ -2277,3 +2277,34 @@ Tracks self-improvement cycles. See `eval/self_improve_log.jsonl` for machine-re
 ## Extract & Merge Sub-ideas 2026-04-05 06:37 UTC
 
 - MERGE: ['Orphan Concepts _degree _ 2_', 'neighbors'] -> Shared-Sub-ideas/neighbors.md
+
+## Auto-organize 2026-04-05 10:42 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Explain why the sky.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/External/Explain why the sky.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Structure Used in.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/External/Structure Used in.md
+
+## Extract & Merge Sub-ideas 2026-04-05 10:42 UTC
+
+- EXTRACT: Orphan Concepts _degree _ 2_ -> Orphan Concepts _degree _ 2_/Sub-ideas/neighbors.md
+
+## Extract & Merge Sub-ideas 2026-04-05 10:42 UTC
+
+- EXTRACT: neighbors -> neighbors/Sub-ideas/qm-wpt-no-file-extension-example-quantum-mechanics.md
+
+## Extract & Merge Sub-ideas 2026-04-05 10:43 UTC
+
+- EXTRACT: qm-wpt-no-file-extension-example-quantum-mechanics -> qm-wpt-no-file-extension-example-quantum-mechanics/Sub-ideas/neighbors.md
+
+## Extract & Merge Sub-ideas 2026-04-05 10:50 UTC
+
+- EXTRACT: Orphan Concepts _degree _ 2_ -> Orphan Concepts _degree _ 2_/Sub-ideas/neighbors.md
+- EXTRACT: neighbors -> neighbors/Sub-ideas/quantum-mechanics-wave-particle-dualityexample-nei.md
+
+## Auto-organize 2026-04-05 10:57 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Subject2.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/Subject2.md
+
+## Extract & Merge Sub-ideas 2026-04-05 10:57 UTC
+
+- MERGE: ['Orphan Concepts _degree _ 2_', 'neighbors'] -> Shared-Sub-ideas/-neighbors-part-1--gravity-degree--1--spacetime-de.md
+- EXTRACT: quantum-mechanics-wave-particle-dualityexample-nei -> quantum-mechanics-wave-particle-dualityexample-nei/Sub-ideas/neighbors.md

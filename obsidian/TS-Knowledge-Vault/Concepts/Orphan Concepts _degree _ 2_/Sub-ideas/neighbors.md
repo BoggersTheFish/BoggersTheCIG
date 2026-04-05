@@ -265,3 +265,11 @@ Used in: [[Orphan Concepts _degree _ 2_]]
 ---
 
 [[Shared-Sub-ideas/neighbors]]
+
+---
+
+[[neighbors/Sub-ideas/qm-wpt-no-file-extension-example-quantum-mechanics]]
+
+---
+
+[[Shared-Sub-ideas/-neighbors-part-1--gravity-degree--1--spacetime-de]]
