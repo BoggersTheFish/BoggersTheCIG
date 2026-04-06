@@ -277,3 +277,7 @@ Used in: [[Orphan Concepts _degree _ 2_]]
 ---
 
 [[Shared-Sub-ideas/qa_2021_sub-ideas_short_filenametxt]]
+
+---
+
+[[neighbors/Sub-ideas/neighbors]]
