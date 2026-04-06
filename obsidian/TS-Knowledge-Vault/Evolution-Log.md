@@ -2375,3 +2375,38 @@ Tracks self-improvement cycles. See `eval/self_improve_log.jsonl` for machine-re
 ## Extract & Merge Sub-ideas 2026-04-06 02:48 UTC
 
 - EXTRACT: Orphan Concepts _degree _ 2_ -> Orphan Concepts _degree _ 2_/Sub-ideas/qa-mechanics-quantum-waves-dualitytxt.md
+
+## Auto-organize 2026-04-06 07:02 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/combining the strengths of statistical AI.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Mathematics/combining the strengths of statistical AI.md
+
+## Extract & Merge Sub-ideas 2026-04-06 07:03 UTC
+
+- MERGE: ['Orphan Concepts _degree _ 2_', 'qa-mechanics-quantum-waves-dualitytxt'] -> Shared-Sub-ideas/suffix--quantum-mechanicsmd.md
+
+## Extract & Merge Sub-ideas 2026-04-06 07:03 UTC
+
+- EXTRACT: suffix--quantum-mechanicsmd -> suffix--quantum-mechanicsmd/Sub-ideas/quantum-mechanics-wave-particle-duality-sky-blue-s.md
+
+## Extract & Merge Sub-ideas 2026-04-06 07:03 UTC
+
+- EXTRACT: quantum-mechanics-wave-particle-duality-sky-blue-s -> quantum-mechanics-wave-particle-duality-sky-blue-s/Sub-ideas/neighbors.md
+
+## Auto-organize 2026-04-06 07:10 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/computational_instantiation.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Hypotheses/computational_instantiation.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Wave Particle Dualitytxt Used in.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Hypotheses/Wave Particle Dualitytxt Used in.md
+
+## Extract & Merge Sub-ideas 2026-04-06 07:10 UTC
+
+- MERGE: ['Orphan Concepts _degree _ 2_', 'neighbors'] -> Shared-Sub-ideas/neighboring.md
+
+## Auto-organize 2026-04-06 07:16 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Consciousness.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Biology/Consciousness.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Money.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Biology/Money.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Facts.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Biology/Facts.md
+
+## Extract & Merge Sub-ideas 2026-04-06 07:16 UTC
+
+- MERGE: ['Orphan Concepts _degree _ 2_', 'neighboring'] -> Shared-Sub-ideas/neighbors.md
