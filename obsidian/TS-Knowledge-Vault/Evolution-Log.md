@@ -2410,3 +2410,35 @@ Tracks self-improvement cycles. See `eval/self_improve_log.jsonl` for machine-re
 ## Extract & Merge Sub-ideas 2026-04-06 07:16 UTC
 
 - MERGE: ['Orphan Concepts _degree _ 2_', 'neighboring'] -> Shared-Sub-ideas/neighbors.md
+
+## Extract & Merge Sub-ideas 2026-04-06 11:04 UTC
+
+- EXTRACT: Orphan Concepts _degree _ 2_ -> Orphan Concepts _degree _ 2_/Sub-ideas/neighboralities_1_quantum-mechanicsmd.md
+
+## Extract & Merge Sub-ideas 2026-04-06 11:04 UTC
+
+- EXTRACT: neighboralities_1_quantum-mechanicsmd -> neighboralities_1_quantum-mechanicsmd/Sub-ideas/quantum-mechanics-wave-particle-duality-sky-blue-s.md
+
+## Extract & Merge Sub-ideas 2026-04-06 11:05 UTC
+
+- EXTRACT: quantum-mechanics-wave-particle-duality-sky-blue-s -> quantum-mechanics-wave-particle-duality-sky-blue-s/Sub-ideas/neighbors.md
+
+## Auto-organize 2026-04-06 11:11 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Science_Facts.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Mathematics/Science_Facts.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/surrounded by parentheses The object is the target of knowledge e g K.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Mathematics/surrounded by parentheses The object is the target of knowledge e g K.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/statistics-based reasoning _i_e__ statistics-based reasoning.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Mathematics/statistics-based reasoning _i_e__ statistics-based reasoning.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/1_ _Subject.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Biology/1_ _Subject.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/familiarity with individuals.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Biology/familiarity with individuals.md
+
+## Extract & Merge Sub-ideas 2026-04-06 11:11 UTC
+
+- MERGE: ['Orphan Concepts _degree _ 2_', 'neighbors'] -> Shared-Sub-ideas/suhg_neighbor_quantum-mechanics_wave-particle-dual.md
+
+## Auto-organize 2026-04-06 11:19 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/or remembering.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Biology/or remembering.md
+
+## Extract & Merge Sub-ideas 2026-04-06 11:19 UTC
+
+- MERGE: ['Orphan Concepts _degree _ 2_', 'suhg_neighbor_quantum-mechanics_wave-particle-dual'] -> Shared-Sub-ideas/neighbor-s.md
