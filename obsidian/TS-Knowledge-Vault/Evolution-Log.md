@@ -2442,3 +2442,20 @@ Tracks self-improvement cycles. See `eval/self_improve_log.jsonl` for machine-re
 ## Extract & Merge Sub-ideas 2026-04-06 11:19 UTC
 
 - MERGE: ['Orphan Concepts _degree _ 2_', 'suhg_neighbor_quantum-mechanics_wave-particle-dual'] -> Shared-Sub-ideas/neighbor-s.md
+
+## Extract & Merge Sub-ideas 2026-04-06 15:53 UTC
+
+- MERGE: ['Orphan Concepts _degree _ 2_', 'neighbor-s'] -> Shared-Sub-ideas/neighbors.md
+
+## Auto-organize 2026-04-06 16:01 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Subject_.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Hypotheses/Subject_.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/gravity.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Hypotheses/gravity.md
+
+## Extract & Merge Sub-ideas 2026-04-06 16:01 UTC
+
+- EXTRACT: Orphan Concepts _degree _ 2_ -> Orphan Concepts _degree _ 2_/Sub-ideas/neighbors.md
+
+## Extract & Merge Sub-ideas 2026-04-06 16:07 UTC
+
+- MERGE: ['Orphan Concepts _degree _ 2_', 'neighbors'] -> Shared-Sub-ideas/neighbors.md
