@@ -25,3 +25,7 @@ Used in: [[neighbors]]
 ---
 
 [[Shared-Sub-ideas/neighbors]]
+
+---
+
+[[quantum-mechanics-wave-particle-duality/Sub-ideas/neighbors]]
