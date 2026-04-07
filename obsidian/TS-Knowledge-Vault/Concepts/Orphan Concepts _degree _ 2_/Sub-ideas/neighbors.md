@@ -293,3 +293,7 @@ Used in: [[Orphan Concepts _degree _ 2_]]
 ---
 
 [[Shared-Sub-ideas/neighbors]]
+
+---
+
+[[Shared-Sub-ideas/qm-wpd-qm-wpd-qm-spt-qm-spd-qm-sbp-qm-ssb-qm-sub-q]]

@@ -2500,3 +2500,30 @@ Tracks self-improvement cycles. See `eval/self_improve_log.jsonl` for machine-re
 ## Extract & Merge Sub-ideas 2026-04-07 02:36 UTC
 
 - MERGE: ['Orphan Concepts _degree _ 2_', 'sub-ideakbab'] -> Shared-Sub-ideas/sub-ideaqmcwavpduyt-neighbor--quantum-mechanics-de.md
+
+## Auto-organize 2026-04-07 06:28 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Jaguar.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Hypotheses/Jaguar.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Relation_ Augmenting and combining the strengths of statistical AI.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Hypotheses/Relation_ Augmenting and combining the strengths of statistical AI.md
+
+## Extract & Merge Sub-ideas 2026-04-07 06:28 UTC
+
+- MERGE: ['Orphan Concepts _degree _ 2_', 'sub-ideaqmcwavpduyt-neighbor--quantum-mechanics-de'] -> Shared-Sub-ideas/neighbors.md
+
+## Auto-organize 2026-04-07 06:35 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/and how they work together _ in conjunction with knowledge and skills__.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/and how they work together _ in conjunction with knowledge and skills__.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/or ___.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Hypotheses/or ___.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/an awareness of facts.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Hypotheses/an awareness of facts.md
+
+## Extract & Merge Sub-ideas 2026-04-07 06:35 UTC
+
+- EXTRACT: Orphan Concepts _degree _ 2_ -> Orphan Concepts _degree _ 2_/Sub-ideas/neighbors.md
+
+## Auto-organize 2026-04-07 06:41 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/in conjunction with knowledge.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/in conjunction with knowledge.md
+
+## Extract & Merge Sub-ideas 2026-04-07 06:42 UTC
+
+- MERGE: ['Orphan Concepts _degree _ 2_', 'neighbors'] -> Shared-Sub-ideas/qm-wpd-qm-wpd-qm-spt-qm-spd-qm-sbp-qm-ssb-qm-sub-q.md
