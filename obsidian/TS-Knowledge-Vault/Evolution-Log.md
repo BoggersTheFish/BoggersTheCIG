@@ -2582,3 +2582,31 @@ Tracks self-improvement cycles. See `eval/self_improve_log.jsonl` for machine-re
 ## Extract & Merge Sub-ideas 2026-04-07 16:33 UTC
 
 - MERGE: ['Orphan Concepts _degree _ 2_', 'neighbors'] -> Shared-Sub-ideas/neighbors.md
+
+## Auto-organize 2026-04-07 20:54 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Apple.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Biology/Apple.md
+
+## Extract & Merge Sub-ideas 2026-04-07 20:54 UTC
+
+- EXTRACT: Orphan Concepts _degree _ 2_ -> Orphan Concepts _degree _ 2_/Sub-ideas/neighbors.md
+
+## Extract & Merge Sub-ideas 2026-04-07 20:55 UTC
+
+- EXTRACT: neighbors -> neighbors/Sub-ideas/neighbors.md
+
+## Extract & Merge Sub-ideas 2026-04-07 20:55 UTC
+
+- EXTRACT: neighbors -> neighbors/Sub-ideas/quantum-mechanics-wave-particle-dualitytxt.md
+
+## Auto-organize 2026-04-07 21:02 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Subject_ Cognitive Architecture_ _Relation_ Defines the mind in natural or artificial systems_ _Object_ _Fixed structures that provide a mind.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/Subject_ Cognitive Architecture_ _Relation_ Defines the mind in natural or artificial systems_ _Object_ _Fixed structures that provide a mind.md
+
+## Extract & Merge Sub-ideas 2026-04-07 21:02 UTC
+
+- MERGE: ['Orphan Concepts _degree _ 2_', 'quantum-mechanics-wave-particle-dualitytxt'] -> Shared-Sub-ideas/suitablefilenamestxt.md
+
+## Extract & Merge Sub-ideas 2026-04-07 21:08 UTC
+
+- MERGE: ['Orphan Concepts _degree _ 2_', 'suitablefilenamestxt'] -> Shared-Sub-ideas/qa_sub-ideatxt.md

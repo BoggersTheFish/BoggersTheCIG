@@ -21,3 +21,7 @@ Used in: [[neighbors]]
 ---
 
 [[quantum-mechanics-wave-particle-dualitytxt/Sub-ideas/neighbor-experiencetxt]]
+
+---
+
+[[Shared-Sub-ideas/suitablefilenamestxt]]

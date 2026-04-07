@@ -109,3 +109,7 @@ Used in: [[neighbors]]
 ---
 
 [[neighbors/Sub-ideas/neighborqbk]]
+
+---
+
+[[neighbors/Sub-ideas/quantum-mechanics-wave-particle-dualitytxt]]
