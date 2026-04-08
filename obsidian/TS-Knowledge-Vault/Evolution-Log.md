@@ -2628,3 +2628,22 @@ Tracks self-improvement cycles. See `eval/self_improve_log.jsonl` for machine-re
 ## Extract & Merge Sub-ideas 2026-04-08 02:38 UTC
 
 - MERGE: ['-neighbors--gravity-degree1--spacetime-degree1--su', 'Orphan Concepts _degree _ 2_'] -> Shared-Sub-ideas/-neighbors--gravitydegree1--spacetime-degree1--sub.md
+
+## Auto-organize 2026-04-08 06:29 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/situations or practical skill.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Biology/situations or practical skill.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Webster The meaning of Cognitive.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Philosophy/Webster The meaning of Cognitive.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Subject1.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Philosophy/Subject1.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Subject2.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Philosophy/Subject2.md
+
+## Extract & Merge Sub-ideas 2026-04-08 06:29 UTC
+
+- MERGE: ['-neighbors--gravitydegree1--spacetime-degree1--sub', 'Orphan Concepts _degree _ 2_'] -> Shared-Sub-ideas/neighbors.md
+
+## Extract & Merge Sub-ideas 2026-04-08 06:36 UTC
+
+- EXTRACT: Orphan Concepts _degree _ 2_ -> Orphan Concepts _degree _ 2_/Sub-ideas/short_filename-neighboring_skebaab-case-no-spaces.md
+
+## Extract & Merge Sub-ideas 2026-04-08 06:42 UTC
+
+- MERGE: ['Orphan Concepts _degree _ 2_', 'short_filename-neighboring_skebaab-case-no-spaces'] -> Shared-Sub-ideas/suffix-neighbors.md
