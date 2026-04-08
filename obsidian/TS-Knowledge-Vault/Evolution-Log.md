@@ -2647,3 +2647,19 @@ Tracks self-improvement cycles. See `eval/self_improve_log.jsonl` for machine-re
 ## Extract & Merge Sub-ideas 2026-04-08 06:42 UTC
 
 - MERGE: ['Orphan Concepts _degree _ 2_', 'short_filename-neighboring_skebaab-case-no-spaces'] -> Shared-Sub-ideas/suffix-neighbors.md
+
+## Extract & Merge Sub-ideas 2026-04-08 11:04 UTC
+
+- MERGE: ['Orphan Concepts _degree _ 2_', 'suffix-neighbors'] -> Shared-Sub-ideas/neighbors.md
+
+## Extract & Merge Sub-ideas 2026-04-08 11:11 UTC
+
+- EXTRACT: Orphan Concepts _degree _ 2_ -> Orphan Concepts _degree _ 2_/Sub-ideas/neighbors.md
+
+## Auto-organize 2026-04-08 11:18 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/topic.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Biology/topic.md
+
+## Extract & Merge Sub-ideas 2026-04-08 11:19 UTC
+
+- MERGE: ['Orphan Concepts _degree _ 2_', 'neighbors'] -> Shared-Sub-ideas/neighbors.md
