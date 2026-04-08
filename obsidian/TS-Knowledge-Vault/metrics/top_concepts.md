@@ -2,7 +2,7 @@
 
 | Concept | Degree |
 |---------|--------|
-| [[Orphan Concepts (degree < 2)]] | 9 |
+| [[Orphan Concepts (degree < 2)]] | 8 |
 | [[surrounded by parentheses The object]] | 5 |
 | [[Knowledge]] | 5 |
 | [[the target of knowledge e g Knowledge]] | 4 |
