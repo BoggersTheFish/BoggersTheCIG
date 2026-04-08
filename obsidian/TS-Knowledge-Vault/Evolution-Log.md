@@ -2663,3 +2663,27 @@ Tracks self-improvement cycles. See `eval/self_improve_log.jsonl` for machine-re
 ## Extract & Merge Sub-ideas 2026-04-08 11:19 UTC
 
 - MERGE: ['Orphan Concepts _degree _ 2_', 'neighbors'] -> Shared-Sub-ideas/neighbors.md
+
+## Extract & Merge Sub-ideas 2026-04-08 16:22 UTC
+
+- EXTRACT: Orphan Concepts _degree _ 2_ -> Orphan Concepts _degree _ 2_/Sub-ideas/neighbors.md
+
+## Extract & Merge Sub-ideas 2026-04-08 16:23 UTC
+
+- EXTRACT: neighbors -> neighbors/Sub-ideas/shortfilenames-for-subideassub-idea-1-to-4-words-q.md
+
+## Extract & Merge Sub-ideas 2026-04-08 16:23 UTC
+
+- EXTRACT: shortfilenames-for-subideassub-idea-1-to-4-words-q -> shortfilenames-for-subideassub-idea-1-to-4-words-q/Sub-ideas/neighbors.md
+
+## Extract & Merge Sub-ideas 2026-04-08 16:29 UTC
+
+- MERGE: ['Orphan Concepts _degree _ 2_', 'neighbors'] -> Shared-Sub-ideas/sugeest_neighbortxt.md
+
+## Auto-organize 2026-04-08 16:35 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/subject_ _Neuro-symbolic AI - IBM Research_.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Hypotheses/subject_ _Neuro-symbolic AI - IBM Research_.md
+
+## Extract & Merge Sub-ideas 2026-04-08 16:35 UTC
+
+- MERGE: ['Orphan Concepts _degree _ 2_', 'sugeest_neighbortxt'] -> Shared-Sub-ideas/neighbors.md

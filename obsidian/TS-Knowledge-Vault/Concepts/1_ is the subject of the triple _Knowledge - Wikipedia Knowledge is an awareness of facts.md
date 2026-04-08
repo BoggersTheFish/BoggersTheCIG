@@ -2,4 +2,4 @@
 
 ## Neighbors
 
-- [[or a practical skill]] (a familiarity with individuals and situations, weight=4)
+- [[or a practical skill]] (a familiarity with individuals and situations, weight=2)
