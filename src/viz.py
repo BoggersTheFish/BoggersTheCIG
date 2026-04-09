@@ -30,12 +30,31 @@ def export_to_obsidian(graph: ConceptGraph = None, subgraph_nodes: list = None, 
     if subgraph_nodes:
         nodes = [n for n in nodes if n in subgraph_nodes]
 
+    # Compute bridge nodes once for tagging (skip if graph too small)
+    bridge_set = set()
+    if len(nodes) >= 10:
+        try:
+            from src.core_engine import CoreEngine
+            bridge_nodes = CoreEngine(graph).find_bridge_nodes(top_n=20)
+            bridge_set = {b["node"] for b in bridge_nodes}
+        except Exception:
+            pass
+
     for node in nodes[:500]:  # Limit for large graphs
-        neighbors = graph.get_neighbors(node, limit=20)
-        content = f"# {node}\n\n"
+        edges = graph.get_edges_with_meta(node, limit=20)
+        is_bridge = node in bridge_set
+        frontmatter = "---\n"
+        if is_bridge:
+            frontmatter += "bridge:: true\n"
+        frontmatter += "---\n\n"
+        content = frontmatter + f"# {node}\n\n"
+        if is_bridge:
+            content += "> **Bridge Node** — connects multiple semantic clusters\n\n"
         content += "## Neighbors\n\n"
-        for nb, rel, w in neighbors:
-            content += f"- [[{nb}]] ({rel}, weight={w})\n"
+        for e in edges:
+            conf_str = f", conf={e['confidence']:.2f}" if e.get("confidence") else ""
+            prov_str = f", src={e['provenance'][:40]}" if e.get("provenance") else ""
+            content += f"- [[{e['neighbor']}]] ({e['relation']}, weight={e['weight']}{conf_str}{prov_str})\n"
         safe_name = "".join(c if c.isalnum() or c in " -_" else "_" for c in node)
         path = out_dir / f"{safe_name}.md"
         path.write_text(content, encoding="utf-8")

@@ -19,7 +19,7 @@ from src.config import (
     QUERIES_PATH,
 )
 from src.concept_graph import ConceptGraph
-from src.language_layer import _filter_harmful
+from src.language_layer import _filter_harmful, CONFIDENCE_EXTERNAL, CONFIDENCE_RULE
 from src.validation_engine import ValidationEngine
 
 logger = logging.getLogger(__name__)
@@ -152,11 +152,17 @@ def ingest_external_knowledge(
                         triples = _filter_harmful(triples)
                         stats["triples_extracted"] += len(triples)
                         valid = val.validate_batch(triples)
+                        href = r.get("href", "")
                         for t in valid:
-                            graph.ingest_triples([t], source="external")
+                            graph.ingest_triples(
+                                [t], source="external",
+                                default_confidence=CONFIDENCE_EXTERNAL,
+                                source_type="web_search",
+                                provenance=href,
+                            )
                             stats["triples_ingested"] += 1
-                            stats["sources"].append({"query": q, "href": r.get("href", ""), "triple": list(t)})
-                        _log_ingest(q, r.get("href", ""), triples, valid)
+                            stats["sources"].append({"query": q, "href": href, "triple": list(t)})
+                        _log_ingest(q, href, triples, valid)
                     continue
             except ImportError:
                 pass
@@ -167,11 +173,17 @@ def ingest_external_knowledge(
             triples = _filter_harmful(triples)
             stats["triples_extracted"] += len(triples)
             valid = val.validate_batch(triples)
+            href = r.get("href", "")
             for t in valid:
-                graph.ingest_triples([t], source="external")
+                graph.ingest_triples(
+                    [t], source="external",
+                    default_confidence=CONFIDENCE_RULE,
+                    source_type="rule_based",
+                    provenance=href,
+                )
                 stats["triples_ingested"] += 1
-                stats["sources"].append({"query": q, "href": r.get("href", ""), "triple": list(t)})
-            _log_ingest(q, r.get("href", ""), triples, valid)
+                stats["sources"].append({"query": q, "href": href, "triple": list(t)})
+            _log_ingest(q, href, triples, valid)
 
     _INGEST_LOG.parent.mkdir(parents=True, exist_ok=True)
     if stats.get("triples_ingested", 0) > 0:

@@ -157,9 +157,27 @@ def _run_small_test_suite() -> tuple[bool, str]:
 
 
 def _coherence_dropped_more_than_10pct(before: dict, after: dict) -> bool:
-    """True if coherence (density) dropped by more than 10%."""
+    """
+    True if coherence dropped significantly.
+    Uses semantic_coherence when available; falls back to density.
+    Checks both structural density AND semantic coherence to catch noise injection.
+    """
     if not before or not after:
         return False
+    # Semantic coherence check (primary signal when available)
+    b_sem = before.get("semantic_coherence", 0)
+    a_sem = after.get("semantic_coherence", 0)
+    if b_sem > 0.01:
+        if a_sem < b_sem * 0.85:
+            logger.warning("Semantic coherence dropped: %.4f → %.4f", b_sem, a_sem)
+            return True
+    # Confidence check: if avg confidence drops sharply, noise was injected
+    b_conf = before.get("avg_confidence", 0)
+    a_conf = after.get("avg_confidence", 0)
+    if b_conf > 0.1 and a_conf < b_conf * 0.80:
+        logger.warning("Avg confidence dropped: %.4f → %.4f", b_conf, a_conf)
+        return True
+    # Structural density fallback
     b_dens = before.get("density", 0) or 0.0001
     a_dens = after.get("density", 0) or 0
     if b_dens <= 0:
@@ -313,6 +331,19 @@ def _short_ollama_summary(analysis: str, max_len: int = 60) -> str:
     return analysis[:max_len].replace('"', "'") if analysis else ""
 
 
+def _classify_commit_tier(avg_confidence: float) -> str:
+    """
+    Classify commit behavior based on avg edge confidence.
+    Returns: 'auto' (>0.75), 'review' (0.5-0.75), or 'stage' (<0.5).
+    """
+    if avg_confidence >= 0.75:
+        return "auto"
+    elif avg_confidence >= 0.5:
+        return "review"
+    else:
+        return "stage"
+
+
 def _coherence_delta(before: dict, after: dict) -> str:
     """Compute coherence change as +X% or -X% for commit message."""
     if not before or not after:
@@ -407,10 +438,18 @@ def run_one_cycle(
                 _send_notification(stats, "failure")
                 return stats
 
-    # 2. Coherence before (baseline, no failure)
+    # 2. Coherence before (baseline, no failure) + decay pass
     for _ in _step("coherence (before)"):
         try:
-            stats["coherence_before"] = graph_coherence(ConceptGraph())
+            graph = ConceptGraph()
+            # Run Ebbinghaus decay at start of each cycle
+            try:
+                decay_result = graph.apply_decay(decay_days=30.0, archive_threshold=0.1)
+                logger.info("Decay: %s", decay_result)
+                stats["decay"] = decay_result
+            except Exception as de:
+                logger.debug("Decay failed: %s", de)
+            stats["coherence_before"] = graph_coherence(graph)
         except Exception as e:
             logger.debug("Coherence before failed: %s", e)
             stats["coherence_before"] = {}
@@ -452,6 +491,17 @@ def run_one_cycle(
                 logger.warning("External ingest failed: %s", e)
                 stats["external_ingest"] = {"error": str(e)}
 
+    # 5b. Bidirectional Obsidian sync (human edits → graph)
+    for _ in _step("Obsidian sync (human edits)"):
+        try:
+            from src.obsidian_sync import sync_obsidian_to_graph
+            sync_result = sync_obsidian_to_graph()
+            stats["obsidian_sync"] = sync_result
+            if sync_result.get("edges_added", 0) + sync_result.get("edges_removed", 0) > 0:
+                logger.info("Obsidian sync: +%d -%d edges", sync_result["edges_added"], sync_result["edges_removed"])
+        except Exception as e:
+            logger.debug("Obsidian sync failed: %s", e)
+
     # 6. Export + optional organize + coherence metrics + snapshot
     for _ in _step("export to Obsidian"):
         _export_to_obsidian_vault()
@@ -482,6 +532,11 @@ def run_one_cycle(
             stats["snapshot"] = snap
         except Exception as e:
             logger.debug("Snapshot failed: %s", e)
+        # Generate Insights.md (partial stats available here; full stats written after coherence)
+        try:
+            _generate_insights_md(stats)
+        except Exception as e:
+            logger.debug("Insights.md generation failed: %s", e)
 
     # 7. Coherence after
     for _ in _step("coherence (after)"):
@@ -516,7 +571,7 @@ def run_one_cycle(
 
     stats["success"] = True
 
-    # 9. Commit & push (unless dry_run or skip_git_push)
+    # 9. Confidence-gated commit & push
     changes = _git_status_short()
     meaningful = changes not in ("no-repo", "no-changes")
     delta = _coherence_delta(stats["coherence_before"], stats["coherence_after"])
@@ -526,35 +581,74 @@ def run_one_cycle(
     else:
         commit_msg = f"TS auto-evolve: {changes} ({delta})" if delta else f"TS auto-evolve: {changes}"
 
+    # Determine commit tier from avg_confidence
+    avg_conf = stats["coherence_after"].get("avg_confidence", 0.0)
+    stats["avg_confidence"] = avg_conf
+    stats["commit_tier"] = _classify_commit_tier(avg_conf)
+    logger.info("Commit tier: %s (avg_confidence=%.3f)", stats["commit_tier"], avg_conf)
+
     if not dry_run and not skip_git_push and meaningful:
-        if safe_evolve:
-            _git_create_backup_branch()
-            _git_prune_backups(max_keep=3)
-        ok, chash = _git_commit_and_push(commit_msg)
-        stats["commit_ok"] = ok
-        stats["commit_hash"] = chash
-        stats["commit_message"] = commit_msg
-        if ok and safe_evolve:
-            coh_dict = graph_coherence(ConceptGraph())
-            tests_ok_safe, _ = _run_small_test_suite()
-            if _coherence_dropped_more_than_10pct(stats["coherence_before"], coh_dict) or not tests_ok_safe:
-                stats["safe_evolve_rollback"] = True
-                stats["rollback"] = True
-                _git_revert_last_commit()
-                _append_log({**stats, "rollback_reason": "Rollback: bad evolution"})
-                logger.warning("Rollback: bad evolution (coherence drop >10%% or tests failed)")
-                _send_notification({
-                    "event": "ts-evolve-rollback",
-                    "reason": "Rollback: bad evolution",
-                    "coherence_before": stats["coherence_before"],
-                    "coherence_after": coh_dict,
-                }, "failure")
-                stats["end_time"] = datetime.now(timezone.utc).isoformat()
-                return stats
-        if notify_on_change:
+        tier = stats["commit_tier"]
+        if tier == "auto":
+            # High confidence → auto-commit to main
+            if safe_evolve:
+                _git_create_backup_branch()
+                _git_prune_backups(max_keep=3)
+            ok, chash = _git_commit_and_push(commit_msg)
+            stats["commit_ok"] = ok
+            stats["commit_hash"] = chash
+            stats["commit_message"] = commit_msg
+            if ok and safe_evolve:
+                coh_dict = graph_coherence(ConceptGraph())
+                tests_ok_safe, _ = _run_small_test_suite()
+                if _coherence_dropped_more_than_10pct(stats["coherence_before"], coh_dict) or not tests_ok_safe:
+                    stats["safe_evolve_rollback"] = True
+                    stats["rollback"] = True
+                    _git_revert_last_commit()
+                    _append_log({**stats, "rollback_reason": "Rollback: bad evolution"})
+                    logger.warning("Rollback: bad evolution (coherence drop >10%% or tests failed)")
+                    _send_notification({
+                        "event": "ts-evolve-rollback",
+                        "reason": "Rollback: bad evolution",
+                        "coherence_before": stats["coherence_before"],
+                        "coherence_after": coh_dict,
+                    }, "failure")
+                    stats["end_time"] = datetime.now(timezone.utc).isoformat()
+                    return stats
+        elif tier == "review":
+            # Medium confidence → commit to review branch
+            review_branch = f"ts-review-{datetime.now(timezone.utc).strftime('%Y%m%d-%H%M')}"
+            _run_cmd(["git", "checkout", "-b", review_branch])
+            ok, chash = _git_commit_and_push(f"[REVIEW] {commit_msg}")
+            _run_cmd(["git", "checkout", "main"])
+            stats["commit_ok"] = ok
+            stats["commit_hash"] = chash
+            stats["commit_message"] = f"[REVIEW] {commit_msg}"
+            stats["review_branch"] = review_branch
+            logger.info("Review branch created: %s (avg_conf=%.3f)", review_branch, avg_conf)
+            _send_notification({
+                "event": "ts-review-needed",
+                "branch": review_branch,
+                "avg_confidence": avg_conf,
+                "commit": commit_msg,
+            }, "change")
+        else:
+            # Low confidence → stage only, no commit
+            _run_cmd(["git", "add", "."])
+            stats["commit_ok"] = None
+            stats["commit_message"] = commit_msg
+            logger.warning("Staged only (low confidence=%.3f) — no commit", avg_conf)
+            _send_notification({
+                "event": "ts-low-confidence",
+                "avg_confidence": avg_conf,
+                "message": "Changes staged but not committed due to low confidence",
+            }, "change")
+
+        if notify_on_change and stats.get("commit_ok"):
             _send_notification({
                 "event": "ts-evolve",
                 "success": True,
+                "tier": tier,
                 "changes": changes,
                 "coherence": stats["coherence_after"],
                 "commit": commit_msg,
@@ -566,6 +660,20 @@ def run_one_cycle(
             logger.info("Dry run: skipped commit")
         elif not meaningful:
             logger.info("No meaningful changes to commit")
+    # 10. Code self-modification (safe_evolve only, after successful commit, every 10 cycles)
+    if safe_evolve and stats.get("commit_ok") and not dry_run:
+        cycle_count = sum(1 for _ in open(_LOG_PATH, encoding="utf-8")) if _LOG_PATH.exists() else 0
+        if cycle_count % 10 == 0:
+            for _ in _step("code self-modification"):
+                try:
+                    patch_result = _apply_code_patch_safely(
+                        target_file="src/language_layer.py", dry_run=False
+                    )
+                    stats["code_patch"] = patch_result
+                    logger.info("Code self-modification: %s", patch_result.get("reason"))
+                except Exception as e:
+                    logger.debug("Code self-modification failed: %s", e)
+
     # Write commit message for CI (e.g. GitHub Actions) to use when it commits
     if meaningful and not dry_run:
         EVAL_DIR.mkdir(parents=True, exist_ok=True)
@@ -625,6 +733,289 @@ def auto_commit_if_changes(
         "changes": changes,
     })
     return result
+
+
+def _apply_code_patch_safely(
+    target_file: str = "src/language_layer.py",
+    dry_run: bool = False,
+) -> dict:
+    """
+    Ask Ollama to suggest a code improvement for a target file.
+    Apply the patch in an isolated git worktree.
+    Run tests + coherence check in the worktree.
+    Merge to main only if both pass.
+
+    Only operates on: src/language_layer.py, src/hypothesis_generator.py
+    Never touches: self_improver.py, config.py, sqlite_store.py
+
+    Returns {success, patch_applied, tests_passed, merged, reason}.
+    """
+    ALLOWED_TARGETS = {"src/language_layer.py", "src/hypothesis_generator.py"}
+    result = {
+        "success": False, "patch_applied": False,
+        "tests_passed": False, "merged": False, "reason": "",
+    }
+
+    if target_file not in ALLOWED_TARGETS:
+        result["reason"] = f"Target '{target_file}' not in allowed set: {ALLOWED_TARGETS}"
+        return result
+
+    if not (PROJECT_ROOT / ".git").exists():
+        result["reason"] = "Not a git repo"
+        return result
+
+    # Read the target file
+    target_path = PROJECT_ROOT / target_file
+    if not target_path.exists():
+        result["reason"] = f"Target file not found: {target_file}"
+        return result
+
+    try:
+        original_content = target_path.read_text(encoding="utf-8")
+    except Exception as e:
+        result["reason"] = f"Could not read target: {e}"
+        return result
+
+    # Ask Ollama for an improvement
+    try:
+        from ollama_integration import check_ollama_available, _ollama_request
+        if not check_ollama_available():
+            result["reason"] = "Ollama unavailable"
+            return result
+
+        system = (
+            "You are an expert Python code improver. Analyze the provided code and suggest "
+            "ONE specific, targeted improvement that increases the quality or accuracy of "
+            "triple extraction. Output ONLY the improved Python file — no explanations, "
+            "no markdown fences, just the raw Python code."
+        )
+        prompt = (
+            f"Improve this Python file to extract higher-quality knowledge triples. "
+            f"Focus on: better relation specificity, reduced noise, improved parsing.\n\n"
+            f"File: {target_file}\n\n{original_content[:4000]}"
+        )
+        new_content = _ollama_request(prompt, system=system, timeout=90).strip()
+    except Exception as e:
+        result["reason"] = f"Ollama suggestion failed: {e}"
+        return result
+
+    # Basic sanity checks on the suggested content
+    if not new_content or len(new_content) < 100:
+        result["reason"] = "Ollama returned empty or too-short content"
+        return result
+    if new_content == original_content:
+        result["reason"] = "No change suggested"
+        return result
+    # Must still be valid Python
+    try:
+        compile(new_content, target_file, "exec")
+    except SyntaxError as e:
+        result["reason"] = f"Suggested code has syntax error: {e}"
+        return result
+
+    if dry_run:
+        result["success"] = True
+        result["reason"] = "dry_run — patch validated but not applied"
+        result["patch_applied"] = True
+        return result
+
+    # Create isolated git worktree
+    import tempfile
+    worktree_path = PROJECT_ROOT.parent / f"ts-patch-worktree-{int(time.time())}"
+    code, out = _run_cmd(["git", "worktree", "add", str(worktree_path), "HEAD"])
+    if code != 0:
+        result["reason"] = f"Could not create worktree: {out}"
+        return result
+
+    try:
+        patch_target = worktree_path / target_file
+        patch_target.write_text(new_content, encoding="utf-8")
+        result["patch_applied"] = True
+
+        # Run tests in worktree
+        test_code, test_out = _run_cmd(
+            [sys.executable, "-m", "pytest",
+             "tests/test_language_layer.py", "tests/test_concept_graph.py",
+             "-v", "--tb=short", "-x"],
+            cwd=worktree_path,
+            timeout=90,
+        )
+        result["tests_passed"] = test_code == 0
+        result["test_output"] = test_out[-500:] if len(test_out) > 500 else test_out
+
+        if not result["tests_passed"]:
+            result["reason"] = "Tests failed in worktree — patch rejected"
+            return result
+
+        # Quick coherence check (import the patched module)
+        coherence_ok = True
+        try:
+            import importlib.util
+            spec = importlib.util.spec_from_file_location("patched_lang", str(patch_target))
+            mod = importlib.util.module_from_spec(spec)
+            spec.loader.exec_module(mod)
+            # Try extracting a known triple
+            test_triples = mod.extract_triples_with_confidence("gravity causes objects to fall")
+            if not test_triples:
+                coherence_ok = False
+                result["reason"] = "Patched module produced no triples on test input"
+        except Exception as e:
+            coherence_ok = False
+            result["reason"] = f"Patched module import failed: {e}"
+
+        if not coherence_ok:
+            return result
+
+        # Merge: copy patched file to main tree and commit
+        target_path.write_text(new_content, encoding="utf-8")
+        patch_msg = f"TS code-evolve: improved {target_file} via Ollama suggestion"
+        ok, chash = _git_commit_and_push(patch_msg)
+        result["merged"] = ok
+        result["success"] = ok
+        result["reason"] = f"Merged patch to main (commit: {chash})" if ok else "Commit/push failed"
+
+    except Exception as e:
+        result["reason"] = f"Patch application failed: {e}"
+    finally:
+        # Always clean up the worktree
+        try:
+            _run_cmd(["git", "worktree", "remove", "--force", str(worktree_path)])
+        except Exception:
+            pass
+
+    return result
+
+
+def _generate_insights_md(stats: dict) -> bool:
+    """
+    Generate obsidian/TS-Knowledge-Vault/Insights.md summarizing each cycle's discoveries.
+    Content: top 3 new high-confidence triples, 2 contradiction pairs, top bridge node,
+             corroborated hypotheses, coherence delta.
+    Returns True if written successfully.
+    """
+    try:
+        from datetime import datetime, timezone as tz
+        from src.concept_graph import ConceptGraph
+        from src.core_engine import CoreEngine
+        from src.hypothesis_generator import _load_success_log
+
+        graph = ConceptGraph()
+        core = CoreEngine(graph)
+
+        now_str = datetime.now(tz.utc).strftime("%Y-%m-%d %H:%M UTC")
+        lines = [
+            f"# TS Insights — {now_str}\n",
+            "Generated automatically each self-improvement cycle.\n",
+        ]
+
+        # Coherence delta
+        cb = stats.get("coherence_before", {})
+        ca = stats.get("coherence_after", {})
+        if cb and ca:
+            sem_before = cb.get("semantic_coherence", 0)
+            sem_after = ca.get("semantic_coherence", 0)
+            conf_after = ca.get("avg_confidence", 0)
+            delta_sign = "+" if sem_after >= sem_before else ""
+            lines.append(f"## Cycle Summary\n")
+            lines.append(f"- Semantic coherence: {sem_before:.4f} → {sem_after:.4f} ({delta_sign}{sem_after - sem_before:.4f})\n")
+            lines.append(f"- Avg confidence: {conf_after:.4f}\n")
+            lines.append(f"- Nodes: {ca.get('nodes', '?')} | Edges: {ca.get('edges', '?')}\n")
+            decay = stats.get("decay", {})
+            if decay:
+                lines.append(f"- Decay archived: {decay.get('archived', 0)} low-confidence edges\n")
+            lines.append("\n")
+
+        # Top 3 high-confidence edges added recently (from SQLite)
+        lines.append("## Highest-Confidence New Knowledge\n\n")
+        try:
+            from src.sqlite_store import get_store
+            store = get_store()
+            recent_edges = store._conn.execute(
+                """
+                SELECT src, dst, relation, confidence, provenance
+                FROM edges
+                ORDER BY last_reinforced DESC, confidence DESC
+                LIMIT 10
+                """
+            ).fetchall()
+            top3 = [r for r in recent_edges if r["confidence"] >= 0.65][:3]
+            if top3:
+                for e in top3:
+                    prov = f" ([source]({e['provenance'][:80]}))" if e["provenance"] else ""
+                    lines.append(f"- **{e['src']}** –[{e['relation']}]→ **{e['dst']}** (conf: {e['confidence']:.2f}){prov}\n")
+            else:
+                lines.append("- No new high-confidence edges this cycle.\n")
+        except Exception as e:
+            lines.append(f"- (Could not fetch recent edges: {e})\n")
+        lines.append("\n")
+
+        # Top 2 contradiction pairs
+        lines.append("## Active Contradictions\n\n")
+        try:
+            contradictions = core.constraint_resolution()
+            sem_contradictions = core.semantic_contradiction_detection(sample_size=200)
+            all_c = contradictions[:1] + sem_contradictions[:1]
+            if all_c:
+                for c in all_c:
+                    nodes = c.get("nodes", [])
+                    ctype = c.get("type", "unknown")
+                    sev = c.get("severity", c.get("similarity", "?"))
+                    lines.append(f"- `{nodes[0]}` ↔ `{nodes[1] if len(nodes) > 1 else '?'}` ({ctype}, severity: {sev})\n")
+            else:
+                lines.append("- No contradictions detected this cycle.\n")
+        except Exception as e:
+            lines.append(f"- (Contradiction check failed: {e})\n")
+        lines.append("\n")
+
+        # Top bridge node
+        lines.append("## Top Bridge Node\n\n")
+        try:
+            bridges = core.find_bridge_nodes(top_n=3)
+            if bridges:
+                b = bridges[0]
+                lines.append(
+                    f"- **[[{b['node']}]]** — bridge score: {b['bridge_score']}, "
+                    f"betweenness: {b['betweenness']}, cluster span: {b['cluster_span']}\n"
+                )
+            else:
+                lines.append("- (Graph too small for bridge detection)\n")
+        except Exception as e:
+            lines.append(f"- (Bridge detection failed: {e})\n")
+        lines.append("\n")
+
+        # Recently corroborated hypotheses
+        lines.append("## Corroborated Hypotheses\n\n")
+        try:
+            hyp_log = _load_success_log()
+            recent_corroborated = [h for h in hyp_log[-50:] if h.get("corroborated")][-3:]
+            if recent_corroborated:
+                for h in recent_corroborated:
+                    t = h.get("triple", ["?", "?", "?"])
+                    src = h.get("evidence_source", "")
+                    src_str = f" ([evidence]({src[:80]}))" if src else ""
+                    lines.append(f"- **{t[0]}** –[{t[1]}]→ **{t[2]}**{src_str}\n")
+            else:
+                lines.append("- No hypotheses corroborated recently.\n")
+        except Exception as e:
+            lines.append(f"- (Hypothesis log unavailable: {e})\n")
+        lines.append("\n")
+
+        # Obsidian sync summary
+        obsidian_sync = stats.get("obsidian_sync", {})
+        if obsidian_sync.get("edges_added", 0) + obsidian_sync.get("edges_removed", 0) > 0:
+            lines.append("## Human Edits Synced\n\n")
+            lines.append(f"- +{obsidian_sync.get('edges_added', 0)} edges added from vault\n")
+            lines.append(f"- -{obsidian_sync.get('edges_removed', 0)} edges removed from vault\n\n")
+
+        # Write the file
+        insights_path = OBSIDIAN_VAULT / "Insights.md"
+        insights_path.parent.mkdir(parents=True, exist_ok=True)
+        insights_path.write_text("".join(lines), encoding="utf-8")
+        logger.info("Wrote Insights.md to %s", insights_path)
+        return True
+    except Exception as e:
+        logger.warning("Insights.md generation failed: %s", e)
+        return False
 
 
 def _append_log(entry: dict):

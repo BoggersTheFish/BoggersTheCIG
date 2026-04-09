@@ -149,21 +149,47 @@ class ConceptGraph:
                 check_graph_size(self)
 
     def _load_nx_from_disk(self):
-        """Load NetworkX graph from disk if exists."""
+        """Load NetworkX graph from SQLite (preferred) or JSON fallback."""
+        # Try SQLite first (richer metadata)
+        try:
+            from src.sqlite_store import get_store
+            store = get_store()
+            if store.node_count() > 0:
+                self._nx_graph = store.export_to_networkx()
+                logger.info(
+                    "Loaded graph from SQLite: %d nodes, %d edges",
+                    self._nx_graph.number_of_nodes(),
+                    self._nx_graph.number_of_edges(),
+                )
+                return
+        except Exception as e:
+            logger.debug("SQLite load failed, trying JSON fallback: %s", e)
+
+        # JSON fallback
         path = GRAPHS_DIR / "networkx_fallback.json"
         if path.exists():
             try:
                 data = json.loads(path.read_text())
                 import networkx as nx
                 self._nx_graph = nx.node_link_graph(data)
-                logger.info("Loaded NetworkX graph with %d nodes", self._nx_graph.number_of_nodes())
+                logger.info("Loaded NetworkX graph from JSON: %d nodes", self._nx_graph.number_of_nodes())
+                # Migrate to SQLite
+                self._save_nx_to_disk()
             except Exception as e:
                 logger.warning("Could not load NetworkX backup: %s", e)
 
     def _save_nx_to_disk(self):
-        """Persist NetworkX graph to disk."""
+        """Persist NetworkX graph to SQLite (primary) and JSON (backup)."""
         if self._nx_graph is None:
             return
+        # SQLite primary store
+        try:
+            from src.sqlite_store import get_store
+            store = get_store()
+            store.import_from_networkx(self._nx_graph)
+        except Exception as e:
+            logger.debug("SQLite save failed: %s", e)
+        # JSON backup (kept for compatibility)
         path = GRAPHS_DIR / "networkx_fallback.json"
         try:
             import networkx as nx
@@ -183,27 +209,60 @@ class ConceptGraph:
             except Exception as e:
                 logger.debug("Schema init (may already exist): %s", e)
 
-    def ingest_triples(self, triples: List[Tuple[str, str, str]], source: str = "ingest") -> int:
+    def ingest_triples(
+        self,
+        triples: List[Tuple],
+        source: str = "ingest",
+        default_confidence: float = 0.6,
+        source_type: str = None,
+        provenance: str = "",
+        use_provenance_store: bool = True,
+    ) -> int:
         """
         Create or merge nodes and edges from triples.
+        Each triple may be (s, r, o), (s, r, o, confidence), or (s, r, o, confidence, source_type).
         Returns count of edges created/updated.
         """
         if not triples:
             return 0
+        _source_type = source_type or source
+        # Lazy-load provenance store
+        pstore = None
+        if use_provenance_store:
+            try:
+                from src.provenance_store import get_store
+                pstore = get_store()
+            except Exception:
+                pass
         count = 0
-        for s, r, o in triples:
+        for triple in triples:
+            s, r, o = triple[0], triple[1], triple[2]
+            confidence = float(triple[3]) if len(triple) > 3 else default_confidence
+            st = triple[4] if len(triple) > 4 else _source_type
+            # Update provenance store and get (possibly boosted) confidence
+            if pstore is not None:
+                try:
+                    confidence = pstore.add(
+                        (s, r, o), source=source, confidence=confidence,
+                        source_type=st, provenance=provenance,
+                    )
+                except Exception as e:
+                    logger.debug("Provenance store add failed: %s", e)
             try:
                 if self._use_neo4j:
-                    count += self._ingest_neo4j(s, r, o, source)
+                    count += self._ingest_neo4j(s, r, o, source, confidence, st, provenance)
                 else:
-                    count += self._ingest_nx(s, r, o, source)
+                    count += self._ingest_nx(s, r, o, source, confidence, st, provenance)
             except Exception as e:
                 logger.warning("Ingest failed for (%s, %s, %s): %s", s, r, o, e)
         if not self._use_neo4j:
             self._save_nx_to_disk()
         return count
 
-    def _ingest_neo4j(self, s: str, r: str, o: str, source: str) -> int:
+    def _ingest_neo4j(
+        self, s: str, r: str, o: str, source: str,
+        confidence: float = 0.6, source_type: str = "ingest", provenance: str = "",
+    ) -> int:
         """Ingest one triple into Neo4j/Memgraph."""
         now = int(time.time())
         emb_s = _embed(s)
@@ -219,14 +278,26 @@ class ConceptGraph:
                 ON CREATE SET b.embedding = $emb_o, b.last_access = $now, b.degree = 1
                 ON MATCH SET b.last_access = $now, b.degree = b.degree + 1
                 MERGE (a)-[e:RELATES {type: $rel}]->(b)
-                ON CREATE SET e.weight = 1, e.source = $source
-                ON MATCH SET e.weight = e.weight + 1
+                ON CREATE SET e.weight = 1, e.source = $source,
+                              e.confidence = $confidence, e.source_type = $source_type,
+                              e.provenance = $provenance, e.created_at = $now,
+                              e.last_reinforced = $now
+                ON MATCH SET e.weight = e.weight + 1,
+                             e.confidence = CASE WHEN $confidence > e.confidence
+                                            THEN CASE WHEN e.confidence + 0.1 > 1.0 THEN 1.0
+                                                 ELSE e.confidence + 0.1 END
+                                            ELSE e.confidence END,
+                             e.last_reinforced = $now
                 """,
                 s=s, o=o, rel=rel, emb_s=emb_s, emb_o=emb_o, now=now, source=source,
+                confidence=confidence, source_type=source_type, provenance=provenance,
             )
         return 1
 
-    def _ingest_nx(self, s: str, r: str, o: str, source: str) -> int:
+    def _ingest_nx(
+        self, s: str, r: str, o: str, source: str,
+        confidence: float = 0.6, source_type: str = "ingest", provenance: str = "",
+    ) -> int:
         """Ingest one triple into NetworkX."""
         now = int(time.time())
         if self._nx_graph.number_of_nodes() >= NETWORKX_MAX_NODES:
@@ -242,8 +313,19 @@ class ConceptGraph:
             data["relations"] = data.get("relations", [r])
             if r not in data["relations"]:
                 data["relations"].append(r)
+            # Boost confidence on corroboration (multi-source agreement)
+            old_conf = data.get("confidence", 0.6)
+            data["confidence"] = min(1.0, old_conf + 0.1)
+            data["last_reinforced"] = now
         else:
-            self._nx_graph.add_edge(s, o, type=r, weight=1, source=source)
+            self._nx_graph.add_edge(
+                s, o,
+                type=r, weight=1, source=source,
+                confidence=confidence, source_type=source_type,
+                provenance=provenance, created_at=now, last_reinforced=now,
+            )
+        self._nx_graph.nodes[s]["last_access"] = now
+        self._nx_graph.nodes[o]["last_access"] = now
         return 1
 
     def get_node(self, name: str) -> Optional[Dict[str, Any]]:
@@ -282,9 +364,140 @@ class ConceptGraph:
             out.append((t, data.get("type", "relates"), data.get("weight", 1)))
         return sorted(out, key=lambda x: -x[2])[:limit]
 
+    def get_edges_with_meta(self, name: str, limit: int = 50) -> List[Dict[str, Any]]:
+        """
+        Return full edge metadata for a node's outgoing edges.
+        Each dict: {neighbor, relation, weight, confidence, source_type, provenance, created_at, last_reinforced}
+        """
+        if self._use_neo4j:
+            with self._driver.session() as session:
+                r = session.run(
+                    """
+                    MATCH (a:Concept {name: $name})-[e:RELATES]->(b:Concept)
+                    RETURN b.name as neighbor, e.type as relation, e.weight as weight,
+                           e.confidence as confidence, e.source_type as source_type,
+                           e.provenance as provenance, e.created_at as created_at,
+                           e.last_reinforced as last_reinforced
+                    ORDER BY e.weight DESC LIMIT $limit
+                    """,
+                    name=name, limit=limit,
+                )
+                return [dict(rec) for rec in r]
+        if not self._nx_graph.has_node(name):
+            return []
+        result = []
+        for t in self._nx_graph.successors(name):
+            d = self._nx_graph[name][t]
+            result.append({
+                "neighbor": t,
+                "relation": d.get("type", "relates"),
+                "weight": d.get("weight", 1),
+                "confidence": d.get("confidence", 0.6),
+                "source_type": d.get("source_type", "unknown"),
+                "provenance": d.get("provenance", ""),
+                "created_at": d.get("created_at", 0),
+                "last_reinforced": d.get("last_reinforced", 0),
+            })
+        return sorted(result, key=lambda x: -x["weight"])[:limit]
+
+    def avg_confidence(self, min_confidence: float = 0.0) -> float:
+        """Average edge confidence across the graph, optionally filtered."""
+        if self._use_neo4j:
+            r = self.cypher(
+                "MATCH ()-[e:RELATES]->() WHERE e.confidence >= $c RETURN avg(e.confidence) as avg",
+                {"c": min_confidence},
+            )
+            return float(r[0]["avg"] or 0.0) if r else 0.0
+        if self._nx_graph is None or self._nx_graph.number_of_edges() == 0:
+            return 0.0
+        confs = [
+            d.get("confidence", 0.6)
+            for _, _, d in self._nx_graph.edges(data=True)
+            if d.get("confidence", 0.6) >= min_confidence
+        ]
+        return sum(confs) / len(confs) if confs else 0.0
+
     def get_neighbors_batch(self, names: List[str], limit: int = 20) -> Dict[str, List[Tuple[str, str, float]]]:
         """Batch retrieval for memory efficiency. Returns {node: [(neighbor, rel, weight), ...]}."""
         return {n: self.get_neighbors(n, limit=limit) for n in names}
+
+    def apply_decay(
+        self,
+        decay_days: float = 30.0,
+        archive_threshold: float = 0.1,
+        protect_source_types: Tuple = ("human",),
+    ) -> dict:
+        """
+        Apply Ebbinghaus-style exponential confidence decay to all edges.
+        c(t) = c0 * exp(-Δt / stability)
+        where stability = decay_days * 86400 seconds.
+        Edges below archive_threshold and not in protect_source_types are removed.
+        Returns {decayed: N, archived: N}.
+        """
+        import math
+        now = int(time.time())
+        stability = decay_days * 86400  # convert days to seconds
+        decay_lambda = 1.0 / stability
+        decayed = 0
+        archived = 0
+
+        # SQLite path: delegate entirely
+        try:
+            from src.sqlite_store import get_store
+            store = get_store()
+            archived = store.apply_decay(decay_lambda=decay_lambda, archive_threshold=archive_threshold)
+            # Reload NetworkX from SQLite after decay
+            if not self._use_neo4j:
+                self._nx_graph = store.export_to_networkx()
+            decayed = self._nx_graph.number_of_edges() if not self._use_neo4j else 0
+            logger.info("Decay applied via SQLite: %d archived", archived)
+            return {"decayed": decayed, "archived": archived}
+        except Exception as e:
+            logger.debug("SQLite decay failed, falling back to in-memory: %s", e)
+
+        # In-memory NetworkX fallback
+        if self._use_neo4j:
+            recs = self.cypher(
+                "MATCH ()-[e:RELATES]->() RETURN id(e) as eid, e.confidence as conf, "
+                "e.last_reinforced as lr, e.source_type as st"
+            )
+            for r in recs:
+                lr = r.get("lr") or now
+                st = r.get("st") or ""
+                if st in protect_source_types:
+                    continue
+                delta_t = now - lr
+                new_conf = (r.get("conf") or 0.6) * math.exp(-decay_lambda * delta_t)
+                if new_conf < archive_threshold:
+                    self.cypher("MATCH ()-[e:RELATES]->() WHERE id(e)=$eid DELETE e", {"eid": r["eid"]})
+                    archived += 1
+                else:
+                    self.cypher(
+                        "MATCH ()-[e:RELATES]->() WHERE id(e)=$eid SET e.confidence=$c",
+                        {"eid": r["eid"], "c": round(new_conf, 4)},
+                    )
+                    decayed += 1
+        else:
+            G = self._nx_graph
+            edges_to_remove = []
+            for u, v, d in G.edges(data=True):
+                if d.get("source_type") in protect_source_types:
+                    continue
+                lr = d.get("last_reinforced") or now
+                delta_t = now - lr
+                new_conf = d.get("confidence", 0.6) * math.exp(-decay_lambda * delta_t)
+                if new_conf < archive_threshold:
+                    edges_to_remove.append((u, v))
+                    archived += 1
+                else:
+                    d["confidence"] = round(new_conf, 4)
+                    decayed += 1
+            for u, v in edges_to_remove:
+                G.remove_edge(u, v)
+            self._save_nx_to_disk()
+
+        logger.info("Decay applied: %d decayed, %d archived", decayed, archived)
+        return {"decayed": decayed, "archived": archived}
 
     def prune_low_degree_nodes(self, min_degree: int = None) -> int:
         """Remove nodes with degree < min_degree. Returns count pruned. For coherence at scale."""

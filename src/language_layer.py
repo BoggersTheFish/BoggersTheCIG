@@ -5,11 +5,18 @@ Uses chain-of-thought for accuracy; filters biases via ethical patterns.
 """
 import logging
 import re
-from typing import List, Tuple, Optional
+from typing import List, Optional, Tuple
 
 from src.config import LLM_MODEL, USE_4BIT, HARMFUL_PATTERNS
 
 logger = logging.getLogger(__name__)
+
+# Confidence tiers by extraction method
+CONFIDENCE_LLM = 0.6        # LLM-extracted, single source
+CONFIDENCE_RULE = 0.3       # Rule-based regex fallback
+CONFIDENCE_HYPOTHESIS = 0.25  # Unverified hypothesis
+CONFIDENCE_EXTERNAL = 0.7   # External source with provenance
+CONFIDENCE_HUMAN = 0.9      # Human-edited (Obsidian sync)
 
 # Lazy-loaded LLM components (avoid heavy load at import)
 _llm_cache: dict = {}
@@ -114,18 +121,36 @@ def _is_question(text: str) -> bool:
     )
 
 
-def _build_prompt(text: str) -> str:
-    """Build LLM prompt; use question-aware template when input is a query/explanation request."""
+def _build_prompt(text: str, use_registry: bool = True) -> Tuple[str, Optional[str]]:
+    """
+    Build LLM prompt. Returns (prompt_text, prompt_id).
+    Uses prompt registry when available to select the best-performing prompt.
+    Falls back to defaults for questions.
+    """
     text_slice = text[:500]
     if _is_question(text):
-        return f"""Extract factual concept triples from this query/explanation: '{text_slice}'. Focus on scientific entities and relations, not the question phrasing itself. Output as list of (Subject, Predicate, Object). One triple per line."""
+        prompt = (
+            f"Extract factual concept triples from this query/explanation: '{text_slice}'. "
+            "Focus on scientific entities and relations, not the question phrasing itself. "
+            "Output as list of (Subject, Predicate, Object). One triple per line."
+        )
+        return prompt, None
 
-    return f"""Extract concept triples from the following text. Each triple is (Subject, Relation, Object).
-Output ONLY a list of triples, one per line, format: (Subject, Relation, Object)
+    if use_registry:
+        try:
+            from src.prompt_registry import get_registry
+            registry = get_registry()
+            prompt_id, template = registry.get_prompt()
+            return template.format(text=text_slice), prompt_id
+        except Exception:
+            pass
 
-Text: {text_slice}
-
-Triples:"""
+    default = (
+        "Extract concept triples from the following text. Each triple is (Subject, Relation, Object).\n"
+        "Output ONLY a list of triples, one per line, format: (Subject, Relation, Object)\n\n"
+        f"Text: {text_slice}\n\nTriples:"
+    )
+    return default, None
 
 
 def extract_triples(text: str, use_llm: bool = True) -> List[Tuple[str, str, str]]:
@@ -134,11 +159,25 @@ def extract_triples(text: str, use_llm: bool = True) -> List[Tuple[str, str, str
     Uses LLM when available; falls back to rule-based extraction.
     Applies ethical filtering.
     """
+    return [(s, r, o) for s, r, o, _ in extract_triples_with_confidence(text, use_llm=use_llm)]
+
+
+def extract_triples_with_confidence(
+    text: str, use_llm: bool = True
+) -> List[Tuple[str, str, str, float]]:
+    """
+    Extract triples with confidence scores.
+    LLM-extracted → CONFIDENCE_LLM (0.6).
+    Rule-based fallback → CONFIDENCE_RULE (0.3).
+    Returns List[(Subject, Relation, Object, confidence)].
+    """
     if not text or not text.strip():
         return []
 
-    triples: List[Tuple[str, str, str]] = []
+    raw_triples: List[Tuple[str, str, str]] = []
+    used_llm = False
 
+    prompt_id: Optional[str] = None
     if use_llm:
         llm = _get_llm()
         if llm is not None:
@@ -146,7 +185,7 @@ def extract_triples(text: str, use_llm: bool = True) -> List[Tuple[str, str, str
             try:
                 import torch
 
-                prompt = _build_prompt(text)
+                prompt, prompt_id = _build_prompt(text, use_registry=True)
                 inputs = tokenizer(prompt, return_tensors="pt", truncation=True, max_length=512)
                 if hasattr(model, "device"):
                     inputs = {k: v.to(model.device) for k, v in inputs.items()}
@@ -156,14 +195,25 @@ def extract_triples(text: str, use_llm: bool = True) -> List[Tuple[str, str, str
                 for line in response.strip().split("\n"):
                     m = re.search(r"\(([^,]+),\s*([^,]+),\s*([^)]+)\)", line)
                     if m:
-                        triples.append((m.group(1).strip(), m.group(2).strip(), m.group(3).strip()))
+                        raw_triples.append((m.group(1).strip(), m.group(2).strip(), m.group(3).strip()))
+                used_llm = bool(raw_triples)
             except Exception as e:
                 logger.warning("LLM extraction failed: %s", e)
-                triples = _rule_based_extract(text)
-        else:
-            triples = _rule_based_extract(text)
-    else:
-        triples = _rule_based_extract(text)
 
-    triples = _filter_harmful(triples)
-    return triples
+    if not raw_triples:
+        raw_triples = _rule_based_extract(text)
+
+    filtered = _filter_harmful(raw_triples)
+    confidence = CONFIDENCE_LLM if used_llm else CONFIDENCE_RULE
+    result = [(s, r, o, confidence) for s, r, o in filtered]
+
+    # Record extraction quality in prompt registry
+    if prompt_id and result:
+        try:
+            from src.prompt_registry import get_registry
+            avg_conf = sum(c for _, _, _, c in result) / len(result)
+            get_registry().record_result(prompt_id, avg_conf)
+        except Exception:
+            pass
+
+    return result

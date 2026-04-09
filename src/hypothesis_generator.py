@@ -11,13 +11,18 @@ from typing import List, Optional, Tuple
 
 from src.config import EVAL_DIR
 from src.concept_graph import ConceptGraph
-from src.language_layer import extract_triples, _get_llm, _filter_harmful
+from src.language_layer import extract_triples, _get_llm, _filter_harmful, CONFIDENCE_HYPOTHESIS
 
 logger = logging.getLogger(__name__)
 
 # Success rate tracking
 _hypothesis_log: List[dict] = []
 _SUCCESS_LOG = EVAL_DIR / "hypothesis_success.json"
+_STRATEGY_LOG = EVAL_DIR / "strategy_stats.json"
+
+# Adaptive strategy: auto-selects best based on corroboration rate
+STRATEGIES = ["least_accessed", "high_degree", "random"]
+_STRATEGY_ADAPT_AFTER = 50  # re-evaluate after this many recorded outcomes
 
 
 def _load_success_log() -> List[dict]:
@@ -32,6 +37,40 @@ def _load_success_log() -> List[dict]:
 def _save_success_log(entries: List[dict]):
     _SUCCESS_LOG.parent.mkdir(parents=True, exist_ok=True)
     _SUCCESS_LOG.write_text(json.dumps(entries[-1000:], indent=2))  # Keep last 1000
+
+
+def _load_strategy_stats() -> dict:
+    if _STRATEGY_LOG.exists():
+        try:
+            return json.loads(_STRATEGY_LOG.read_text())
+        except Exception:
+            pass
+    return {s: {"attempts": 0, "corroborated": 0} for s in STRATEGIES}
+
+
+def _save_strategy_stats(stats: dict):
+    _STRATEGY_LOG.parent.mkdir(parents=True, exist_ok=True)
+    _STRATEGY_LOG.write_text(json.dumps(stats, indent=2))
+
+
+def get_best_strategy() -> str:
+    """
+    Return the strategy with the highest corroboration rate.
+    Falls back to 'least_accessed' if insufficient data (<50 attempts per strategy).
+    Re-evaluates every _STRATEGY_ADAPT_AFTER total outcomes.
+    """
+    stats = _load_strategy_stats()
+    best = "least_accessed"
+    best_rate = -1.0
+    for strat, data in stats.items():
+        attempts = data.get("attempts", 0)
+        if attempts < 10:
+            continue  # Not enough data for this strategy yet
+        rate = data.get("corroborated", 0) / attempts
+        if rate > best_rate:
+            best_rate = rate
+            best = strat
+    return best
 
 
 class HypothesisGenerator:
@@ -125,10 +164,15 @@ Output only the triples, one per line:"""
                 result.append((node, r, o))  # Attach to selected node
         return _filter_harmful(result)[:5]
 
-    def run(self, strategy: str = "least_accessed") -> List[Tuple[str, str, str]]:
+    def run(
+        self,
+        strategy: str = "least_accessed",
+        validate_evidence: bool = False,
+    ) -> List[Tuple]:
         """
         Full pipeline: select node -> get neighbors -> detect gaps -> generate candidates.
-        Returns new triples to add (unverified).
+        When validate_evidence=True, each candidate is tested against web search.
+        Returns triples as (s, r, o, confidence) 4-tuples.
         """
         node = self.select_node(strategy)
         if not node:
@@ -138,10 +182,109 @@ Output only the triples, one per line:"""
         gaps = self.detect_gaps(node, neighbors)
         for _, g in gaps[:2]:
             candidates.append((node, "possibly_related_to", g))
-        return candidates
 
-    def record_outcome(self, triple: Tuple[str, str, str], accepted: bool):
-        """Record hypothesis outcome for self-improvement."""
+        result = []
+        for triple in candidates:
+            s, r, o = triple[0], triple[1], triple[2]
+            if validate_evidence:
+                corroborated, conf, source = self.validate_with_evidence((s, r, o))
+                self.record_outcome(
+                    (s, r, o), accepted=corroborated,
+                    corroborated=corroborated, evidence_source=source, strategy=strategy,
+                )
+                if corroborated:
+                    result.append((s, r, o, conf))
+                else:
+                    result.append((s, r, o, CONFIDENCE_HYPOTHESIS))
+            else:
+                result.append((s, r, o, CONFIDENCE_HYPOTHESIS))
+        return result
+
+    def validate_with_evidence(
+        self,
+        triple: Tuple[str, str, str],
+        max_searches: int = 3,
+    ) -> Tuple[bool, float, str]:
+        """
+        Search for external evidence corroborating a hypothesis triple.
+        Returns (corroborated: bool, confidence: float, evidence_source: str).
+
+        Pipeline:
+          1. Generate DuckDuckGo query from triple
+          2. Extract triples from top results
+          3. Accept if any result triple has semantic similarity > 0.55 with hypothesis
+        """
+        s, r, o = triple
+        query = f'"{s}" {r.replace("_", " ")} "{o}"'
+        try:
+            from src.knowledge_ingest import _search_duckduckgo
+            results = _search_duckduckgo(query, max_results=max_searches)
+        except Exception as e:
+            logger.debug("Evidence search failed: %s", e)
+            return False, CONFIDENCE_HYPOTHESIS, ""
+
+        if not results:
+            return False, CONFIDENCE_HYPOTHESIS, ""
+
+        # Extract triples from result snippets
+        from src.language_layer import extract_triples_with_confidence
+        evidence_triples = []
+        for res in results:
+            text = f"{res.get('title', '')} {res.get('body', '')}".strip()[:1500]
+            if text:
+                evidence_triples.extend(extract_triples_with_confidence(text, use_llm=False))
+
+        if not evidence_triples:
+            return False, CONFIDENCE_HYPOTHESIS, ""
+
+        # Semantic similarity between hypothesis and evidence
+        try:
+            from src.concept_graph import _embed
+            import numpy as np
+            h_text = f"{s} {r} {o}"
+            h_emb = np.array(_embed(h_text), dtype=np.float32)
+            h_norm = np.linalg.norm(h_emb)
+
+            best_sim = 0.0
+            best_source = ""
+            for es, er, eo, _ in evidence_triples:
+                e_text = f"{es} {er} {eo}"
+                e_emb = np.array(_embed(e_text), dtype=np.float32)
+                e_norm = np.linalg.norm(e_emb)
+                if h_norm > 0 and e_norm > 0:
+                    sim = float(np.dot(h_emb, e_emb) / (h_norm * e_norm))
+                    if sim > best_sim:
+                        best_sim = sim
+                        best_source = results[0].get("href", "")
+
+            CORROBORATION_THRESHOLD = 0.55
+            if best_sim >= CORROBORATION_THRESHOLD:
+                # Confidence scales with evidence strength: 0.55 sim → 0.65 conf; 0.9 sim → 0.85 conf
+                evidence_conf = round(min(0.85, 0.5 + best_sim * 0.4), 3)
+                logger.info("Hypothesis corroborated (sim=%.3f): %s", best_sim, triple)
+                return True, evidence_conf, best_source
+        except Exception as e:
+            logger.debug("Hypothesis embedding comparison failed: %s", e)
+
+        return False, CONFIDENCE_HYPOTHESIS, ""
+
+    def record_outcome(self, triple: Tuple[str, str, str], accepted: bool,
+                       corroborated: bool = False, evidence_source: str = "",
+                       strategy: str = "unknown"):
+        """Record hypothesis outcome including evidence corroboration. Updates strategy stats."""
         entries = _load_success_log()
-        entries.append({"triple": list(triple), "accepted": accepted})
+        entries.append({
+            "triple": list(triple),
+            "accepted": accepted,
+            "corroborated": corroborated,
+            "evidence_source": evidence_source,
+            "strategy": strategy,
+        })
         _save_success_log(entries)
+        # Update per-strategy corroboration tracking
+        if strategy in STRATEGIES:
+            stats = _load_strategy_stats()
+            stats[strategy]["attempts"] = stats[strategy].get("attempts", 0) + 1
+            if corroborated:
+                stats[strategy]["corroborated"] = stats[strategy].get("corroborated", 0) + 1
+            _save_strategy_stats(stats)

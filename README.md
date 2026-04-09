@@ -1,426 +1,432 @@
-# Full-TS Cognitive Architecture
+# BoggersTheCIG — TS Cognitive Engine
 
-A complete, working full-scale **Thinking System (TS)** cognitive architecture, evolving from the GOAT-TS (Graph Of All Thoughts - Thinking System) concept. A "living knowledge engine" that ingests text, builds concept graphs, activates ideas, decays noise, spots tensions, and generates hypotheses—inspired by ACT-R, Wolfram Alpha's graph reasoning, and DeepMind's symbolic approaches.
+A self-evolving knowledge graph engine built on the **Thinking System (TS)** architecture. It ingests text, extracts concept triples, builds a persistent knowledge graph with epistemic weights, validates hypotheses against real evidence, and autonomously evolves its own knowledge and code — all locally, at $0 cost.
 
-## Features
+Inspired by ACT-R, Wolfram Alpha's graph reasoning, and DeepMind's symbolic approaches.
 
-- **Language Layer**: Extract concept triples (Subject, Relation, Object) from text via LLM
-- **Concept Graph**: Memgraph/Neo4j or NetworkX fallback for knowledge representation
-- **Core Reasoning**: Structural search, pattern discovery, compression, constraint resolution
-- **Hypothesis Generator**: Gap detection, candidate generation, self-improving prompts
-- **Validation Engine**: Logical consistency, bias checks, empirical compatibility
-- **Continuous Loop**: Celery + Redis for background thinking tasks
-- **Memory Architecture**: Raw → Structured → Hypothesis → Meta layers
-- **Ethical Safeguards**: Hardcoded rules, bias filtering, harmful content rejection
+---
+
+## What's New (v2)
+
+The engine has been upgraded from a flat triple store to a full **epistemic reasoning system**:
+
+| Capability | Before | After |
+|---|---|---|
+| Edge metadata | type, weight, source | + confidence, source_type, provenance, created_at, last_reinforced |
+| Coherence metric | density + conflict count | + semantic coherence (embedding cosine), avg confidence |
+| Hypothesis validation | structural graph check | evidence-based: DuckDuckGo search → semantic similarity |
+| Contradiction detection | bidirectional cycle detection | + semantic opposition via embeddings |
+| Memory | NetworkX JSON | SQLite (persistent, versioned) + NetworkX cache |
+| Forgetting | prune by degree | Ebbinghaus exponential decay; human edits protected |
+| Obsidian sync | graph → vault (one-way) | bidirectional: user edits flow back to graph |
+| Triple extraction | one static prompt | 5-prompt pool, per-prompt quality tracking, Ollama evolution |
+| Commit strategy | binary pass/fail | 3-tier: auto-commit / review branch / stage-only by confidence |
+| Code evolution | Ollama suggests (unused) | isolated git worktree, tests + coherence gate, merge if pass |
+| API endpoints | /expand, /analyse, /map, /ingest | + /ask, /trace, /contradictions, /bridges, /metrics, /dashboard |
+
+---
+
+## Architecture
+
+The system is a **13-subsystem pipeline** that runs continuously via GitHub Actions (every 5 hours) or locally:
+
+```
+Text Input
+    │
+    ▼
+[1] Language Layer         extract_triples_with_confidence() → (S, R, O, confidence)
+    │                      Prompt Registry: 5 prompts A/B tested, best auto-selected
+    ▼
+[2] Concept Graph          SQLite primary store + NetworkX in-memory cache
+    │                      Every edge: confidence, source_type, provenance, timestamps
+    │                      Ebbinghaus decay: c(t) = c₀·e^(−Δt/stability)
+    ▼
+[3] Provenance Store       (S,R,O) → source chain; cross-source confidence boosting
+    │
+    ▼
+[4] Core Engine            structural search, pattern discovery, causal chain BFS,
+    │                      semantic contradiction detection, bridge node detection
+    ▼
+[5] Hypothesis Generator   select node → detect gaps → generate candidates
+    │                      → validate_with_evidence() via DuckDuckGo + embedding similarity
+    │                      → strategy-adaptive selection (least_accessed / high_degree / random)
+    ▼
+[6] Validation Engine      bias, logic, stability, empirical checks
+    ▼
+[7] Memory Architecture    SQLite (edges) + Redis (raw queue) + meta rules
+    ▼
+[8] Self-Improver          3-tier confidence-gated commits
+    │                      Ebbinghaus decay per cycle
+    │                      Obsidian bidirectional sync
+    │                      Code self-modification via isolated git worktree
+    │                      Insights.md generation
+    ▼
+[9] Visualization          Obsidian Markdown export with bridge:: tags, confidence, provenance
+    │                      Graph snapshots (Pillow overlays), coherence metrics
+    ▼
+[10] API                   FastAPI: /ask, /trace, /contradictions, /bridges,
+                           /metrics, /dashboard, /expand, /ingest, /analyse
+```
+
+---
 
 ## Project Structure
 
 ```
-full-ts-cognitive-architecture/
-├── src/                    # Core code
-│   ├── language_layer.py    # Triple extraction from text
-│   ├── concept_graph.py     # Graph DB operations
-│   ├── core_engine.py       # Reasoning engine
-│   ├── hypothesis_generator.py
-│   ├── validation_engine.py
-│   ├── continuous_thinker.py
-│   ├── memory_layers.py
-│   ├── viz.py              # Obsidian/NetworkX export
-│   ├── self_improve.py
-│   ├── data_pipeline.py
-│   ├── eval.py
-│   ├── deploy.py
-│   ├── main.py             # Entry point
+BoggersTheCIG/
+├── src/
+│   ├── language_layer.py         # Triple extraction with confidence scores + prompt registry
+│   ├── concept_graph.py          # Graph backend (SQLite + NetworkX / Memgraph)
+│   ├── core_engine.py            # Reasoning: causal chains, bridge nodes, contradictions
+│   ├── hypothesis_generator.py   # Evidence-based hypothesis validation
+│   ├── validation_engine.py      # Multi-stage triple validation
+│   ├── continuous_thinker.py     # Background reasoning loop (Celery)
+│   ├── memory_layers.py          # Memory layer abstraction
+│   ├── eval.py                   # Coherence metrics (semantic + structural)
+│   ├── viz.py                    # Obsidian export (bridge tags, confidence, provenance)
+│   ├── self_improver.py          # Self-improvement cycle with confidence-gated commits
+│   ├── knowledge_ingest.py       # External web ingestion via DuckDuckGo
+│   ├── obsidian_sync.py          # Bidirectional Obsidian ↔ graph sync
+│   ├── obsidian_filesystem_manager.py
+│   ├── obsidian_ollama_bridge.py
+│   ├── sqlite_store.py           # Persistent SQLite knowledge store
+│   ├── provenance_store.py       # Triple source chain + corroboration index
+│   ├── prompt_registry.py        # Prompt evolution engine
+│   ├── hardware_adapt.py         # Auto-detects hardware, selects Ollama model tier
+│   ├── config.py                 # All configuration (env vars)
+│   ├── main.py                   # CLI entry point
 │   └── api/
-│       └── app.py          # FastAPI endpoints
-├── data/                   # Input data
-│   ├── inputs/
-│   └── raw/
-├── graphs/                 # DB exports
-├── models/                 # LLM checkpoints
-├── memory/                 # Memory layer storage
-│   ├── raw/
-│   ├── structured/
-│   ├── hypothesis/
-│   └── meta/
-├── eval/                   # Benchmarks and logs
-├── viz/                    # Obsidian vault output
-├── api/                    # (duplicate for clarity)
-├── tests/                  # Pytest
-├── docker-compose.yaml
+│       └── app.py                # FastAPI: all endpoints
+├── obsidian/
+│   └── TS-Knowledge-Vault/       # Visual memory layer
+│       ├── Concepts/             # Node markdown files (bridge-tagged, confidence shown)
+│       ├── snapshots/            # Timestamped graph PNGs
+│       ├── metrics/              # coherence_log.jsonl
+│       ├── Insights.md           # Auto-generated cycle summary
+│       ├── Evolution-Log.md      # Full change journal
+│       └── TS-Dashboard.md       # Dataview live dashboard
+├── memory/
+│   ├── knowledge.db              # SQLite knowledge store (primary)
+│   ├── provenance_index.json     # Triple → source chain index
+│   ├── provenance_store.jsonl    # Provenance audit log
+│   └── prompt_registry.json      # Prompt pool + quality scores
+├── eval/
+│   ├── self_improve_log.jsonl
+│   ├── hypothesis_success.json
+│   ├── strategy_stats.json       # Per-strategy corroboration rates
+│   └── knowledge_ingest.jsonl
+├── data/
+│   └── queries.json              # Manual + auto-generated search queries
+├── graphs/
+│   └── networkx_fallback.json    # JSON backup (SQLite is primary)
+├── tests/
+├── .github/workflows/
+│   ├── ts-evolve.yml             # Runs every 5h: self-improve + commit
+│   └── ts_graph_builder.yml
+├── docker-compose.yaml           # Memgraph + Redis
 ├── requirements.txt
-├── setup.py
 └── Makefile
 ```
+
+---
 
 ## Setup
 
 ### Prerequisites
 
 - Python 3.12+
-- 8GB+ RAM (laptop)
-- Docker & Docker Compose (for Memgraph/Neo4j)
-- Optional: Free cloud GPU (Colab, Kaggle, Lightning AI) for heavy LLM work
+- [Ollama](https://ollama.ai) installed and running (`ollama serve`)
+- 8GB+ RAM
+- Docker (optional, for Memgraph at >50k nodes)
 
-### Installation
+### Install
 
 ```bash
-# Clone or create project
-cd full-ts-cognitive-architecture
+git clone https://github.com/BoggersTheFish/BoggersTheCIG
+cd BoggersTheCIG
 
-# Create virtual environment
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
 
-# Install dependencies
 pip install -r requirements.txt
 pip install -e .
 
-# Start graph DB (Memgraph) via Docker
-docker-compose up -d
-
-# Start Redis (for Celery)
-docker-compose up -d redis
-
-# Initialize graph schema
-python -c "from src.concept_graph import ConceptGraph; ConceptGraph().init_schema()"
+# Pull an Ollama model (auto-detected based on your hardware)
+ollama pull qwen2.5-coder:7b   # 16GB RAM
+# or
+ollama pull phi3.5-mini-instruct  # 8GB RAM
 ```
 
-### Hardware Check
+### Hardware auto-detection
+
+The system detects your CPU/RAM/GPU and picks the best model automatically:
+
+| Hardware | Model |
+|---|---|
+| 8GB RAM, no GPU | phi3.5-mini-instruct |
+| 16GB RAM, no GPU | qwen2.5-coder:7b |
+| 32GB RAM or 12GB VRAM | qwen2.5-coder:14b |
+| 24GB VRAM (RTX 4090) | qwen2.5:32b |
+| 48GB VRAM (A100) | llama3.1:70b |
+
+Override: `python src/main.py --force-model llama3.1:8b`
+
+---
+
+## Running
 
 ```bash
-python src/deploy.py --check
-```
+# Set PYTHONPATH (required)
+export PYTHONPATH=.   # Linux/Mac
+# set PYTHONPATH=.   # Windows
 
-Suggests free cloud if RAM < 8GB or no GPU detected.
-
-## Run Commands
-
-```bash
-# Set PYTHONPATH (required for module resolution)
-# Linux/Mac: export PYTHONPATH=.
-# Windows:   set PYTHONPATH=.
-
-# Single input (one-shot reasoning)
+# Ingest text into the knowledge graph
 python src/main.py --input "Gravity bends spacetime"
 python src/main.py --input "Explain quantum physics" --no-llm  # rule-based only
 
-# Ingest text into graph
-python src/main.py --input "Gravity bends spacetime" --ingest-only
-
-# Continuous thinking loop (background)
-celery -A src.tasks worker --loglevel=info &
-python src/main.py --mode continuous --sleep 60
-# Monitor eval/continuous_log.jsonl for hypothesis generation/validation cycles
-
-# API server
-uvicorn src.api.app:app --reload --host 0.0.0.0
-
-# View graph in Obsidian: open obsidian/TS-Knowledge-Vault as vault → Graph View shows clusters
-```
-
-## Self-Improving Loop
-
-The TS engine can evolve itself using Cursor + Obsidian + Ollama (local). No paid APIs.
-
-### Prerequisites
-
-- **Ollama** installed and running (`ollama serve`)
-- **Obsidian** with Dataview plugin (for TS-Dashboard queries)
-
-### Hardware auto-detection & Ollama model selection
-
-The system auto-detects CPU/RAM (psutil) and GPU/VRAM (torch.cuda) and picks the largest model that fits with a 20% safety margin:
-
-| Hardware | Selected model |
-|----------|----------------|
-| 8GB RAM, no GPU | phi3.5-mini-instruct |
-| 16GB RAM, no GPU | qwen2.5-coder:7b |
-| 32GB+ RAM or 12GB+ VRAM | qwen2.5-coder:14b |
-| 24GB+ VRAM (e.g. RTX 4090) | qwen2.5-coder:32b |
-| 48GB+ VRAM (e.g. A100 80GB) | llama3.1:70b |
-
-- If the selected model is not pulled, falls back to next tier. Logs: `Hardware detected: NVIDIA RTX 4090, 24GB VRAM, 64GB RAM → selecting qwen2.5-coder:32b`
-- Override: `python src/main.py --force-model llama3.1:70b`
-- Pull recommended model: `ollama pull qwen2.5-coder:7b` (or the one auto-selected)
-
-### Scaling the Brain
-
-**Hardware tiers** (use 80% of detected RAM/VRAM):
-
-| Hardware | Model |
-|----------|-------|
-| 8GB RAM, no GPU | phi3.5-mini-instruct or tinyllama |
-| 16–32GB RAM, no GPU | qwen2.5-coder:7b |
-| 32GB+ RAM or 12GB+ VRAM | qwen2.5-coder:14b |
-| 24GB+ VRAM (RTX 4090) | qwen2.5:32b or mixtral:22b |
-| 48GB+ VRAM (A100) | llama3.1:70b |
-
-**Large-graph support** (100k+ nodes):
-
-- NetworkX for <50k nodes; Memgraph (Docker) above
-- `check_graph_size()`: if nodes ≥ 50k and Memgraph down → attempts `docker-compose up memgraph`
-- Sharding: `get_subgraphs_by_community()` splits graph via Louvain/greedy modularity
-- Memory-efficient: `semantic_search(batch_limit=5000)`, `get_neighbors_batch()`
-- Config: `ENABLE_LARGE_GRAPH`, `MIN_NODES_FOR_MEMGRAPH` (default 50000)
-
-**Parallel thinking**: `--parallel-threads N` (default: CPU cores // 2). Run multiple Ollama instances on different ports:
-
-```bash
-# Terminal 1: default (port 11434)
-ollama serve
-
-# Terminal 2: second instance (port 11435)
-OLLAMA_HOST=0.0.0.0:11435 ollama serve
-
-# Terminal 3: third instance (port 11436)
-OLLAMA_HOST=0.0.0.0:11436 ollama serve
-```
-
-Then: `python src/main.py --parallel-threads 3 --analyze-vault`. Requests are round-robin across URLs; batch extraction (vault, external ingest) runs in parallel.
-
-**Monitoring & safety**:
-
-- `get_resource_usage()` tracks RAM/VRAM
-- Before each Ollama inference: `check_resource_pressure()` → if > 90%, `select_downscaled_model()` switches to next smaller tier
-- `prune_low_degree_nodes()` removes orphans (config: `PRUNE_DEGREE_THRESHOLD`)
-
-**Simulated examples**:
-- 8GB laptop → phi3.5-mini, NetworkX
-- RTX 4090 24GB + 64GB RAM → qwen2.5-coder:32b, Memgraph at 60k nodes
-
-### How to Start the Self-Improving Loop
-
-**1. One-time setup**
-
-```bash
-# Install pre-commit hook (TS coherence check before each commit)
-scripts/install_pre_commit.sh   # Linux/Mac
-scripts/install_pre_commit.bat  # Windows
-
-# Pull Ollama model (if using)
-ollama pull qwen2.5-coder:7b
-```
-
-**2. Run one self-improvement cycle**
-
-```bash
-# From project root
+# Run one self-improvement cycle
 python src/main.py --self-improve
 
-# Dry run: simulate without committing (safe to test)
-python src/main.py --self-improve --dry-run
-
-# Notify only when meaningful changes occur (requires WEBHOOK_URL)
-python src/main.py --self-improve --notify-on-change
-
-# Safe evolve: backup before commit, revert if coherence drops >10% or tests fail
-python src/main.py --self-improve --safe-evolve
-
-# Or via script
-scripts/run_self_improvement.sh      # Linux/Mac
-scripts/run_self_improvement.bat     # Windows
-```
-
-**3. Run continuous loop with evolution**
-
-```bash
-# Thinking loop + full self-improver every 5 iterations
-python src/main.py --mode continuous --sleep 60 --evolve-every 5
-```
-
-**4. Obsidian as visual memory**
-
-- Open `obsidian/TS-Knowledge-Vault` as an Obsidian vault
-- Graph View shows concept clusters (Concepts folder)
-- **TS-Dashboard.md** — Coherence dashboard with Dataview/DataviewJS:
-  - Nodes/edges/contradictions over time (from `metrics/coherence_log.jsonl`)
-  - Top 10 most-linked concepts, orphan concepts (degree < 2)
-  - Recent commits affecting vault, coherence trend chart (matplotlib PNG)
-  - Auto-refreshes when Dataview re-evaluates
-- **Snapshots** — `snapshots/` stores annotated graph PNGs after ingest, analyze-vault, organize-vault, self-improve. Open `snapshots/index.md` for clickable images with timestamp, reason, and metrics delta.
-
-**5. GitHub Actions (headless evolution)**
-
-- `.github/workflows/ts-evolve.yml` runs every 6 hours
-- Installs Ollama, runs `--self-improve --skip-tests`, commits & pushes changes
-- **Secrets setup**: Settings → Secrets and variables → Actions → New repository secret
-  - `GH_PAT` (optional): Personal Access Token with `repo` scope for push from forks
-  - Without GH_PAT: uses default `GITHUB_TOKEN` (requires `permissions: contents: write`)
-- **Trigger**: Actions → TS Evolve → Run workflow
-- **Failure notification**: On failure, logs to workflow summary (GitHub Actions UI)
-- **Commit message**: Uses `TS auto-evolve: [changes] (coherence +X%)` from `eval/last_commit_message.txt`
-
-**5b. Safety (rollback & --safe-evolve)**
-
-- On coherence drop >10% or test failure: git revert last commit, restore stash, log "Rollback: bad evolution"
-- `--safe-evolve`: create backup branch `ts-backup-YYYYMMDD-HHMM` before commit; keep max 3 backups
-- Webhook: set `WEBHOOK_URL` in config for failure notifications (Slack/Discord JSON)
-
-```bash
-python src/main.py --self-improve --safe-evolve
-```
-
-**5c. Auto-commit & push (end of meaningful tasks)**
-
-- After `--analyze-vault`, `--organize-vault`, `--generate-queries`: automatically commits and pushes if changes exist
-- Commit message: `TS auto-evolve: [reason] (nodes N, edges E)` or `(coherence +X%)`
-- Only commits if coherence check passes (except `--generate-queries`)
-- Uses `GITHUB_TOKEN` or `GH_PAT` from environment for push auth
-- On push conflict: `git pull --rebase`, retry; on failure: `git rebase --abort`, stash, pull, stash pop, retry
-- Logs commit hash and push status to `eval/self_improve_log.jsonl`
-- Disable with `--no-auto-commit`
-
-**6. External knowledge ingestion**
-
-```bash
-# With --ingest-external flag (runs even if ENABLE_EXTERNAL_INGEST=false)
+# With external web ingestion
 python src/main.py --self-improve --ingest-external
 
-# Or enable via env for persistent use
-ENABLE_EXTERNAL_INGEST=true python src/main.py --self-improve --ingest-external
-```
+# Safe mode: backup branch, rollback on coherence drop
+python src/main.py --self-improve --safe-evolve
 
-- Uses DuckDuckGo (free), extracts triples via Ollama, ingests into graph
-- Rate-limited 2s between queries. Edit `data/queries.json` for search terms
-- Logs to `eval/knowledge_ingest.jsonl` with timestamp + source
+# Dry run (no commits)
+python src/main.py --self-improve --dry-run
 
-**6b. Self-generate search queries from graph gaps**
-
-```bash
-# Standalone: generate queries from low-degree nodes + contradictions
-python src/main.py --generate-queries
-
-# With self-improve (runs every N cycles when --ingest-external)
-python src/main.py --self-improve --ingest-external --generate-queries
-```
-
-- Uses Ollama to suggest 5–10 high-value DuckDuckGo queries from graph gaps
-- Saves to `data/queries.json` with `manual` (preserved) + `generated` + `last_generated` (timestamp, reason)
-- Runs automatically every `QUERY_GENERATE_EVERY_N_CYCLES` (default 3) when `--ingest-external` is used
-- Fallback: uses manual queries when Ollama unavailable. $0 cost (local Ollama only)
-
-**7. Analyze Obsidian vault**
-
-```bash
+# Analyze your Obsidian vault
 python src/main.py --analyze-vault
-python src/main.py --analyze-vault --no-ollama   # Use rule-based only (no Ollama)
+
+# Start the API server
+uvicorn src.api.app:app --reload --host 0.0.0.0 --port 8000
 ```
 
-**7b. Auto-organize vault**
+---
+
+## API Endpoints
+
+Start the server with `uvicorn src.api.app:app --reload`, then:
+
+### Knowledge Query
+
+```
+GET /ask?q=why+does+gravity+bend+light
+```
+Graph-grounded Q&A. Extracts concepts from your question, expands a 2-hop subgraph, serializes it as grounded context, and asks Ollama to answer citing only what's in the graph. Returns the answer, cited node names, and edge count used.
+
+```json
+{
+  "question": "why does gravity bend light",
+  "answer": "Based on the graph: gravity → warps → spacetime (conf: 0.82)...",
+  "cited_nodes": ["gravity", "spacetime", "light_path"],
+  "context_edges": 12
+}
+```
+
+### Causal Chain Tracer
+
+```
+GET /trace?source=gravity&target=black_hole_formation&max_depth=5
+```
+Finds a directed causal path through `causes`, `leads_to`, `produces`, `affects`, `influences`, `results_in` edges.
+
+```json
+{
+  "found": true,
+  "path": ["gravity", "mass_concentration", "spacetime_curvature", "black_hole_formation"],
+  "relations": ["causes", "leads_to", "causes"],
+  "confidence_product": 0.312,
+  "explanation": "gravity (causes) → mass_concentration (leads_to) → spacetime_curvature (causes) → black_hole_formation"
+}
+```
+
+### Contradiction Detection
+
+```
+GET /contradictions?sample_size=300
+```
+Returns both structural (bidirectional causal cycles) and semantic (embedding opposition) contradictions, sorted by severity.
+
+### Bridge Node Detection
+
+```
+GET /bridges?top_n=10
+```
+Nodes that connect otherwise separate semantic clusters. High `bridge_score` = high betweenness centrality + diverse neighbor embeddings.
+
+### Live Metrics
+
+```
+GET /metrics
+GET /dashboard   ← HTML dashboard, auto-refreshes every 30s
+```
+
+### Other
+
+```
+GET  /expand/{concept}    Generate hypotheses for a concept
+GET  /analyse/{node}      Structural search + conflicts for a node
+GET  /map/{domain}        Export domain subgraph to Obsidian
+POST /ingest              Add text, extract triples, ingest
+GET  /stats               Node/edge counts
+```
+
+---
+
+## Self-Improvement Loop
+
+Each cycle does:
+
+1. `git pull`
+2. **Ebbinghaus decay** — confidence decays as `c₀ · e^(−Δt/stability)`. Edges not reinforced in 30 days archive below `0.1` confidence. Human-edited edges are decay-protected.
+3. **Coherence before** — baseline: semantic coherence, avg confidence, structural density
+4. **Obsidian sync** — detect user edits to vault notes, apply as high-confidence (`0.9`) human edges
+5. **Ollama analysis** — detect tensions and gaps in the graph
+6. **Query generation** (every 3 cycles) — Ollama suggests search queries from low-degree nodes
+7. **External ingest** (optional) — DuckDuckGo → triples with provenance URLs
+8. **Export to Obsidian** — markdown files with `bridge:: true` tags, confidence, provenance
+9. **Insights.md** — cycle summary: top new edges, contradictions, bridge node, corroborated hypotheses
+10. **Coherence after** — semantic + structural + confidence check; rollback if any drops >10–15%
+11. **Tests** — pytest; rollback on failure
+12. **Confidence-gated commit**:
+    - `avg_confidence ≥ 0.75` → auto-commit to main
+    - `0.5–0.75` → commit to `ts-review-YYYYMMDD-HHMM` branch + webhook notify
+    - `< 0.5` → stage only, no commit
+
+### Code Self-Modification (`--safe-evolve`, every 10 cycles)
+
+Ollama suggests improvements to `language_layer.py` or `hypothesis_generator.py`. The patch is applied in an isolated **git worktree**, tests run, coherence checked — merged to main only if both pass.
+
+---
+
+## Confidence System
+
+Every edge in the graph carries a confidence score `[0, 1]`:
+
+| Source | Default confidence |
+|---|---|
+| Human edit (Obsidian) | 0.9 |
+| External web source with URL | 0.7 |
+| LLM-extracted | 0.6 |
+| Rule-based regex fallback | 0.3 |
+| Unverified hypothesis | 0.25 |
+
+**Corroboration boost:** When a second source confirms the same triple, confidence increases by `+0.1` (same source type) or `+0.2` (different source type), capped at `1.0`.
+
+---
+
+## Hypothesis Validation
+
+Hypotheses are no longer accepted on structural grounds alone. Each candidate triple `(A, relation, B)` is tested:
+
+1. Auto-generate DuckDuckGo query: `"A" relation "B"`
+2. Extract triples from top 3 results
+3. Compute semantic similarity (cosine) between hypothesis and evidence triples
+4. Accept if similarity ≥ 0.55 → confidence scales 0.65–0.85 with evidence strength
+5. Reject → marked `speculative`, confidence 0.25
+6. Outcome recorded in `strategy_stats.json` — the strategy with highest corroboration rate is auto-selected next cycle
+
+---
+
+## Prompt Evolution
+
+The language layer maintains a pool of 5 triple extraction prompts (standard, specificity-focused, chain-of-thought, scientific, compressed). Each prompt tracks its **average confidence of extracted triples**. Every 50 extractions:
+
+- The worst-performing prompt is retired (if pool > 3)
+- Ollama generates a variation of the best prompt
+- The new prompt joins the pool as a candidate
+
+---
+
+## Obsidian Integration
+
+Open `obsidian/TS-Knowledge-Vault` as an Obsidian vault.
+
+- **Concepts/** — one file per node. Bridge nodes tagged with `bridge:: true` frontmatter. Neighbors show confidence and provenance source.
+- **Insights.md** — updated each cycle: top new edges, active contradictions, top bridge node, corroborated hypotheses
+- **TS-Dashboard.md** — Dataview queries: coherence trend, top concepts, orphans
+- **snapshots/** — timestamped graph PNGs with Pillow overlays
+- **Evolution-Log.md** — full change journal
+
+**Bidirectional sync**: When you edit a concept note (add/remove wikilinks), the next self-improve cycle detects the diff and applies your changes to the graph as high-confidence human edges. Your corrections override the LLM.
+
+---
+
+## GitHub Actions
+
+`.github/workflows/ts-evolve.yml` runs every 5 hours:
+
+1. Checkout → install deps → start Ollama
+2. `python src/main.py --self-improve --safe-evolve`
+3. Coherence assert + tests
+4. Confidence-gated commit & push
+
+**Secrets:**
+- `GH_PAT` — Personal Access Token with `repo` scope (or use default `GITHUB_TOKEN` with `permissions: contents: write`)
+
+**Trigger manually:** Actions → TS Evolve → Run workflow
+
+---
+
+## Coherence Metrics
+
+`graph_coherence()` now returns:
+
+```json
+{
+  "nodes": 142,
+  "edges": 387,
+  "density": 0.0384,
+  "conflicts": 2,
+  "semantic_coherence": 0.4312,
+  "avg_confidence": 0.6841
+}
+```
+
+The rollback guard in the self-improver checks all three:
+- `semantic_coherence` drops > 15% → rollback
+- `avg_confidence` drops > 20% → rollback (noise injection detected)
+- `density` drops > 10% → rollback (structural collapse)
+
+---
+
+## External Knowledge Ingestion
 
 ```bash
-# Standalone: cluster Concepts by embeddings + Ollama, create folders (Physics/, Hypotheses/, etc.)
-python src/main.py --organize-vault
+# Run with ingestion
+python src/main.py --self-improve --ingest-external
 
-# Runs automatically in self-improve when root files > 50 or coherence low
+# Generate search queries from graph gaps
+python src/main.py --generate-queries
 ```
 
-- Clusters by Ollama structural role (Physics, Hypotheses, External, etc.)
-- Moves files, fixes wikilinks, logs to Evolution-Log.md
-- Snapshot saved after organize. Config: `ORGANIZE_VAULT_ROOT_FILES_THRESHOLD`, `ORGANIZE_VAULT_COHERENCE_THRESHOLD`
+- Free DuckDuckGo search (no API key), rate-limited 2s between queries
+- Each ingested triple gets `source_type="web_search"`, `provenance=<URL>`
+- External triples start at confidence `0.7`; boosted on corroboration
+- Logs to `eval/knowledge_ingest.jsonl`
+- Query auto-generation: Ollama reads low-degree nodes + contradictions, suggests 5–10 DuckDuckGo queries every 3 cycles
 
-**7c. Extract & merge sub-ideas**
+---
+
+## Scaling
+
+| Nodes | Backend |
+|---|---|
+| < 50k | NetworkX (in-memory) + SQLite (persistence) |
+| ≥ 50k | Memgraph via Docker (Bolt protocol) |
+
+Large-graph features: community detection sharding, batch semantic search, parallel Ollama instances on different ports.
 
 ```bash
-# Standalone: extract sub-ideas into hierarchical files, merge duplicates
-python src/main.py --extract-subideas
-
-# Runs automatically after ingest, analyze-vault, self-improve
+# Multi-instance Ollama
+ollama serve &
+OLLAMA_HOST=0.0.0.0:11435 ollama serve &
+python src/main.py --parallel-threads 2 --analyze-vault
 ```
 
-- **Extract**: Sections or bullet groups ≥50 words → `ParentConcept/Sub-ideas/name.md` with backlink "Used in: [[Parent]]"
-- **Merge**: Duplicate sub-ideas across notes (embedding sim ≥0.85 or Ollama) → `Shared-Sub-ideas/name.md` with "Used in: [[Physics]], [[Chemistry]]"
-- Replaces original content with wikilinks. Logs to Evolution-Log.md
-- Ollama: `is_meaningful_subidea`, `is_duplicate_subidea`, `suggest_extraction_name` (kebab-case)
-
-**Example (simulated):**
-- Before: `Physics.md` with long quantum section, `Chemistry.md` with similar section
-- After: Both link to `[[Shared-Sub-ideas/Quantum-Mechanics]]`; shared file has "Used in: [[Physics]], [[Chemistry]]"
-
-- Reads vault recursively, parses neighbor format `[[X]] (rel, weight=N)`
-- Chunks large notes (1500 chars, 200 overlap), sends to Ollama for concept extraction
-- Detects contradictions via core_engine
-- Progress logging every 20 files. Limit: `VAULT_MAX_FILES` (default 200)
-
-**9. Graph snapshots**
-
-- Auto-saved after: knowledge ingest, vault analysis, self-improve cycle, single-run export
-- Location: `obsidian/TS-Knowledge-Vault/snapshots/`
-- Format: `graph-YYYY-MM-DD-HH-MM-<reason>.png`
-- **Text overlay** (Pillow): timestamp, "After: [change description]", delta metrics (nodes +X, edges +Y, coherence +Z%)
-- **Index** (`snapshots/index.md`): clickable image, change summary, link to commit (when in git)
-- Size: Resized to 1920×1080 or smaller (configurable via `SNAPSHOT_MAX_WIDTH`, `SNAPSHOT_MAX_HEIGHT`)
-- View: Open `snapshots/index.md` in Obsidian or any markdown viewer to browse graph evolution
-
-**10. Notifications (optional)**
-
-- Set `WEBHOOK_URL` (Slack, Discord, or custom webhook) to receive alerts
-- **On failure**: Always prints to console + POSTs to webhook (error, rollback status)
-- **On change** (with `--notify-on-change`): POSTs only when meaningful changes were committed
-
-```bash
-# Slack incoming webhook
-export WEBHOOK_URL="https://hooks.slack.com/services/YOUR/WEBHOOK/URL"
-
-# Discord webhook
-export WEBHOOK_URL="https://discord.com/api/webhooks/..."
-
-# Run with notifications
-python src/main.py --self-improve --notify-on-change
-```
-
-**Obsidian plugin combo** (optional two-way sync): Text Extractor + Obsidian Advanced URI
-
-### Troubleshooting
-
-| Issue | Fix |
-|-------|-----|
-| `ModuleNotFoundError: No module named 'src'` | Run from project root: `python src/main.py` (main.py adds `sys.path` automatically) |
-| GitHub Actions: push fails | Add `GH_PAT` secret (PAT with `repo` scope) or ensure `permissions: contents: write` |
-| Ollama 404 / model not found | `ollama pull qwen2.5-coder:7b` or `ollama pull llama3.1:8b`. Bridge uses first available model if configured model missing |
-| External ingest returns "skipped" | Pass `--ingest-external` (forces ingest) or set `ENABLE_EXTERNAL_INGEST=true` |
-| Vault empty / no triples | Ensure `obsidian/TS-Knowledge-Vault/Concepts/` has `.md` files with `# Node` and `- [[X]] (rel, ...)` |
-| DuckDuckGo rate limit | Increase `INGEST_RATE_LIMIT_SEC` (default 2.0) |
-| WEBHOOK_URL not firing | Check URL is valid; Slack/Discord expect JSON body |
-
-### What the Loop Does
-
-1. **git pull** — Get latest code (tqdm progress)
-2. **Coherence (before)** — Baseline metrics for commit message
-3. **Ollama analysis** — Detect tensions, gaps, performance issues (if Ollama running)
-4. **Query generation** — (every N cycles) Generate search queries from graph gaps
-5. **External ingest** — (optional) Search web, extract triples, ingest (tqdm)
-6. **Export to Obsidian** — Concepts → Markdown; auto-organize if >50 root files or low coherence
-7. **Coherence metrics + snapshot** — Export metrics, Pillow-overlay snapshot
-8. **Coherence (after)** — Fail and rollback if conflicts > 5
-9. **Run tests** — pytest; on failure: rollback, log, notify
-10. **Commit** — `TS auto-evolve: [short Ollama summary] (coherence +X%)` on success
-11. **Log** — `eval/self_improve_log.jsonl` (start/end time, coherence before/after, changes, test results)
-
-## Free Resource Rotation
-
-| Resource | Free Option | Limits |
-|----------|-------------|--------|
-| Graph DB | Memgraph (Docker) | Local, unlimited |
-| Graph DB Cloud | Neo4j AuraDB Free | 50k nodes |
-| LLM | Hugging Face (Llama-3.2-3B) | Local/Colab |
-| Vector Search | FAISS (CPU) | Local |
-| Cache/Queue | Redis (Docker) | Local |
-| Cloud GPU | Colab, Kaggle | Session limits |
-| K8s | Minikube, Oracle Free | Limited |
-
-## Cost Estimate
-
-- **Core (local)**: $0
-- **Cloud scaling**: $0–$20/month (optional free tiers)
-
-## Scaling to Billions
-
-- **Sharding**: Memgraph clusters, graph partitioning
-- **Vector DB**: Pinecone free tier or FAISS distributed
-- **Celery**: Distributed workers, Redis Cluster
-- **K8s**: Minikube local → Oracle Free Tier for production
+---
 
 ## Testing
 
@@ -428,90 +434,30 @@ python src/main.py --self-improve --notify-on-change
 pytest tests/ -v
 ```
 
-## Simulated First Run (Logs / Commits on First Run)
+36 tests, 8 skipped (network-dependent). All core subsystems covered.
 
-**GitHub Actions (ts-evolve) — first run:**
-```
-Checkout ✓
-Set up Python 3.12 ✓
-Install dependencies ✓
-Install Ollama ✓ (or continue-on-error)
-Run self-improvement cycle ✓
-  - git pull (or skip if not repo)
-  - TS coherence check
-  - Export to Obsidian
-Run TS coherence check ✓
-Run tests ✓ (or continue-on-error)
-Commit and push: "No changes to commit" (or commit if eval/graphs/obsidian changed)
-```
-If any step fails: "Notify on failure" writes to workflow summary.
+---
 
-**External ingest (--ingest-external):**
-```
-ensure_queries_file() → data/queries.json exists
-For each query: sleep(2), DuckDuckGo search, extract triples (Ollama or rule-based)
-Validate, filter harmful, ingest
-Log: eval/knowledge_ingest.jsonl
-```
+## Troubleshooting
 
-**Analyze vault:**
-```
-Analyzing vault: N markdown files
-Processing file 1/N: Gravity.md
-...
-{files_read, triples_ingested, contradictions}
-```
+| Issue | Fix |
+|---|---|
+| `ModuleNotFoundError: src` | Run from project root; `main.py` adds `sys.path` automatically |
+| Push fails in Actions | Add `GH_PAT` secret or set `permissions: contents: write` |
+| Ollama 404 | `ollama pull qwen2.5-coder:7b` — bridge uses first available model |
+| External ingest skipped | Pass `--ingest-external` flag or `ENABLE_EXTERNAL_INGEST=true` |
+| Vault empty | Ensure `Concepts/*.md` files have `# Node` + `- [[X]] (rel, ...)` format |
+| DuckDuckGo rate limit | Increase `INGEST_RATE_LIMIT_SEC` (default 2.0s) |
+| Low avg_confidence, no commits | Graph has noisy triples; run `--dry-run` to inspect before committing |
 
-## Simulated First Run (What Happens)
+---
 
-**GitHub Actions (ts-evolve):**
-1. Checkout repo
-2. Install Python 3.12 + deps
-3. Install Ollama, pull tinyllama (or skip on error)
-4. Run `python src/main.py --self-improve --skip-tests` → coherence check, export to Obsidian, tests skipped
-5. TS coherence assert (conflicts ≤ 10)
-6. pytest (continue-on-error)
-7. If any files changed (eval/, graphs/, obsidian/): commit + push
+## Cost
 
-**External ingest (ENABLE_EXTERNAL_INGEST=true):**
-1. Load queries from data/queries.json
-2. DuckDuckGo search per query (rate-limited 2s)
-3. Ollama extracts triples from snippets (or rule-based fallback)
-4. Validate, filter harmful, ingest into graph
-5. Log to eval/knowledge_ingest.jsonl
+- **Everything**: $0 (local Ollama, DuckDuckGo, SQLite, Docker)
+- Optional cloud scaling: $0–$20/month (Neo4j AuraDB free tier, Oracle Free K8s)
 
-**Analyze vault:**
-1. Read obsidian/TS-Knowledge-Vault/*.md
-2. Parse neighbor format: `[[X]] (rel, weight=N)` → (subject, rel, X)
-3. For non-neighbor content: chunk, send to Ollama (or rule-based)
-4. Ingest triples, detect contradictions
-5. If triples_ingested > 0: auto_snapshot_graph(reason="after-analyze-vault")
-6. Returns {files_read, triples_ingested, contradictions}
-
-**Graph snapshot (after vault-modifying ops):**
-1. Load ConceptGraph, build NetworkX subgraph (≤200 nodes)
-2. Render via matplotlib, Pillow overlay (timestamp, "After: [reason]", delta metrics)
-3. Append entry to snapshots/index.md with clickable image, summary, commit link
-
-**Simulated full cycle (self-improve + ingest + organize):**
-```
-# python src/main.py --self-improve --ingest-external --safe-evolve
-git pull ✓
-coherence (before) ✓ {nodes: 16, edges: 9, density: 0.07}
-Ollama analysis ✓ "Structural tensions: orphan nodes in Gravity, spacetime"
-Query generation ✓ (cycle % 3 == 0) → 5 queries saved to data/queries.json
-external ingest ✓ tqdm 3/3 queries, triples_ingested: 4
-export to Obsidian ✓
-vault_organize ✓ skipped (root=16 < 50)
-coherence_metrics ✓ coherence_log.jsonl appended
-snapshot ✓ graph-2026-03-16-23-00-self-improve.png (Pillow overlay)
-coherence (after) ✓
-tests ✓
-commit ✓ "TS auto-evolve: Structural tensions: orphan nodes (coherence +5%)"
-push ✓
-eval/self_improve_log.jsonl: {"start_time":"...","coherence_before":{...},"coherence_after":{...},"commit_message":"...","end_time":"..."}
-snapshots/index.md: ### 2026-03-16 23:00 UTC **After:** eval+obsidian — nodes +2, edges +3, coherence +5% [![graph](...)](...)
-```
+---
 
 ## License
 
