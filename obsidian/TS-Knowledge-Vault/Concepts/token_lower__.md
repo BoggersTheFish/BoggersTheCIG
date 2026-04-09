@@ -5,4 +5,4 @@
 
 ## Neighbors
 
-- [[dialect="american"]] (token.text)_for_token_in_nltk.word_tokenize(prepped_sentences, weight=850, conf=0.89)
+- [[dialect="american"]] (token.text)_for_token_in_nltk.word_tokenize(prepped_sentences, weight=1491, conf=1.00)

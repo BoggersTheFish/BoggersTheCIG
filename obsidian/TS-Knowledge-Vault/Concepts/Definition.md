@@ -5,4 +5,4 @@
 
 ## Neighbors
 
-- [[Knowledge Graph Reasoning]] (Research, weight=898, conf=1.00)
+- [[Knowledge Graph Reasoning]] (Research, weight=1539, conf=1.00)

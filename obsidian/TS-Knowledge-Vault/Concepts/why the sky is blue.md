@@ -5,4 +5,4 @@
 
 ## Neighbors
 
-- [[topic]] (explainable, weight=836, conf=1.00)
+- [[topic]] (explainable, weight=1477, conf=1.00)

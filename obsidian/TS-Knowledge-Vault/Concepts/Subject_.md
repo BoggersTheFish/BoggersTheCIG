@@ -1,8 +1,11 @@
 ---
+bridge:: true
 ---
 
 # Subject)
 
+> **Bridge Node** — connects multiple semantic clusters
+
 ## Neighbors
 
-- [[(Relation]] (Knowledge___Wikipedia, weight=873, conf=0.89)
+- [[(Relation]] (Knowledge___Wikipedia, weight=1514, conf=1.00)

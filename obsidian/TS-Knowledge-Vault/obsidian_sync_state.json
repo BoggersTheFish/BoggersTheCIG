@@ -1,110 +1,110 @@
 {
   "Orphan Concepts _degree _ 2_.md": {
-    "mtime": 1775753104.578707,
+    "mtime": 1775769551.6645699,
     "relations": {},
     "wikilinks": [
-      "Shared-Sub-ideas/quantum-mechanics-wave-particle-dualitytxt"
+      "Shared-Sub-ideas/neighbors"
     ]
   },
   "Relation Augmenting.md": {
-    "mtime": 1775752477.3050988,
+    "mtime": 1775768936.9772532,
     "relations": {},
     "wikilinks": [
       "combining the strengths of statistical AI"
     ]
   },
   "practical skills in various fields.md": {
-    "mtime": 1775752477.3125784,
+    "mtime": 1775768936.9847543,
     "relations": {},
     "wikilinks": []
   },
   "topic.md": {
-    "mtime": 1775752477.315793,
+    "mtime": 1775768936.9875033,
     "relations": {},
     "wikilinks": []
   },
   "the target of knowledge.md": {
-    "mtime": 1775752477.3149168,
+    "mtime": 1775768936.9868383,
     "relations": {},
     "wikilinks": []
   },
   "Scientists.md": {
-    "mtime": 1775752477.3060918,
+    "mtime": 1775768936.978466,
     "relations": {},
     "wikilinks": [
       "\"advances\", \"neural networks\""
     ]
   },
   "subject_ _Neuro-symbolic AI - IBM Research_.md": {
-    "mtime": 1775752477.3142211,
+    "mtime": 1775768936.9863133,
     "relations": {},
     "wikilinks": [
       "object: \"Artificial General Intelligence\""
     ]
   },
   "and how they work together in conjunction with knowledge.md": {
-    "mtime": 1775752477.308789,
+    "mtime": 1775768936.981183,
     "relations": {},
     "wikilinks": [
       "skills"
     ]
   },
   "Augmenting.md": {
-    "mtime": 1775752477.3004394,
+    "mtime": 1775768936.9724944,
     "relations": {},
     "wikilinks": [
       "combining the strengths of statistical AI"
     ]
   },
   "Understanding.md": {
-    "mtime": 1775752477.3076894,
+    "mtime": 1775768936.9800754,
     "relations": {},
     "wikilinks": []
   },
   "mind.md": {
-    "mtime": 1775752477.3110802,
+    "mtime": 1775768936.9836178,
     "relations": {},
     "wikilinks": []
   },
   "Capabilities Used in.md": {
-    "mtime": 1775751420.154019,
+    "mtime": 1775767825.7003238,
     "relations": {},
     "wikilinks": []
   },
   "Subject of Knowledge - Wikipedia.md": {
-    "mtime": 1775752477.3067994,
+    "mtime": 1775768936.979135,
     "relations": {},
     "wikilinks": [
       "Object of Knowledge - Wikipedia"
     ]
   },
   "subject1.md": {
-    "mtime": 1775752477.3141065,
+    "mtime": 1775768936.9862218,
     "relations": {},
     "wikilinks": [
       "object1"
     ]
   },
   "truthful belief.md": {
-    "mtime": 1775752477.3158963,
+    "mtime": 1775768936.987579,
     "relations": {},
     "wikilinks": []
   },
   "Neighbors.md": {
-    "mtime": 1775752477.303015,
+    "mtime": 1775768936.9751327,
     "relations": {},
     "wikilinks": [
-      "Networks Used in",
-      "Used in"
+      "Used in",
+      "Networks Used in"
     ]
   },
   "of.md": {
-    "mtime": 1775752477.311748,
+    "mtime": 1775768936.9841096,
     "relations": {},
     "wikilinks": []
   },
   "1_ Knowledge - Wikipedia Knowledge is an awareness of facts.md": {
-    "mtime": 1775752477.2997406,
+    "mtime": 1775768936.971787,
     "relations": {
       "or (3": "(2"
     },
@@ -113,19 +113,19 @@
     ]
   },
   "Knowledge - Wikipedia Knowledge.md": {
-    "mtime": 1775752477.302322,
+    "mtime": 1775768936.9744606,
     "relations": {},
     "wikilinks": [
       "familiarity with individuals and situations, or practical skill"
     ]
   },
   "object.md": {
-    "mtime": 1775752477.311436,
+    "mtime": 1775768936.9838734,
     "relations": {},
     "wikilinks": []
   },
   "a_0_.md": {
-    "mtime": 1775752477.3085697,
+    "mtime": 1775768936.980963,
     "relations": {
       "b, c": "b[0]"
     },
@@ -134,97 +134,99 @@
     ]
   },
   "Quantum Mechanics.md": {
-    "mtime": 1775752477.3047593,
+    "mtime": 1775768936.9769018,
     "relations": {},
     "wikilinks": [
       "Wave Particle Dualitytxt Used in"
     ]
   },
   "_advances__ _neural networks_.md": {
-    "mtime": 1775752477.2978718,
+    "mtime": 1775768936.9698594,
     "relations": {},
     "wikilinks": []
   },
   "Object.md": {
-    "mtime": 1775752477.3033266,
+    "mtime": 1775768936.975466,
     "relations": {},
     "wikilinks": []
   },
   "separated by a comma.md": {
-    "mtime": 1775753104.578844,
+    "mtime": 1775769551.664749,
     "relations": {},
     "wikilinks": [
-      "Shared-Sub-ideas/neighbors"
+      "separated by a comma/Sub-ideas/neighboring-objects"
     ]
   },
   "_2.md": {
-    "mtime": 1775752477.2987895,
+    "mtime": 1775768936.9709802,
     "relations": {},
     "wikilinks": []
   },
   "_black_.md": {
-    "mtime": 1775752477.2979934,
+    "mtime": 1775768936.969959,
     "relations": {},
     "wikilinks": []
   },
   "familiarity with individuals.md": {
-    "mtime": 1775752477.310305,
+    "mtime": 1775768936.9828486,
     "relations": {},
     "wikilinks": [
+      "situations or practical skill",
+      "situations weight 141 conf 0 60",
       "situations",
-      "situations or practical skill"
+      "situations weight 426 conf 0 60"
     ]
   },
   "spacetime.md": {
-    "mtime": 1775752477.3136897,
+    "mtime": 1775768936.9858801,
     "relations": {},
     "wikilinks": []
   },
   "or mem_r_ng.md": {
-    "mtime": 1775752477.312351,
+    "mtime": 1775768936.9846,
     "relations": {},
     "wikilinks": []
   },
   "surrounded by parentheses The object.md": {
-    "mtime": 1775752477.3146014,
+    "mtime": 1775768936.9865878,
     "relations": {},
     "wikilinks": [
-      "the target of knowledge e g Knowledge",
       "the target of knowledge e g K Neighbors",
       "the target of knowledge e g K",
+      "the target of knowledge e g Knowledge",
       "the target of knowledge e g Knowledge Neighbors"
     ]
   },
   "Knowledge.md": {
-    "mtime": 1775752477.3022196,
+    "mtime": 1775768936.9743445,
     "relations": {},
     "wikilinks": [
-      "Understanding",
-      "Facts",
-      "Reality",
       "Consciousness",
+      "Reality",
+      "Facts",
+      "Understanding",
       "truthful belief"
     ]
   },
   "the target of knowledge e g Knowledge.md": {
-    "mtime": 1775752477.31524,
+    "mtime": 1775768936.9870753,
     "relations": {},
     "wikilinks": []
   },
   "Subject2.md": {
-    "mtime": 1775752477.307333,
+    "mtime": 1775768936.979727,
     "relations": {},
     "wikilinks": [
       "Object2"
     ]
   },
   "the target of knowledge e g K Neighbors.md": {
-    "mtime": 1775752477.3151248,
+    "mtime": 1775768936.9869967,
     "relations": {},
     "wikilinks": []
   },
   "token_lower__.md": {
-    "mtime": 1775752477.3156993,
+    "mtime": 1775768936.9874258,
     "relations": {
       "dialect=\"american\"": "token.text"
     },
@@ -233,101 +235,101 @@
     ]
   },
   "The object.md": {
-    "mtime": 1775752477.3075948,
+    "mtime": 1775768936.9799614,
     "relations": {},
     "wikilinks": [
       "the target of knowledge"
     ]
   },
   "b_ c.md": {
-    "mtime": 1775752477.309107,
+    "mtime": 1775768936.9815269,
     "relations": {},
     "wikilinks": []
   },
   "sky.md": {
-    "mtime": 1775752477.3135805,
+    "mtime": 1775768936.9858003,
     "relations": {},
     "wikilinks": [
       "blue"
     ]
   },
   "What Do You Mimic_.md": {
-    "mtime": 1775752477.3081138,
+    "mtime": 1775768936.9805255,
     "relations": {},
     "wikilinks": []
   },
   "_book_.md": {
-    "mtime": 1775752477.298095,
+    "mtime": 1775768936.9700818,
     "relations": {},
     "wikilinks": []
   },
   "rule-based_ probabilistic.md": {
-    "mtime": 1775752477.312797,
+    "mtime": 1775768936.9849122,
     "relations": {},
     "wikilinks": []
   },
   "Cognitive architecture.md": {
-    "mtime": 1775752477.301112,
+    "mtime": 1775768936.9731889,
     "relations": {},
     "wikilinks": [
-      "computational_instantiation",
-      "mind",
+      "structure",
       "theory",
-      "structure"
+      "mind",
+      "computational_instantiation"
     ]
   },
   "Structure Used in.md": {
-    "mtime": 1775752477.3061917,
+    "mtime": 1775768936.9785683,
     "relations": {},
     "wikilinks": []
   },
   "an awareness of facts.md": {
-    "mtime": 1775752477.308681,
+    "mtime": 1775768936.9810686,
     "relations": {},
     "wikilinks": []
   },
   "C.md": {
-    "mtime": 1775752477.300873,
+    "mtime": 1775768936.9729366,
     "relations": {},
     "wikilinks": []
   },
   "the target of knowledge e g Knowledge Neighbors.md": {
-    "mtime": 1775752477.3153431,
+    "mtime": 1775768936.9871552,
     "relations": {},
     "wikilinks": []
   },
   "or ___.md": {
-    "mtime": 1775752477.3120387,
+    "mtime": 1775768936.9843686,
     "relations": {},
     "wikilinks": []
   },
   "or _3.md": {
-    "mtime": 1775752477.311941,
+    "mtime": 1775768936.9842901,
     "relations": {},
     "wikilinks": []
   },
   "situations.md": {
-    "mtime": 1775752477.3132632,
+    "mtime": 1775768936.985432,
     "relations": {},
     "wikilinks": []
   },
   "skills.md": {
-    "mtime": 1775752477.3134813,
+    "mtime": 1775768936.985713,
     "relations": {},
     "wikilinks": []
   },
   "or a practical skill.md": {
-    "mtime": 1775752477.3121378,
+    "mtime": 1775768936.9844465,
     "relations": {},
     "wikilinks": []
   },
   "object_ _Artificial General Intelligence_.md": {
-    "mtime": 1775752477.311652,
+    "mtime": 1775768936.9840312,
     "relations": {},
     "wikilinks": []
   },
   "A.md": {
-    "mtime": 1775752477.3000882,
+    "mtime": 1775768936.972136,
     "relations": {},
     "wikilinks": [
       "C",
@@ -335,223 +337,223 @@
     ]
   },
   "gravity.md": {
-    "mtime": 1775752477.31066,
+    "mtime": 1775768936.983289,
     "relations": {},
     "wikilinks": []
   },
   "Apple.md": {
-    "mtime": 1775752477.3003032,
+    "mtime": 1775768936.972381,
     "relations": {},
     "wikilinks": [
       "\"iPhone\""
     ]
   },
   "Subject_ Knowledge _Relation_ Object_.md": {
-    "mtime": 1775752477.3070066,
+    "mtime": 1775768936.979386,
     "relations": {},
     "wikilinks": []
   },
   "Bar.md": {
-    "mtime": 1775752477.300645,
+    "mtime": 1775768936.9727147,
     "relations": {},
     "wikilinks": []
   },
   "why the sky is blue.md": {
-    "mtime": 1775752477.316015,
+    "mtime": 1775768936.9876611,
     "relations": {},
     "wikilinks": [
       "topic"
     ]
   },
   "Sub Ideaqmechws.md": {
-    "mtime": 1775751420.1700191,
+    "mtime": 1775767825.7153242,
     "relations": {},
     "wikilinks": [
       "Shared-Sub-ideas/neighborhoods-networks-gravity-skies-situations-pr"
     ]
   },
   "in conjunction with knowledge.md": {
-    "mtime": 1775752477.31077,
+    "mtime": 1775768936.9833803,
     "relations": {},
     "wikilinks": [
       "skills"
     ]
   },
   "Neighbor Relations.md": {
-    "mtime": 1775752477.3027856,
+    "mtime": 1775768936.9749076,
     "relations": {},
     "wikilinks": []
   },
   "Wikipedia Knowledge.md": {
-    "mtime": 1775752477.3082309,
+    "mtime": 1775768936.9806368,
     "relations": {},
     "wikilinks": [
       "an awareness of facts"
     ]
   },
   "_is_.md": {
-    "mtime": 1775752477.298324,
+    "mtime": 1775768936.970318,
     "relations": {},
     "wikilinks": []
   },
   "Object1.md": {
-    "mtime": 1775752477.3035514,
+    "mtime": 1775768936.9756763,
     "relations": {},
     "wikilinks": []
   },
   "Practical Skill.md": {
-    "mtime": 1775752477.304644,
+    "mtime": 1775768936.9767861,
     "relations": {},
     "wikilinks": []
   },
   "Object of Knowledge - Wikipedia.md": {
-    "mtime": 1775752477.3034565,
+    "mtime": 1775768936.9755714,
     "relations": {},
     "wikilinks": []
   },
   "Its.md": {
-    "mtime": 1775752477.301983,
+    "mtime": 1775768936.9740932,
     "relations": {},
     "wikilinks": []
   },
   "nd surrounded by parentheses The object.md": {
-    "mtime": 1775752477.3111954,
+    "mtime": 1775768936.983705,
     "relations": {},
     "wikilinks": [
       "the target of knowledge e g Knowledge"
     ]
   },
   "_stocks_.md": {
-    "mtime": 1775752477.2986767,
+    "mtime": 1775768936.9708776,
     "relations": {},
     "wikilinks": []
   },
   "Definition.md": {
-    "mtime": 1775752477.3013163,
+    "mtime": 1775768936.9734292,
     "relations": {},
     "wikilinks": [
       "Knowledge Graph Reasoning"
     ]
   },
   "blue.md": {
-    "mtime": 1775752477.3095584,
+    "mtime": 1775768936.9821498,
     "relations": {},
     "wikilinks": []
   },
   "and how they work together _ in conjunction with knowledge and skills__.md": {
-    "mtime": 1775752477.3089087,
+    "mtime": 1775768936.981313,
     "relations": {},
     "wikilinks": []
   },
   "_Subject_.md": {
-    "mtime": 1775752477.299013,
+    "mtime": 1775768936.9711828,
     "relations": {},
     "wikilinks": [
       "\"Is True\""
     ]
   },
   "Wave Particle Dualitytxt Used in.md": {
-    "mtime": 1775752477.3078966,
+    "mtime": 1775768936.980304,
     "relations": {},
     "wikilinks": []
   },
   "e_g_.md": {
-    "mtime": 1775752477.3102014,
+    "mtime": 1775768936.982754,
     "relations": {
       "Relation, Object": "scientific/factual_entities"
     },
     "wikilinks": [
       "machine learning, graph matching,...",
+      "Relation, Object",
       "rule-based, probabilistic",
-      "Relation: Created, Object: Infectious Diseases",
-      "Relation, Object"
+      "Relation: Created, Object: Infectious Diseases"
     ]
   },
   "Used in.md": {
-    "mtime": 1775752477.3077989,
+    "mtime": 1775768936.9801805,
     "relations": {},
     "wikilinks": []
   },
   "_triplet_0_.md": {
-    "mtime": 1775751420.1710193,
+    "mtime": 1775767825.7173243,
     "relations": {},
     "wikilinks": [
       "triplet[2"
     ]
   },
   "Jaguar.md": {
-    "mtime": 1775752477.3021002,
+    "mtime": 1775768936.9742184,
     "relations": {},
     "wikilinks": [
       "\"black\""
     ]
   },
   "Foo.md": {
-    "mtime": 1775752477.3016644,
+    "mtime": 1775768936.9737618,
     "relations": {},
     "wikilinks": [
       "Bar"
     ]
   },
   "with the capabilities of neuroscience to achieve artificial general intelligence_.md": {
-    "mtime": 1775752477.316124,
+    "mtime": 1775768936.9877443,
     "relations": {},
     "wikilinks": []
   },
   "Merriae Webster The meaning of Cognitive.md": {
-    "mtime": 1775752477.302578,
+    "mtime": 1775768936.9746895,
     "relations": {},
     "wikilinks": [
       "of"
     ]
   },
   "Knowledge Graph Reasoning.md": {
-    "mtime": 1775752477.3024642,
+    "mtime": 1775768936.974574,
     "relations": {},
     "wikilinks": [
       "Its"
     ]
   },
   "1856.md": {
-    "mtime": 1775751420.1525126,
+    "mtime": 1775767825.6994097,
     "relations": {},
     "wikilinks": []
   },
   "Earth.md": {
-    "mtime": 1775752477.3014436,
+    "mtime": 1775768936.9735425,
     "relations": {},
     "wikilinks": [
       "gravity"
     ]
   },
   "Brown Bear.md": {
-    "mtime": 1775752477.300768,
+    "mtime": 1775768936.972829,
     "relations": {},
     "wikilinks": [
       "What Do You Mimic?"
     ]
   },
   "familiarity with individuals and situations_ or practical skill.md": {
-    "mtime": 1775752477.3104415,
+    "mtime": 1775768936.982932,
     "relations": {},
     "wikilinks": []
   },
   "Sub Ideaneighborhubskebaab Case With No Spaces.md": {
-    "mtime": 1775752477.3063064,
+    "mtime": 1775768936.978688,
     "relations": {},
     "wikilinks": [
       "Used in"
     ]
   },
   "I2K Web.md": {
-    "mtime": 1775752477.3018882,
+    "mtime": 1775768936.973986,
     "relations": {},
     "wikilinks": [
       "quick check"
     ]
   },
   "Money.md": {
-    "mtime": 1775752477.3026774,
+    "mtime": 1775768936.974801,
     "relations": {},
     "wikilinks": [
       "\"stocks\""
@@ -563,355 +565,355 @@
     "wikilinks": []
   },
   "theory.md": {
-    "mtime": 1775752477.3154733,
+    "mtime": 1775768936.987251,
     "relations": {},
     "wikilinks": []
   },
   "Subject1.md": {
-    "mtime": 1775752477.3072352,
+    "mtime": 1775768936.9796143,
     "relations": {},
     "wikilinks": [
       "Object1"
     ]
   },
   "doc.md": {
-    "mtime": 1775752477.3099785,
+    "mtime": 1775768936.982563,
     "relations": {},
     "wikilinks": [
       "jupyter={'display_start_end': display_start_ends}"
     ]
   },
   "_Is True_.md": {
-    "mtime": 1775752477.297748,
+    "mtime": 1775768936.9697127,
     "relations": {},
     "wikilinks": []
   },
   "_COGNITIVE Definition _ Meaning - Merriae_Webster The meaning of Cognitive is of.md": {
-    "mtime": 1775752477.2976112,
+    "mtime": 1775768936.9695697,
     "relations": {},
     "wikilinks": []
   },
   "_iPhone_.md": {
-    "mtime": 1775752477.298213,
+    "mtime": 1775768936.9702091,
     "relations": {},
     "wikilinks": []
   },
   "or analysis.md": {
-    "mtime": 1775752477.312251,
+    "mtime": 1775768936.9845235,
     "relations": {},
     "wikilinks": []
   },
   "Neighbors Gravity Time.md": {
-    "mtime": 1775752477.3031144,
+    "mtime": 1775768936.9752524,
     "relations": {},
     "wikilinks": []
   },
   "Facts.md": {
-    "mtime": 1775752477.3015432,
+    "mtime": 1775768936.9736497,
     "relations": {},
     "wikilinks": []
   },
   "Otto _Pop_ Carter.md": {
-    "mtime": 1775752477.3043895,
+    "mtime": 1775768936.9765549,
     "relations": {},
     "wikilinks": []
   },
   "_is__ _conscious_.md": {
-    "mtime": 1775752477.2984612,
+    "mtime": 1775768936.970435,
     "relations": {},
     "wikilinks": []
   },
   "Object2.md": {
-    "mtime": 1775752477.303652,
+    "mtime": 1775768936.97578,
     "relations": {},
     "wikilinks": []
   },
   "Networks Used in.md": {
-    "mtime": 1775752477.3032186,
+    "mtime": 1775768936.9753606,
     "relations": {},
     "wikilinks": []
   },
   "jupyter___display_start_end__ display_start_ends_.md": {
-    "mtime": 1775752477.3108804,
+    "mtime": 1775768936.9834626,
     "relations": {},
     "wikilinks": []
   },
   "Alice.md": {
-    "mtime": 1775752477.3001938,
+    "mtime": 1775768936.972266,
     "relations": {},
     "wikilinks": [
       "\"book\""
     ]
   },
   "Relation_ Augmenting and combining the strengths of statistical AI.md": {
-    "mtime": 1775752477.3056693,
+    "mtime": 1775768936.9779918,
     "relations": {},
     "wikilinks": [
       "with the capabilities of neuroscience to achieve artificial general intelligence."
     ]
   },
   "Subject_ Cognitive Architecture_ _Relation_ Defines the mind in natural or artificial systems_ _Object_ _Fixed structures that provide a mind.md": {
-    "mtime": 1775752477.3074849,
+    "mtime": 1775768936.979852,
     "relations": {},
     "wikilinks": [
       "and how they work together \u2013 in conjunction with knowledge and skills.\""
     ]
   },
   "machine learning_ graph matching____.md": {
-    "mtime": 1775752477.3109875,
+    "mtime": 1775768936.983542,
     "relations": {},
     "wikilinks": []
   },
   "Object3.md": {
-    "mtime": 1775752477.3037465,
+    "mtime": 1775768936.9758856,
     "relations": {},
     "wikilinks": []
   },
   "combining the strengths of statistical AI.md": {
-    "mtime": 1775752477.3096645,
+    "mtime": 1775768936.9822838,
     "relations": {},
     "wikilinks": []
   },
   "separated by a comma and surrounded by parentheses_ The object is the target of knowledge _e_g__ _Knowledge_.md": {
-    "mtime": 1775751420.1794887,
+    "mtime": 1775767825.7262316,
     "relations": {},
     "wikilinks": []
   },
   "dialect__american_.md": {
-    "mtime": 1775752477.309861,
+    "mtime": 1775768936.9824758,
     "relations": {},
     "wikilinks": []
   },
   "the target of knowledge e g K.md": {
-    "mtime": 1775752477.3150296,
+    "mtime": 1775768936.9869173,
     "relations": {},
     "wikilinks": []
   },
   "as demonstrated through _Relation.md": {
-    "mtime": 1775752477.3090036,
+    "mtime": 1775768936.981422,
     "relations": {},
     "wikilinks": []
   },
   "1_ the concept itself _e_g_.md": {
-    "mtime": 1775752477.299965,
+    "mtime": 1775768936.9720168,
     "relations": {},
     "wikilinks": []
   },
   "triplet_.md": {
-    "mtime": 1775751420.1826532,
+    "mtime": 1775767825.7293203,
     "relations": {},
     "wikilinks": []
   },
   "Science_Facts.md": {
-    "mtime": 1775752477.3059878,
+    "mtime": 1775768936.9783523,
     "relations": {},
     "wikilinks": [
       "Practical Skill"
     ]
   },
   "nded by parentheses The object.md": {
-    "mtime": 1775752477.3113143,
+    "mtime": 1775768936.9837923,
     "relations": {},
     "wikilinks": [
       "the target of knowledge e g Knowledge"
     ]
   },
   "Reality.md": {
-    "mtime": 1775752477.304862,
+    "mtime": 1775768936.9770093,
     "relations": {},
     "wikilinks": []
   },
   "Neighborhood Theory.md": {
-    "mtime": 1775752477.3028939,
+    "mtime": 1775768936.975019,
     "relations": {},
     "wikilinks": [
       "Structure Used in"
     ]
   },
   "being_ or involving conscious intellectual activity _such as thinking_ reasoning_ or analysis.md": {
-    "mtime": 1775752477.309325,
+    "mtime": 1775768936.9818542,
     "relations": {},
     "wikilinks": []
   },
   "Subject.md": {
-    "mtime": 1775752477.3064482,
+    "mtime": 1775768936.978811,
     "relations": {},
     "wikilinks": [
+      "\"Is True\"",
       "practical skills in various fields",
-      "Object",
       "(Relation",
-      "\"Is True\""
+      "Object"
     ]
   },
   "or remembering.md": {
-    "mtime": 1775752477.3124807,
+    "mtime": 1775768936.9846766,
     "relations": {},
     "wikilinks": []
   },
   "subject.md": {
-    "mtime": 1775752477.3138976,
+    "mtime": 1775768936.9860406,
     "relations": {},
     "wikilinks": [
       "object"
     ]
   },
   "Relation2.md": {
-    "mtime": 1775752477.305449,
+    "mtime": 1775768936.9777632,
     "relations": {},
     "wikilinks": [
       "Object2"
     ]
   },
   "Relation_ Object.md": {
-    "mtime": 1775752477.305197,
+    "mtime": 1775768936.9773688,
     "relations": {},
     "wikilinks": []
   },
   "surrounded by parentheses.md": {
-    "mtime": 1775752477.3144758,
+    "mtime": 1775768936.9864907,
     "relations": {},
     "wikilinks": []
   },
   "computational_instantiation.md": {
-    "mtime": 1775752477.3097627,
+    "mtime": 1775768936.9823918,
     "relations": {},
     "wikilinks": []
   },
   "Consciousness.md": {
-    "mtime": 1775752477.301207,
+    "mtime": 1775768936.9733157,
     "relations": {},
     "wikilinks": []
   },
   "surrounded by parentheses The object is the target of knowledge e g Knowledge.md": {
-    "mtime": 1775752477.3148227,
+    "mtime": 1775768936.9867594,
     "relations": {},
     "wikilinks": []
   },
   "artificial intelligence.md": {
-    "mtime": 1775751420.1710193,
+    "mtime": 1775767825.7173243,
     "relations": {},
     "wikilinks": []
   },
   "Webster The meaning of Cognitive.md": {
-    "mtime": 1775752477.3080199,
+    "mtime": 1775768936.9804223,
     "relations": {},
     "wikilinks": [
-      "of",
-      "of Neighbors"
+      "of Neighbors",
+      "of"
     ]
   },
   "1_ _Subject.md": {
-    "mtime": 1775752477.299626,
+    "mtime": 1775768936.9716706,
     "relations": {},
     "wikilinks": [
       "Object"
     ]
   },
   "object1.md": {
-    "mtime": 1775752477.3115451,
+    "mtime": 1775768936.983951,
     "relations": {},
     "wikilinks": []
   },
   "such as thinking.md": {
-    "mtime": 1775752477.3143425,
+    "mtime": 1775768936.986407,
     "relations": {},
     "wikilinks": [
       "or analysis",
-      "or remembering",
       "or ...",
+      "or remembering",
       "or mem'r'ng"
     ]
   },
   "1_ is the subject of the triple _Knowledge - Wikipedia Knowledge is an awareness of facts.md": {
-    "mtime": 1775752477.2998688,
+    "mtime": 1775768936.971907,
     "relations": {},
     "wikilinks": [
       "or a practical skill"
     ]
   },
   "Relation3.md": {
-    "mtime": 1775752477.3055544,
+    "mtime": 1775768936.9778726,
     "relations": {},
     "wikilinks": [
       "Object3"
     ]
   },
   "Subject_.md": {
-    "mtime": 1775752477.3069072,
+    "mtime": 1775768936.979273,
     "relations": {},
     "wikilinks": [
       "(Relation"
     ]
   },
   "Relation_ Created_ Object_ Infectious Diseases.md": {
-    "mtime": 1775752477.3057766,
+    "mtime": 1775768936.978101,
     "relations": {},
     "wikilinks": []
   },
   "B.md": {
-    "mtime": 1775752477.3005438,
+    "mtime": 1775768936.972608,
     "relations": {},
     "wikilinks": [
       "C"
     ]
   },
   "Subject_ has practical skills in various fields.md": {
-    "mtime": 1775752477.3071237,
+    "mtime": 1775768936.9795008,
     "relations": {},
     "wikilinks": [
       "as demonstrated through (Relation"
     ]
   },
   "surrounded by parentheses The object is the target of knowledge e g K.md": {
-    "mtime": 1775752477.3147118,
+    "mtime": 1775768936.9866745,
     "relations": {},
     "wikilinks": []
   },
   "quick check.md": {
-    "mtime": 1775752477.3126917,
+    "mtime": 1775768936.9848316,
     "relations": {},
     "wikilinks": []
   },
   "Space Subject Object W Used in.md": {
-    "mtime": 1775751420.1700191,
+    "mtime": 1775767825.7153242,
     "relations": {},
     "wikilinks": []
   },
   "situations or practical skill.md": {
-    "mtime": 1775752477.313359,
+    "mtime": 1775768936.9855123,
     "relations": {},
     "wikilinks": []
   },
   "Gravity.md": {
-    "mtime": 1775752477.3017673,
+    "mtime": 1775768936.9738727,
     "relations": {},
     "wikilinks": [
       "spacetime"
     ]
   },
   "structure.md": {
-    "mtime": 1775752477.3137941,
+    "mtime": 1775768936.9859567,
     "relations": {},
     "wikilinks": []
   },
   "Person A.md": {
-    "mtime": 1775752477.304535,
+    "mtime": 1775768936.9766762,
     "relations": {},
     "wikilinks": [
-      "\"is\", \"conscious\"",
-      "\"is\""
+      "\"is\"",
+      "\"is\", \"conscious\""
     ]
   },
   "separated by a comma and surrounded by parentheses The object.md": {
-    "mtime": 1775752477.3131464,
+    "mtime": 1775768936.9853492,
     "relations": {},
     "wikilinks": [
-      "the target of knowledge e g Knowledge",
-      "the target of knowledge e g K"
+      "the target of knowledge e g K",
+      "the target of knowledge e g Knowledge"
     ]
   },
   "_Relation.md": {
-    "mtime": 1775752477.2988997,
+    "mtime": 1775768936.9710786,
     "relations": {},
     "wikilinks": []
   },
@@ -930,7 +932,7 @@
     ]
   },
   "Relation  Augmenting and combining the strengths of statistical AI.md": {
-    "mtime": 1775752477.3049786,
+    "mtime": 1775768936.977128,
     "relations": {},
     "wikilinks": [
       "with the capabilities of neuroscience to achieve artificial general intelligence."
@@ -947,7 +949,7 @@
     ]
   },
   "1  is the subject of the triple  Knowledge - Wikipedia Knowledge is an awareness of facts.md": {
-    "mtime": 1775752477.2993758,
+    "mtime": 1775768936.9714918,
     "relations": {},
     "wikilinks": [
       "or a practical skill"
@@ -961,14 +963,14 @@
     ]
   },
   "Subject  Cognitive Architecture   Relation  Defines the mind in natural or artificial systems   Object   Fixed structures that provide a mind.md": {
-    "mtime": 1775752477.306567,
+    "mtime": 1775768936.9789402,
     "relations": {},
     "wikilinks": [
       "and how they work together \u2013 in conjunction with knowledge and skills.\""
     ]
   },
   "token lower  .md": {
-    "mtime": 1775751420.1826532,
+    "mtime": 1775767825.7293203,
     "relations": {},
     "wikilinks": [
       "dialect=\"american\""
@@ -989,21 +991,21 @@
     ]
   },
   "1  Knowledge - Wikipedia Knowledge is an awareness of facts.md": {
-    "mtime": 1775752477.2992463,
+    "mtime": 1775768936.9713953,
     "relations": {},
     "wikilinks": [
       "or (3"
     ]
   },
   "1   Subject.md": {
-    "mtime": 1775751652.3521276,
+    "mtime": 1775768936.9712985,
     "relations": {},
     "wikilinks": [
       "Object"
     ]
   },
   "Subject  has practical skills in various fields.md": {
-    "mtime": 1775752477.3066888,
+    "mtime": 1775768936.9790473,
     "relations": {},
     "wikilinks": [
       "as demonstrated through (Relation"
@@ -1017,122 +1019,182 @@
     ]
   },
   "Science Facts.md": {
-    "mtime": 1775752477.305903,
+    "mtime": 1775768936.9782314,
     "relations": {},
     "wikilinks": [
       "Practical Skill"
     ]
   },
   " COGNITIVE Definition   Meaning - Merriae Webster The meaning of Cognitive is of.md": {
-    "mtime": 1775751420.1500192,
+    "mtime": 1775767825.6963236,
     "relations": {},
     "wikilinks": [
       "being, or involving conscious intellectual activity (such as thinking, reasoning, or analysis"
     ]
   },
   "subject   Neuro-symbolic AI - IBM Research .md": {
-    "mtime": 1775751420.1811495,
+    "mtime": 1775767825.7278872,
     "relations": {},
     "wikilinks": [
       "object: \"Artificial General Intelligence\""
     ]
   },
   "Orphan Concepts  degree   2 .md": {
-    "mtime": 1775753104.57854,
+    "mtime": 1775769551.6643527,
     "relations": {},
     "wikilinks": [
-      "Shared-Sub-ideas/neighbors"
+      "Shared-Sub-ideas/neighbors-kebaab-case-no-spacestext-neighboring-st"
     ]
   },
   "of Neighbors.md": {
-    "mtime": 1775752477.3118613,
+    "mtime": 1775768936.984188,
     "relations": {},
     "wikilinks": []
   },
   "COGNITIVE Definition   Meaning - Merriae Webster The meaning of Cognitive is of.md": {
-    "mtime": 1775752477.3009806,
+    "mtime": 1775768936.9730613,
     "relations": {},
     "wikilinks": [
       "being, or involving conscious intellectual activity (such as thinking, reasoning, or analysis"
     ]
   },
   "Orphan.md": {
-    "mtime": 1775752477.3038647,
+    "mtime": 1775768936.9759984,
     "relations": {},
     "wikilinks": [
       "X"
     ]
   },
   "1  the concept itself  e g.md": {
-    "mtime": 1775752477.299514,
+    "mtime": 1775768936.9715824,
     "relations": {},
     "wikilinks": [
       "(2"
     ]
   },
   "Y.md": {
-    "mtime": 1775752477.3084579,
+    "mtime": 1775768936.98085,
     "relations": {},
     "wikilinks": []
   },
   "e g.md": {
-    "mtime": 1775752477.3100855,
+    "mtime": 1775768936.982658,
     "relations": {},
     "wikilinks": [
       "machine learning, graph matching,...",
+      "Relation, Object",
       "rule-based, probabilistic",
-      "Relation: Created, Object: Infectious Diseases",
-      "Relation, Object"
+      "Relation: Created, Object: Infectious Diseases"
     ]
   },
   "X.md": {
-    "mtime": 1775752477.3083324,
+    "mtime": 1775768936.9807475,
     "relations": {},
     "wikilinks": [
       "Y"
     ]
   },
   "token lower.md": {
-    "mtime": 1775752477.3155866,
+    "mtime": 1775768936.987341,
     "relations": {},
     "wikilinks": [
       "dialect=\"american\""
     ]
   },
   "subject   Neuro-symbolic AI - IBM Research.md": {
-    "mtime": 1775752477.3140025,
+    "mtime": 1775768936.9861248,
     "relations": {},
     "wikilinks": [
       "object: \"Artificial General Intelligence\""
     ]
   },
   "_is__ weight_143_ conf_0_60__- ___stocks_.md": {
-    "mtime": 1775752477.29857,
+    "mtime": 1775768936.9705472,
     "relations": {},
     "wikilinks": []
   },
   "being_ weight_142_ conf_0_60__- __blue.md": {
-    "mtime": 1775751652.362209,
+    "mtime": 1775768936.9819622,
     "relations": {},
     "wikilinks": []
   },
   "familiarity with individuals and situations_ weight_141_ conf_0_60__- __gravity.md": {
-    "mtime": 1775752477.310556,
+    "mtime": 1775768936.9830153,
     "relations": {},
     "wikilinks": []
   },
   "rule-based_ weight_325_ conf_0_60__- __subject.md": {
-    "mtime": 1775752477.3129056,
+    "mtime": 1775768936.9849927,
     "relations": {},
     "wikilinks": []
   },
   "Relation_ weight_327_ conf_0_60__- __Subject_ Knowledge _Relation_ Object_.md": {
-    "mtime": 1775752477.305311,
+    "mtime": 1775768936.9776056,
     "relations": {},
     "wikilinks": []
   },
   "b_ weight_326_ conf_0_60__- __object.md": {
-    "mtime": 1775752477.3092196,
+    "mtime": 1775768936.9816334,
+    "relations": {},
+    "wikilinks": []
+  },
+  "familiarity with individuals and situations_ weight_745_ conf_0_60__- __gravity.md": {
+    "mtime": 1775768936.9831827,
+    "relations": {},
+    "wikilinks": []
+  },
+  "_is__ weight_430_ conf_0_60__- __being_ weight_142_ conf_0_60__- __blue.md": {
+    "mtime": 1775768035.8395293,
+    "relations": {},
+    "wikilinks": []
+  },
+  "b_ weight_930_ conf_0_80__- __object.md": {
+    "mtime": 1775768936.9817412,
+    "relations": {},
+    "wikilinks": []
+  },
+  "Relation_ weight_234_ conf_0_60__- __familiarity with individuals and situations_ or practical skill.md": {
+    "mtime": 1775768936.9774914,
+    "relations": {},
+    "wikilinks": []
+  },
+  "rule-based_ weight_425_ conf_0_60__- ___is__ weight_143_ conf_0_60__- ___stocks_.md": {
+    "mtime": 1775768936.985085,
+    "relations": {},
+    "wikilinks": []
+  },
+  "Relation_ weight_931_ conf_0_60__- __Subject_ Knowledge _Relation_ Object_.md": {
+    "mtime": 1775768936.9776914,
+    "relations": {},
+    "wikilinks": []
+  },
+  "rule-based_ weight_929_ conf_0_80__- __subject.md": {
+    "mtime": 1775768936.9851506,
+    "relations": {},
+    "wikilinks": []
+  },
+  "situations weight 141 conf 0 60.md": {
+    "mtime": 1775768936.9855957,
+    "relations": {},
+    "wikilinks": []
+  },
+  "familiarity with individuals and situations_ weight_426_ conf_0_60__- __familiarity with individuals and situations_ weight_141_ conf_0_60__- __gravity.md": {
+    "mtime": 1775768936.983116,
+    "relations": {},
+    "wikilinks": []
+  },
+  "being_ weight_746_ conf_0_70__- __blue.md": {
+    "mtime": 1775768936.98208,
+    "relations": {},
+    "wikilinks": []
+  },
+  "situations weight 426 conf 0 60.md": {
+    "mtime": 1775768936.9856567,
+    "relations": {},
+    "wikilinks": []
+  },
+  "_is__ weight_747_ conf_0_60__- ___stocks_.md": {
+    "mtime": 1775768936.9707985,
     "relations": {},
     "wikilinks": []
   }

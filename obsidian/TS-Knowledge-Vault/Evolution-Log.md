@@ -2883,3 +2883,52 @@ Tracks self-improvement cycles. See `eval/self_improve_log.jsonl` for machine-re
 - EXTRACT: Orphan Concepts _degree _ 2_ -> Orphan Concepts _degree _ 2_/Sub-ideas/neighborstxt.md
 - EXTRACT: separated by a comma -> separated by a comma/Sub-ideas/neighbors.md
 - EXTRACT: -neighbor-relationships--stock-market-degree1__sto -> -neighbor-relationships--stock-market-degree1__sto/Sub-ideas/neighbors.md
+
+## Auto-organize 2026-04-09 21:04 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/rule-based_ weight_425_ conf_0_60__- ___is__ weight_143_ conf_0_60__- ___stocks_.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/rule-based_ weight_425_ conf_0_60__- ___is__ weight_143_ conf_0_60__- ___stocks_.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Relation_ weight_931_ conf_0_60__- __Subject_ Knowledge _Relation_ Object_.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/Relation_ weight_931_ conf_0_60__- __Subject_ Knowledge _Relation_ Object_.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/rule-based_ weight_929_ conf_0_80__- __subject.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/rule-based_ weight_929_ conf_0_80__- __subject.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Subject  has practical skills in various fields.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/Subject  has practical skills in various fields.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/familiarity with individuals and situations_ weight_426_ conf_0_60__- __familiarity with individuals and situations_ weight_141_ conf_0_60__- __gravity.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/familiarity with individuals and situations_ weight_426_ conf_0_60__- __familiarity with individuals and situations_ weight_141_ conf_0_60__- __gravity.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/being_ weight_746_ conf_0_70__- __blue.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/being_ weight_746_ conf_0_70__- __blue.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts  degree   2 .md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/Orphan Concepts  degree   2 .md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Relation_ weight_327_ conf_0_60__- __Subject_ Knowledge _Relation_ Object_.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/Relation_ weight_327_ conf_0_60__- __Subject_ Knowledge _Relation_ Object_.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/_is__ weight_747_ conf_0_60__- ___stocks_.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/_is__ weight_747_ conf_0_60__- ___stocks_.md
+
+## Extract & Merge Sub-ideas 2026-04-09 21:05 UTC
+
+- MERGE: ['Orphan Concepts _degree _ 2_', 'neighborstxt'] -> Shared-Sub-ideas/neighborstxt.md
+- MERGE: ['neighbors', 'separated by a comma'] -> Shared-Sub-ideas/neighbors.md
+- MERGE: ['Orphan Concepts  degree   2 ', 'neighbors'] -> Shared-Sub-ideas/neighbors_degree1-weight1127-conf100-srchomerunner.md
+- EXTRACT: neighbors -> neighbors/Sub-ideas/neighbors.md
+
+## Extract & Merge Sub-ideas 2026-04-09 21:07 UTC
+
+- EXTRACT: neighborstxt -> neighborstxt/Sub-ideas/quantum-mechanics-wave-particle-dualitybab-without.md
+- EXTRACT: neighbors_degree1-weight1127-conf100-srchomerunner -> neighbors_degree1-weight1127-conf100-srchomerunner/Sub-ideas/neighbors.md
+- EXTRACT: neighbors -> neighbors/Sub-ideas/quantum-mechanics_w_object.md
+
+## Extract & Merge Sub-ideas 2026-04-09 21:08 UTC
+
+- EXTRACT: quantum-mechanics-wave-particle-dualitybab-without -> quantum-mechanics-wave-particle-dualitybab-without/Sub-ideas/neighbors.md
+- EXTRACT: quantum-mechanics_w_object -> quantum-mechanics_w_object/Sub-ideas/-neighbor-relations--quantum-mechanicshttpsenwikip.md
+- EXTRACT: neighbors -> neighbors/Sub-ideas/neighbors.md
+
+## Auto-organize 2026-04-09 21:18 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/_is__ weight_430_ conf_0_60__- __being_ weight_142_ conf_0_60__- __blue.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/_is__ weight_430_ conf_0_60__- __being_ weight_142_ conf_0_60__- __blue.md
+
+## Extract & Merge Sub-ideas 2026-04-09 21:19 UTC
+
+- MERGE: ['Orphan Concepts  degree   2 ', 'neighbors'] -> Shared-Sub-ideas/neighbors-kebaab-case-no-spacestext-neighboring-st.md
+- MERGE: ['Orphan Concepts _degree _ 2_', 'neighbors'] -> Shared-Sub-ideas/neighbors.md
+- EXTRACT: separated by a comma -> separated by a comma/Sub-ideas/neighboring-objects.md
+- EXTRACT: -neighbor-relations--quantum-mechanicshttpsenwikip -> -neighbor-relations--quantum-mechanicshttpsenwikip/Sub-ideas/neighbors.md
+
+## Extract & Merge Sub-ideas 2026-04-09 21:29 UTC
+
+- MERGE: ['Orphan Concepts  degree   2 ', 'neighbors-kebaab-case-no-spacestext-neighboring-st'] -> Shared-Sub-ideas/sub-idea_quantum-mechanics_wave-particle-dualitytx.md
+- EXTRACT: Orphan Concepts _degree _ 2_ -> Orphan Concepts _degree _ 2_/Sub-ideas/neighbors.md
+- MERGE: ['neighboring-objects', 'separated by a comma'] -> Shared-Sub-ideas/qa-mechanics-wave-particle-dualitytxt.md
+- EXTRACT: neighbors -> neighbors/Sub-ideas/neighbors.md

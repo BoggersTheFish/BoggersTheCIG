@@ -5,4 +5,4 @@
 
 ## Neighbors
 
-- [[Y]] (r, weight=996, conf=0.90)
+- [[Y]] (r, weight=1638, conf=1.00)

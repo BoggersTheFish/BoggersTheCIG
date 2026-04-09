@@ -5,4 +5,4 @@
 
 ## Neighbors
 
-- [[Its]] (Definition, weight=870, conf=1.00)
+- [[Its]] (Definition, weight=1511, conf=1.00)
