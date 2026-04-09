@@ -2,4 +2,4 @@
 
 ## Neighbors
 
-- [[(Relation]] (Knowledge - Wikipedia, weight=4)
+- [[(Relation]] (Knowledge - Wikipedia, weight=2)

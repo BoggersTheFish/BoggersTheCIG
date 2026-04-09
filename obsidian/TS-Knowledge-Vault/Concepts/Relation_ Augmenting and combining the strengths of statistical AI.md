@@ -2,4 +2,4 @@
 
 ## Neighbors
 
-- [[with the capabilities of neuroscience to achieve artificial general intelligence.]] (such as machine learning, weight=6)
+- [[with the capabilities of neuroscience to achieve artificial general intelligence.]] (such as machine learning, weight=4)
