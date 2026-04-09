@@ -1,28 +1,39 @@
-# TS Evolve - Headless self-improvement every 6 hours
+# TS Evolve — headless self-improvement cycle, runs every 5 hours
 #
-# USAGE:
-#   1. Push this workflow to your repo. It runs on schedule (every 6h) or manually.
-#   2. For commit & push: ensure workflow has write access (permissions below).
-#   3. Optional: Add GH_PAT secret (Settings → Secrets → Actions) for push from forks.
+# SETUP:
+#   1. Push this workflow. It runs on schedule or via Actions → Run workflow.
+#   2. Optional: add GH_PAT secret (Settings → Secrets → Actions) for push from forks.
 #      Create PAT at github.com/settings/tokens with "repo" scope.
+#      Without GH_PAT the default GITHUB_TOKEN (permissions: contents: write) is used.
 #
-# STEPS: checkout → Python + deps → Ollama (optional) → self-improve → coherence → tests → commit & push
-# On failure: logs error and creates a workflow summary (no external notifications by default).
+# WHAT IT DOES:
+#   1. Install deps + Ollama (tinyllama)
+#   2. Run self-improve pipeline: decay → obsidian sync → export → insights → coherence check
+#      (--skip-git-push: the dedicated commit step below handles all git ops)
+#   3. Assert coherence: conflicts ≤ 10
+#   4. Run tests
+#   5. Stage + commit + push everything that changed (eval/, obsidian/, memory/, graphs/)
+#   6. Write a step summary with coherence metrics
 
 name: TS Evolve
 
 on:
   schedule:
-    - cron: "0 */5 * * *"    # ← every 5 hours = ~1,898 minutes/month (safe)
+    - cron: "0 */5 * * *"   # every 5 hours ≈ 1,460 runs/year
   workflow_dispatch:
 
 permissions:
   contents: write
 
+env:
+  PYTHONPATH: .
+
 jobs:
   evolve:
     runs-on: ubuntu-latest
+
     steps:
+      # ── Setup ──────────────────────────────────────────────────────────────
       - name: Checkout
         uses: actions/checkout@v4
         with:
@@ -34,65 +45,125 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Cache pip
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+          restore-keys: ${{ runner.os }}-pip-
+
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
           pip install -e .
 
-      - name: Install Ollama
+      # ── Ollama (optional, continue-on-error) ───────────────────────────────
+      - name: Install Ollama and pull model
         id: ollama
         run: |
           curl -fsSL https://ollama.com/install.sh | sh
           ollama serve &
           sleep 15
-          ollama pull tinyllama || echo "Ollama pull failed"
+          ollama pull tinyllama && echo "OLLAMA_OK=true" >> $GITHUB_ENV || echo "OLLAMA_OK=false" >> $GITHUB_ENV
         continue-on-error: true
 
+      # ── Self-improvement ───────────────────────────────────────────────────
       - name: Run self-improvement cycle
         env:
           OLLAMA_MODEL: tinyllama
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          python src/main.py --self-improve --skip-tests
+          # --skip-git-push  → CI commit step below owns all git operations
+          # --skip-tests     → tests run in their own step
+          # --safe-evolve    → backup branch + rollback guard active
+          python src/main.py \
+            --self-improve \
+            --skip-tests \
+            --skip-git-push \
+            --safe-evolve
         continue-on-error: true
 
-      - name: Run TS coherence check
+      # ── Quality gate ───────────────────────────────────────────────────────
+      - name: TS coherence check
         id: coherence
         run: |
-          python -c "
+          python - <<'EOF'
           from src.eval import run_eval, graph_coherence
           from src.concept_graph import ConceptGraph
           g = ConceptGraph()
           c = graph_coherence(g)
           run_eval()
-          assert c.get('conflicts', 0) <= 10, 'Too many graph conflicts'
-          print('TS coherence OK:', c)
-          "
+          print("TS coherence:", c)
+          assert c.get("conflicts", 0) <= 10, f"Too many graph conflicts: {c['conflicts']}"
+          print(f"Semantic coherence : {c.get('semantic_coherence', 0):.4f}")
+          print(f"Avg confidence     : {c.get('avg_confidence', 0):.4f}")
+          print(f"Nodes / Edges      : {c.get('nodes', 0)} / {c.get('edges', 0)}")
+          EOF
 
       - name: Run tests
         id: tests
         run: pytest tests/ -v --tb=short -x
         continue-on-error: true
 
-      - name: Commit and push changes (fallback if self-improve did not push)
-        if: success() || failure()
+      # ── Commit everything ──────────────────────────────────────────────────
+      - name: Commit and push changes
+        if: always()
         run: |
-          git config user.name "github-actions[bot]"
+          git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add .
-          if ! git diff --staged --quiet; then
-            MSG=$(cat eval/last_commit_message.txt 2>/dev/null || echo "TS auto-evolve: CI update $(date -u +%Y%m%d-%H%M)")
-            git commit -m "$MSG"
-            git push
-            echo "Pushed to GitHub"
+
+          # Stage all artifacts the pipeline may have written
+          git add obsidian/ eval/ memory/ graphs/ data/ || true
+
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
           else
-            echo "No changes to commit"
+            MSG=$(cat eval/last_commit_message.txt 2>/dev/null \
+                  || echo "TS auto-evolve: CI update $(date -u +%Y%m%d-%H%M)")
+            git commit -m "$MSG"
+
+            # Retry push once on conflict
+            git push || (git pull --rebase && git push)
+            echo "Pushed to GitHub."
           fi
         continue-on-error: true
 
-      - name: Notify on failure
+      # ── Step summary ───────────────────────────────────────────────────────
+      - name: Write run summary
+        if: always()
+        run: |
+          python - <<'EOF' >> $GITHUB_STEP_SUMMARY
+          import json, pathlib
+
+          log = pathlib.Path("eval/self_improve_log.jsonl")
+          print("## TS Evolve — Run Summary\n")
+          if log.exists():
+              lines = [l for l in log.read_text().strip().split("\n") if l]
+              if lines:
+                  last = json.loads(lines[-1])
+                  ca = last.get("coherence_after", {})
+                  cb = last.get("coherence_before", {})
+                  decay = last.get("decay", {})
+                  sync  = last.get("obsidian_sync", {})
+                  print(f"| Metric | Value |")
+                  print(f"|---|---|")
+                  print(f"| Nodes | {ca.get('nodes','?')} |")
+                  print(f"| Edges | {ca.get('edges','?')} |")
+                  print(f"| Semantic coherence | {ca.get('semantic_coherence',0):.4f} |")
+                  print(f"| Avg confidence | {ca.get('avg_confidence',0):.4f} |")
+                  print(f"| Conflicts | {ca.get('conflicts','?')} |")
+                  print(f"| Commit tier | {last.get('commit_tier','?')} |")
+                  print(f"| Decay archived | {decay.get('archived',0)} edges |")
+                  print(f"| Human edits synced | +{sync.get('edges_added',0)} / -{sync.get('edges_removed',0)} |")
+                  print(f"| Success | {last.get('success','?')} |")
+          else:
+              print("No self_improve_log.jsonl found.")
+          EOF
+        continue-on-error: true
+
+      - name: Mark failure in summary
         if: failure()
         run: |
-          echo "## TS Evolve Failed" >> $GITHUB_STEP_SUMMARY
-          echo "Workflow run: ${{ github.run_id }}" >> $GITHUB_STEP_SUMMARY
-          echo "Check the logs above for details." >> $GITHUB_STEP_SUMMARY
+          echo "## TS Evolve FAILED" >> $GITHUB_STEP_SUMMARY
+          echo "Run ID: ${{ github.run_id }}" >> $GITHUB_STEP_SUMMARY
+          echo "Check the step logs above for details." >> $GITHUB_STEP_SUMMARY

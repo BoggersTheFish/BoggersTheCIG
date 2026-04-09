@@ -9,6 +9,9 @@ on:
 permissions:
   contents: write
 
+env:
+  PYTHONPATH: .
+
 jobs:
   build_graph:
     runs-on: ubuntu-latest
@@ -18,28 +21,39 @@ jobs:
       with:
         fetch-depth: 0
 
-    - name: Set up Python
+    - name: Set up Python 3.12
       uses: actions/setup-python@v5
       with:
-        python-version: '3.11'
+        python-version: '3.12'
+
+    - name: Cache pip
+      uses: actions/cache@v4
+      with:
+        path: ~/.cache/pip
+        key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+        restore-keys: ${{ runner.os }}-pip-
 
     - name: Install dependencies
-      run: pip install -r requirements.txt
+      run: |
+        pip install -r requirements.txt
+        pip install -e .
 
     - name: Run incremental graph build
       run: python src/build_graph.py --incremental True
+      continue-on-error: true
 
     - name: Commit and push changes (only if changed)
+      if: always()
       run: |
         git config user.name "github-actions[bot]"
         git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        
+
         # Add everything the incremental builder touches
-        git add "obsidian/TS-Knowledge-Vault/" "eval/" || true
-        
+        git add obsidian/ eval/ memory/ graphs/ data/ || true
+
         if git diff --staged --quiet; then
           echo "No changes to commit"
         else
           git commit -m "TS auto-evolve: graph builder update [10min]"
-          git push
+          git push || (git pull --rebase && git push)
         fi

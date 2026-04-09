@@ -334,8 +334,14 @@ def _short_ollama_summary(analysis: str, max_len: int = 60) -> str:
 def _classify_commit_tier(avg_confidence: float) -> str:
     """
     Classify commit behavior based on avg edge confidence.
-    Returns: 'auto' (>0.75), 'review' (0.5-0.75), or 'stage' (<0.5).
+    Returns: 'auto' (>=0.75 or empty graph), 'review' (0.5-0.75), or 'stage' (<0.5).
+
+    Edge case: avg_confidence == 0.0 means the graph has no edges yet (fresh run).
+    There is no noise to gate against, so default to 'auto'.
+    CI runs always pass --skip-git-push anyway, so this only matters for local runs.
     """
+    if avg_confidence <= 0.0:
+        return "auto"  # empty graph — no signal to gate on
     if avg_confidence >= 0.75:
         return "auto"
     elif avg_confidence >= 0.5:
