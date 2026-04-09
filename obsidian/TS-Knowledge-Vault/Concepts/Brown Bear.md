@@ -5,4 +5,4 @@
 
 ## Neighbors
 
-- [[What Do You Mimic?]] (Brown_Bear, weight=7, conf=0.60)
+- [[What Do You Mimic?]] (Brown_Bear, weight=275, conf=1.00)

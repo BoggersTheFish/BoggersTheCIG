@@ -5,4 +5,4 @@
 
 ## Neighbors
 
-- [[as demonstrated through (Relation]] (such_as_science_or_technology, weight=1, conf=0.50, src=/home/boggersthefish/Desktop/BoggersTheC)
+- [[as demonstrated through (Relation]] (such_as_science_or_technology, weight=244, conf=1.00)

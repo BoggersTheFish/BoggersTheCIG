@@ -5,4 +5,4 @@
 
 ## Neighbors
 
-- [[of]] (is_a, weight=31, conf=0.60)
+- [[of]] (is_a, weight=349, conf=1.00)

@@ -2,13 +2,13 @@
 
 | Concept | Degree |
 |---------|--------|
-| [[Orphan Concepts (degree < 2)]] | 37 |
+| [[Orphan Concepts  degree   2 ]] | 20 |
+| [[Orphan Concepts (degree < 2)]] | 8 |
 | [[Knowledge]] | 5 |
 | [[surrounded by parentheses The object]] | 5 |
-| [[the target of knowledge e g Knowledge]] | 4 |
-| [[such as thinking]] | 4 |
-| [[separated by a comma]] | 4 |
-| [[e.g.]] | 4 |
-| [[e g ]] | 4 |
 | [[Cognitive architecture]] | 4 |
-| [["Is True"]] | 3 |
+| [[Subject]] | 4 |
+| [[e g]] | 4 |
+| [[e.g.]] | 4 |
+| [[separated by a comma]] | 4 |
+| [[such as thinking]] | 4 |

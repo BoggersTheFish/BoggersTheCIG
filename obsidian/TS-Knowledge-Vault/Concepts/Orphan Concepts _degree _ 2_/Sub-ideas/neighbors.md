@@ -321,3 +321,7 @@ Used in: [[Orphan Concepts _degree _ 2_]]
 ---
 
 [[Shared-Sub-ideas/neighbors]]
+
+---
+
+[[neighbors/Sub-ideas/sugests-filename-for-the-sub-idea-quantum_mechanic]]

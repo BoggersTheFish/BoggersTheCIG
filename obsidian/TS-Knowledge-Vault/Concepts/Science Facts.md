@@ -5,4 +5,4 @@
 
 ## Neighbors
 
-- [[Practical Skill]] (Knowledge, weight=1, conf=0.50, src=/home/boggersthefish/Desktop/BoggersTheC)
+- [[Practical Skill]] (Knowledge, weight=285, conf=1.00)

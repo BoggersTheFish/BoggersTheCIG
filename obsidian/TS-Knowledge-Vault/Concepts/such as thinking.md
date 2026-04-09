@@ -5,7 +5,7 @@
 
 ## Neighbors
 
-- [[or remembering]] (reasoning, weight=7, conf=0.60)
-- [[or mem'r'ng]] (reasoning, weight=7, conf=0.60)
-- [[or analysis]] (reasoning, weight=7, conf=0.60)
-- [[or ...]] (reasoning, weight=7, conf=0.60)
+- [[or remembering]] (reasoning, weight=229, conf=1.00)
+- [[or mem'r'ng]] (reasoning, weight=228, conf=1.00)
+- [[or analysis]] (reasoning, weight=227, conf=1.00)
+- [[or ...]] (reasoning, weight=226, conf=1.00)

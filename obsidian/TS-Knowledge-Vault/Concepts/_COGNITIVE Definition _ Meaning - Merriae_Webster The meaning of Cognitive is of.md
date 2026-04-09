@@ -8,4 +8,3 @@ bridge:: true
 
 ## Neighbors
 
-- [[being, or involving conscious intellectual activity (such as thinking, reasoning, or analysis]] (relating_to, weight=6, conf=1.00)

@@ -5,4 +5,4 @@
 
 ## Neighbors
 
-- [[Object]] (Relation, weight=1, conf=0.50, src=/home/boggersthefish/Desktop/BoggersTheC)
+- [[Object]] (Relation, weight=287, conf=1.00)

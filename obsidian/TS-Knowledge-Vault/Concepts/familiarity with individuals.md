@@ -5,5 +5,5 @@
 
 ## Neighbors
 
-- [[situations or practical skill]] (related_to, weight=49, conf=0.60)
-- [[situations]] (related_to, weight=19, conf=0.60)
+- [[situations or practical skill]] (related_to, weight=389, conf=1.00)
+- [[situations]] (related_to, weight=254, conf=1.00)

@@ -1,8 +1,10 @@
-# TS Insights — 2026-04-09 10:01 UTC
+# TS Insights — 2026-04-09 11:00 UTC
 Generated automatically each self-improvement cycle.
 ## Highest-Confidence New Knowledge
 
-- No new high-confidence edges this cycle.
+- **Gravity** –[bends]→ **spacetime** (conf: 1.00)
+- **Earth** –[has]→ **gravity** (conf: 1.00)
+- **A** –[r]→ **B** (conf: 1.00)
 
 ## Active Contradictions
 
@@ -10,14 +12,9 @@ Generated automatically each self-improvement cycle.
 
 ## Top Bridge Node
 
-- **[[Orphan Concepts (degree < 2)]]** — bridge score: 0.4302, betweenness: 0.2381, cluster span: 0.807
+- **[[Orphan Concepts  degree   2 ]]** — bridge score: 0.1269, betweenness: 0.0699, cluster span: 0.815
 
 ## Corroborated Hypotheses
 
 - No hypotheses corroborated recently.
-
-## Human Edits Synced
-
-- +0 edges added from vault
-- -86 edges removed from vault
 
