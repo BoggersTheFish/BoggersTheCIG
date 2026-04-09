@@ -11,4 +11,4 @@
 | [[e.g.]] | 4 |
 | [[Cognitive architecture]] | 4 |
 | [[Gravity]] | 2 |
-| [[familiarity with individuals]] | 2 |
+| [[spacetime]] | 2 |
