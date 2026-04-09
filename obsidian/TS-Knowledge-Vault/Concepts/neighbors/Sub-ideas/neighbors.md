@@ -125,3 +125,11 @@ Used in: [[neighbors]]
 ---
 
 [[neighbors/Sub-ideas/neighbors]]
+
+---
+
+[[neighbors/Sub-ideas/quantum-mechanics_neighborstxt]]
+
+---
+
+[[Shared-Sub-ideas/neighbors]]

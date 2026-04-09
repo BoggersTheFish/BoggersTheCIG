@@ -2831,3 +2831,55 @@ Tracks self-improvement cycles. See `eval/self_improve_log.jsonl` for machine-re
 - EXTRACT: separated by a comma -> separated by a comma/Sub-ideas/suffix---qm.md
 - MERGE: ['Orphan Concepts  degree   2 ', 'neighbor_qmdtxttext-neighbors--stocks-degree1-weig'] -> Shared-Sub-ideas/neighbors.md
 - EXTRACT: neighbors -> neighbors/Sub-ideas/quantum-mechanics_qm-no-spaces-or-hyphens-kebab-ca.md
+
+## Auto-organize 2026-04-09 16:30 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Science Facts.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/Science Facts.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/of Neighbors.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/of Neighbors.md
+
+## Extract & Merge Sub-ideas 2026-04-09 16:30 UTC
+
+- EXTRACT: Orphan Concepts  degree   2  -> Orphan Concepts  degree   2 /Sub-ideas/qm-wpdualitytxt.md
+- EXTRACT: Orphan Concepts _degree _ 2_ -> Orphan Concepts _degree _ 2_/Sub-ideas/neighbors.md
+- MERGE: ['separated by a comma', 'suffix---qm'] -> Shared-Sub-ideas/neighbors_succincttxt.md
+- EXTRACT: quantum-mechanics_qm-no-spaces-or-hyphens-kebab-ca -> quantum-mechanics_qm-no-spaces-or-hyphens-kebab-ca/Sub-ideas/neighbors.md
+
+## Extract & Merge Sub-ideas 2026-04-09 16:32 UTC
+
+- EXTRACT: neighbors_succincttxt -> neighbors_succincttxt/Sub-ideas/neighbors.md
+- EXTRACT: neighbors -> neighbors/Sub-ideas/quantum-mechanics-wave-particle-dualitytxt.md
+- EXTRACT: neighbors -> neighbors/Sub-ideas/neighbors.md
+- EXTRACT: qm-wpdualitytxt -> qm-wpdualitytxt/Sub-ideas/quantum-mechanics-wave-particle-duality_v01txt.md
+
+## Extract & Merge Sub-ideas 2026-04-09 16:33 UTC
+
+- EXTRACT: neighbors -> neighbors/Sub-ideas/neighbors.md
+- EXTRACT: quantum-mechanics-wave-particle-duality_v01txt -> quantum-mechanics-wave-particle-duality_v01txt/Sub-ideas/neighbors_quantum-mechanics_wave-particle-dualityt.md
+- EXTRACT: quantum-mechanics-wave-particle-dualitytxt -> quantum-mechanics-wave-particle-dualitytxt/Sub-ideas/neighbors.md
+- EXTRACT: neighbors -> neighbors/Sub-ideas/quantum-mechanics_neighborstxt.md
+
+## Auto-organize 2026-04-09 16:44 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/1   Subject.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/1   Subject.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/e g .md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/e g .md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/1  the concept itself  e g .md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/1  the concept itself  e g .md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/being_ weight_142_ conf_0_60__- __blue.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/being_ weight_142_ conf_0_60__- __blue.md
+
+## Extract & Merge Sub-ideas 2026-04-09 16:45 UTC
+
+- MERGE: ['Orphan Concepts  degree   2 ', 'neighbors_quantum-mechanics_wave-particle-dualityt'] -> Shared-Sub-ideas/neighbors.md
+- MERGE: ['Orphan Concepts _degree _ 2_', 'neighbors'] -> Shared-Sub-ideas/quantum-mechanics-wave-particle-dualitytxt.md
+- MERGE: ['neighbors', 'separated by a comma'] -> Shared-Sub-ideas/neighbors.md
+- EXTRACT: quantum-mechanics_neighborstxt -> quantum-mechanics_neighborstxt/Sub-ideas/-neighbor-relationships--stock-market-degree1__sto.md
+
+## Auto-organize 2026-04-09 16:53 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/rule-based_ weight_325_ conf_0_60__- __subject.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/rule-based_ weight_325_ conf_0_60__- __subject.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/COGNITIVE Definition   Meaning - Merriae Webster The meaning of Cognitive is of.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/COGNITIVE Definition   Meaning - Merriae Webster The meaning of Cognitive is of.md
+
+## Extract & Merge Sub-ideas 2026-04-09 16:54 UTC
+
+- EXTRACT: Orphan Concepts  degree   2  -> Orphan Concepts  degree   2 /Sub-ideas/neighbors.md
+- EXTRACT: Orphan Concepts _degree _ 2_ -> Orphan Concepts _degree _ 2_/Sub-ideas/neighborstxt.md
+- EXTRACT: separated by a comma -> separated by a comma/Sub-ideas/neighbors.md
+- EXTRACT: -neighbor-relationships--stock-market-degree1__sto -> -neighbor-relationships--stock-market-degree1__sto/Sub-ideas/neighbors.md

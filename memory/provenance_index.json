@@ -3,13 +3,6 @@
     "confidence": 1.0,
     "sources": [
       {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728458
-      },
-      {
         "source": "vault:sky.md",
         "source_type": "vault:sky.md",
         "provenance": "",
@@ -120,110 +113,40 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731240
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752254
+      },
+      {
+        "source": "vault:sky.md",
+        "source_type": "vault:sky.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752309
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752347
+      },
+      {
+        "source": "vault:sky.md",
+        "source_type": "vault:sky.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752401
       }
     ]
   },
   "familiarity with individuals|related_to|situations or practical skill": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728805
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728805
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728809
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728809
-      },
-      {
-        "source": "vault:familiarity with individuals.md",
-        "source_type": "vault:familiarity with individuals.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728816
-      },
-      {
-        "source": "vault:familiarity with individuals.md",
-        "source_type": "vault:familiarity with individuals.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728831
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775731177
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775731177
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775731177
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775731177
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775731179
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775731180
-      },
-      {
-        "source": "vault:familiarity with individuals.md",
-        "source_type": "vault:familiarity with individuals.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775731194
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775731216
-      },
       {
         "source": "vault:Evolution-Log.md",
         "source_type": "vault:Evolution-Log.md",
@@ -265,6 +188,104 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731250
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752255
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752255
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752257
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752258
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752270
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752270
+      },
+      {
+        "source": "vault:familiarity with individuals.md",
+        "source_type": "vault:familiarity with individuals.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752286
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752347
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752347
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752350
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752350
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752362
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752362
+      },
+      {
+        "source": "vault:familiarity with individuals.md",
+        "source_type": "vault:familiarity with individuals.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752378
       }
     ]
   },
@@ -276,272 +297,146 @@
         "source_type": "vault:Evolution-Log.md",
         "provenance": "",
         "confidence": 0.6,
-        "ts": 1775731177
+        "ts": 1775752276
       },
       {
         "source": "vault:Evolution-Log.md",
         "source_type": "vault:Evolution-Log.md",
         "provenance": "",
         "confidence": 0.6,
-        "ts": 1775731177
+        "ts": 1775752277
       },
       {
         "source": "vault:Evolution-Log.md",
         "source_type": "vault:Evolution-Log.md",
         "provenance": "",
         "confidence": 0.6,
-        "ts": 1775731177
+        "ts": 1775752279
       },
       {
         "source": "vault:Evolution-Log.md",
         "source_type": "vault:Evolution-Log.md",
         "provenance": "",
         "confidence": 0.6,
-        "ts": 1775731177
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775731180
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775731180
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775731181
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775731181
+        "ts": 1775752279
       },
       {
         "source": "vault:Relation Augmenting.md",
         "source_type": "vault:Relation Augmenting.md",
         "provenance": "",
         "confidence": 0.6,
-        "ts": 1775731195
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775731217
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775731217
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775731217
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775731219
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775731219
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775731219
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775731226
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775731226
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775731229
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775731229
+        "ts": 1775752315
       },
       {
         "source": "vault:Relation Augmenting.md",
         "source_type": "vault:Relation Augmenting.md",
         "provenance": "",
         "confidence": 0.6,
-        "ts": 1775731251
+        "ts": 1775752330
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752348
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752348
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752348
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752351
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752352
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752352
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752363
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752364
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752369
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752369
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752371
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752371
+      },
+      {
+        "source": "vault:Relation Augmenting.md",
+        "source_type": "vault:Relation Augmenting.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752407
+      },
+      {
+        "source": "vault:Relation Augmenting.md",
+        "source_type": "vault:Relation Augmenting.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752423
       }
     ]
   },
   "wikipedia knowledge|is_a|an awareness of facts": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728805
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728810
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728810
-      },
-      {
-        "source": "vault:Wikipedia Knowledge.md",
-        "source_type": "vault:Wikipedia Knowledge.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728819
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775731177
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775731177
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775731177
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775731177
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775731180
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775731180
-      },
-      {
-        "source": "vault:Wikipedia Knowledge.md",
-        "source_type": "vault:Wikipedia Knowledge.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775731184
-      },
-      {
-        "source": "vault:Wikipedia Knowledge.md",
-        "source_type": "vault:Wikipedia Knowledge.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775731202
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775731217
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775731218
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775731218
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775731219
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775731227
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775731227
-      },
       {
         "source": "vault:Wikipedia Knowledge.md",
         "source_type": "vault:Wikipedia Knowledge.md",
@@ -555,110 +450,138 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731258
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752257
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752257
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752258
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752259
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752273
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752273
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752279
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752280
+      },
+      {
+        "source": "vault:Wikipedia Knowledge.md",
+        "source_type": "vault:Wikipedia Knowledge.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752308
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752349
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752349
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752350
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752351
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752365
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752365
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752372
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752372
+      },
+      {
+        "source": "vault:Wikipedia Knowledge.md",
+        "source_type": "vault:Wikipedia Knowledge.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752400
       }
     ]
   },
   "separated by a comma and surrounded by parentheses the object|is_a|the target of knowledge e g knowledge": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728806
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728807
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728808
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728811
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728811
-      },
-      {
-        "source": "vault:separated by a comma and surrounded by parentheses The object.md",
-        "source_type": "vault:separated by a comma and surrounded by parentheses The object.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728827
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775731178
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775731178
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775731178
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775731179
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775731180
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775731181
-      },
-      {
-        "source": "vault:separated by a comma and surrounded by parentheses The object.md",
-        "source_type": "vault:separated by a comma and surrounded by parentheses The object.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775731183
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775731220
-      },
       {
         "source": "vault:Evolution-Log.md",
         "source_type": "vault:Evolution-Log.md",
@@ -700,96 +623,110 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731232
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752260
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752261
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752264
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752265
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752274
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752275
+      },
+      {
+        "source": "vault:separated by a comma and surrounded by parentheses The object.md",
+        "source_type": "vault:separated by a comma and surrounded by parentheses The object.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752327
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752352
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752353
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752356
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752357
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752366
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752367
+      },
+      {
+        "source": "vault:separated by a comma and surrounded by parentheses The object.md",
+        "source_type": "vault:separated by a comma and surrounded by parentheses The object.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752419
       }
     ]
   },
   "separated by a comma|related_to|surrounded by parentheses the object is the target of knowledge e g knowledge": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728806
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728806
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728807
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728808
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728811
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728811
-      },
-      {
-        "source": "vault:separated by a comma.md",
-        "source_type": "vault:separated by a comma.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728815
-      },
-      {
-        "source": "vault:separated by a comma.md",
-        "source_type": "vault:separated by a comma.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728831
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775731178
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775731178
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775731178
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775731179
-      },
       {
         "source": "vault:Evolution-Log.md",
         "source_type": "vault:Evolution-Log.md",
@@ -845,124 +782,96 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731228
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752261
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752261
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752264
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752265
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752274
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752275
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752353
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752354
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752357
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752358
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752366
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752367
       }
     ]
   },
   "surrounded by parentheses the object|is_a|the target of knowledge e g knowledge": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728807
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728809
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728809
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728809
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728809
-      },
-      {
-        "source": "vault:surrounded by parentheses The object.md",
-        "source_type": "vault:surrounded by parentheses The object.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728816
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775731178
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775731178
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775731179
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775731179
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775731179
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775731179
-      },
-      {
-        "source": "vault:surrounded by parentheses The object.md",
-        "source_type": "vault:surrounded by parentheses The object.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775731184
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775731221
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775731221
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775731224
-      },
       {
         "source": "vault:Evolution-Log.md",
         "source_type": "vault:Evolution-Log.md",
@@ -990,68 +899,124 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731236
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752262
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752262
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752268
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752268
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752268
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752269
+      },
+      {
+        "source": "vault:surrounded by parentheses The object is the target of knowledge e g Knowledge.md",
+        "source_type": "vault:surrounded by parentheses The object is the target of knowledge e g Knowledge.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752290
+      },
+      {
+        "source": "vault:surrounded by parentheses The object.md",
+        "source_type": "vault:surrounded by parentheses The object.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752291
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752354
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752354
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752360
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752360
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752361
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752361
+      },
+      {
+        "source": "vault:surrounded by parentheses The object is the target of knowledge e g Knowledge.md",
+        "source_type": "vault:surrounded by parentheses The object is the target of knowledge e g Knowledge.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752381
+      },
+      {
+        "source": "vault:surrounded by parentheses The object.md",
+        "source_type": "vault:surrounded by parentheses The object.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752383
       }
     ]
   },
   "separated by a comma|related_to|surrounded by parentheses the object": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728712
-      },
-      {
-        "source": "vault:separated by a comma.md",
-        "source_type": "vault:separated by a comma.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728714
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728772
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728772
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728778
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728778
-      },
-      {
-        "source": "vault:separated by a comma.md",
-        "source_type": "vault:separated by a comma.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728781
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728807
-      },
       {
         "source": "vault:Evolution-Log.md",
         "source_type": "vault:Evolution-Log.md",
@@ -1135,19 +1100,68 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731230
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752263
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752263
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752278
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752278
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752355
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752355
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752370
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752371
       }
     ]
   },
   "separated by a comma and surrounded by parentheses the object|is_a|the target of knowledge e g k": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728543
-      },
       {
         "source": "vault:separated by a comma and surrounded by parentheses The object.md",
         "source_type": "vault:separated by a comma and surrounded by parentheses The object.md",
@@ -1259,6 +1273,34 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731233
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752263
+      },
+      {
+        "source": "vault:separated by a comma and surrounded by parentheses The object.md",
+        "source_type": "vault:separated by a comma and surrounded by parentheses The object.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752327
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752356
+      },
+      {
+        "source": "vault:separated by a comma and surrounded by parentheses The object.md",
+        "source_type": "vault:separated by a comma and surrounded by parentheses The object.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752419
       }
     ]
   },
@@ -1369,68 +1411,26 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731222
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752264
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752356
       }
     ]
   },
   "subject|has|practical skills in various fields": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728707
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728707
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728707
-      },
-      {
-        "source": "vault:Subject.md",
-        "source_type": "vault:Subject.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728722
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728774
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728774
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728774
-      },
-      {
-        "source": "vault:Subject.md",
-        "source_type": "vault:Subject.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728790
-      },
       {
         "source": "vault:Evolution-Log.md",
         "source_type": "vault:Evolution-Log.md",
@@ -1514,96 +1514,68 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731249
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752266
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752266
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752266
+      },
+      {
+        "source": "vault:Subject.md",
+        "source_type": "vault:Subject.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752304
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752358
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752358
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752359
+      },
+      {
+        "source": "vault:Subject.md",
+        "source_type": "vault:Subject.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752396
       }
     ]
   },
   "surrounded by parentheses the object|is_a|the target of knowledge e g k": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728774
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728774
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728778
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728778
-      },
-      {
-        "source": "vault:surrounded by parentheses The object.md",
-        "source_type": "vault:surrounded by parentheses The object.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728781
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728808
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728808
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728812
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728812
-      },
-      {
-        "source": "vault:surrounded by parentheses The object.md",
-        "source_type": "vault:surrounded by parentheses The object.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728816
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775731179
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775731179
-      },
       {
         "source": "vault:Evolution-Log.md",
         "source_type": "vault:Evolution-Log.md",
@@ -1659,19 +1631,96 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731236
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752267
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752267
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752275
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752276
+      },
+      {
+        "source": "vault:surrounded by parentheses The object is the target of knowledge e g K.md",
+        "source_type": "vault:surrounded by parentheses The object is the target of knowledge e g K.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752288
+      },
+      {
+        "source": "vault:surrounded by parentheses The object.md",
+        "source_type": "vault:surrounded by parentheses The object.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752292
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752359
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752359
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752368
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752368
+      },
+      {
+        "source": "vault:surrounded by parentheses The object is the target of knowledge e g K.md",
+        "source_type": "vault:surrounded by parentheses The object is the target of knowledge e g K.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752379
+      },
+      {
+        "source": "vault:surrounded by parentheses The object.md",
+        "source_type": "vault:surrounded by parentheses The object.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752383
       }
     ]
   },
   "nded by parentheses the object|is_a|the target of knowledge e g knowledge": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728544
-      },
       {
         "source": "vault:nded by parentheses The object.md",
         "source_type": "vault:nded by parentheses The object.md",
@@ -1783,82 +1832,40 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731238
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752269
+      },
+      {
+        "source": "vault:nded by parentheses The object.md",
+        "source_type": "vault:nded by parentheses The object.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752293
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752361
+      },
+      {
+        "source": "vault:nded by parentheses The object.md",
+        "source_type": "vault:nded by parentheses The object.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752385
       }
     ]
   },
   "merriae webster the meaning of cognitive|is_a|of": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728776
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728776
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728776
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728776
-      },
-      {
-        "source": "vault:Merriae Webster The meaning of Cognitive.md",
-        "source_type": "vault:Merriae Webster The meaning of Cognitive.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728787
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728810
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728810
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728810
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728810
-      },
-      {
-        "source": "vault:Merriae Webster The meaning of Cognitive.md",
-        "source_type": "vault:Merriae Webster The meaning of Cognitive.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728821
-      },
       {
         "source": "vault:Evolution-Log.md",
         "source_type": "vault:Evolution-Log.md",
@@ -1928,19 +1935,82 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731234
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752270
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752271
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752272
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752272
+      },
+      {
+        "source": "vault:Merriae Webster The meaning of Cognitive.md",
+        "source_type": "vault:Merriae Webster The meaning of Cognitive.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752295
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752363
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752363
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752364
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752365
+      },
+      {
+        "source": "vault:Merriae Webster The meaning of Cognitive.md",
+        "source_type": "vault:Merriae Webster The meaning of Cognitive.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752387
       }
     ]
   },
   "nd surrounded by parentheses the object|is_a|the target of knowledge e g knowledge": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728546
-      },
       {
         "source": "vault:nd surrounded by parentheses The object.md",
         "source_type": "vault:nd surrounded by parentheses The object.md",
@@ -2052,54 +2122,40 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731243
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752274
+      },
+      {
+        "source": "vault:nd surrounded by parentheses The object.md",
+        "source_type": "vault:nd surrounded by parentheses The object.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752311
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752367
+      },
+      {
+        "source": "vault:nd surrounded by parentheses The object.md",
+        "source_type": "vault:nd surrounded by parentheses The object.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752403
       }
     ]
   },
   "and how they work together in conjunction with knowledge|related_to|skills": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "vault:and how they work together in conjunction with knowledge.md",
-        "source_type": "vault:and how they work together in conjunction with knowledge.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728675
-      },
-      {
-        "source": "vault:and how they work together in conjunction with knowledge.md",
-        "source_type": "vault:and how they work together in conjunction with knowledge.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728691
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728711
-      },
-      {
-        "source": "vault:Evolution-Log.md",
-        "source_type": "vault:Evolution-Log.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728711
-      },
-      {
-        "source": "vault:and how they work together in conjunction with knowledge.md",
-        "source_type": "vault:and how they work together in conjunction with knowledge.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728712
-      },
-      {
-        "source": "vault:and how they work together in conjunction with knowledge.md",
-        "source_type": "vault:and how they work together in conjunction with knowledge.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728727
-      },
       {
         "source": "vault:Evolution-Log.md",
         "source_type": "vault:Evolution-Log.md",
@@ -2197,6 +2253,48 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731240
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752277
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752277
+      },
+      {
+        "source": "vault:and how they work together in conjunction with knowledge.md",
+        "source_type": "vault:and how they work together in conjunction with knowledge.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752317
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752369
+      },
+      {
+        "source": "vault:Evolution-Log.md",
+        "source_type": "vault:Evolution-Log.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752370
+      },
+      {
+        "source": "vault:and how they work together in conjunction with knowledge.md",
+        "source_type": "vault:and how they work together in conjunction with knowledge.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752409
       }
     ]
   },
@@ -2545,6 +2643,20 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731252
+      },
+      {
+        "source": "vault:Augmenting.md",
+        "source_type": "vault:Augmenting.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752299
+      },
+      {
+        "source": "vault:Augmenting.md",
+        "source_type": "vault:Augmenting.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752392
       }
     ]
   },
@@ -2640,48 +2752,6 @@
   "subject1|relation1|object1": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/boggersthefish/Desktop/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/subject1.md",
-        "confidence": 0.9,
-        "ts": 1775728628
-      },
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/boggersthefish/Desktop/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Subject1.md",
-        "confidence": 0.9,
-        "ts": 1775728632
-      },
-      {
-        "source": "vault:subject1.md",
-        "source_type": "vault:subject1.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728676
-      },
-      {
-        "source": "vault:Subject1.md",
-        "source_type": "vault:Subject1.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728683
-      },
-      {
-        "source": "vault:subject1.md",
-        "source_type": "vault:subject1.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728691
-      },
-      {
-        "source": "vault:subject1.md",
-        "source_type": "vault:subject1.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728713
-      },
       {
         "source": "vault:Subject1.md",
         "source_type": "vault:Subject1.md",
@@ -2779,6 +2849,48 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731260
+      },
+      {
+        "source": "vault:subject1.md",
+        "source_type": "vault:subject1.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752320
+      },
+      {
+        "source": "vault:Subject1.md",
+        "source_type": "vault:Subject1.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752323
+      },
+      {
+        "source": "vault:Subject1.md",
+        "source_type": "vault:Subject1.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752331
+      },
+      {
+        "source": "vault:subject1.md",
+        "source_type": "vault:subject1.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752412
+      },
+      {
+        "source": "vault:Subject1.md",
+        "source_type": "vault:Subject1.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752415
+      },
+      {
+        "source": "vault:Subject1.md",
+        "source_type": "vault:Subject1.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752423
       }
     ]
   },
@@ -2903,6 +3015,20 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731258
+      },
+      {
+        "source": "vault:Neighbors.md",
+        "source_type": "vault:Neighbors.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752326
+      },
+      {
+        "source": "vault:Neighbors.md",
+        "source_type": "vault:Neighbors.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752418
       }
     ]
   },
@@ -3027,6 +3153,20 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731259
+      },
+      {
+        "source": "vault:Neighbors.md",
+        "source_type": "vault:Neighbors.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752326
+      },
+      {
+        "source": "vault:Neighbors.md",
+        "source_type": "vault:Neighbors.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752418
       }
     ]
   },
@@ -3404,26 +3544,26 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731239
+      },
+      {
+        "source": "vault:Quantum Mechanics.md",
+        "source_type": "vault:Quantum Mechanics.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752303
+      },
+      {
+        "source": "vault:Quantum Mechanics.md",
+        "source_type": "vault:Quantum Mechanics.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752395
       }
     ]
   },
   "separated by a comma|related_to|surrounded by parentheses": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "vault:separated by a comma and surrounded by parentheses_ The object is the target of knowledge _e_g__ _Knowledge_.md",
-        "source_type": "vault:separated by a comma and surrounded by parentheses_ The object is the target of knowledge _e_g__ _Knowledge_.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728555
-      },
-      {
-        "source": "vault:separated by a comma.md",
-        "source_type": "vault:separated by a comma.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728561
-      },
       {
         "source": "vault:separated by a comma.md",
         "source_type": "vault:separated by a comma.md",
@@ -3549,54 +3689,26 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731245
+      },
+      {
+        "source": "vault:separated by a comma and surrounded by parentheses_ The object is the target of knowledge _e_g__ _Knowledge_.md",
+        "source_type": "vault:separated by a comma and surrounded by parentheses_ The object is the target of knowledge _e_g__ _Knowledge_.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752283
+      },
+      {
+        "source": "vault:separated by a comma and surrounded by parentheses_ The object is the target of knowledge _e_g__ _Knowledge_.md",
+        "source_type": "vault:separated by a comma and surrounded by parentheses_ The object is the target of knowledge _e_g__ _Knowledge_.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752375
       }
     ]
   },
   "familiarity with individuals|related_to|situations": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "vault:familiarity with individuals.md",
-        "source_type": "vault:familiarity with individuals.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728602
-      },
-      {
-        "source": "vault:familiarity with individuals and situations_ or practical skill.md",
-        "source_type": "vault:familiarity with individuals and situations_ or practical skill.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728612
-      },
-      {
-        "source": "vault:familiarity with individuals.md",
-        "source_type": "vault:familiarity with individuals.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728619
-      },
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/boggersthefish/Desktop/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/familiarity with individuals.md",
-        "confidence": 0.9,
-        "ts": 1775728629
-      },
-      {
-        "source": "vault:familiarity with individuals.md",
-        "source_type": "vault:familiarity with individuals.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728678
-      },
-      {
-        "source": "vault:familiarity with individuals and situations_ or practical skill.md",
-        "source_type": "vault:familiarity with individuals and situations_ or practical skill.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728683
-      },
       {
         "source": "vault:familiarity with individuals.md",
         "source_type": "vault:familiarity with individuals.md",
@@ -3694,26 +3806,54 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731250
+      },
+      {
+        "source": "vault:familiarity with individuals.md",
+        "source_type": "vault:familiarity with individuals.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752286
+      },
+      {
+        "source": "vault:familiarity with individuals and situations_ weight_141_ conf_0_60__- __gravity.md",
+        "source_type": "vault:familiarity with individuals and situations_ weight_141_ conf_0_60__- __gravity.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752307
+      },
+      {
+        "source": "vault:familiarity with individuals and situations_ or practical skill.md",
+        "source_type": "vault:familiarity with individuals and situations_ or practical skill.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752321
+      },
+      {
+        "source": "vault:familiarity with individuals.md",
+        "source_type": "vault:familiarity with individuals.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752378
+      },
+      {
+        "source": "vault:familiarity with individuals and situations_ weight_141_ conf_0_60__- __gravity.md",
+        "source_type": "vault:familiarity with individuals and situations_ weight_141_ conf_0_60__- __gravity.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752399
+      },
+      {
+        "source": "vault:familiarity with individuals and situations_ or practical skill.md",
+        "source_type": "vault:familiarity with individuals and situations_ or practical skill.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752414
       }
     ]
   },
   "surrounded by parentheses the object|is_a|the target of knowledge e g knowledge neighbors": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "vault:surrounded by parentheses The object.md",
-        "source_type": "vault:surrounded by parentheses The object.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728619
-      },
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/boggersthefish/Desktop/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/surrounded by parentheses The object.md",
-        "confidence": 0.9,
-        "ts": 1775728629
-      },
       {
         "source": "vault:surrounded by parentheses The object.md",
         "source_type": "vault:surrounded by parentheses The object.md",
@@ -3839,6 +3979,20 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731260
+      },
+      {
+        "source": "vault:surrounded by parentheses The object.md",
+        "source_type": "vault:surrounded by parentheses The object.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752292
+      },
+      {
+        "source": "vault:surrounded by parentheses The object.md",
+        "source_type": "vault:surrounded by parentheses The object.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752384
       }
     ]
   },
@@ -3963,6 +4117,20 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731243
+      },
+      {
+        "source": "vault:surrounded by parentheses The object.md",
+        "source_type": "vault:surrounded by parentheses The object.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752292
+      },
+      {
+        "source": "vault:surrounded by parentheses The object.md",
+        "source_type": "vault:surrounded by parentheses The object.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752384
       }
     ]
   },
@@ -4120,6 +4288,20 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731248
+      },
+      {
+        "source": "vault:Knowledge.md",
+        "source_type": "vault:Knowledge.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752284
+      },
+      {
+        "source": "vault:Knowledge.md",
+        "source_type": "vault:Knowledge.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752376
       }
     ]
   },
@@ -4188,6 +4370,20 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731248
+      },
+      {
+        "source": "vault:Knowledge.md",
+        "source_type": "vault:Knowledge.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752285
+      },
+      {
+        "source": "vault:Knowledge.md",
+        "source_type": "vault:Knowledge.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752377
       }
     ]
   },
@@ -4256,6 +4452,20 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731248
+      },
+      {
+        "source": "vault:Knowledge.md",
+        "source_type": "vault:Knowledge.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752285
+      },
+      {
+        "source": "vault:Knowledge.md",
+        "source_type": "vault:Knowledge.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752377
       }
     ]
   },
@@ -4324,6 +4534,20 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731249
+      },
+      {
+        "source": "vault:Knowledge.md",
+        "source_type": "vault:Knowledge.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752286
+      },
+      {
+        "source": "vault:Knowledge.md",
+        "source_type": "vault:Knowledge.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752377
       }
     ]
   },
@@ -4434,6 +4658,34 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731244
+      },
+      {
+        "source": "vault:Subject2.md",
+        "source_type": "vault:Subject2.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752287
+      },
+      {
+        "source": "vault:Subject2.md",
+        "source_type": "vault:Subject2.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752329
+      },
+      {
+        "source": "vault:Subject2.md",
+        "source_type": "vault:Subject2.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752379
+      },
+      {
+        "source": "vault:Subject2.md",
+        "source_type": "vault:Subject2.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752421
       }
     ]
   },
@@ -4529,34 +4781,6 @@
   "the object|is_a|the target of knowledge": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "vault:The object.md",
-        "source_type": "vault:The object.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728605
-      },
-      {
-        "source": "vault:separated by a comma and surrounded by parentheses_ The object is the target of knowledge _e_g__ _Knowledge_.md",
-        "source_type": "vault:separated by a comma and surrounded by parentheses_ The object is the target of knowledge _e_g__ _Knowledge_.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728616
-      },
-      {
-        "source": "vault:The object.md",
-        "source_type": "vault:The object.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728620
-      },
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/boggersthefish/Desktop/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/The object.md",
-        "confidence": 0.9,
-        "ts": 1775728629
-      },
       {
         "source": "vault:The object.md",
         "source_type": "vault:The object.md",
@@ -4668,6 +4892,34 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731252
+      },
+      {
+        "source": "vault:separated by a comma and surrounded by parentheses_ The object is the target of knowledge _e_g__ _Knowledge_.md",
+        "source_type": "vault:separated by a comma and surrounded by parentheses_ The object is the target of knowledge _e_g__ _Knowledge_.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752284
+      },
+      {
+        "source": "vault:The object.md",
+        "source_type": "vault:The object.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752312
+      },
+      {
+        "source": "vault:separated by a comma and surrounded by parentheses_ The object is the target of knowledge _e_g__ _Knowledge_.md",
+        "source_type": "vault:separated by a comma and surrounded by parentheses_ The object is the target of knowledge _e_g__ _Knowledge_.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752375
+      },
+      {
+        "source": "vault:The object.md",
+        "source_type": "vault:The object.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752405
       }
     ]
   },
@@ -4750,6 +5002,20 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731257
+      },
+      {
+        "source": "vault:Cognitive architecture.md",
+        "source_type": "vault:Cognitive architecture.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752323
+      },
+      {
+        "source": "vault:Cognitive architecture.md",
+        "source_type": "vault:Cognitive architecture.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752416
       }
     ]
   },
@@ -4832,6 +5098,20 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731257
+      },
+      {
+        "source": "vault:Cognitive architecture.md",
+        "source_type": "vault:Cognitive architecture.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752324
+      },
+      {
+        "source": "vault:Cognitive architecture.md",
+        "source_type": "vault:Cognitive architecture.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752416
       }
     ]
   },
@@ -4914,6 +5194,20 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731257
+      },
+      {
+        "source": "vault:Cognitive architecture.md",
+        "source_type": "vault:Cognitive architecture.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752324
+      },
+      {
+        "source": "vault:Cognitive architecture.md",
+        "source_type": "vault:Cognitive architecture.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752416
       }
     ]
   },
@@ -4996,6 +5290,20 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731257
+      },
+      {
+        "source": "vault:Cognitive architecture.md",
+        "source_type": "vault:Cognitive architecture.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752325
+      },
+      {
+        "source": "vault:Cognitive architecture.md",
+        "source_type": "vault:Cognitive architecture.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752417
       }
     ]
   },
@@ -5132,6 +5440,20 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731247
+      },
+      {
+        "source": "vault:Apple.md",
+        "source_type": "vault:Apple.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752325
+      },
+      {
+        "source": "vault:Apple.md",
+        "source_type": "vault:Apple.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752417
       }
     ]
   },
@@ -5247,19 +5569,26 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731254
+      },
+      {
+        "source": "vault:why the sky is blue.md",
+        "source_type": "vault:why the sky is blue.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752307
+      },
+      {
+        "source": "vault:why the sky is blue.md",
+        "source_type": "vault:why the sky is blue.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752399
       }
     ]
   },
   "in conjunction with knowledge|related_to|skills": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "vault:in conjunction with knowledge.md",
-        "source_type": "vault:in conjunction with knowledge.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728552
-      },
       {
         "source": "vault:and how they work together _ in conjunction with knowledge and skills__.md",
         "source_type": "vault:and how they work together _ in conjunction with knowledge and skills__.md",
@@ -5371,6 +5700,34 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731254
+      },
+      {
+        "source": "vault:in conjunction with knowledge.md",
+        "source_type": "vault:in conjunction with knowledge.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752310
+      },
+      {
+        "source": "vault:and how they work together _ in conjunction with knowledge and skills__.md",
+        "source_type": "vault:and how they work together _ in conjunction with knowledge and skills__.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752327
+      },
+      {
+        "source": "vault:in conjunction with knowledge.md",
+        "source_type": "vault:in conjunction with knowledge.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752402
+      },
+      {
+        "source": "vault:and how they work together _ in conjunction with knowledge and skills__.md",
+        "source_type": "vault:and how they work together _ in conjunction with knowledge and skills__.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752419
       }
     ]
   },
@@ -5507,6 +5864,20 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731259
+      },
+      {
+        "source": "vault:Definition.md",
+        "source_type": "vault:Definition.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752310
+      },
+      {
+        "source": "vault:Definition.md",
+        "source_type": "vault:Definition.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752402
       }
     ]
   },
@@ -5582,6 +5953,20 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731256
+      },
+      {
+        "source": "vault:_Subject_.md",
+        "source_type": "vault:_Subject_.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752290
+      },
+      {
+        "source": "vault:_Subject_.md",
+        "source_type": "vault:_Subject_.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752382
       }
     ]
   },
@@ -5737,6 +6122,20 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731253
+      },
+      {
+        "source": "vault:e_g_.md",
+        "source_type": "vault:e_g_.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752319
+      },
+      {
+        "source": "vault:e_g_.md",
+        "source_type": "vault:e_g_.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752411
       }
     ]
   },
@@ -5852,6 +6251,20 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731236
+      },
+      {
+        "source": "vault:Jaguar.md",
+        "source_type": "vault:Jaguar.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752307
+      },
+      {
+        "source": "vault:Jaguar.md",
+        "source_type": "vault:Jaguar.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752399
       }
     ]
   },
@@ -5920,6 +6333,27 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775732421
+      },
+      {
+        "source": "vault:Foo.md",
+        "source_type": "vault:Foo.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752301
+      },
+      {
+        "source": "vault:Foo.md",
+        "source_type": "vault:Foo.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752393
+      },
+      {
+        "source": "test",
+        "source_type": "test",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775753652
       }
     ]
   },
@@ -5988,6 +6422,20 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731246
+      },
+      {
+        "source": "vault:Knowledge Graph Reasoning.md",
+        "source_type": "vault:Knowledge Graph Reasoning.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752296
+      },
+      {
+        "source": "vault:Knowledge Graph Reasoning.md",
+        "source_type": "vault:Knowledge Graph Reasoning.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752388
       }
     ]
   },
@@ -6063,6 +6511,27 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731244
+      },
+      {
+        "source": "test",
+        "source_type": "test",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752229
+      },
+      {
+        "source": "vault:Earth.md",
+        "source_type": "vault:Earth.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752306
+      },
+      {
+        "source": "vault:Earth.md",
+        "source_type": "vault:Earth.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752398
       }
     ]
   },
@@ -6192,6 +6661,20 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731243
+      },
+      {
+        "source": "vault:Sub Ideaneighborhubskebaab Case With No Spaces.md",
+        "source_type": "vault:Sub Ideaneighborhubskebaab Case With No Spaces.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752318
+      },
+      {
+        "source": "vault:Sub Ideaneighborhubskebaab Case With No Spaces.md",
+        "source_type": "vault:Sub Ideaneighborhubskebaab Case With No Spaces.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752410
       }
     ]
   },
@@ -6293,6 +6776,20 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775728822
+      },
+      {
+        "source": "vault:Money.md",
+        "source_type": "vault:Money.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752331
+      },
+      {
+        "source": "vault:Money.md",
+        "source_type": "vault:Money.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752423
       }
     ]
   },
@@ -6361,6 +6858,20 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731242
+      },
+      {
+        "source": "vault:doc.md",
+        "source_type": "vault:doc.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752312
+      },
+      {
+        "source": "vault:doc.md",
+        "source_type": "vault:doc.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752404
       }
     ]
   },
@@ -6577,6 +7088,20 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731240
+      },
+      {
+        "source": "vault:Alice.md",
+        "source_type": "vault:Alice.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752309
+      },
+      {
+        "source": "vault:Alice.md",
+        "source_type": "vault:Alice.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752401
       }
     ]
   },
@@ -6638,6 +7163,20 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731259
+      },
+      {
+        "source": "vault:Relation_ Augmenting and combining the strengths of statistical AI.md",
+        "source_type": "vault:Relation_ Augmenting and combining the strengths of statistical AI.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752329
+      },
+      {
+        "source": "vault:Relation_ Augmenting and combining the strengths of statistical AI.md",
+        "source_type": "vault:Relation_ Augmenting and combining the strengths of statistical AI.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752421
       }
     ]
   },
@@ -6685,6 +7224,20 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775728823
+      },
+      {
+        "source": "vault:Subject_ Cognitive Architecture_ _Relation_ Defines the mind in natural or artificial systems_ _Object_ _Fixed structures that provide a mind.md",
+        "source_type": "vault:Subject_ Cognitive Architecture_ _Relation_ Defines the mind in natural or artificial systems_ _Object_ _Fixed structures that provide a mind.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752330
+      },
+      {
+        "source": "vault:Subject_ Cognitive Architecture_ _Relation_ Defines the mind in natural or artificial systems_ _Object_ _Fixed structures that provide a mind.md",
+        "source_type": "vault:Subject_ Cognitive Architecture_ _Relation_ Defines the mind in natural or artificial systems_ _Object_ _Fixed structures that provide a mind.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752422
       }
     ]
   },
@@ -6793,6 +7346,20 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731239
+      },
+      {
+        "source": "vault:Science_Facts.md",
+        "source_type": "vault:Science_Facts.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752314
+      },
+      {
+        "source": "vault:Science_Facts.md",
+        "source_type": "vault:Science_Facts.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752406
       }
     ]
   },
@@ -6861,47 +7428,26 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731246
+      },
+      {
+        "source": "vault:Neighborhood Theory.md",
+        "source_type": "vault:Neighborhood Theory.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752301
+      },
+      {
+        "source": "vault:Neighborhood Theory.md",
+        "source_type": "vault:Neighborhood Theory.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752393
       }
     ]
   },
   "subject|relation|object": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "vault:Subject.md",
-        "source_type": "vault:Subject.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728556
-      },
-      {
-        "source": "vault:subject.md",
-        "source_type": "vault:subject.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728556
-      },
-      {
-        "source": "vault:Subject.md",
-        "source_type": "vault:Subject.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728616
-      },
-      {
-        "source": "vault:subject.md",
-        "source_type": "vault:subject.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775728616
-      },
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/boggersthefish/Desktop/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Subject.md",
-        "confidence": 0.9,
-        "ts": 1775728633
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -6992,6 +7538,55 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731260
+      },
+      {
+        "source": "external",
+        "source_type": "web_search",
+        "provenance": "https://www.merriam-webster.com/dictionary/cognitive",
+        "confidence": 0.7,
+        "ts": 1775752246
+      },
+      {
+        "source": "vault:subject.md",
+        "source_type": "vault:subject.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752287
+      },
+      {
+        "source": "vault:Subject.md",
+        "source_type": "vault:Subject.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752305
+      },
+      {
+        "source": "vault:Subject.md",
+        "source_type": "vault:Subject.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752330
+      },
+      {
+        "source": "vault:subject.md",
+        "source_type": "vault:subject.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752379
+      },
+      {
+        "source": "vault:Subject.md",
+        "source_type": "vault:Subject.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752397
+      },
+      {
+        "source": "vault:Subject.md",
+        "source_type": "vault:Subject.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752422
       }
     ]
   },
@@ -7060,6 +7655,20 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731246
+      },
+      {
+        "source": "vault:Relation2.md",
+        "source_type": "vault:Relation2.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752321
+      },
+      {
+        "source": "vault:Relation2.md",
+        "source_type": "vault:Relation2.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752413
       }
     ]
   },
@@ -7135,6 +7744,34 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731241
+      },
+      {
+        "source": "vault:Webster The meaning of Cognitive.md",
+        "source_type": "vault:Webster The meaning of Cognitive.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752290
+      },
+      {
+        "source": "vault:Webster The meaning of Cognitive.md",
+        "source_type": "vault:Webster The meaning of Cognitive.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752329
+      },
+      {
+        "source": "vault:Webster The meaning of Cognitive.md",
+        "source_type": "vault:Webster The meaning of Cognitive.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752382
+      },
+      {
+        "source": "vault:Webster The meaning of Cognitive.md",
+        "source_type": "vault:Webster The meaning of Cognitive.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752421
       }
     ]
   },
@@ -7196,6 +7833,20 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731259
+      },
+      {
+        "source": "vault:1_ _Subject.md",
+        "source_type": "vault:1_ _Subject.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752296
+      },
+      {
+        "source": "vault:1_ _Subject.md",
+        "source_type": "vault:1_ _Subject.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752387
       }
     ]
   },
@@ -7264,6 +7915,20 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731255
+      },
+      {
+        "source": "vault:such as thinking.md",
+        "source_type": "vault:such as thinking.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752313
+      },
+      {
+        "source": "vault:such as thinking.md",
+        "source_type": "vault:such as thinking.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752405
       }
     ]
   },
@@ -7332,6 +7997,20 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731255
+      },
+      {
+        "source": "vault:such as thinking.md",
+        "source_type": "vault:such as thinking.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752313
+      },
+      {
+        "source": "vault:such as thinking.md",
+        "source_type": "vault:such as thinking.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752405
       }
     ]
   },
@@ -7400,6 +8079,20 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731255
+      },
+      {
+        "source": "vault:such as thinking.md",
+        "source_type": "vault:such as thinking.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752314
+      },
+      {
+        "source": "vault:such as thinking.md",
+        "source_type": "vault:such as thinking.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752406
       }
     ]
   },
@@ -7468,6 +8161,20 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731256
+      },
+      {
+        "source": "vault:such as thinking.md",
+        "source_type": "vault:such as thinking.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752314
+      },
+      {
+        "source": "vault:such as thinking.md",
+        "source_type": "vault:such as thinking.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752406
       }
     ]
   },
@@ -7597,6 +8304,20 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731259
+      },
+      {
+        "source": "vault:Relation3.md",
+        "source_type": "vault:Relation3.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752322
+      },
+      {
+        "source": "vault:Relation3.md",
+        "source_type": "vault:Relation3.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752414
       }
     ]
   },
@@ -7848,6 +8569,41 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731255
+      },
+      {
+        "source": "test",
+        "source_type": "test",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752222
+      },
+      {
+        "source": "test",
+        "source_type": "test",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752229
+      },
+      {
+        "source": "e2e",
+        "source_type": "e2e",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752230
+      },
+      {
+        "source": "vault:Gravity.md",
+        "source_type": "vault:Gravity.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752295
+      },
+      {
+        "source": "vault:Gravity.md",
+        "source_type": "vault:Gravity.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752387
       }
     ]
   },
@@ -7930,6 +8686,20 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731258
+      },
+      {
+        "source": "vault:Person A.md",
+        "source_type": "vault:Person A.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752308
+      },
+      {
+        "source": "vault:Person A.md",
+        "source_type": "vault:Person A.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752400
       }
     ]
   },
@@ -8012,6 +8782,20 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731258
+      },
+      {
+        "source": "vault:Person A.md",
+        "source_type": "vault:Person A.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752308
+      },
+      {
+        "source": "vault:Person A.md",
+        "source_type": "vault:Person A.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752401
       }
     ]
   },
@@ -8194,6 +8978,20 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731256
+      },
+      {
+        "source": "vault:Scientists.md",
+        "source_type": "vault:Scientists.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752294
+      },
+      {
+        "source": "vault:Scientists.md",
+        "source_type": "vault:Scientists.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752386
       }
     ]
   },
@@ -8220,6 +9018,34 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731249
+      },
+      {
+        "source": "vault:subject   Neuro-symbolic AI - IBM Research .md",
+        "source_type": "vault:subject   Neuro-symbolic AI - IBM Research .md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752311
+      },
+      {
+        "source": "vault:subject   Neuro-symbolic AI - IBM Research.md",
+        "source_type": "vault:subject   Neuro-symbolic AI - IBM Research.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752316
+      },
+      {
+        "source": "vault:subject   Neuro-symbolic AI - IBM Research .md",
+        "source_type": "vault:subject   Neuro-symbolic AI - IBM Research .md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752403
+      },
+      {
+        "source": "vault:subject   Neuro-symbolic AI - IBM Research.md",
+        "source_type": "vault:subject   Neuro-symbolic AI - IBM Research.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752408
       }
     ]
   },
@@ -8258,6 +9084,20 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731247
+      },
+      {
+        "source": "vault:1  Knowledge - Wikipedia Knowledge is an awareness of facts.md",
+        "source_type": "vault:1  Knowledge - Wikipedia Knowledge is an awareness of facts.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752317
+      },
+      {
+        "source": "vault:1  Knowledge - Wikipedia Knowledge is an awareness of facts.md",
+        "source_type": "vault:1  Knowledge - Wikipedia Knowledge is an awareness of facts.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752409
       }
     ]
   },
@@ -8284,6 +9124,20 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731252
+      },
+      {
+        "source": "vault:Knowledge - Wikipedia Knowledge.md",
+        "source_type": "vault:Knowledge - Wikipedia Knowledge.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752302
+      },
+      {
+        "source": "vault:Knowledge - Wikipedia Knowledge.md",
+        "source_type": "vault:Knowledge - Wikipedia Knowledge.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752394
       }
     ]
   },
@@ -8322,6 +9176,20 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731248
+      },
+      {
+        "source": "vault:Knowledge.md",
+        "source_type": "vault:Knowledge.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752284
+      },
+      {
+        "source": "vault:Knowledge.md",
+        "source_type": "vault:Knowledge.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752376
       }
     ]
   },
@@ -8348,6 +9216,34 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731242
+      },
+      {
+        "source": "vault:token lower  .md",
+        "source_type": "vault:token lower  .md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752305
+      },
+      {
+        "source": "vault:token lower.md",
+        "source_type": "vault:token lower.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752312
+      },
+      {
+        "source": "vault:token lower  .md",
+        "source_type": "vault:token lower  .md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752397
+      },
+      {
+        "source": "vault:token lower.md",
+        "source_type": "vault:token lower.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752404
       }
     ]
   },
@@ -8386,6 +9282,20 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731242
+      },
+      {
+        "source": "vault:Subject.md",
+        "source_type": "vault:Subject.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752304
+      },
+      {
+        "source": "vault:Subject.md",
+        "source_type": "vault:Subject.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752396
       }
     ]
   },
@@ -8412,6 +9322,34 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731234
+      },
+      {
+        "source": "vault:e g.md",
+        "source_type": "vault:e g.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752288
+      },
+      {
+        "source": "vault:e g .md",
+        "source_type": "vault:e g .md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752297
+      },
+      {
+        "source": "vault:e g.md",
+        "source_type": "vault:e g.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752380
+      },
+      {
+        "source": "vault:e g .md",
+        "source_type": "vault:e g .md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752389
       }
     ]
   },
@@ -8438,6 +9376,34 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731235
+      },
+      {
+        "source": "vault:e g.md",
+        "source_type": "vault:e g.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752288
+      },
+      {
+        "source": "vault:e g .md",
+        "source_type": "vault:e g .md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752297
+      },
+      {
+        "source": "vault:e g.md",
+        "source_type": "vault:e g.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752380
+      },
+      {
+        "source": "vault:e g .md",
+        "source_type": "vault:e g .md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752389
       }
     ]
   },
@@ -8464,6 +9430,34 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731235
+      },
+      {
+        "source": "vault:e g.md",
+        "source_type": "vault:e g.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752289
+      },
+      {
+        "source": "vault:e g .md",
+        "source_type": "vault:e g .md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752297
+      },
+      {
+        "source": "vault:e g.md",
+        "source_type": "vault:e g.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752381
+      },
+      {
+        "source": "vault:e g .md",
+        "source_type": "vault:e g .md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752389
       }
     ]
   },
@@ -8490,6 +9484,34 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731235
+      },
+      {
+        "source": "vault:e g.md",
+        "source_type": "vault:e g.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752289
+      },
+      {
+        "source": "vault:e g .md",
+        "source_type": "vault:e g .md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752298
+      },
+      {
+        "source": "vault:e g.md",
+        "source_type": "vault:e g.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752381
+      },
+      {
+        "source": "vault:e g .md",
+        "source_type": "vault:e g .md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752390
       }
     ]
   },
@@ -8516,6 +9538,20 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731244
+      },
+      {
+        "source": "vault:Brown Bear.md",
+        "source_type": "vault:Brown Bear.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752321
+      },
+      {
+        "source": "vault:Brown Bear.md",
+        "source_type": "vault:Brown Bear.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752413
       }
     ]
   },
@@ -8542,6 +9578,20 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731247
+      },
+      {
+        "source": "vault:I2K Web.md",
+        "source_type": "vault:I2K Web.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752300
+      },
+      {
+        "source": "vault:I2K Web.md",
+        "source_type": "vault:I2K Web.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752392
       }
     ]
   },
@@ -8568,6 +9618,34 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731238
+      },
+      {
+        "source": "vault:COGNITIVE Definition   Meaning - Merriae Webster The meaning of Cognitive is of.md",
+        "source_type": "vault:COGNITIVE Definition   Meaning - Merriae Webster The meaning of Cognitive is of.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752325
+      },
+      {
+        "source": "vault: COGNITIVE Definition   Meaning - Merriae Webster The meaning of Cognitive is of.md",
+        "source_type": "vault: COGNITIVE Definition   Meaning - Merriae Webster The meaning of Cognitive is of.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752328
+      },
+      {
+        "source": "vault:COGNITIVE Definition   Meaning - Merriae Webster The meaning of Cognitive is of.md",
+        "source_type": "vault:COGNITIVE Definition   Meaning - Merriae Webster The meaning of Cognitive is of.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752417
+      },
+      {
+        "source": "vault: COGNITIVE Definition   Meaning - Merriae Webster The meaning of Cognitive is of.md",
+        "source_type": "vault: COGNITIVE Definition   Meaning - Merriae Webster The meaning of Cognitive is of.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752420
       }
     ]
   },
@@ -8606,6 +9684,20 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731242
+      },
+      {
+        "source": "vault:Relation  Augmenting and combining the strengths of statistical AI.md",
+        "source_type": "vault:Relation  Augmenting and combining the strengths of statistical AI.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752310
+      },
+      {
+        "source": "vault:Relation  Augmenting and combining the strengths of statistical AI.md",
+        "source_type": "vault:Relation  Augmenting and combining the strengths of statistical AI.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752403
       }
     ]
   },
@@ -8632,6 +9724,20 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731250
+      },
+      {
+        "source": "vault:Subject  Cognitive Architecture   Relation  Defines the mind in natural or artificial systems   Object   Fixed structures that provide a mind.md",
+        "source_type": "vault:Subject  Cognitive Architecture   Relation  Defines the mind in natural or artificial systems   Object   Fixed structures that provide a mind.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752320
+      },
+      {
+        "source": "vault:Subject  Cognitive Architecture   Relation  Defines the mind in natural or artificial systems   Object   Fixed structures that provide a mind.md",
+        "source_type": "vault:Subject  Cognitive Architecture   Relation  Defines the mind in natural or artificial systems   Object   Fixed structures that provide a mind.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752412
       }
     ]
   },
@@ -8658,6 +9764,34 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731254
+      },
+      {
+        "source": "vault:1  the concept itself  e g .md",
+        "source_type": "vault:1  the concept itself  e g .md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752300
+      },
+      {
+        "source": "vault:1  the concept itself  e g.md",
+        "source_type": "vault:1  the concept itself  e g.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752322
+      },
+      {
+        "source": "vault:1  the concept itself  e g .md",
+        "source_type": "vault:1  the concept itself  e g .md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752392
+      },
+      {
+        "source": "vault:1  the concept itself  e g.md",
+        "source_type": "vault:1  the concept itself  e g.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752414
       }
     ]
   },
@@ -8710,6 +9844,20 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731241
+      },
+      {
+        "source": "vault:1   Subject.md",
+        "source_type": "vault:1   Subject.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752293
+      },
+      {
+        "source": "vault:1   Subject.md",
+        "source_type": "vault:1   Subject.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752385
       }
     ]
   },
@@ -8736,6 +9884,20 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731246
+      },
+      {
+        "source": "vault:1  is the subject of the triple  Knowledge - Wikipedia Knowledge is an awareness of facts.md",
+        "source_type": "vault:1  is the subject of the triple  Knowledge - Wikipedia Knowledge is an awareness of facts.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752306
+      },
+      {
+        "source": "vault:1  is the subject of the triple  Knowledge - Wikipedia Knowledge is an awareness of facts.md",
+        "source_type": "vault:1  is the subject of the triple  Knowledge - Wikipedia Knowledge is an awareness of facts.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752398
       }
     ]
   },
@@ -8774,6 +9936,20 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731251
+      },
+      {
+        "source": "vault:Subject  has practical skills in various fields.md",
+        "source_type": "vault:Subject  has practical skills in various fields.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752301
+      },
+      {
+        "source": "vault:Subject  has practical skills in various fields.md",
+        "source_type": "vault:Subject  has practical skills in various fields.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752393
       }
     ]
   },
@@ -9006,7 +10182,7 @@
     ]
   },
   "orphan concepts  degree   2|degree=1|\"stocks\"": {
-    "confidence": 0.9,
+    "confidence": 1.0,
     "sources": [
       {
         "source": "obsidian_human",
@@ -9014,6 +10190,13 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1775730524
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751608
       }
     ]
   },
@@ -9030,7 +10213,7 @@
     ]
   },
   "orphan concepts  degree   2|degree=1|neighbor relations": {
-    "confidence": 0.9,
+    "confidence": 1.0,
     "sources": [
       {
         "source": "obsidian_human",
@@ -9038,11 +10221,18 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1775730548
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751610
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|\"is true\"": {
-    "confidence": 0.9,
+    "confidence": 1.0,
     "sources": [
       {
         "source": "obsidian_human",
@@ -9050,6 +10240,13 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1775730548
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751607
       }
     ]
   },
@@ -9078,7 +10275,7 @@
     ]
   },
   "orphan concepts  degree   2|degree=1|\"black\"": {
-    "confidence": 0.9,
+    "confidence": 1.0,
     "sources": [
       {
         "source": "obsidian_human",
@@ -9086,11 +10283,18 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1775730548
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751607
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|foo": {
-    "confidence": 0.9,
+    "confidence": 1.0,
     "sources": [
       {
         "source": "obsidian_human",
@@ -9098,11 +10302,18 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1775730548
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751609
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|quick check": {
-    "confidence": 0.9,
+    "confidence": 1.0,
     "sources": [
       {
         "source": "obsidian_human",
@@ -9110,11 +10321,18 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1775730548
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751619
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|money": {
-    "confidence": 0.9,
+    "confidence": 1.0,
     "sources": [
       {
         "source": "obsidian_human",
@@ -9122,11 +10340,18 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1775730548
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751610
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|\"iphone\"": {
-    "confidence": 0.9,
+    "confidence": 1.0,
     "sources": [
       {
         "source": "obsidian_human",
@@ -9134,11 +10359,18 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1775730548
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751607
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|\"cognitive definition & meaning - merriae/webster the meaning of cognitive is of": {
-    "confidence": 0.9,
+    "confidence": 1.0,
     "sources": [
       {
         "source": "obsidian_human",
@@ -9146,11 +10378,18 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1775730548
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751606
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|neighbors gravity time": {
-    "confidence": 0.9,
+    "confidence": 1.0,
     "sources": [
       {
         "source": "obsidian_human",
@@ -9158,11 +10397,18 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1775730548
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751610
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|otto 'pop' carter": {
-    "confidence": 0.9,
+    "confidence": 1.0,
     "sources": [
       {
         "source": "obsidian_human",
@@ -9170,11 +10416,18 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1775730548
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751610
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|subject: cognitive architecture) (relation: defines the mind in natural or artificial systems) (object: \"fixed structures that provide a mind": {
-    "confidence": 0.9,
+    "confidence": 1.0,
     "sources": [
       {
         "source": "obsidian_human",
@@ -9182,11 +10435,18 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1775730548
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751619
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|1) the concept itself (e.g.": {
-    "confidence": 0.9,
+    "confidence": 1.0,
     "sources": [
       {
         "source": "obsidian_human",
@@ -9194,6 +10454,13 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1775730548
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751609
       }
     ]
   },
@@ -9222,7 +10489,7 @@
     ]
   },
   "orphan concepts  degree   2|degree=1|1) (subject": {
-    "confidence": 0.9,
+    "confidence": 1.0,
     "sources": [
       {
         "source": "obsidian_human",
@@ -9230,6 +10497,13 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1775730548
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751608
       }
     ]
   },
@@ -9246,68 +10520,6 @@
     ]
   },
   "a|causes|b": {
-    "confidence": 0.6,
-    "sources": [
-      {
-        "source": "test",
-        "source_type": "test",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775731162
-      }
-    ]
-  },
-  "a|relates_to|c": {
-    "confidence": 0.6,
-    "sources": [
-      {
-        "source": "test",
-        "source_type": "test",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775731162
-      }
-    ]
-  },
-  "a|rel|b": {
-    "confidence": 0.6,
-    "sources": [
-      {
-        "source": "test",
-        "source_type": "test",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775731162
-      }
-    ]
-  },
-  "a|r|b": {
-    "confidence": 0.7999999999999999,
-    "sources": [
-      {
-        "source": "test",
-        "source_type": "test",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775731162
-      },
-      {
-        "source": "test",
-        "source_type": "test",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775731162
-      },
-      {
-        "source": "test",
-        "source_type": "test",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1775731162
-      }
-    ]
-  },
-  "b|r|c": {
     "confidence": 0.7,
     "sources": [
       {
@@ -9322,12 +10534,158 @@
         "source_type": "test",
         "provenance": "",
         "confidence": 0.6,
+        "ts": 1775752229
+      }
+    ]
+  },
+  "a|relates_to|c": {
+    "confidence": 0.7,
+    "sources": [
+      {
+        "source": "test",
+        "source_type": "test",
+        "provenance": "",
+        "confidence": 0.6,
         "ts": 1775731162
+      },
+      {
+        "source": "test",
+        "source_type": "test",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752229
+      }
+    ]
+  },
+  "a|rel|b": {
+    "confidence": 0.7,
+    "sources": [
+      {
+        "source": "test",
+        "source_type": "test",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775731162
+      },
+      {
+        "source": "test",
+        "source_type": "test",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752229
+      }
+    ]
+  },
+  "a|r|b": {
+    "confidence": 1.0,
+    "sources": [
+      {
+        "source": "test",
+        "source_type": "test",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775731162
+      },
+      {
+        "source": "test",
+        "source_type": "test",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775731162
+      },
+      {
+        "source": "test",
+        "source_type": "test",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775731162
+      },
+      {
+        "source": "test",
+        "source_type": "test",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752229
+      },
+      {
+        "source": "test",
+        "source_type": "test",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752229
+      },
+      {
+        "source": "test",
+        "source_type": "test",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752229
+      },
+      {
+        "source": "vault:A.md",
+        "source_type": "vault:A.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752294
+      },
+      {
+        "source": "vault:A.md",
+        "source_type": "vault:A.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752385
+      }
+    ]
+  },
+  "b|r|c": {
+    "confidence": 1.0,
+    "sources": [
+      {
+        "source": "test",
+        "source_type": "test",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775731162
+      },
+      {
+        "source": "test",
+        "source_type": "test",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775731162
+      },
+      {
+        "source": "test",
+        "source_type": "test",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752229
+      },
+      {
+        "source": "test",
+        "source_type": "test",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752229
+      },
+      {
+        "source": "vault:B.md",
+        "source_type": "vault:B.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752303
+      },
+      {
+        "source": "vault:B.md",
+        "source_type": "vault:B.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752395
       }
     ]
   },
   "x|r|y": {
-    "confidence": 0.6,
+    "confidence": 0.9999999999999999,
     "sources": [
       {
         "source": "test",
@@ -9335,11 +10693,32 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731162
+      },
+      {
+        "source": "test",
+        "source_type": "test",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752229
+      },
+      {
+        "source": "vault:X.md",
+        "source_type": "vault:X.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752298
+      },
+      {
+        "source": "vault:X.md",
+        "source_type": "vault:X.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752390
       }
     ]
   },
   "orphan|r|x": {
-    "confidence": 0.6,
+    "confidence": 0.9999999999999999,
     "sources": [
       {
         "source": "test",
@@ -9347,11 +10726,32 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731162
+      },
+      {
+        "source": "test",
+        "source_type": "test",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752229
+      },
+      {
+        "source": "vault:Orphan.md",
+        "source_type": "vault:Orphan.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752323
+      },
+      {
+        "source": "vault:Orphan.md",
+        "source_type": "vault:Orphan.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752415
       }
     ]
   },
   "a|r|c": {
-    "confidence": 0.6,
+    "confidence": 0.9999999999999999,
     "sources": [
       {
         "source": "test",
@@ -9359,6 +10759,27 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731162
+      },
+      {
+        "source": "test",
+        "source_type": "test",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752229
+      },
+      {
+        "source": "vault:A.md",
+        "source_type": "vault:A.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752294
+      },
+      {
+        "source": "vault:A.md",
+        "source_type": "vault:A.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752386
       }
     ]
   },
@@ -9411,7 +10832,7 @@
     ]
   },
   "1) knowledge - wikipedia knowledge is an awareness of facts|(2)_acquaintance_with_individuals_and_situations|or (3": {
-    "confidence": 0.7,
+    "confidence": 0.8999999999999999,
     "sources": [
       {
         "source": "vault:1_ Knowledge - Wikipedia Knowledge is an awareness of facts.md",
@@ -9426,11 +10847,25 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731232
+      },
+      {
+        "source": "vault:1_ Knowledge - Wikipedia Knowledge is an awareness of facts.md",
+        "source_type": "vault:1_ Knowledge - Wikipedia Knowledge is an awareness of facts.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752296
+      },
+      {
+        "source": "vault:1_ Knowledge - Wikipedia Knowledge is an awareness of facts.md",
+        "source_type": "vault:1_ Knowledge - Wikipedia Knowledge is an awareness of facts.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752388
       }
     ]
   },
   "subject) has practical skills in various fields|such_as_science_or_technology|as demonstrated through (relation": {
-    "confidence": 0.7,
+    "confidence": 0.8999999999999999,
     "sources": [
       {
         "source": "vault:Subject_ has practical skills in various fields.md",
@@ -9445,11 +10880,25 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731238
+      },
+      {
+        "source": "vault:Subject_ has practical skills in various fields.md",
+        "source_type": "vault:Subject_ has practical skills in various fields.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752316
+      },
+      {
+        "source": "vault:Subject_ has practical skills in various fields.md",
+        "source_type": "vault:Subject_ has practical skills in various fields.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752408
       }
     ]
   },
   "relation: augmenting and combining the strengths of statistical ai|such_as_machine_learning|with the capabilities of neuroscience to achieve artificial general intelligence.": {
-    "confidence": 0.7,
+    "confidence": 0.8999999999999999,
     "sources": [
       {
         "source": "vault:Relation_ Augmenting and combining the strengths of statistical AI.md",
@@ -9464,11 +10913,25 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731239
+      },
+      {
+        "source": "vault:Relation_ Augmenting and combining the strengths of statistical AI.md",
+        "source_type": "vault:Relation_ Augmenting and combining the strengths of statistical AI.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752299
+      },
+      {
+        "source": "vault:Relation_ Augmenting and combining the strengths of statistical AI.md",
+        "source_type": "vault:Relation_ Augmenting and combining the strengths of statistical AI.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752391
       }
     ]
   },
   "1) is the subject of the triple (knowledge - wikipedia knowledge is an awareness of facts|a_familiarity_with_individuals_and_situations|or a practical skill": {
-    "confidence": 0.7,
+    "confidence": 0.8999999999999999,
     "sources": [
       {
         "source": "vault:1_ is the subject of the triple _Knowledge - Wikipedia Knowledge is an awareness of facts.md",
@@ -9483,11 +10946,25 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731244
+      },
+      {
+        "source": "vault:1_ is the subject of the triple _Knowledge - Wikipedia Knowledge is an awareness of facts.md",
+        "source_type": "vault:1_ is the subject of the triple _Knowledge - Wikipedia Knowledge is an awareness of facts.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752318
+      },
+      {
+        "source": "vault:1_ is the subject of the triple _Knowledge - Wikipedia Knowledge is an awareness of facts.md",
+        "source_type": "vault:1_ is the subject of the triple _Knowledge - Wikipedia Knowledge is an awareness of facts.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752410
       }
     ]
   },
   "subject)|knowledge___wikipedia|(relation": {
-    "confidence": 0.7,
+    "confidence": 0.8999999999999999,
     "sources": [
       {
         "source": "vault:Subject_.md",
@@ -9502,11 +10979,25 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731245
+      },
+      {
+        "source": "vault:Subject_.md",
+        "source_type": "vault:Subject_.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752299
+      },
+      {
+        "source": "vault:Subject_.md",
+        "source_type": "vault:Subject_.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752391
       }
     ]
   },
   "subject|knowledge___wikipedia|(relation": {
-    "confidence": 0.7,
+    "confidence": 0.9999999999999999,
     "sources": [
       {
         "source": "vault:Subject .md",
@@ -9521,11 +11012,25 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731245
+      },
+      {
+        "source": "vault:Subject.md",
+        "source_type": "vault:Subject.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752305
+      },
+      {
+        "source": "vault:Subject.md",
+        "source_type": "vault:Subject.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752397
       }
     ]
   },
   "a[0]|b[0])_not_in_set(triplets):_triplets.append((a|b, c": {
-    "confidence": 0.7,
+    "confidence": 0.8999999999999999,
     "sources": [
       {
         "source": "vault:a_0_.md",
@@ -9540,11 +11045,25 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731247
+      },
+      {
+        "source": "vault:a_0_.md",
+        "source_type": "vault:a_0_.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752315
+      },
+      {
+        "source": "vault:a_0_.md",
+        "source_type": "vault:a_0_.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752407
       }
     ]
   },
   "token.lower()|token.text)_for_token_in_nltk.word_tokenize(prepped_sentences|dialect=\"american\"": {
-    "confidence": 0.7,
+    "confidence": 0.8999999999999999,
     "sources": [
       {
         "source": "vault:token_lower__.md",
@@ -9559,11 +11078,25 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731251
+      },
+      {
+        "source": "vault:token_lower__.md",
+        "source_type": "vault:token_lower__.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752316
+      },
+      {
+        "source": "vault:token_lower__.md",
+        "source_type": "vault:token_lower__.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752408
       }
     ]
   },
   "subject of knowledge - wikipedia|relation_of_knowledge___wikipedia|object of knowledge - wikipedia": {
-    "confidence": 0.7,
+    "confidence": 0.8999999999999999,
     "sources": [
       {
         "source": "vault:Subject of Knowledge - Wikipedia.md",
@@ -9578,11 +11111,25 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731252
+      },
+      {
+        "source": "vault:Subject of Knowledge - Wikipedia.md",
+        "source_type": "vault:Subject of Knowledge - Wikipedia.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752328
+      },
+      {
+        "source": "vault:Subject of Knowledge - Wikipedia.md",
+        "source_type": "vault:Subject of Knowledge - Wikipedia.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752420
       }
     ]
   },
   "e.g.|scientific/factual_entities)._each_triple_is_defined_as_(subject|relation, object": {
-    "confidence": 0.7,
+    "confidence": 0.8999999999999999,
     "sources": [
       {
         "source": "vault:e_g_.md",
@@ -9597,11 +11144,25 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731253
+      },
+      {
+        "source": "vault:e_g_.md",
+        "source_type": "vault:e_g_.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752318
+      },
+      {
+        "source": "vault:e_g_.md",
+        "source_type": "vault:e_g_.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752410
       }
     ]
   },
   "e.g.|traditional_reasoning|machine learning, graph matching,...": {
-    "confidence": 0.7,
+    "confidence": 0.8999999999999999,
     "sources": [
       {
         "source": "vault:e_g_.md",
@@ -9616,11 +11177,25 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731253
+      },
+      {
+        "source": "vault:e_g_.md",
+        "source_type": "vault:e_g_.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752319
+      },
+      {
+        "source": "vault:e_g_.md",
+        "source_type": "vault:e_g_.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752411
       }
     ]
   },
   "e.g.|subject:_knowledge_graph|relation: created, object: infectious diseases": {
-    "confidence": 0.7,
+    "confidence": 0.8999999999999999,
     "sources": [
       {
         "source": "vault:e_g_.md",
@@ -9635,11 +11210,25 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731253
+      },
+      {
+        "source": "vault:e_g_.md",
+        "source_type": "vault:e_g_.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752319
+      },
+      {
+        "source": "vault:e_g_.md",
+        "source_type": "vault:e_g_.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752412
       }
     ]
   },
   "subject: \"neuro-symbolic ai - ibm research\"|relation:_\"is_a\"|object: \"artificial general intelligence\"": {
-    "confidence": 0.7,
+    "confidence": 0.8999999999999999,
     "sources": [
       {
         "source": "vault:subject_ _Neuro-symbolic AI - IBM Research_.md",
@@ -9654,11 +11243,25 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731254
+      },
+      {
+        "source": "vault:subject_ _Neuro-symbolic AI - IBM Research_.md",
+        "source_type": "vault:subject_ _Neuro-symbolic AI - IBM Research_.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752302
+      },
+      {
+        "source": "vault:subject_ _Neuro-symbolic AI - IBM Research_.md",
+        "source_type": "vault:subject_ _Neuro-symbolic AI - IBM Research_.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752394
       }
     ]
   },
   "webster the meaning of cognitive|is_a|of neighbors": {
-    "confidence": 0.7,
+    "confidence": 1.0,
     "sources": [
       {
         "source": "vault:_COGNITIVE Definition _ Meaning - Merriae_Webster The meaning of Cognitive is of.md",
@@ -9673,6 +11276,34 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731254
+      },
+      {
+        "source": "vault:Webster The meaning of Cognitive.md",
+        "source_type": "vault:Webster The meaning of Cognitive.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752291
+      },
+      {
+        "source": "vault:_COGNITIVE Definition _ Meaning - Merriae_Webster The meaning of Cognitive is of.md",
+        "source_type": "vault:_COGNITIVE Definition _ Meaning - Merriae_Webster The meaning of Cognitive is of.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752303
+      },
+      {
+        "source": "vault:Webster The meaning of Cognitive.md",
+        "source_type": "vault:Webster The meaning of Cognitive.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752383
+      },
+      {
+        "source": "vault:_COGNITIVE Definition _ Meaning - Merriae_Webster The meaning of Cognitive is of.md",
+        "source_type": "vault:_COGNITIVE Definition _ Meaning - Merriae_Webster The meaning of Cognitive is of.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752396
       }
     ]
   },
@@ -9721,6 +11352,1234 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1775731231
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|relation, weight=327, conf=0.60)\n- [[subject) knowledge (relation) object\"": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751611
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|b, weight=326, conf=0.60)\n- [[object": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751619
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|rule-based, weight=325, conf=0.60)\n- [[subject": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751620
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|\"advances\", \"neural networks\"": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751620
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|\"book\"": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751620
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|\"is\"": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751621
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|\"is\", weight=143, conf=0.60)\n- [[\"stocks\"": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751621
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|(2": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751621
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|(subject)": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751622
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|1   subject": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751622
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|1  knowledge - wikipedia knowledge is an awareness of facts": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751622
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|1  is the subject of the triple  knowledge - wikipedia knowledge is an awareness of facts": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751623
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|1  the concept itself  e g": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751623
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|1) knowledge - wikipedia knowledge is an awareness of facts": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751623
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|1) is the subject of the triple (knowledge - wikipedia knowledge is an awareness of facts": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751624
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|alice": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751624
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|apple": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751624
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|augmenting": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751625
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|brown bear": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751625
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|cognitive definition   meaning - merriae webster the meaning of cognitive is of": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751625
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|consciousness": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751626
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|definition": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751626
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|earth": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751626
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|facts": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751627
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|gravity": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751627
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|i2k web": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751627
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|its": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751628
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|jaguar": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751628
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|knowledge - wikipedia knowledge": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751628
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|merriae webster the meaning of cognitive": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751629
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|neighborhood theory": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751629
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|networks used in": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751629
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|object of knowledge - wikipedia": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751630
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|object1": {
+    "confidence": 1.0,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751630
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751644
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|object3": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751630
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|orphan": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751631
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|quantum mechanics": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751631
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|reality": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751631
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|relation  augmenting and combining the strengths of statistical ai": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751632
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|relation augmenting": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751632
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|relation2": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751632
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|relation3": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751633
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|relation: augmenting and combining the strengths of statistical ai": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751633
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|science facts": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751633
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|science/facts": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751634
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|scientists": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751634
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|structure used in": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751635
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|sub ideaneighborhubskebaab case with no spaces": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751635
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|subject  cognitive architecture   relation  defines the mind in natural or artificial systems   object   fixed structures that provide a mind": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751635
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|subject  has practical skills in various fields": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751636
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|subject of knowledge - wikipedia": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751636
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|subject)": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751636
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|subject) has practical skills in various fields": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751637
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|subject1": {
+    "confidence": 1.0,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751637
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751649
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|subject2": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751637
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|the object": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751638
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|understanding": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751638
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|wave particle dualitytxt used in": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751638
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|what do you mimic?": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751639
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|wikipedia knowledge": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751639
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|y": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751640
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|an awareness of facts": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751640
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|and how they work together in conjunction with knowledge": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751640
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|and how they work together \u2013 in conjunction with knowledge and skills.\"": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751641
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|being, weight=142, conf=0.60)\n- [[blue": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751641
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|computational_instantiation": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751641
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|doc": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751642
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|familiarity with individuals and situations, weight=141, conf=0.60)\n- [[gravity": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751642
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|in conjunction with knowledge": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751642
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|jupyter={'display_start_end': display_start_ends}": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751643
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|mind": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751643
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|nd surrounded by parentheses the object": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751644
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|nded by parentheses the object": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751644
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|of neighbors": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751645
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|or ...": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751645
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|or analysis": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751645
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|or mem'r'ng": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751646
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|or remembering": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751646
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|practical skills in various fields": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751647
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|situations": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751647
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|situations or practical skill": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751647
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|sky": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751648
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|spacetime": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751648
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|structure": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751649
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|subject   neuro-symbolic ai - ibm research": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751649
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|subject: \"neuro-symbolic ai - ibm research\"": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751650
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|surrounded by parentheses": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751650
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|surrounded by parentheses the object is the target of knowledge e g k": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751651
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|surrounded by parentheses the object is the target of knowledge e g knowledge": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751651
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|the target of knowledge": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1775751651
+      }
+    ]
+  },
+  "orphan concepts (degree < 2)|degree=1)\n- [[\"is\"|\"is\", \"conscious\"": {
+    "confidence": 0.6,
+    "sources": [
+      {
+        "source": "vault:orphans.md",
+        "source_type": "vault:orphans.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752281
+      }
+    ]
+  },
+  "orphan concepts (degree < 2)|degree=1)\n- [[1) the concept itself (e.g.]] (degree=1)\n- [[bar]] (degree=1)\n- [[money]] (degree=1)\n- [[neighbor relations]] (degree=1)\n- [[neighbors gravity time]] (degree=1)\n- [[otto 'pop' carter]] (degree=1)\n- [[relation|\"stocks\"": {
+    "confidence": 0.6,
+    "sources": [
+      {
+        "source": "vault:orphans.md",
+        "source_type": "vault:orphans.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752281
+      }
+    ]
+  },
+  "orphan concepts (degree < 2)|degree=1)\n- [[subject: cognitive architecture) (relation: defines the mind in natural or artificial systems) (object: \"fixed structures that provide a mind]] (degree=1)\n- [[a[0]]] (degree=1)\n- [[b|subject) knowledge (relation) object\"": {
+    "confidence": 0.6,
+    "sources": [
+      {
+        "source": "vault:orphans.md",
+        "source_type": "vault:orphans.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752281
+      }
+    ]
+  },
+  "orphan concepts (degree < 2)|degree=1)\n- [[being|object": {
+    "confidence": 0.7,
+    "sources": [
+      {
+        "source": "vault:orphans.md",
+        "source_type": "vault:orphans.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752282
+      },
+      {
+        "source": "vault:orphans.md",
+        "source_type": "vault:orphans.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752374
+      }
+    ]
+  },
+  "orphan concepts (degree < 2)|degree=1)\n- [[familiarity with individuals and situations|being, weight=142, conf=0.60)\n- [[blue": {
+    "confidence": 0.6,
+    "sources": [
+      {
+        "source": "vault:orphans.md",
+        "source_type": "vault:orphans.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752282
+      }
+    ]
+  },
+  "orphan concepts (degree < 2)|degree=1)\n- [[rule-based|familiarity with individuals and situations, weight=141, conf=0.60)\n- [[gravity": {
+    "confidence": 0.6,
+    "sources": [
+      {
+        "source": "vault:orphans.md",
+        "source_type": "vault:orphans.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752282
+      }
+    ]
+  },
+  "orphan concepts (degree < 2)|degree=1)\n- [[the target of knowledge e g k neighbors]] (degree=1)\n- [[the target of knowledge e g knowledge neighbors]] (degree=1)\n- [[theory]] (degree=1)\n- [[token lower]] (degree=1)\n- [[token.lower()]] (degree=1)\n- [[topic]] (degree=1)\n- [[truthful belief]] (degree=1)\n- [[why the sky is blue]] (degree=1)|subject": {
+    "confidence": 0.7,
+    "sources": [
+      {
+        "source": "vault:orphans.md",
+        "source_type": "vault:orphans.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752283
+      },
+      {
+        "source": "vault:orphans.md",
+        "source_type": "vault:orphans.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752375
+      }
+    ]
+  },
+  "orphan concepts (degree < 2)|degree=1)\n- [[1) the concept itself (e.g.]] (degree=1)\n- [[bar]] (degree=1)\n- [[neighbor relations]] (degree=1)\n- [[neighbors gravity time]] (degree=1)\n- [[otto 'pop' carter]] (degree=1)\n- [[relation|\"is\", weight=143, conf=0.60)\n- [[\"stocks\"": {
+    "confidence": 0.6,
+    "sources": [
+      {
+        "source": "vault:orphans.md",
+        "source_type": "vault:orphans.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752373
+      }
+    ]
+  },
+  "orphan concepts (degree < 2)|degree=1)\n- [[a[0]]] (degree=1)\n- [[b|subject) knowledge (relation) object\"": {
+    "confidence": 0.6,
+    "sources": [
+      {
+        "source": "vault:orphans.md",
+        "source_type": "vault:orphans.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752373
+      }
+    ]
+  },
+  "orphan concepts (degree < 2)|degree=1)\n- [[rule-based|familiarity with individuals and situations, or practical skill": {
+    "confidence": 0.6,
+    "sources": [
+      {
+        "source": "vault:orphans.md",
+        "source_type": "vault:orphans.md",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1775752374
       }
     ]
   }

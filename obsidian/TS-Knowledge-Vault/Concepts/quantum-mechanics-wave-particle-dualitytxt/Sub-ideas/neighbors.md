@@ -17,3 +17,7 @@ Used in: [[quantum-mechanics-wave-particle-dualitytxt]]
 ---
 
 [[neighbors/Sub-ideas/sub-ideaneighbors]]
+
+---
+
+[[Shared-Sub-ideas/quantum-mechanics-wave-particle-dualitytxt]]

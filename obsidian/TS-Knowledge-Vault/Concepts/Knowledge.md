@@ -5,8 +5,8 @@
 
 ## Neighbors
 
-- [[truthful belief]] (propositional_knowledge, weight=259, conf=1.00)
-- [[Facts]] (Propositional, weight=258, conf=1.00)
-- [[Reality]] (Propriety, weight=257, conf=1.00)
-- [[Understanding]] (Perspicacity, weight=256, conf=1.00)
-- [[Consciousness]] (Awareness, weight=255, conf=1.00)
+- [[truthful belief]] (propositional_knowledge, weight=863, conf=1.00)
+- [[Facts]] (Propositional, weight=862, conf=1.00)
+- [[Reality]] (Propriety, weight=861, conf=1.00)
+- [[Understanding]] (Perspicacity, weight=860, conf=1.00)
+- [[Consciousness]] (Awareness, weight=859, conf=1.00)

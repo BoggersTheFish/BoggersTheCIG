@@ -1,11 +1,14 @@
 ---
+bridge:: true
 ---
 
 # separated by a comma
 
+> **Bridge Node** — connects multiple semantic clusters
+
 ## Neighbors
 
-- [[surrounded by parentheses The object is the target of knowledge e g Knowledge]] (related_to, weight=374, conf=1.00)
-- [[surrounded by parentheses The object]] (related_to, weight=369, conf=1.00)
-- [[surrounded by parentheses The object is the target of knowledge e g K]] (related_to, weight=366, conf=1.00)
-- [[surrounded by parentheses]] (related_to, weight=271, conf=1.00)
+- [[surrounded by parentheses The object is the target of knowledge e g Knowledge]] (related_to, weight=978, conf=1.00)
+- [[surrounded by parentheses The object]] (related_to, weight=973, conf=1.00)
+- [[surrounded by parentheses The object is the target of knowledge e g K]] (related_to, weight=970, conf=1.00)
+- [[surrounded by parentheses]] (related_to, weight=875, conf=1.00)

@@ -325,3 +325,7 @@ Used in: [[Orphan Concepts _degree _ 2_]]
 ---
 
 [[neighbors/Sub-ideas/sugests-filename-for-the-sub-idea-quantum_mechanic]]
+
+---
+
+[[neighbors/Sub-ideas/quantum-mechanics-wave-particle-dualitytxt]]
