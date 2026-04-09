@@ -1,5 +1,8 @@
+---
+---
+
 # token.lower()
 
 ## Neighbors
 
-- [[dialect="american"]] (token.text) for token in nltk.word_tokenize(prepped_sentences, weight=2)
+- [[dialect="american"]] (token.text)_for_token_in_nltk.word_tokenize(prepped_sentences, weight=12, conf=1.00)

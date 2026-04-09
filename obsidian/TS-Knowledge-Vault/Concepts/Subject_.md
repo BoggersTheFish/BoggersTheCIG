@@ -1,5 +1,8 @@
+---
+---
+
 # Subject)
 
 ## Neighbors
 
-- [[(Relation]] (Knowledge - Wikipedia, weight=2)
+- [[(Relation]] (Knowledge___Wikipedia, weight=6, conf=1.00)

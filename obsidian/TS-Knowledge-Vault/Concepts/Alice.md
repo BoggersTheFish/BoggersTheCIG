@@ -1,5 +1,8 @@
+---
+---
+
 # Alice
 
 ## Neighbors
 
-- [["book"]] ("Love", weight=2)
+- [["book"]] ("Love", weight=7, conf=0.60)

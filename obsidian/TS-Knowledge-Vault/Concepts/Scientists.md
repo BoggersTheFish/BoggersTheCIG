@@ -1,5 +1,8 @@
+---
+---
+
 # Scientists
 
 ## Neighbors
 
-- [["advances", "neural networks"]] ("Cognitive Science", weight=2)
+- [["advances", "neural networks"]] ("Cognitive_Science", weight=13, conf=0.60)

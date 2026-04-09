@@ -1,5 +1,8 @@
+---
+---
+
 # Subject) has practical skills in various fields
 
 ## Neighbors
 
-- [[as demonstrated through (Relation]] (such as science or technology, weight=2)
+- [[as demonstrated through (Relation]] (such_as_science_or_technology, weight=6, conf=1.00)

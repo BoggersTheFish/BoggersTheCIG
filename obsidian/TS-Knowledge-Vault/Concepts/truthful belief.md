@@ -1,3 +1,6 @@
+---
+---
+
 # truthful belief
 
 ## Neighbors

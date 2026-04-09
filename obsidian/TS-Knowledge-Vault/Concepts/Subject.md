@@ -1,6 +1,9 @@
+---
+---
+
 # Subject
 
 ## Neighbors
 
-- [[practical skills in various fields]] (has, weight=8)
-- [[Object]] (Relation, weight=4)
+- [[practical skills in various fields]] (has, weight=25, conf=0.60)
+- [[Object]] (Relation, weight=7, conf=0.60)

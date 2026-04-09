@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "1219795470b88fa1",
+        "id": "dc304a8026f1cfb1",
         "type": "tabs",
         "children": [
           {
-            "id": "5c606538793c06b3",
+            "id": "894dde2c80c09f4b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Evolution-Log.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Evolution-Log"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -194,9 +190,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5c606538793c06b3",
+  "active": "894dde2c80c09f4b",
   "lastOpenFiles": [
+    "\"stocks\".md",
+    "TS-Dashboard.md",
+    "Untitled.base",
+    "Evolution-Log.md",
     "snapshots/index.md",
+    "snapshots/graph-2026-04-09-06-45-self-improve.png",
+    "snapshots/graph-2026-03-16-23-10-after-ingest.png",
+    "snapshots/coherence-trend.png",
+    "Templates/Concept-Note.md",
+    "Concepts/with the capabilities of neuroscience to achieve artificial general intelligence..md",
     "snapshots/graph-2026-03-16-23-51-self-improve.png",
     "Concepts/Shared-Sub-ideas/neighborhood-theory-and-structure.md",
     "snapshots/graph-2026-03-16-23-50-self-improve.png",
@@ -210,12 +215,6 @@
     "snapshots/graph-2026-03-16-23-48-after-ingest.png",
     "Concepts/Neighbors.md",
     "snapshots/graph-2026-03-16-23-27-self-improve.png",
-    "snapshots/graph-2026-03-16-23-18-self-improve.png",
-    "Templates/Concept-Note.md",
-    "TS-Dashboard.md",
-    "Evolution-Log.md",
-    "snapshots/graph-2026-03-16-23-27-extract-subideas.png",
-    "snapshots/graph-2026-03-16-23-26-extract-subideas.png",
     "Concepts/Shared-Sub-ideas/neighbors-influences.md",
     "Concepts/Shared-Sub-ideas/neighbors-influence-networks.md",
     "Concepts/neighbors/Sub-ideas/neighbors-theory-structure-mind.md",
@@ -238,8 +237,6 @@
     "metrics/coherence_log.jsonl",
     "metrics",
     "Concepts/Bar.md",
-    "Concepts/Foo.md",
-    "snapshots",
-    "Concepts/C.md"
+    "Concepts/Foo.md"
   ]
 }

@@ -313,3 +313,11 @@ Used in: [[Orphan Concepts _degree _ 2_]]
 ---
 
 [[neighbors/Sub-ideas/shortfilenames-for-subideassub-idea-1-to-4-words-q]]
+
+---
+
+[[neighbors/Sub-ideas/neighbors]]
+
+---
+
+[[Shared-Sub-ideas/neighbors]]

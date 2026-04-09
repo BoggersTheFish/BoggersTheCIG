@@ -1,5 +1,8 @@
+---
+---
+
 # 1) Knowledge - Wikipedia Knowledge is an awareness of facts
 
 ## Neighbors
 
-- [[or (3]] ((2) acquaintance with individuals and situations, weight=2)
+- [[or (3]] ((2)_acquaintance_with_individuals_and_situations, weight=12, conf=1.00)

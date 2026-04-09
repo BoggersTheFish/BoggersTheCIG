@@ -1,5 +1,8 @@
+---
+---
+
 # 1) is the subject of the triple (Knowledge - Wikipedia Knowledge is an awareness of facts
 
 ## Neighbors
 
-- [[or a practical skill]] (a familiarity with individuals and situations, weight=4)
+- [[or a practical skill]] (a_familiarity_with_individuals_and_situations, weight=6, conf=1.00)

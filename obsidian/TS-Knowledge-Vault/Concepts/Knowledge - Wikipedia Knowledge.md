@@ -1,5 +1,8 @@
+---
+---
+
 # Knowledge - Wikipedia Knowledge
 
 ## Neighbors
 
-- [[familiarity with individuals and situations, or practical skill]] (awareess of facts, weight=2)
+- [[familiarity with individuals and situations, or practical skill]] (awareess_of_facts, weight=13, conf=0.60)

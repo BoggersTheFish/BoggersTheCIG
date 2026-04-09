@@ -1,5 +1,8 @@
+---
+---
+
 # Subject of Knowledge - Wikipedia
 
 ## Neighbors
 
-- [[Object of Knowledge - Wikipedia]] (Relation of Knowledge - Wikipedia, weight=2)
+- [[Object of Knowledge - Wikipedia]] (Relation_of_Knowledge___Wikipedia, weight=13, conf=1.00)
