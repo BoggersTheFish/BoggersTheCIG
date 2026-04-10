@@ -8,4 +8,4 @@ bridge:: true
 
 ## Neighbors
 
-- [[blue]] (is_a, weight=2310, conf=1.00)
+- [[blue]] (is_a, weight=3041, conf=1.00)
