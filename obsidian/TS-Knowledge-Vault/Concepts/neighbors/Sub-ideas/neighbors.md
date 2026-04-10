@@ -153,3 +153,7 @@ Used in: [[neighbors]]
 ---
 
 [[neighbors/Sub-ideas/short-filenametxt]]
+
+---
+
+[[Shared-Sub-ideas/neighbors]]
