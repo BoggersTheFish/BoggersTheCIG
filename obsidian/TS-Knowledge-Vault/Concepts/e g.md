@@ -8,7 +8,7 @@ bridge:: true
 
 ## Neighbors
 
-- [[Relation, Object]] (scientific/factual_entities, weight=4538, conf=1.00)
-- [[machine learning, graph matching,...]] (traditional_reasoning, weight=4537, conf=1.00)
-- [[rule-based, probabilistic]] (logic, weight=4536, conf=1.00)
-- [[Relation: Created, Object: Infectious Diseases]] (Subject:_Knowledge_Graph, weight=4535, conf=1.00)
+- [[Relation, Object]] (scientific/factual_entities, weight=5420, conf=1.00)
+- [[machine learning, graph matching,...]] (traditional_reasoning, weight=5419, conf=1.00)
+- [[rule-based, probabilistic]] (logic, weight=5418, conf=1.00)
+- [[Relation: Created, Object: Infectious Diseases]] (Subject:_Knowledge_Graph, weight=5417, conf=1.00)

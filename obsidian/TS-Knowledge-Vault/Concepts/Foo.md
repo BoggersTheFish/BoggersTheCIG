@@ -5,4 +5,4 @@
 
 ## Neighbors
 
-- [[Bar]] (relates, weight=4225, conf=1.00)
+- [[Bar]] (relates, weight=5107, conf=1.00)
