@@ -8,4 +8,4 @@ bridge:: true
 
 ## Neighbors
 
-- [[Used in]] (related_to, weight=1525, conf=1.00)
+- [[Used in]] (related_to, weight=2200, conf=1.00)
