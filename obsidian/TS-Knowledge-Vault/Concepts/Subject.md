@@ -5,7 +5,7 @@
 
 ## Neighbors
 
-- [[practical skills in various fields]] (has, weight=3012, conf=1.00)
-- [["Is True"]] ("Knows", weight=2933, conf=1.00)
-- [[(Relation]] (Knowledge___Wikipedia, weight=2919, conf=1.00)
-- [[Object]] (Relation, weight=2902, conf=1.00)
+- [[practical skills in various fields]] (has, weight=3761, conf=1.00)
+- [["Is True"]] ("Knows", weight=3682, conf=1.00)
+- [[(Relation]] (Knowledge___Wikipedia, weight=3668, conf=1.00)
+- [[Object]] (Relation, weight=3651, conf=1.00)
