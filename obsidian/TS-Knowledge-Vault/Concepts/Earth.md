@@ -8,4 +8,4 @@ bridge:: true
 
 ## Neighbors
 
-- [[gravity]] (has, weight=5505, conf=1.00)
+- [[gravity]] (has, weight=6457, conf=1.00)
