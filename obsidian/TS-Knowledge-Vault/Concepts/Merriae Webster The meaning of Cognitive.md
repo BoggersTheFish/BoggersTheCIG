@@ -8,4 +8,4 @@ bridge:: true
 
 ## Neighbors
 
-- [[of]] (is_a, weight=6407, conf=1.00)
+- [[of]] (is_a, weight=7418, conf=1.00)

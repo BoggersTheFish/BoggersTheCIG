@@ -5,3 +5,7 @@ Used in: [[familiarity with individuals]]
 ---
 
 [[Shared-Sub-ideas/suffix---quantum-mechanics-related_totxttext-neigh]]
+
+---
+
+[[Shared-Sub-ideas/qm-webrangemdsuitable-for-all-programming-language]]

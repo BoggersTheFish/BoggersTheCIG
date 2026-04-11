@@ -157,3 +157,7 @@ Used in: [[neighbors]]
 ---
 
 [[Shared-Sub-ideas/neighbors]]
+
+---
+
+[[Shared-Sub-ideas/shortfilenametxt-kebaab-case-no-spaces]]

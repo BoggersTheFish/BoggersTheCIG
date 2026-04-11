@@ -5,4 +5,4 @@
 
 ## Neighbors
 
-- [[dialect="american"]] (token.text, weight=6342, conf=1.00)
+- [[dialect="american"]] (token.text, weight=7353, conf=1.00)

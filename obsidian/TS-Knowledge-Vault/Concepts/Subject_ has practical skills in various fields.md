@@ -1,8 +1,11 @@
 ---
+bridge:: true
 ---
 
 # Subject) has practical skills in various fields
 
+> **Bridge Node** — connects multiple semantic clusters
+
 ## Neighbors
 
-- [[as demonstrated through (Relation]] (such_as_science_or_technology, weight=6355, conf=0.99)
+- [[as demonstrated through (Relation]] (such_as_science_or_technology, weight=7366, conf=0.98)

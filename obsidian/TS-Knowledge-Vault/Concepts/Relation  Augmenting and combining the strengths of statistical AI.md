@@ -1,8 +1,11 @@
 ---
+bridge:: true
 ---
 
 # Relation  Augmenting and combining the strengths of statistical AI
 
+> **Bridge Node** — connects multiple semantic clusters
+
 ## Neighbors
 
-- [[with the capabilities of neuroscience to achieve artificial general intelligence.]] (such_as_machine_learning, weight=6341, conf=1.00)
+- [[with the capabilities of neuroscience to achieve artificial general intelligence.]] (such_as_machine_learning, weight=7352, conf=1.00)
