@@ -33,3 +33,7 @@ Used in: [[separated by a comma]]
 ---
 
 [[Shared-Sub-ideas/neighbors_quantum-mechanics_qm-wpamdexample-neighb]]
+
+---
+
+[[neighbors/Sub-ideas/-neighbors--qm-wave-particles--wph-object-knowledg]]

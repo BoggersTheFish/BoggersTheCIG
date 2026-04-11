@@ -337,3 +337,7 @@ Used in: [[Orphan Concepts _degree _ 2_]]
 ---
 
 [[Shared-Sub-ideas/-neighbor-relations-neighbors--neighbor-gravity-de]]
+
+---
+
+[[Shared-Sub-ideas/neighbors]]

@@ -8,4 +8,4 @@ bridge:: true
 
 ## Neighbors
 
-- [[the target of knowledge e g Knowledge]] (is_a, weight=7422, conf=1.00)
+- [[the target of knowledge e g Knowledge]] (is_a, weight=8483, conf=1.00)
