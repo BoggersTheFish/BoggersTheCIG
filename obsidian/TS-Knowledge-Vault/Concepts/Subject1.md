@@ -5,4 +5,4 @@
 
 ## Neighbors
 
-- [[Object1]] (Relation1, weight=9499, conf=0.96)
+- [[Object1]] (Relation1, weight=10682, conf=1.00)

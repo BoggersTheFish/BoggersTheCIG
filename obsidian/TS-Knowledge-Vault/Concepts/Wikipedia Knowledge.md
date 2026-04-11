@@ -5,4 +5,4 @@
 
 ## Neighbors
 
-- [[an awareness of facts]] (is_a, weight=9609, conf=1.00)
+- [[an awareness of facts]] (is_a, weight=10792, conf=1.00)

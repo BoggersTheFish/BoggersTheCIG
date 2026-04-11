@@ -169,3 +169,7 @@ Used in: [[neighbors]]
 ---
 
 [[Shared-Sub-ideas/qmwpaqn-kebaab-case-no-spaces]]
+
+---
+
+[[Shared-Sub-ideas/neighbors]]

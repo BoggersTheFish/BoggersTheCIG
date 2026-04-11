@@ -8,4 +8,4 @@ bridge:: true
 
 ## Neighbors
 
-- [[X]] (r, weight=9627, conf=1.00)
+- [[X]] (r, weight=10811, conf=1.00)

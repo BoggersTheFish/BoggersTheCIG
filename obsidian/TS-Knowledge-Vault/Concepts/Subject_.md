@@ -5,4 +5,4 @@
 
 ## Neighbors
 
-- [[(Relation]] (Knowledge___Wikipedia, weight=9494, conf=1.00)
+- [[(Relation]] (Knowledge___Wikipedia, weight=10677, conf=1.00)
