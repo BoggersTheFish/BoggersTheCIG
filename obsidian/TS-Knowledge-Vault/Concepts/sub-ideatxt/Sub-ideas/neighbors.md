@@ -9,3 +9,7 @@ Used in: [[sub-ideatxt]]
 ---
 
 [[neighbors/Sub-ideas/neighbors]]
+
+---
+
+[[Shared-Sub-ideas/neighbors]]

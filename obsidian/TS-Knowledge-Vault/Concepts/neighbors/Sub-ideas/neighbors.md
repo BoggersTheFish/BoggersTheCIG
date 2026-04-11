@@ -165,3 +165,7 @@ Used in: [[neighbors]]
 ---
 
 [[neighbors/Sub-ideas/quantum-mechanics_wave-particle-dualitytxt]]
+
+---
+
+[[Shared-Sub-ideas/qmwpaqn-kebaab-case-no-spaces]]

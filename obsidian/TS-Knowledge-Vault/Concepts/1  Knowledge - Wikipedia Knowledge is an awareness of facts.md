@@ -8,4 +8,4 @@ bridge:: true
 
 ## Neighbors
 
-- [[or (3]] ((2, weight=8393, conf=0.98)
+- [[or (3]] ((2, weight=9488, conf=0.97)

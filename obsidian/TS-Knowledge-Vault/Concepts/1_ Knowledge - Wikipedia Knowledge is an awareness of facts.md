@@ -8,4 +8,4 @@ bridge:: true
 
 ## Neighbors
 
-- [[or (3]] ((2)_acquaintance_with_individuals_and_situations, weight=8453, conf=1.00)
+- [[or (3]] ((2)_acquaintance_with_individuals_and_situations, weight=9548, conf=1.00)

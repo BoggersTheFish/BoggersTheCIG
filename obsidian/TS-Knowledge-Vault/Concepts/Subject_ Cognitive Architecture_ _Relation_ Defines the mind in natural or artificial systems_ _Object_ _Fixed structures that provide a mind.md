@@ -5,4 +5,4 @@
 
 ## Neighbors
 
-- [[and how they work together – in conjunction with knowledge and skills."]] (whether in natural or artificial systems, weight=7830, conf=0.99)
+- [[and how they work together – in conjunction with knowledge and skills."]] (whether in natural or artificial systems, weight=8925, conf=0.98)
