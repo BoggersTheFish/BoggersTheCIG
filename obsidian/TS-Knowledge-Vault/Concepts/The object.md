@@ -5,4 +5,4 @@
 
 ## Neighbors
 
-- [[the target of knowledge]] (is_a, weight=15944, conf=0.96)
+- [[the target of knowledge]] (is_a, weight=17425, conf=0.96)

@@ -1,7 +1,3 @@
 # Neighboring Objects
 
-Used in: [[neighbors]], [[separated by a comma]]
-
----
-
-[[Shared-Sub-ideas/neighbors]]
+Used in: [[Shared-Sub-ideas/neighbors]], [[neighborings_quantum_mechanics_wave_particle_duali]], [[neighbors]], [[separated by a comma]]

@@ -4,9 +4,4 @@ Used in: [[quantum-mechanics]], [[separated by a comma]]
 
 ---
 
-## Neighbors
-
-- [[surrounded by parentheses The object is the target of knowledge e g Knowledge]] (related_to, weight=16048, conf=1.00)
-- [[surrounded by parentheses The object]] (related_to, weight=16043, conf=1.00)
-- [[surrounded by parentheses The object is the target of knowledge e g K]] (related_to, weight=16040, conf=1.00)
-- [[surrounded by parentheses]] (related_to, weight=15945, conf=0.96)
+[[Shared-Sub-ideas/quantum-mechanics-wave-particle-duality]]
