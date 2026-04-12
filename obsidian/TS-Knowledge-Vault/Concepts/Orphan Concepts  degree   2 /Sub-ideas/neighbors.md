@@ -41,3 +41,7 @@ Used in: [[Orphan Concepts  degree   2 ]]
 ---
 
 [[neighbors/Sub-ideas/shortfilename-qmwpaeexample-quantum-mechanics-wave]]
+
+---
+
+[[neighbors/Sub-ideas/neighbors]]

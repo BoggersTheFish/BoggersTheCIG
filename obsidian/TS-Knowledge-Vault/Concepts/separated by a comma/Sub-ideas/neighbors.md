@@ -41,3 +41,7 @@ Used in: [[separated by a comma]]
 ---
 
 [[Shared-Sub-ideas/neighbors]]
+
+---
+
+[[neighbors/Sub-ideas/quantum-mechanics-wave-particle-dualitytxt]]
