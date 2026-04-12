@@ -1,11 +1,8 @@
 ---
-bridge:: true
 ---
 
 # COGNITIVE Definition   Meaning - Merriae Webster The meaning of Cognitive is of
 
-> **Bridge Node** — connects multiple semantic clusters
-
 ## Neighbors
 
-- [[being, or involving conscious intellectual activity (such as thinking, reasoning, or analysis]] (relating_to, weight=13233, conf=0.95)
+- [[being, or involving conscious intellectual activity (such as thinking, reasoning, or analysis]] (relating_to, weight=14573, conf=0.94)

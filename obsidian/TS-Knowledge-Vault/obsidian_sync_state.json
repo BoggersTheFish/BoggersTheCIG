@@ -1,110 +1,110 @@
 {
   "Orphan Concepts _degree _ 2_.md": {
-    "mtime": 1775979423.813267,
+    "mtime": 1775994971.7320306,
     "relations": {},
     "wikilinks": [
-      "Shared-Sub-ideas/neighbors"
+      "Shared-Sub-ideas/quantum-mechanics-wave-particle-dualitytxt"
     ]
   },
   "Relation Augmenting.md": {
-    "mtime": 1775978055.710507,
+    "mtime": 1775993573.5085704,
     "relations": {},
     "wikilinks": [
       "combining the strengths of statistical AI"
     ]
   },
   "practical skills in various fields.md": {
-    "mtime": 1775978055.7296197,
+    "mtime": 1775993573.531455,
     "relations": {},
     "wikilinks": []
   },
   "topic.md": {
-    "mtime": 1775978055.740713,
+    "mtime": 1775993573.5452352,
     "relations": {},
     "wikilinks": []
   },
   "the target of knowledge.md": {
-    "mtime": 1775978055.7399638,
+    "mtime": 1775993573.5443738,
     "relations": {},
     "wikilinks": []
   },
   "Scientists.md": {
-    "mtime": 1775978055.7151124,
+    "mtime": 1775993573.514224,
     "relations": {},
     "wikilinks": [
       "\"advances\", \"neural networks\""
     ]
   },
   "subject_ _Neuro-symbolic AI - IBM Research_.md": {
-    "mtime": 1775978055.7393854,
+    "mtime": 1775993573.543698,
     "relations": {},
     "wikilinks": [
       "object: \"Artificial General Intelligence\""
     ]
   },
   "and how they work together in conjunction with knowledge.md": {
-    "mtime": 1775978055.717636,
+    "mtime": 1775993573.5172293,
     "relations": {},
     "wikilinks": [
       "skills"
     ]
   },
   "Augmenting.md": {
-    "mtime": 1775978055.7061253,
+    "mtime": 1775993573.5033545,
     "relations": {},
     "wikilinks": [
       "combining the strengths of statistical AI"
     ]
   },
   "Understanding.md": {
-    "mtime": 1775978055.716593,
+    "mtime": 1775993573.5160363,
     "relations": {},
     "wikilinks": []
   },
   "mind.md": {
-    "mtime": 1775978055.7282116,
+    "mtime": 1775993573.529866,
     "relations": {},
     "wikilinks": []
   },
   "Capabilities Used in.md": {
-    "mtime": 1775974973.0315866,
+    "mtime": 1775990241.9957757,
     "relations": {},
     "wikilinks": []
   },
   "Subject of Knowledge - Wikipedia.md": {
-    "mtime": 1775978055.7157078,
+    "mtime": 1775993573.514925,
     "relations": {},
     "wikilinks": [
       "Object of Knowledge - Wikipedia"
     ]
   },
   "subject1.md": {
-    "mtime": 1775978055.7392886,
+    "mtime": 1775993573.5435555,
     "relations": {},
     "wikilinks": [
       "object1"
     ]
   },
   "truthful belief.md": {
-    "mtime": 1775978055.7408905,
+    "mtime": 1775993573.5454361,
     "relations": {},
     "wikilinks": []
   },
   "Neighbors.md": {
-    "mtime": 1775978055.708399,
+    "mtime": 1775993573.506048,
     "relations": {},
     "wikilinks": [
-      "Used in",
-      "Networks Used in"
+      "Networks Used in",
+      "Used in"
     ]
   },
   "of.md": {
-    "mtime": 1775978055.728874,
+    "mtime": 1775993573.5306187,
     "relations": {},
     "wikilinks": []
   },
   "1_ Knowledge - Wikipedia Knowledge is an awareness of facts.md": {
-    "mtime": 1775978055.705488,
+    "mtime": 1775993573.5026476,
     "relations": {
       "or (3": "(2"
     },
@@ -113,19 +113,19 @@
     ]
   },
   "Knowledge - Wikipedia Knowledge.md": {
-    "mtime": 1775978055.7077873,
+    "mtime": 1775993573.5053425,
     "relations": {},
     "wikilinks": [
       "familiarity with individuals and situations, or practical skill"
     ]
   },
   "object.md": {
-    "mtime": 1775978055.7286034,
+    "mtime": 1775993573.5303023,
     "relations": {},
     "wikilinks": []
   },
   "a_0_.md": {
-    "mtime": 1775978055.717361,
+    "mtime": 1775993573.516912,
     "relations": {
       "b, c": "b[0]"
     },
@@ -134,97 +134,99 @@
     ]
   },
   "Quantum Mechanics.md": {
-    "mtime": 1775978055.7102172,
+    "mtime": 1775993573.5082347,
     "relations": {},
     "wikilinks": [
       "Wave Particle Dualitytxt Used in"
     ]
   },
   "_advances__ _neural networks_.md": {
-    "mtime": 1775978055.6980398,
+    "mtime": 1775993573.4948537,
     "relations": {},
     "wikilinks": []
   },
   "Object.md": {
-    "mtime": 1775978055.7086713,
-    "relations": {},
-    "wikilinks": []
-  },
-  "separated by a comma.md": {
-    "mtime": 1775979423.8134403,
+    "mtime": 1775993573.5063698,
     "relations": {},
     "wikilinks": [
-      "separated by a comma/Sub-ideas/quantum-mechanics"
+      "Triplet"
     ]
   },
-  "_2.md": {
-    "mtime": 1775978055.70454,
-    "relations": {},
-    "wikilinks": []
-  },
-  "_black_.md": {
-    "mtime": 1775978055.6981628,
-    "relations": {},
-    "wikilinks": []
-  },
-  "familiarity with individuals.md": {
-    "mtime": 1775979423.8129911,
+  "separated by a comma.md": {
+    "mtime": 1775994971.7321653,
     "relations": {},
     "wikilinks": [
       "Shared-Sub-ideas/neighbors"
     ]
   },
+  "_2.md": {
+    "mtime": 1775993573.5017092,
+    "relations": {},
+    "wikilinks": []
+  },
+  "_black_.md": {
+    "mtime": 1775993573.4949565,
+    "relations": {},
+    "wikilinks": []
+  },
+  "familiarity with individuals.md": {
+    "mtime": 1775994971.7318926,
+    "relations": {},
+    "wikilinks": [
+      "familiarity with individuals/Sub-ideas/neighborhoods---related-to-and-with-relevant-infor"
+    ]
+  },
   "spacetime.md": {
-    "mtime": 1775978055.738881,
+    "mtime": 1775993573.5431273,
     "relations": {},
     "wikilinks": []
   },
   "or mem_r_ng.md": {
-    "mtime": 1775978055.7294347,
+    "mtime": 1775993573.5312564,
     "relations": {},
     "wikilinks": []
   },
   "surrounded by parentheses The object.md": {
-    "mtime": 1775978055.73969,
+    "mtime": 1775993573.5440505,
     "relations": {},
     "wikilinks": [
-      "the target of knowledge e g K Neighbors",
       "the target of knowledge e g Knowledge Neighbors",
-      "the target of knowledge e g Knowledge",
-      "the target of knowledge e g K"
+      "the target of knowledge e g K Neighbors",
+      "the target of knowledge e g K",
+      "the target of knowledge e g Knowledge"
     ]
   },
   "Knowledge.md": {
-    "mtime": 1775978055.7076855,
+    "mtime": 1775993573.505234,
     "relations": {},
     "wikilinks": [
-      "Reality",
-      "truthful belief",
-      "Consciousness",
+      "Understanding",
       "true belief",
+      "Reality",
+      "Consciousness",
       "Facts",
-      "Understanding"
+      "truthful belief"
     ]
   },
   "the target of knowledge e g Knowledge.md": {
-    "mtime": 1775978055.7402573,
+    "mtime": 1775993573.5447128,
     "relations": {},
     "wikilinks": []
   },
   "Subject2.md": {
-    "mtime": 1775978055.716206,
+    "mtime": 1775993573.515482,
     "relations": {},
     "wikilinks": [
       "Object2"
     ]
   },
   "the target of knowledge e g K Neighbors.md": {
-    "mtime": 1775978055.7401671,
+    "mtime": 1775993573.544577,
     "relations": {},
     "wikilinks": []
   },
   "token_lower__.md": {
-    "mtime": 1775978055.7406242,
+    "mtime": 1775993573.545136,
     "relations": {
       "dialect=\"american\"": "token.text"
     },
@@ -233,101 +235,101 @@
     ]
   },
   "The object.md": {
-    "mtime": 1775978055.7165039,
+    "mtime": 1775993573.5158453,
     "relations": {},
     "wikilinks": [
       "the target of knowledge"
     ]
   },
   "b_ c.md": {
-    "mtime": 1775978055.7179132,
+    "mtime": 1775993573.517557,
     "relations": {},
     "wikilinks": []
   },
   "sky.md": {
-    "mtime": 1775978055.7387912,
+    "mtime": 1775993573.5430212,
     "relations": {},
     "wikilinks": [
       "blue"
     ]
   },
   "What Do You Mimic_.md": {
-    "mtime": 1775978055.7169619,
+    "mtime": 1775993573.5164585,
     "relations": {},
     "wikilinks": []
   },
   "_book_.md": {
-    "mtime": 1775978055.698291,
+    "mtime": 1775993573.4950798,
     "relations": {},
     "wikilinks": []
   },
   "rule-based_ probabilistic.md": {
-    "mtime": 1775978055.7298024,
+    "mtime": 1775993573.531688,
     "relations": {},
     "wikilinks": []
   },
   "Cognitive architecture.md": {
-    "mtime": 1775978055.706705,
+    "mtime": 1775993573.5040796,
     "relations": {},
     "wikilinks": [
       "structure",
-      "theory",
+      "computational_instantiation",
       "mind",
-      "computational_instantiation"
+      "theory"
     ]
   },
   "Structure Used in.md": {
-    "mtime": 1775978055.715205,
+    "mtime": 1775993573.5143182,
     "relations": {},
     "wikilinks": []
   },
   "an awareness of facts.md": {
-    "mtime": 1775978055.7175364,
+    "mtime": 1775993573.5171144,
     "relations": {},
     "wikilinks": []
   },
   "C.md": {
-    "mtime": 1775978055.7064972,
+    "mtime": 1775993573.5038319,
     "relations": {},
     "wikilinks": []
   },
   "the target of knowledge e g Knowledge Neighbors.md": {
-    "mtime": 1775978055.7403474,
+    "mtime": 1775993573.544808,
     "relations": {},
     "wikilinks": []
   },
   "or ___.md": {
-    "mtime": 1775978055.7291677,
+    "mtime": 1775993573.530943,
     "relations": {},
     "wikilinks": []
   },
   "or _3.md": {
-    "mtime": 1775978055.7290764,
+    "mtime": 1775993573.5308437,
     "relations": {},
     "wikilinks": []
   },
   "situations.md": {
-    "mtime": 1775978055.7338014,
+    "mtime": 1775993573.5366445,
     "relations": {},
     "wikilinks": []
   },
   "skills.md": {
-    "mtime": 1775978055.738693,
+    "mtime": 1775993573.5429156,
     "relations": {},
     "wikilinks": []
   },
   "or a practical skill.md": {
-    "mtime": 1775978055.7292576,
+    "mtime": 1775993573.5310533,
     "relations": {},
     "wikilinks": []
   },
   "object_ _Artificial General Intelligence_.md": {
-    "mtime": 1775978055.7287853,
+    "mtime": 1775993573.5305097,
     "relations": {},
     "wikilinks": []
   },
   "A.md": {
-    "mtime": 1775978055.705806,
+    "mtime": 1775993573.5030036,
     "relations": {},
     "wikilinks": [
       "C",
@@ -335,29 +337,29 @@
     ]
   },
   "gravity.md": {
-    "mtime": 1775978055.7277155,
+    "mtime": 1775993573.5292761,
     "relations": {},
     "wikilinks": []
   },
   "Apple.md": {
-    "mtime": 1775978055.7060199,
+    "mtime": 1775993573.5032294,
     "relations": {},
     "wikilinks": [
       "\"iPhone\""
     ]
   },
   "Subject_ Knowledge _Relation_ Object_.md": {
-    "mtime": 1775978055.7158954,
+    "mtime": 1775993573.5151432,
     "relations": {},
     "wikilinks": []
   },
   "Bar.md": {
-    "mtime": 1775978055.7063122,
+    "mtime": 1775993573.5035698,
     "relations": {},
     "wikilinks": []
   },
   "why the sky is blue.md": {
-    "mtime": 1775978055.7410975,
+    "mtime": 1775993573.5456932,
     "relations": {},
     "wikilinks": [
       "topic"
@@ -371,104 +373,104 @@
     ]
   },
   "in conjunction with knowledge.md": {
-    "mtime": 1775978055.7278154,
+    "mtime": 1775993573.5294182,
     "relations": {},
     "wikilinks": [
       "skills"
     ]
   },
   "Neighbor Relations.md": {
-    "mtime": 1775978055.7082052,
+    "mtime": 1775993573.505823,
     "relations": {},
     "wikilinks": []
   },
   "Wikipedia Knowledge.md": {
-    "mtime": 1775978055.7170794,
+    "mtime": 1775993573.516559,
     "relations": {},
     "wikilinks": [
       "an awareness of facts"
     ]
   },
   "_is_.md": {
-    "mtime": 1775978055.6985478,
+    "mtime": 1775993573.4953003,
     "relations": {},
     "wikilinks": []
   },
   "Object1.md": {
-    "mtime": 1775978055.7088583,
+    "mtime": 1775993573.506568,
     "relations": {},
     "wikilinks": []
   },
   "Practical Skill.md": {
-    "mtime": 1775978055.7101333,
+    "mtime": 1775993573.5081244,
     "relations": {},
     "wikilinks": []
   },
   "Object of Knowledge - Wikipedia.md": {
-    "mtime": 1775978055.7087612,
+    "mtime": 1775993573.506475,
     "relations": {},
     "wikilinks": []
   },
   "Its.md": {
-    "mtime": 1775978055.7074797,
+    "mtime": 1775993573.5049834,
     "relations": {},
     "wikilinks": []
   },
   "nd surrounded by parentheses The object.md": {
-    "mtime": 1775978055.728314,
+    "mtime": 1775993573.5299826,
     "relations": {},
     "wikilinks": [
       "the target of knowledge e g Knowledge"
     ]
   },
   "_stocks_.md": {
-    "mtime": 1775978055.704447,
+    "mtime": 1775993573.5015757,
     "relations": {},
     "wikilinks": []
   },
   "Definition.md": {
-    "mtime": 1775978055.7068915,
+    "mtime": 1775993573.504293,
     "relations": {},
     "wikilinks": [
       "Knowledge Graph Reasoning"
     ]
   },
   "blue.md": {
-    "mtime": 1775978055.7207272,
+    "mtime": 1775993573.5208573,
     "relations": {},
     "wikilinks": []
   },
   "and how they work together _ in conjunction with knowledge and skills__.md": {
-    "mtime": 1775978055.7177339,
+    "mtime": 1775993573.5173512,
     "relations": {},
     "wikilinks": []
   },
   "_Subject_.md": {
-    "mtime": 1775978055.7047758,
+    "mtime": 1775993573.5019422,
     "relations": {},
     "wikilinks": [
       "\"Is True\""
     ]
   },
   "Wave Particle Dualitytxt Used in.md": {
-    "mtime": 1775978055.716772,
+    "mtime": 1775993573.5162394,
     "relations": {},
     "wikilinks": []
   },
   "e_g_.md": {
-    "mtime": 1775978055.7213302,
+    "mtime": 1775993573.521564,
     "relations": {
       "Relation, Object": "scientific/factual_entities"
     },
     "wikilinks": [
+      "Relation, Object",
       "Relation: Created, Object: Infectious Diseases",
       "machine learning, graph matching,...",
-      "rule-based, probabilistic",
-      "Relation, Object"
+      "rule-based, probabilistic"
     ]
   },
   "Used in.md": {
-    "mtime": 1775978055.7166817,
+    "mtime": 1775993573.5161254,
     "relations": {},
     "wikilinks": []
   },
@@ -480,78 +482,78 @@
     ]
   },
   "Jaguar.md": {
-    "mtime": 1775978055.7075744,
+    "mtime": 1775993573.505103,
     "relations": {},
     "wikilinks": [
       "\"black\""
     ]
   },
   "Foo.md": {
-    "mtime": 1775978055.7071993,
+    "mtime": 1775993573.5046458,
     "relations": {},
     "wikilinks": [
       "Bar"
     ]
   },
   "with the capabilities of neuroscience to achieve artificial general intelligence_.md": {
-    "mtime": 1775978055.7411919,
+    "mtime": 1775993573.5458012,
     "relations": {},
     "wikilinks": []
   },
   "Merriae Webster The meaning of Cognitive.md": {
-    "mtime": 1775978055.7079847,
+    "mtime": 1775993573.5055754,
     "relations": {},
     "wikilinks": [
       "of"
     ]
   },
   "Knowledge Graph Reasoning.md": {
-    "mtime": 1775978055.7078862,
+    "mtime": 1775993573.5054579,
     "relations": {},
     "wikilinks": [
       "Its"
     ]
   },
   "1856.md": {
-    "mtime": 1775974973.0288682,
+    "mtime": 1775990241.9940608,
     "relations": {},
     "wikilinks": []
   },
   "Earth.md": {
-    "mtime": 1775978055.7069876,
+    "mtime": 1775993573.5044038,
     "relations": {},
     "wikilinks": [
       "gravity"
     ]
   },
   "Brown Bear.md": {
-    "mtime": 1775978055.706409,
+    "mtime": 1775993573.5037203,
     "relations": {},
     "wikilinks": [
       "What Do You Mimic?"
     ]
   },
   "familiarity with individuals and situations_ or practical skill.md": {
-    "mtime": 1775978055.7216065,
+    "mtime": 1775993573.521928,
     "relations": {},
     "wikilinks": []
   },
   "Sub Ideaneighborhubskebaab Case With No Spaces.md": {
-    "mtime": 1775978055.7153046,
+    "mtime": 1775993573.5144389,
     "relations": {},
     "wikilinks": [
       "Used in"
     ]
   },
   "I2K Web.md": {
-    "mtime": 1775978055.707391,
+    "mtime": 1775993573.5048783,
     "relations": {},
     "wikilinks": [
       "quick check"
     ]
   },
   "Money.md": {
-    "mtime": 1775978055.7081141,
+    "mtime": 1775993573.5057118,
     "relations": {},
     "wikilinks": [
       "\"stocks\""
@@ -563,112 +565,112 @@
     "wikilinks": []
   },
   "theory.md": {
-    "mtime": 1775978055.7404344,
+    "mtime": 1775993573.5449102,
     "relations": {},
     "wikilinks": []
   },
   "Subject1.md": {
-    "mtime": 1775978055.7161114,
+    "mtime": 1775993573.5153723,
     "relations": {},
     "wikilinks": [
       "Object1"
     ]
   },
   "doc.md": {
-    "mtime": 1775978055.721117,
+    "mtime": 1775993573.521317,
     "relations": {},
     "wikilinks": [
       "jupyter={'display_start_end': display_start_ends}"
     ]
   },
   "_Is True_.md": {
-    "mtime": 1775978055.697908,
+    "mtime": 1775993573.4947221,
     "relations": {},
     "wikilinks": []
   },
   "_COGNITIVE Definition _ Meaning - Merriae_Webster The meaning of Cognitive is of.md": {
-    "mtime": 1775978055.6977746,
+    "mtime": 1775993573.494536,
     "relations": {},
     "wikilinks": []
   },
   "_iPhone_.md": {
-    "mtime": 1775978055.6984334,
+    "mtime": 1775993573.4951923,
     "relations": {},
     "wikilinks": []
   },
   "or analysis.md": {
-    "mtime": 1775978055.729346,
+    "mtime": 1775993573.5311477,
     "relations": {},
     "wikilinks": []
   },
   "Neighbors Gravity Time.md": {
-    "mtime": 1775978055.70849,
+    "mtime": 1775993573.5061436,
     "relations": {},
     "wikilinks": []
   },
   "Facts.md": {
-    "mtime": 1775978055.707103,
+    "mtime": 1775993573.504514,
     "relations": {},
     "wikilinks": []
   },
   "Otto _Pop_ Carter.md": {
-    "mtime": 1775978055.7099168,
+    "mtime": 1775993573.5078967,
     "relations": {},
     "wikilinks": []
   },
   "_is__ _conscious_.md": {
-    "mtime": 1775978055.698663,
+    "mtime": 1775993573.495416,
     "relations": {},
     "wikilinks": []
   },
   "Object2.md": {
-    "mtime": 1775978055.7089462,
+    "mtime": 1775993573.5067003,
     "relations": {},
     "wikilinks": []
   },
   "Networks Used in.md": {
-    "mtime": 1775978055.7085817,
+    "mtime": 1775993573.5062573,
     "relations": {},
     "wikilinks": []
   },
   "jupyter___display_start_end__ display_start_ends_.md": {
-    "mtime": 1775978055.727909,
+    "mtime": 1775993573.5295246,
     "relations": {},
     "wikilinks": []
   },
   "Alice.md": {
-    "mtime": 1775978055.7059038,
+    "mtime": 1775993573.5031092,
     "relations": {},
     "wikilinks": [
       "\"book\""
     ]
   },
   "Relation_ Augmenting and combining the strengths of statistical AI.md": {
-    "mtime": 1775978055.7147055,
+    "mtime": 1775993573.5137956,
     "relations": {},
     "wikilinks": [
       "with the capabilities of neuroscience to achieve artificial general intelligence."
     ]
   },
   "Subject_ Cognitive Architecture_ _Relation_ Defines the mind in natural or artificial systems_ _Object_ _Fixed structures that provide a mind.md": {
-    "mtime": 1775978055.7164083,
+    "mtime": 1775993573.515744,
     "relations": {},
     "wikilinks": [
       "and how they work together \u2013 in conjunction with knowledge and skills.\""
     ]
   },
   "machine learning_ graph matching____.md": {
-    "mtime": 1775978055.7281222,
+    "mtime": 1775993573.5297549,
     "relations": {},
     "wikilinks": []
   },
   "Object3.md": {
-    "mtime": 1775978055.709056,
+    "mtime": 1775993573.506803,
     "relations": {},
     "wikilinks": []
   },
   "combining the strengths of statistical AI.md": {
-    "mtime": 1775978055.7208178,
+    "mtime": 1775993573.5209613,
     "relations": {},
     "wikilinks": []
   },
@@ -678,224 +680,224 @@
     "wikilinks": []
   },
   "dialect__american_.md": {
-    "mtime": 1775978055.7209966,
+    "mtime": 1775993573.5211375,
     "relations": {},
     "wikilinks": []
   },
   "the target of knowledge e g K.md": {
-    "mtime": 1775978055.7400756,
+    "mtime": 1775993573.5444725,
     "relations": {},
     "wikilinks": []
   },
   "as demonstrated through _Relation.md": {
-    "mtime": 1775978055.7178242,
+    "mtime": 1775993573.5174515,
     "relations": {},
     "wikilinks": []
   },
   "1_ the concept itself _e_g_.md": {
-    "mtime": 1775978055.7057061,
+    "mtime": 1775993573.50288,
     "relations": {},
     "wikilinks": []
   },
   "triplet_.md": {
-    "mtime": 1775974973.081372,
+    "mtime": 1775990242.049365,
     "relations": {},
     "wikilinks": []
   },
   "Science_Facts.md": {
-    "mtime": 1775978055.7149875,
+    "mtime": 1775993573.5141168,
     "relations": {},
     "wikilinks": [
       "Practical Skill"
     ]
   },
   "nded by parentheses The object.md": {
-    "mtime": 1775978055.7284138,
+    "mtime": 1775993573.5300863,
     "relations": {},
     "wikilinks": [
       "the target of knowledge e g Knowledge"
     ]
   },
   "Reality.md": {
-    "mtime": 1775978055.710309,
+    "mtime": 1775993573.508342,
     "relations": {},
     "wikilinks": []
   },
   "Neighborhood Theory.md": {
-    "mtime": 1775978055.7083008,
+    "mtime": 1775993573.5059345,
     "relations": {},
     "wikilinks": [
       "Structure Used in"
     ]
   },
   "being_ or involving conscious intellectual activity _such as thinking_ reasoning_ or analysis.md": {
-    "mtime": 1775978055.7193234,
+    "mtime": 1775993573.519281,
     "relations": {},
     "wikilinks": []
   },
   "Subject.md": {
-    "mtime": 1775978055.7154062,
+    "mtime": 1775993573.5145512,
     "relations": {},
     "wikilinks": [
       "\"Is True\"",
-      "practical skills in various fields",
       "Object",
-      "(Relation"
+      "(Relation",
+      "practical skills in various fields"
     ]
   },
   "or remembering.md": {
-    "mtime": 1775978055.7295234,
+    "mtime": 1775993573.5313578,
     "relations": {},
     "wikilinks": []
   },
   "subject.md": {
-    "mtime": 1775978055.7390928,
+    "mtime": 1775993573.5433328,
     "relations": {},
     "wikilinks": [
       "object"
     ]
   },
   "Relation2.md": {
-    "mtime": 1775978055.7145126,
+    "mtime": 1775993573.5135462,
     "relations": {},
     "wikilinks": [
       "Object2"
     ]
   },
   "Relation_ Object.md": {
-    "mtime": 1775978055.7106044,
+    "mtime": 1775993573.508702,
     "relations": {},
     "wikilinks": []
   },
   "surrounded by parentheses.md": {
-    "mtime": 1775978055.7395852,
+    "mtime": 1775993573.5439253,
     "relations": {},
     "wikilinks": []
   },
   "computational_instantiation.md": {
-    "mtime": 1775978055.720908,
+    "mtime": 1775993573.5210507,
     "relations": {},
     "wikilinks": []
   },
   "Consciousness.md": {
-    "mtime": 1775978055.7067962,
+    "mtime": 1775993573.5041897,
     "relations": {},
     "wikilinks": []
   },
   "surrounded by parentheses The object is the target of knowledge e g Knowledge.md": {
-    "mtime": 1775978055.7398748,
+    "mtime": 1775993573.5442588,
     "relations": {},
     "wikilinks": []
   },
   "artificial intelligence.md": {
-    "mtime": 1775974973.0605867,
+    "mtime": 1775990242.0277755,
     "relations": {},
     "wikilinks": []
   },
   "Webster The meaning of Cognitive.md": {
-    "mtime": 1775978055.7168715,
+    "mtime": 1775993573.516345,
     "relations": {},
     "wikilinks": [
-      "of Neighbors",
-      "of"
+      "of",
+      "of Neighbors"
     ]
   },
   "1_ _Subject.md": {
-    "mtime": 1775978055.7053878,
+    "mtime": 1775993573.502506,
     "relations": {},
     "wikilinks": [
       "Object"
     ]
   },
   "object1.md": {
-    "mtime": 1775978055.7286935,
+    "mtime": 1775993573.5304112,
     "relations": {},
     "wikilinks": []
   },
   "such as thinking.md": {
-    "mtime": 1775978055.7394884,
+    "mtime": 1775993573.5438094,
     "relations": {},
     "wikilinks": [
-      "or analysis",
-      "or remembering",
       "or ...",
-      "or mem'r'ng"
+      "or analysis",
+      "or mem'r'ng",
+      "or remembering"
     ]
   },
   "1_ is the subject of the triple _Knowledge - Wikipedia Knowledge is an awareness of facts.md": {
-    "mtime": 1775978055.7056131,
+    "mtime": 1775993573.5027716,
     "relations": {},
     "wikilinks": [
       "or a practical skill"
     ]
   },
   "Relation3.md": {
-    "mtime": 1775978055.7146068,
+    "mtime": 1775993573.5136735,
     "relations": {},
     "wikilinks": [
       "Object3"
     ]
   },
   "Subject_.md": {
-    "mtime": 1775978055.7158031,
+    "mtime": 1775993573.5150452,
     "relations": {},
     "wikilinks": [
       "(Relation"
     ]
   },
   "Relation_ Created_ Object_ Infectious Diseases.md": {
-    "mtime": 1775978055.7147973,
+    "mtime": 1775993573.513892,
     "relations": {},
     "wikilinks": []
   },
   "B.md": {
-    "mtime": 1775978055.7062218,
+    "mtime": 1775993573.5034657,
     "relations": {},
     "wikilinks": [
       "C"
     ]
   },
   "Subject_ has practical skills in various fields.md": {
-    "mtime": 1775978055.7159927,
+    "mtime": 1775993573.5152638,
     "relations": {},
     "wikilinks": [
       "as demonstrated through (Relation"
     ]
   },
   "surrounded by parentheses The object is the target of knowledge e g K.md": {
-    "mtime": 1775978055.7397828,
+    "mtime": 1775993573.5441496,
     "relations": {},
     "wikilinks": []
   },
   "quick check.md": {
-    "mtime": 1775978055.729711,
+    "mtime": 1775993573.5315588,
     "relations": {},
     "wikilinks": []
   },
   "Space Subject Object W Used in.md": {
-    "mtime": 1775974973.0585866,
+    "mtime": 1775990242.0247755,
     "relations": {},
     "wikilinks": []
   },
   "situations or practical skill.md": {
-    "mtime": 1775978055.734112,
+    "mtime": 1775993573.5369515,
     "relations": {},
     "wikilinks": []
   },
   "Gravity.md": {
-    "mtime": 1775978055.7072947,
+    "mtime": 1775993573.5047646,
     "relations": {},
     "wikilinks": [
       "spacetime"
     ]
   },
   "structure.md": {
-    "mtime": 1775978055.7389696,
+    "mtime": 1775993573.5432224,
     "relations": {},
     "wikilinks": []
   },
   "Person A.md": {
-    "mtime": 1775978055.7100372,
+    "mtime": 1775993573.5080214,
     "relations": {},
     "wikilinks": [
       "\"is\"",
@@ -903,15 +905,15 @@
     ]
   },
   "separated by a comma and surrounded by parentheses The object.md": {
-    "mtime": 1775978055.7337098,
+    "mtime": 1775993573.536516,
     "relations": {},
     "wikilinks": [
-      "the target of knowledge e g Knowledge",
-      "the target of knowledge e g K"
+      "the target of knowledge e g K",
+      "the target of knowledge e g Knowledge"
     ]
   },
   "_Relation.md": {
-    "mtime": 1775978055.7046392,
+    "mtime": 1775993573.5018108,
     "relations": {},
     "wikilinks": []
   },
@@ -930,7 +932,7 @@
     ]
   },
   "Relation  Augmenting and combining the strengths of statistical AI.md": {
-    "mtime": 1775978055.7104106,
+    "mtime": 1775993573.5084486,
     "relations": {},
     "wikilinks": [
       "with the capabilities of neuroscience to achieve artificial general intelligence."
@@ -947,7 +949,7 @@
     ]
   },
   "1  is the subject of the triple  Knowledge - Wikipedia Knowledge is an awareness of facts.md": {
-    "mtime": 1775978055.7051713,
+    "mtime": 1775993573.5022926,
     "relations": {},
     "wikilinks": [
       "or a practical skill"
@@ -961,7 +963,7 @@
     ]
   },
   "Subject  Cognitive Architecture   Relation  Defines the mind in natural or artificial systems   Object   Fixed structures that provide a mind.md": {
-    "mtime": 1775978055.715513,
+    "mtime": 1775993573.5147088,
     "relations": {},
     "wikilinks": [
       "and how they work together \u2013 in conjunction with knowledge and skills.\""
@@ -989,21 +991,21 @@
     ]
   },
   "1  Knowledge - Wikipedia Knowledge is an awareness of facts.md": {
-    "mtime": 1775978055.7050412,
+    "mtime": 1775993573.5021656,
     "relations": {},
     "wikilinks": [
       "or (3"
     ]
   },
   "1   Subject.md": {
-    "mtime": 1775978055.7049017,
+    "mtime": 1775993573.5020604,
     "relations": {},
     "wikilinks": [
       "Object"
     ]
   },
   "Subject  has practical skills in various fields.md": {
-    "mtime": 1775978055.7156107,
+    "mtime": 1775993573.5148194,
     "relations": {},
     "wikilinks": [
       "as demonstrated through (Relation"
@@ -1017,7 +1019,7 @@
     ]
   },
   "Science Facts.md": {
-    "mtime": 1775978055.714893,
+    "mtime": 1775993573.5140076,
     "relations": {},
     "wikilinks": [
       "Practical Skill"
@@ -1038,1444 +1040,1561 @@
     ]
   },
   "Orphan Concepts  degree   2 .md": {
-    "mtime": 1775979423.8131983,
+    "mtime": 1775994971.731963,
     "relations": {},
     "wikilinks": [
-      "Orphan Concepts  degree   2 /Sub-ideas/quantum_mechanics_particle-wave_dualitytxt"
+      "Orphan Concepts  degree   2 /Sub-ideas/neighbors"
     ]
   },
   "of Neighbors.md": {
-    "mtime": 1775978055.7289634,
+    "mtime": 1775993573.530746,
     "relations": {},
     "wikilinks": []
   },
   "COGNITIVE Definition   Meaning - Merriae Webster The meaning of Cognitive is of.md": {
-    "mtime": 1775978055.7065985,
+    "mtime": 1775993573.5039632,
     "relations": {},
     "wikilinks": [
       "being, or involving conscious intellectual activity (such as thinking, reasoning, or analysis"
     ]
   },
   "Orphan.md": {
-    "mtime": 1775978055.7091563,
+    "mtime": 1775993573.506917,
     "relations": {},
     "wikilinks": [
       "X"
     ]
   },
   "1  the concept itself  e g.md": {
-    "mtime": 1775978055.7052782,
+    "mtime": 1775993573.5023952,
     "relations": {},
     "wikilinks": [
       "(2"
     ]
   },
   "Y.md": {
-    "mtime": 1775978055.7172647,
+    "mtime": 1775993573.5167964,
     "relations": {},
     "wikilinks": []
   },
   "e g.md": {
-    "mtime": 1775978055.7212245,
+    "mtime": 1775993573.5214229,
     "relations": {},
     "wikilinks": [
+      "Relation, Object",
       "Relation: Created, Object: Infectious Diseases",
       "machine learning, graph matching,...",
-      "rule-based, probabilistic",
-      "Relation, Object"
+      "rule-based, probabilistic"
     ]
   },
   "X.md": {
-    "mtime": 1775978055.7171757,
+    "mtime": 1775993573.5166962,
     "relations": {},
     "wikilinks": [
       "Y"
     ]
   },
   "token lower.md": {
-    "mtime": 1775978055.7405293,
+    "mtime": 1775993573.5450206,
     "relations": {},
     "wikilinks": [
       "dialect=\"american\""
     ]
   },
   "subject   Neuro-symbolic AI - IBM Research.md": {
-    "mtime": 1775978055.7391927,
+    "mtime": 1775993573.5434544,
     "relations": {},
     "wikilinks": [
       "object: \"Artificial General Intelligence\""
     ]
   },
   "_is__ weight_143_ conf_0_60__- ___stocks_.md": {
-    "mtime": 1775978055.699885,
+    "mtime": 1775993573.4972146,
     "relations": {},
     "wikilinks": []
   },
   "being_ weight_142_ conf_0_60__- __blue.md": {
-    "mtime": 1775978055.7196958,
+    "mtime": 1775993573.5198228,
     "relations": {},
     "wikilinks": []
   },
   "familiarity with individuals and situations_ weight_141_ conf_0_60__- __gravity.md": {
-    "mtime": 1775978055.722821,
+    "mtime": 1775993573.5237997,
     "relations": {},
     "wikilinks": []
   },
   "rule-based_ weight_325_ conf_0_60__- __subject.md": {
-    "mtime": 1775978055.7314,
+    "mtime": 1775993573.5338817,
     "relations": {},
     "wikilinks": []
   },
   "Relation_ weight_327_ conf_0_60__- __Subject_ Knowledge _Relation_ Object_.md": {
-    "mtime": 1775978055.712284,
+    "mtime": 1775993573.5110073,
     "relations": {},
     "wikilinks": []
   },
   "b_ weight_326_ conf_0_60__- __object.md": {
-    "mtime": 1775978055.7184818,
+    "mtime": 1775993573.5183108,
     "relations": {},
     "wikilinks": []
   },
   "familiarity with individuals and situations_ weight_745_ conf_0_60__- __gravity.md": {
-    "mtime": 1775978055.7265646,
+    "mtime": 1775993573.528063,
     "relations": {},
     "wikilinks": []
   },
   "_is__ weight_430_ conf_0_60__- __being_ weight_142_ conf_0_60__- __blue.md": {
-    "mtime": 1775978055.7014802,
+    "mtime": 1775993573.4987762,
     "relations": {},
     "wikilinks": []
   },
   "b_ weight_930_ conf_0_80__- __object.md": {
-    "mtime": 1775978055.7191389,
+    "mtime": 1775993573.5190651,
     "relations": {},
     "wikilinks": []
   },
   "Relation_ weight_234_ conf_0_60__- __familiarity with individuals and situations_ or practical skill.md": {
-    "mtime": 1775978055.7116857,
+    "mtime": 1775993573.5103173,
     "relations": {},
     "wikilinks": []
   },
   "rule-based_ weight_425_ conf_0_60__- ___is__ weight_143_ conf_0_60__- ___stocks_.md": {
-    "mtime": 1775978055.7317748,
+    "mtime": 1775993573.5343058,
     "relations": {},
     "wikilinks": []
   },
   "Relation_ weight_931_ conf_0_60__- __Subject_ Knowledge _Relation_ Object_.md": {
-    "mtime": 1775978055.7142243,
+    "mtime": 1775993573.5132072,
     "relations": {},
     "wikilinks": []
   },
   "rule-based_ weight_929_ conf_0_80__- __subject.md": {
-    "mtime": 1775978055.7334063,
+    "mtime": 1775993573.5361738,
     "relations": {},
     "wikilinks": []
   },
   "situations weight 141 conf 0 60.md": {
-    "mtime": 1775978055.73465,
+    "mtime": 1775993573.5379045,
     "relations": {},
     "wikilinks": []
   },
   "familiarity with individuals and situations_ weight_426_ conf_0_60__- __familiarity with individuals and situations_ weight_141_ conf_0_60__- __gravity.md": {
-    "mtime": 1775978055.7246137,
+    "mtime": 1775993573.5258238,
     "relations": {},
     "wikilinks": []
   },
   "being_ weight_746_ conf_0_70__- __blue.md": {
-    "mtime": 1775978055.7204552,
+    "mtime": 1775993573.5205677,
     "relations": {},
     "wikilinks": []
   },
   "situations weight 426 conf 0 60.md": {
-    "mtime": 1775978055.736213,
+    "mtime": 1775993573.539777,
     "relations": {},
     "wikilinks": []
   },
   "_is__ weight_747_ conf_0_60__- ___stocks_.md": {
-    "mtime": 1775978055.7034295,
+    "mtime": 1775993573.5006087,
     "relations": {},
     "wikilinks": []
   },
   "being_ weight_1387_ conf_0_79__- __blue.md": {
-    "mtime": 1775978055.7196028,
+    "mtime": 1775993573.5197165,
     "relations": {},
     "wikilinks": []
   },
   "familiarity with individuals and situations_ weight_1386_ conf_0_59__- __gravity.md": {
-    "mtime": 1775978055.7227273,
+    "mtime": 1775993573.5236995,
     "relations": {},
     "wikilinks": []
   },
   "_is__ weight_1071_ conf_0_60__- __being_ weight_142_ conf_0_60__- __blue.md": {
-    "mtime": 1775978055.6991558,
+    "mtime": 1775993573.495964,
     "relations": {},
     "wikilinks": []
   },
   "rule-based_ weight_1570_ conf_1_00__- __subject.md": {
-    "mtime": 1775978055.7306283,
+    "mtime": 1775993573.5329967,
     "relations": {},
     "wikilinks": []
   },
   "Relation_ weight_245_ conf_0_60__- __familiarity with individuals and situations_ weight_426_ conf_0_60__- __familiarity with individuals and situations_ weight_141_ conf_0_60__- __gravity.md": {
-    "mtime": 1775978055.7118883,
+    "mtime": 1775993573.510547,
     "relations": {},
     "wikilinks": []
   },
   "familiarity with individuals and situations_ weight_1067_ conf_0_60__- __familiarity with individuals and situations_ weight_141_ conf_0_60__- __gravity.md": {
-    "mtime": 1775978055.7221217,
+    "mtime": 1775993573.5224862,
     "relations": {},
     "wikilinks": []
   },
   "familiarity with individuals and situations_ weight_447_ conf_0_60__- ___is__ weight_747_ conf_0_60__- ___stocks_.md": {
-    "mtime": 1775978055.7248976,
+    "mtime": 1775993573.5261474,
     "relations": {},
     "wikilinks": []
   },
   "Relation_ weight_875_ conf_0_80__- __familiarity with individuals and situations_ or practical skill.md": {
-    "mtime": 1775978055.7139137,
+    "mtime": 1775993573.5129058,
     "relations": {},
     "wikilinks": []
   },
   "b_ weight_1571_ conf_1_00__- __object.md": {
-    "mtime": 1775978055.718212,
+    "mtime": 1775993573.5180001,
     "relations": {},
     "wikilinks": []
   },
   "rule-based_ weight_872_ conf_0_80__- ___is__ weight_430_ conf_0_60__- __being_ weight_142_ conf_0_60__- __blue.md": {
-    "mtime": 1775978055.733124,
+    "mtime": 1775993573.5358574,
     "relations": {},
     "wikilinks": []
   },
   "Relation_ weight_1572_ conf_0_59__- __Subject_ Knowledge _Relation_ Object_.md": {
-    "mtime": 1775978055.711303,
+    "mtime": 1775993573.5098433,
     "relations": {},
     "wikilinks": []
   },
   "_is__ weight_454_ conf_0_60__- __being_ weight_746_ conf_0_70__- __blue.md": {
-    "mtime": 1775978055.7018123,
+    "mtime": 1775993573.4990819,
     "relations": {},
     "wikilinks": []
   },
   "rule-based_ weight_1066_ conf_0_70__- ___is__ weight_143_ conf_0_60__- ___stocks_.md": {
-    "mtime": 1775978055.7301002,
+    "mtime": 1775993573.5320194,
     "relations": {},
     "wikilinks": []
   },
   "_is__ weight_1388_ conf_0_59__- ___stocks_.md": {
-    "mtime": 1775978055.6997857,
+    "mtime": 1775993573.4971125,
     "relations": {},
     "wikilinks": []
   },
   "familiarity with individuals and situations_ weight_1122_ conf_0_80__- ___is__ weight_747_ conf_0_60__- ___stocks_.md": {
-    "mtime": 1775978055.7223246,
+    "mtime": 1775993573.5227246,
     "relations": {},
     "wikilinks": []
   },
   "familiarity with individuals and situations_ weight_2061_ conf_0_59__- __gravity.md": {
-    "mtime": 1775978055.723329,
+    "mtime": 1775993573.5243514,
     "relations": {},
     "wikilinks": []
   },
   "rule-based_ weight_1741_ conf_0_79__- ___is__ weight_143_ conf_0_60__- ___stocks_.md": {
-    "mtime": 1775978055.7307224,
+    "mtime": 1775990568.2739358,
     "relations": {},
     "wikilinks": []
   },
   "Relation_ weight_920_ conf_0_80__- __familiarity with individuals and situations_ weight_426_ conf_0_60__- __familiarity with individuals and situations_ weight_141_ conf_0_60__- __gravity.md": {
-    "mtime": 1775978055.7141316,
+    "mtime": 1775993573.5131135,
     "relations": {},
     "wikilinks": []
   },
   "Relation_ weight_2247_ conf_0_59__- __Subject_ Knowledge _Relation_ Object_.md": {
-    "mtime": 1775978055.711496,
+    "mtime": 1775993573.5100672,
     "relations": {},
     "wikilinks": []
   },
   "familiarity with individuals and situations_ weight_914_ conf_0_80__- ___is__ weight_1071_ conf_0_60__- __being_ weight_142_ conf_0_60__- __blue.md": {
-    "mtime": 1775978055.7273407,
+    "mtime": 1775993573.5288782,
     "relations": {},
     "wikilinks": []
   },
   "b_ weight_2246_ conf_1_00__- __object.md": {
-    "mtime": 1775978055.7183027,
+    "mtime": 1775993573.5181046,
     "relations": {},
     "wikilinks": []
   },
   "_is__ weight_2063_ conf_0_59__- ___stocks_.md": {
-    "mtime": 1775978055.7003691,
+    "mtime": 1775993573.4976728,
     "relations": {},
     "wikilinks": []
   },
   "Relation_ weight_1550_ conf_1_00__- __familiarity with individuals and situations_ or practical skill.md": {
-    "mtime": 1775978055.7112103,
+    "mtime": 1775993573.5097325,
     "relations": {},
     "wikilinks": []
   },
   "rule-based_ weight_1547_ conf_1_00__- ___is__ weight_430_ conf_0_60__- __being_ weight_142_ conf_0_60__- __blue.md": {
-    "mtime": 1775978055.7305353,
+    "mtime": 1775993573.5329025,
     "relations": {},
     "wikilinks": []
   },
   "being_ weight_2062_ conf_0_89__- __blue.md": {
-    "mtime": 1775978055.7197864,
+    "mtime": 1775993573.519914,
     "relations": {},
     "wikilinks": []
   },
   "familiarity with individuals and situations_ weight_1742_ conf_0_59__- __familiarity with individuals and situations_ weight_141_ conf_0_60__- __gravity.md": {
-    "mtime": 1775978055.7230375,
+    "mtime": 1775993573.524024,
     "relations": {},
     "wikilinks": []
   },
   "_is__ weight_1129_ conf_0_80__- __being_ weight_746_ conf_0_70__- __blue.md": {
-    "mtime": 1775978055.6993697,
+    "mtime": 1775993573.4962049,
     "relations": {},
     "wikilinks": []
   },
   "rule-based_ weight_2245_ conf_1_00__- __subject.md": {
-    "mtime": 1775978055.730814,
+    "mtime": 1775993573.5332096,
     "relations": {},
     "wikilinks": []
   },
   "_is__ weight_1746_ conf_0_59__- __being_ weight_142_ conf_0_60__- __blue.md": {
-    "mtime": 1775978055.700028,
+    "mtime": 1775993573.4973278,
     "relations": {},
     "wikilinks": []
   },
   "_is__ weight_482_ conf_0_60__- __being_ weight_1387_ conf_0_79__- __blue.md": {
-    "mtime": 1775978055.7020535,
+    "mtime": 1775993573.4993064,
     "relations": {},
     "wikilinks": []
   },
   "situations weight 470 conf 0 60.md": {
-    "mtime": 1775978055.7366612,
+    "mtime": 1775993573.5403006,
     "relations": {},
     "wikilinks": []
   },
   "situations weight 1067 conf 0 60.md": {
-    "mtime": 1775978055.7342927,
+    "mtime": 1775993573.5372431,
     "relations": {},
     "wikilinks": []
   },
   "familiarity with individuals and situations_ weight_470_ conf_0_60__- ___is__ weight_1388_ conf_0_59__- ___stocks_.md": {
-    "mtime": 1775978055.725111,
+    "mtime": 1775993573.5263624,
     "relations": {},
     "wikilinks": []
   },
   "familiarity with individuals and situations_ weight_2792_ conf_0_58__- __gravity.md": {
-    "mtime": 1775978055.7238104,
+    "mtime": 1775993573.5249379,
     "relations": {},
     "wikilinks": []
   },
   "rule-based_ weight_2472_ conf_0_99__- ___is__ weight_143_ conf_0_60__- ___stocks_.md": {
-    "mtime": 1775978055.7310226,
+    "mtime": 1775993573.5334256,
     "relations": {},
     "wikilinks": []
   },
   "familiarity with individuals and situations_ weight_2473_ conf_0_69__- __familiarity with individuals and situations_ weight_141_ conf_0_60__- __gravity.md": {
-    "mtime": 1775978055.7235258,
+    "mtime": 1775993573.5245905,
     "relations": {},
     "wikilinks": []
   },
   "Relation_ weight_2978_ conf_0_58__- __Subject_ Knowledge _Relation_ Object_.md": {
-    "mtime": 1775978055.7119818,
+    "mtime": 1775993573.5106776,
     "relations": {},
     "wikilinks": []
   },
   "familiarity with individuals and situations_ weight_1201_ conf_0_80__- ___is__ weight_1388_ conf_0_59__- ___stocks_.md": {
-    "mtime": 1775978055.7226338,
+    "mtime": 1775993573.5232375,
     "relations": {},
     "wikilinks": []
   },
   "familiarity with individuals and situations_ weight_1853_ conf_0_99__- ___is__ weight_747_ conf_0_60__- ___stocks_.md": {
-    "mtime": 1775978055.7231383,
+    "mtime": 1775993573.5241332,
     "relations": {},
     "wikilinks": []
   },
   "b_ weight_2977_ conf_1_00__- __object.md": {
-    "mtime": 1775978055.7183921,
+    "mtime": 1775993573.5181997,
     "relations": {},
     "wikilinks": []
   },
   "being_ weight_2793_ conf_1_00__- __blue.md": {
-    "mtime": 1775978055.7198777,
+    "mtime": 1775993573.5200176,
     "relations": {},
     "wikilinks": []
   },
   "_is__ weight_1860_ conf_1_00__- __being_ weight_746_ conf_0_70__- __blue.md": {
-    "mtime": 1775978055.7001476,
+    "mtime": 1775993573.4974427,
     "relations": {},
     "wikilinks": []
   },
   "_is__ weight_1213_ conf_0_80__- __being_ weight_1387_ conf_0_79__- __blue.md": {
-    "mtime": 1775978055.6996894,
+    "mtime": 1775993573.4966693,
     "relations": {},
     "wikilinks": []
   },
   "rule-based_ weight_2278_ conf_1_00__- ___is__ weight_430_ conf_0_60__- __being_ weight_142_ conf_0_60__- __blue.md": {
-    "mtime": 1775978055.7309108,
+    "mtime": 1775993573.5333176,
     "relations": {},
     "wikilinks": []
   },
   "_is__ weight_2477_ conf_0_59__- __being_ weight_142_ conf_0_60__- __blue.md": {
-    "mtime": 1775978055.700494,
+    "mtime": 1775993573.4977841,
     "relations": {},
     "wikilinks": []
   },
   "rule-based_ weight_2976_ conf_1_00__- __subject.md": {
-    "mtime": 1775978055.7311199,
+    "mtime": 1775993573.5335321,
     "relations": {},
     "wikilinks": []
   },
   "Relation_ weight_1651_ conf_1_00__- __familiarity with individuals and situations_ weight_426_ conf_0_60__- __familiarity with individuals and situations_ weight_141_ conf_0_60__- __gravity.md": {
-    "mtime": 1775978055.7114038,
+    "mtime": 1775993573.5099566,
     "relations": {},
     "wikilinks": []
   },
   "familiarity with individuals and situations_ weight_1645_ conf_1_00__- ___is__ weight_1071_ conf_0_60__- __being_ weight_142_ conf_0_60__- __blue.md": {
-    "mtime": 1775978055.72292,
+    "mtime": 1775993573.5239115,
     "relations": {},
     "wikilinks": []
   },
   "_is__ weight_2794_ conf_0_58__- ___stocks_.md": {
-    "mtime": 1775978055.7008107,
+    "mtime": 1775993573.4981077,
     "relations": {},
     "wikilinks": []
   },
   "Relation_ weight_2281_ conf_1_00__- __familiarity with individuals and situations_ or practical skill.md": {
-    "mtime": 1775978055.7115905,
+    "mtime": 1775993573.5101855,
     "relations": {},
     "wikilinks": []
   },
   "situations weight 2061 conf 0 59.md": {
-    "mtime": 1775978055.7351203,
+    "mtime": 1775993573.53843,
     "relations": {},
     "wikilinks": []
   },
   "situations weight 1645 conf 1 00.md": {
-    "mtime": 1775978055.734739,
+    "mtime": 1775993573.5380142,
     "relations": {},
     "wikilinks": []
   },
   "familiarity with individuals and situations_ weight_3222_ conf_0_89__- __familiarity with individuals and situations_ weight_141_ conf_0_60__- __gravity.md": {
-    "mtime": 1775978055.7240257,
+    "mtime": 1775993573.5251434,
     "relations": {},
     "wikilinks": []
   },
   "Relation_ weight_2400_ conf_1_00__- __familiarity with individuals and situations_ weight_426_ conf_0_60__- __familiarity with individuals and situations_ weight_141_ conf_0_60__- __gravity.md": {
-    "mtime": 1775978055.7117858,
+    "mtime": 1775993573.5104241,
     "relations": {},
     "wikilinks": []
   },
   "familiarity with individuals and situations_ weight_1950_ conf_0_99__- ___is__ weight_1388_ conf_0_59__- ___stocks_.md": {
-    "mtime": 1775978055.723235,
+    "mtime": 1775993573.5242527,
     "relations": {},
     "wikilinks": []
   },
   "_is__ weight_3226_ conf_0_59__- __being_ weight_142_ conf_0_60__- __blue.md": {
-    "mtime": 1775978055.7009177,
+    "mtime": 1775993573.4982054,
     "relations": {},
     "wikilinks": []
   },
   "being_ weight_3542_ conf_1_00__- __blue.md": {
-    "mtime": 1775978055.7199695,
+    "mtime": 1775993573.520109,
     "relations": {},
     "wikilinks": []
   },
   "familiarity with individuals and situations_ weight_3541_ conf_0_58__- __gravity.md": {
-    "mtime": 1775978055.7242212,
+    "mtime": 1775993573.5253496,
     "relations": {},
     "wikilinks": []
   },
   "rule-based_ weight_3725_ conf_1_00__- __subject.md": {
-    "mtime": 1775978055.7314904,
+    "mtime": 1775993573.5339897,
     "relations": {},
     "wikilinks": []
   },
   "familiarity with individuals and situations_ weight_2602_ conf_1_00__- ___is__ weight_747_ conf_0_60__- ___stocks_.md": {
-    "mtime": 1775978055.723623,
+    "mtime": 1775993573.5247297,
     "relations": {},
     "wikilinks": []
   },
   "familiarity with individuals and situations_ weight_2394_ conf_1_00__- ___is__ weight_1071_ conf_0_60__- __being_ weight_142_ conf_0_60__- __blue.md": {
-    "mtime": 1775978055.7234273,
+    "mtime": 1775993573.524471,
     "relations": {},
     "wikilinks": []
   },
   "_is__ weight_1962_ conf_1_00__- __being_ weight_1387_ conf_0_79__- __blue.md": {
-    "mtime": 1775978055.700264,
+    "mtime": 1775993573.4975412,
     "relations": {},
     "wikilinks": []
   },
   "_is__ weight_2609_ conf_1_00__- __being_ weight_746_ conf_0_70__- __blue.md": {
-    "mtime": 1775978055.7005956,
+    "mtime": 1775993573.497883,
     "relations": {},
     "wikilinks": []
   },
   "b_ weight_3726_ conf_1_00__- __object.md": {
-    "mtime": 1775978055.718572,
+    "mtime": 1775993573.518415,
     "relations": {},
     "wikilinks": []
   },
   "_is__ weight_3543_ conf_0_58__- ___stocks_.md": {
-    "mtime": 1775978055.7011793,
+    "mtime": 1775993573.498416,
     "relations": {},
     "wikilinks": []
   },
   "Relation_ weight_3727_ conf_0_58__- __Subject_ Knowledge _Relation_ Object_.md": {
-    "mtime": 1775978055.7123764,
+    "mtime": 1775993573.5111125,
     "relations": {},
     "wikilinks": []
   },
   "rule-based_ weight_3027_ conf_1_00__- ___is__ weight_430_ conf_0_60__- __being_ weight_142_ conf_0_60__- __blue.md": {
-    "mtime": 1775978055.7312155,
+    "mtime": 1775993573.5336676,
     "relations": {},
     "wikilinks": []
   },
   "Relation_ weight_3030_ conf_1_00__- __familiarity with individuals and situations_ or practical skill.md": {
-    "mtime": 1775978055.712086,
+    "mtime": 1775993573.5107918,
     "relations": {},
     "wikilinks": []
   },
   "situations weight 1853 conf 0 99.md": {
-    "mtime": 1775978055.7349172,
+    "mtime": 1775993573.5382226,
     "relations": {},
     "wikilinks": []
   },
   "situations weight 1742 conf 0 59.md": {
-    "mtime": 1775978055.7348275,
+    "mtime": 1775993573.5381117,
     "relations": {},
     "wikilinks": []
   },
   "situations weight 1386 conf 0 59.md": {
-    "mtime": 1775978055.73456,
+    "mtime": 1775993573.5378015,
     "relations": {},
     "wikilinks": []
   },
   "rule-based_ weight_3221_ conf_1_00__- ___is__ weight_143_ conf_0_60__- ___stocks_.md": {
-    "mtime": 1775978055.7313097,
+    "mtime": 1775993573.5337732,
     "relations": {},
     "wikilinks": []
   },
   "Relation_ weight_3855_ conf_1_00__- __familiarity with individuals and situations_ or practical skill.md": {
-    "mtime": 1775978055.7124708,
+    "mtime": 1775993573.5112305,
     "relations": {},
     "wikilinks": []
   },
   "familiarity with individuals and situations_ weight_2775_ conf_1_00__- ___is__ weight_1388_ conf_0_59__- ___stocks_.md": {
-    "mtime": 1775978055.7237182,
+    "mtime": 1775993573.52483,
     "relations": {},
     "wikilinks": []
   },
   "_is__ weight_4051_ conf_0_58__- __being_ weight_142_ conf_0_60__- __blue.md": {
-    "mtime": 1775978055.701385,
+    "mtime": 1775993573.4986515,
     "relations": {},
     "wikilinks": []
   },
   "b_ weight_4551_ conf_1_00__- __object.md": {
-    "mtime": 1775978055.7186613,
+    "mtime": 1775993573.5185156,
     "relations": {},
     "wikilinks": []
   },
   "rule-based_ weight_4046_ conf_1_00__- ___is__ weight_143_ conf_0_60__- ___stocks_.md": {
-    "mtime": 1775978055.7316813,
+    "mtime": 1775993573.5341973,
     "relations": {},
     "wikilinks": []
   },
   "Relation_ weight_4552_ conf_0_58__- __Subject_ Knowledge _Relation_ Object_.md": {
-    "mtime": 1775978055.7126632,
+    "mtime": 1775993573.5114412,
     "relations": {},
     "wikilinks": []
   },
   "being_ weight_4367_ conf_1_00__- __blue.md": {
-    "mtime": 1775978055.7200892,
+    "mtime": 1775993573.520213,
     "relations": {},
     "wikilinks": []
   },
   "Relation_ weight_3225_ conf_1_00__- __familiarity with individuals and situations_ weight_426_ conf_0_60__- __familiarity with individuals and situations_ weight_141_ conf_0_60__- __gravity.md": {
-    "mtime": 1775978055.7121897,
+    "mtime": 1775993573.5109084,
     "relations": {},
     "wikilinks": []
   },
   "_is__ weight_2787_ conf_1_00__- __being_ weight_1387_ conf_0_79__- __blue.md": {
-    "mtime": 1775978055.7006917,
+    "mtime": 1775993573.4979928,
     "relations": {},
     "wikilinks": []
   },
   "rule-based_ weight_3852_ conf_1_00__- ___is__ weight_430_ conf_0_60__- __being_ weight_142_ conf_0_60__- __blue.md": {
-    "mtime": 1775978055.7315865,
+    "mtime": 1775993573.534092,
     "relations": {},
     "wikilinks": []
   },
   "_is__ weight_3434_ conf_1_00__- __being_ weight_746_ conf_0_70__- __blue.md": {
-    "mtime": 1775978055.701057,
+    "mtime": 1775993573.4983113,
     "relations": {},
     "wikilinks": []
   },
   "familiarity with individuals and situations_ weight_3219_ conf_1_00__- ___is__ weight_1071_ conf_0_60__- __being_ weight_142_ conf_0_60__- __blue.md": {
-    "mtime": 1775978055.7239094,
+    "mtime": 1775993573.5250554,
     "relations": {},
     "wikilinks": []
   },
   "rule-based_ weight_4550_ conf_1_00__- __subject.md": {
-    "mtime": 1775978055.7318654,
+    "mtime": 1775993573.5344098,
     "relations": {},
     "wikilinks": []
   },
   "familiarity with individuals and situations_ weight_3427_ conf_1_00__- ___is__ weight_747_ conf_0_60__- ___stocks_.md": {
-    "mtime": 1775978055.7241285,
+    "mtime": 1775993573.5252385,
     "relations": {},
     "wikilinks": []
   },
   "_is__ weight_4368_ conf_0_58__- ___stocks_.md": {
-    "mtime": 1775978055.7017076,
+    "mtime": 1775993573.4989717,
     "relations": {},
     "wikilinks": []
   },
   "neighbor of quantum mechanics.md": {
-    "mtime": 1775978055.728512,
+    "mtime": 1775993573.5302002,
     "relations": {},
     "wikilinks": [
       "wave"
     ]
   },
   "situations weight 4366 conf 0 58.md": {
-    "mtime": 1775978055.7363915,
+    "mtime": 1775993573.5399816,
     "relations": {},
     "wikilinks": []
   },
   "familiarity with individuals and situations_ weight_4366_ conf_0_58__- __gravity.md": {
-    "mtime": 1775978055.7248018,
+    "mtime": 1775993573.5260322,
     "relations": {},
     "wikilinks": []
   },
   "situations weight 3222 conf 0 89.md": {
-    "mtime": 1775978055.735653,
+    "mtime": 1775993573.5391545,
     "relations": {},
     "wikilinks": []
   },
   "familiarity with individuals and situations_ weight_4047_ conf_1_00__- __familiarity with individuals and situations_ weight_141_ conf_0_60__- __gravity.md": {
-    "mtime": 1775978055.7244167,
+    "mtime": 1775993573.5255754,
     "relations": {},
     "wikilinks": []
   },
   "wave.md": {
-    "mtime": 1775978055.740979,
+    "mtime": 1775993573.5455372,
     "relations": {},
     "wikilinks": []
   },
   "situations weight 3541 conf 0 58.md": {
-    "mtime": 1775978055.7358317,
+    "mtime": 1775993573.539353,
     "relations": {},
     "wikilinks": []
   },
   "situations weight 447 conf 0 60.md": {
-    "mtime": 1775978055.736482,
+    "mtime": 1775993573.5400848,
     "relations": {},
     "wikilinks": []
   },
   "situations weight 4047 conf 1 00.md": {
-    "mtime": 1775978055.7360287,
+    "mtime": 1775993573.5395575,
     "relations": {},
     "wikilinks": []
   },
   "b_ weight_5433_ conf_1_00__- __object.md": {
-    "mtime": 1775978055.7187514,
+    "mtime": 1775993573.5186427,
     "relations": {},
     "wikilinks": []
   },
   "Relation_ weight_4737_ conf_1_00__- __familiarity with individuals and situations_ or practical skill.md": {
-    "mtime": 1775978055.7127564,
+    "mtime": 1775993573.511559,
     "relations": {},
     "wikilinks": []
   },
   "_is__ weight_3669_ conf_1_00__- __being_ weight_1387_ conf_0_79__- __blue.md": {
-    "mtime": 1775978055.7012894,
+    "mtime": 1775993573.498532,
     "relations": {},
     "wikilinks": []
   },
   "Relation_ weight_4107_ conf_1_00__- __familiarity with individuals and situations_ weight_426_ conf_0_60__- __familiarity with individuals and situations_ weight_141_ conf_0_60__- __gravity.md": {
-    "mtime": 1775978055.7125707,
+    "mtime": 1775993573.5113451,
     "relations": {},
     "wikilinks": []
   },
   "familiarity with individuals and situations_ weight_5248_ conf_0_57__- __gravity.md": {
-    "mtime": 1775978055.7254002,
+    "mtime": 1775993573.5267165,
     "relations": {},
     "wikilinks": []
   },
   "Relation_ weight_5434_ conf_0_57__- __Subject_ Knowledge _Relation_ Object_.md": {
-    "mtime": 1775978055.7129493,
+    "mtime": 1775993573.5118027,
     "relations": {},
     "wikilinks": []
   },
   "_is__ weight_4933_ conf_0_58__- __being_ weight_142_ conf_0_60__- __blue.md": {
-    "mtime": 1775978055.7021606,
+    "mtime": 1775993573.4994042,
     "relations": {},
     "wikilinks": []
   },
   "rule-based_ weight_4928_ conf_1_00__- ___is__ weight_143_ conf_0_60__- ___stocks_.md": {
-    "mtime": 1775978055.7320771,
+    "mtime": 1775993573.5346525,
     "relations": {},
     "wikilinks": []
   },
   "familiarity with individuals and situations_ weight_4101_ conf_1_00__- ___is__ weight_1071_ conf_0_60__- __being_ weight_142_ conf_0_60__- __blue.md": {
-    "mtime": 1775978055.7245154,
+    "mtime": 1775993573.5257094,
     "relations": {},
     "wikilinks": []
   },
   "rule-based_ weight_5432_ conf_1_00__- __subject.md": {
-    "mtime": 1775978055.7321699,
+    "mtime": 1775993573.5347583,
     "relations": {},
     "wikilinks": []
   },
   "familiarity with individuals and situations_ weight_4929_ conf_1_00__- __familiarity with individuals and situations_ weight_141_ conf_0_60__- __gravity.md": {
-    "mtime": 1775978055.7252097,
+    "mtime": 1775993573.5264728,
     "relations": {},
     "wikilinks": []
   },
   "being_ weight_5249_ conf_1_00__- __blue.md": {
-    "mtime": 1775978055.720182,
+    "mtime": 1775993573.5203028,
     "relations": {},
     "wikilinks": []
   },
   "_is__ weight_5250_ conf_0_57__- ___stocks_.md": {
-    "mtime": 1775978055.7022572,
+    "mtime": 1775993573.499509,
     "relations": {},
     "wikilinks": []
   },
   "_is__ weight_4316_ conf_1_00__- __being_ weight_746_ conf_0_70__- __blue.md": {
-    "mtime": 1775978055.7015855,
+    "mtime": 1775993573.4988854,
     "relations": {},
     "wikilinks": []
   },
   "situations weight 4309 conf 1 00.md": {
-    "mtime": 1775978055.7363024,
+    "mtime": 1775993573.5398884,
     "relations": {},
     "wikilinks": []
   },
   "situations weight 3657 conf 1 00.md": {
-    "mtime": 1775978055.7359211,
+    "mtime": 1775993573.539447,
     "relations": {},
     "wikilinks": []
   },
   "situations weight 2792 conf 0 58.md": {
-    "mtime": 1775978055.735563,
+    "mtime": 1775993573.5389686,
     "relations": {},
     "wikilinks": []
   },
   "situations weight 1950 conf 0 99.md": {
-    "mtime": 1775978055.7350245,
+    "mtime": 1775993573.5383232,
     "relations": {},
     "wikilinks": []
   },
   "familiarity with individuals and situations_ weight_3657_ conf_1_00__- ___is__ weight_1388_ conf_0_59__- ___stocks_.md": {
-    "mtime": 1775978055.724316,
+    "mtime": 1775993573.5254571,
     "relations": {},
     "wikilinks": []
   },
   "familiarity with individuals and situations_ weight_4309_ conf_1_00__- ___is__ weight_747_ conf_0_60__- ___stocks_.md": {
-    "mtime": 1775978055.724709,
+    "mtime": 1775993573.5259306,
     "relations": {},
     "wikilinks": []
   },
   "rule-based_ weight_4734_ conf_1_00__- ___is__ weight_430_ conf_0_60__- __being_ weight_142_ conf_0_60__- __blue.md": {
-    "mtime": 1775978055.7319613,
+    "mtime": 1775993573.534525,
     "relations": {},
     "wikilinks": []
   },
   "situations weight 2775 conf 1 00.md": {
-    "mtime": 1775978055.735475,
+    "mtime": 1775993573.538857,
     "relations": {},
     "wikilinks": []
   },
   "situations weight 914 conf 0 80.md": {
-    "mtime": 1775978055.738517,
+    "mtime": 1775993573.5426064,
     "relations": {},
     "wikilinks": []
   },
   "liarity with individuals.md": {
-    "mtime": 1775978055.7280257,
+    "mtime": 1775993573.5296555,
     "relations": {},
     "wikilinks": [
       "situations weight 914 conf 0 80"
     ]
   },
   "familiarity with individuals and situations_ weight_5880_ conf_1_00__- __familiarity with individuals and situations_ weight_141_ conf_0_60__- __gravity.md": {
-    "mtime": 1775978055.7256918,
+    "mtime": 1775993573.527039,
     "relations": {},
     "wikilinks": []
   },
   "familiarity with individuals and situations_ weight_5260_ conf_1_00__- ___is__ weight_747_ conf_0_60__- ___stocks_.md": {
-    "mtime": 1775978055.7254968,
+    "mtime": 1775993573.5268185,
     "relations": {},
     "wikilinks": []
   },
   "_is__ weight_6201_ conf_0_57__- ___stocks_.md": {
-    "mtime": 1775978055.7027185,
+    "mtime": 1775993573.4999933,
     "relations": {},
     "wikilinks": []
   },
   "familiarity with individuals and situations_ weight_4608_ conf_1_00__- ___is__ weight_1388_ conf_0_59__- ___stocks_.md": {
-    "mtime": 1775978055.7249935,
+    "mtime": 1775993573.5262542,
     "relations": {},
     "wikilinks": []
   },
   "familiarity with individuals and situations_ weight_5052_ conf_1_00__- ___is__ weight_1071_ conf_0_60__- __being_ weight_142_ conf_0_60__- __blue.md": {
-    "mtime": 1775978055.7253072,
+    "mtime": 1775993573.5265822,
     "relations": {},
     "wikilinks": []
   },
   "_is__ weight_4620_ conf_1_00__- __being_ weight_1387_ conf_0_79__- __blue.md": {
-    "mtime": 1775978055.7019064,
+    "mtime": 1775993573.4991834,
     "relations": {},
     "wikilinks": []
   },
   "Relation_ weight_6385_ conf_0_57__- __Subject_ Knowledge _Relation_ Object_.md": {
-    "mtime": 1775978055.7132454,
+    "mtime": 1775993573.5121317,
     "relations": {},
     "wikilinks": []
   },
   "b_ weight_6384_ conf_1_00__- __object.md": {
-    "mtime": 1775978055.7188416,
+    "mtime": 1775993573.518743,
     "relations": {},
     "wikilinks": []
   },
   "_is__ weight_5884_ conf_0_58__- __being_ weight_142_ conf_0_60__- __blue.md": {
-    "mtime": 1775978055.7026057,
+    "mtime": 1775993573.4998841,
     "relations": {},
     "wikilinks": []
   },
   "rule-based_ weight_6383_ conf_1_00__- __subject.md": {
-    "mtime": 1775978055.7324467,
+    "mtime": 1775993573.535091,
     "relations": {},
     "wikilinks": []
   },
   "rule-based_ weight_5685_ conf_1_00__- ___is__ weight_430_ conf_0_60__- __being_ weight_142_ conf_0_60__- __blue.md": {
-    "mtime": 1775978055.7322645,
+    "mtime": 1775993573.5348816,
     "relations": {},
     "wikilinks": []
   },
   "rule-based_ weight_5879_ conf_1_00__- ___is__ weight_143_ conf_0_60__- ___stocks_.md": {
-    "mtime": 1775978055.7323568,
+    "mtime": 1775993573.5349796,
     "relations": {},
     "wikilinks": []
   },
   "_is__ weight_5267_ conf_1_00__- __being_ weight_746_ conf_0_70__- __blue.md": {
-    "mtime": 1775978055.7023745,
+    "mtime": 1775993573.4996161,
     "relations": {},
     "wikilinks": []
   },
   "Relation_ weight_5058_ conf_1_00__- __familiarity with individuals and situations_ weight_426_ conf_0_60__- __familiarity with individuals and situations_ weight_141_ conf_0_60__- __gravity.md": {
-    "mtime": 1775978055.7128565,
+    "mtime": 1775993573.511699,
     "relations": {},
     "wikilinks": []
   },
   "being_ weight_6200_ conf_1_00__- __blue.md": {
-    "mtime": 1775978055.7202737,
+    "mtime": 1775993573.520391,
     "relations": {},
     "wikilinks": []
   },
   "situations weight 6199 conf 0 57.md": {
-    "mtime": 1775978055.737384,
+    "mtime": 1775993573.5411377,
     "relations": {},
     "wikilinks": []
   },
   "Relation_ weight_5688_ conf_1_00__- __familiarity with individuals and situations_ or practical skill.md": {
-    "mtime": 1775978055.713065,
+    "mtime": 1775993573.511918,
     "relations": {},
     "wikilinks": []
   },
   "familiarity with individuals and situations_ weight_6199_ conf_0_57__- __gravity.md": {
-    "mtime": 1775978055.7258694,
+    "mtime": 1775993573.5272605,
     "relations": {},
     "wikilinks": []
   },
   "situations weight 2473 conf 0 69.md": {
-    "mtime": 1775978055.7352974,
+    "mtime": 1775993573.538653,
     "relations": {},
     "wikilinks": []
   },
   "situations weight 4101 conf 1 00.md": {
-    "mtime": 1775978055.7361236,
+    "mtime": 1775993573.5396826,
     "relations": {},
     "wikilinks": []
   },
   "rule-based_ weight_6890_ conf_1_00__- ___is__ weight_143_ conf_0_60__- ___stocks_.md": {
-    "mtime": 1775978055.7326348,
+    "mtime": 1775993573.5352886,
     "relations": {},
     "wikilinks": []
   },
   "familiarity with individuals and situations_ weight_6271_ conf_1_00__- ___is__ weight_747_ conf_0_60__- ___stocks_.md": {
-    "mtime": 1775978055.7259672,
+    "mtime": 1775993573.527381,
     "relations": {},
     "wikilinks": []
   },
   "Relation_ weight_7396_ conf_0_57__- __Subject_ Knowledge _Relation_ Object_.md": {
-    "mtime": 1775978055.713535,
+    "mtime": 1775993573.512468,
     "relations": {},
     "wikilinks": []
   },
   "_is__ weight_5631_ conf_1_00__- __being_ weight_1387_ conf_0_79__- __blue.md": {
-    "mtime": 1775978055.7025046,
+    "mtime": 1775993573.4997785,
     "relations": {},
     "wikilinks": []
   },
   "rule-based_ weight_6696_ conf_1_00__- ___is__ weight_430_ conf_0_60__- __being_ weight_142_ conf_0_60__- __blue.md": {
-    "mtime": 1775978055.7325416,
+    "mtime": 1775993573.5351942,
     "relations": {},
     "wikilinks": []
   },
   "Relation_ weight_6699_ conf_1_00__- __familiarity with individuals and situations_ or practical skill.md": {
-    "mtime": 1775978055.713341,
+    "mtime": 1775993573.5122418,
     "relations": {},
     "wikilinks": []
   },
   "b_ weight_7395_ conf_1_00__- __object.md": {
-    "mtime": 1775978055.7189338,
+    "mtime": 1775993573.5188477,
     "relations": {},
     "wikilinks": []
   },
   "familiarity with individuals and situations_ weight_6891_ conf_1_00__- __familiarity with individuals and situations_ weight_141_ conf_0_60__- __gravity.md": {
-    "mtime": 1775978055.726185,
+    "mtime": 1775993573.527599,
     "relations": {},
     "wikilinks": []
   },
   "_is__ weight_6895_ conf_0_57__- __being_ weight_142_ conf_0_60__- __blue.md": {
-    "mtime": 1775978055.7030754,
+    "mtime": 1775993573.5002904,
     "relations": {},
     "wikilinks": []
   },
   "_is__ weight_7212_ conf_0_57__- ___stocks_.md": {
-    "mtime": 1775978055.703202,
+    "mtime": 1775993573.5003843,
     "relations": {},
     "wikilinks": []
   },
   "familiarity with individuals and situations_ weight_7210_ conf_0_57__- __gravity.md": {
-    "mtime": 1775978055.7263765,
+    "mtime": 1775993573.5278502,
     "relations": {},
     "wikilinks": []
   },
   "Relation_ weight_6069_ conf_1_00__- __familiarity with individuals and situations_ weight_426_ conf_0_60__- __familiarity with individuals and situations_ weight_141_ conf_0_60__- __gravity.md": {
-    "mtime": 1775978055.7131674,
+    "mtime": 1775993573.5120332,
     "relations": {},
     "wikilinks": []
   },
   "familiarity with individuals and situations_ weight_6063_ conf_1_00__- ___is__ weight_1071_ conf_0_60__- __being_ weight_142_ conf_0_60__- __blue.md": {
-    "mtime": 1775978055.725775,
+    "mtime": 1775993573.5271587,
     "relations": {},
     "wikilinks": []
   },
   "rule-based_ weight_7394_ conf_1_00__- __subject.md": {
-    "mtime": 1775978055.732725,
+    "mtime": 1775993573.5353854,
     "relations": {},
     "wikilinks": []
   },
   "familiarity with individuals and situations_ weight_5619_ conf_1_00__- ___is__ weight_1388_ conf_0_59__- ___stocks_.md": {
-    "mtime": 1775978055.725592,
+    "mtime": 1775993573.526937,
     "relations": {},
     "wikilinks": []
   },
   "situations weight 2394 conf 1 00.md": {
-    "mtime": 1775978055.7352083,
+    "mtime": 1775993573.5385287,
     "relations": {},
     "wikilinks": []
   },
   "situations weight 2602 conf 1 00.md": {
-    "mtime": 1775978055.7353864,
+    "mtime": 1775993573.5387552,
     "relations": {},
     "wikilinks": []
   },
   "_is__ weight_6278_ conf_1_00__- __being_ weight_746_ conf_0_70__- __blue.md": {
-    "mtime": 1775978055.7028224,
+    "mtime": 1775993573.500089,
     "relations": {},
     "wikilinks": []
   },
   "being_ weight_7211_ conf_1_00__- __blue.md": {
-    "mtime": 1775978055.7203648,
+    "mtime": 1775993573.5204797,
     "relations": {},
     "wikilinks": []
   },
   "situations weight 3427 conf 1 00.md": {
-    "mtime": 1775978055.7357426,
+    "mtime": 1775993573.5392442,
     "relations": {},
     "wikilinks": []
   },
   "situations weight 1122 conf 0 80.md": {
-    "mtime": 1775978055.734382,
+    "mtime": 1775993573.5373383,
     "relations": {},
     "wikilinks": []
   },
   "situations weight.md": {
-    "mtime": 1775978055.7342026,
+    "mtime": 1775993573.5370553,
     "relations": {},
     "wikilinks": []
   },
   "situations weight 5052 conf 1 00.md": {
-    "mtime": 1775978055.736837,
+    "mtime": 1775993573.5405087,
     "relations": {},
     "wikilinks": []
   },
   "rule-based_ weight_7951_ conf_1_00__- ___is__ weight_143_ conf_0_60__- ___stocks_.md": {
-    "mtime": 1775978055.732913,
+    "mtime": 1775993573.535612,
     "relations": {},
     "wikilinks": []
   },
   "familiarity with individuals and situations_ weight_7124_ conf_1_00__- ___is__ weight_1071_ conf_0_60__- __being_ weight_142_ conf_0_60__- __blue.md": {
-    "mtime": 1775978055.7262826,
+    "mtime": 1775993573.5277462,
     "relations": {},
     "wikilinks": []
   },
   "rule-based_ weight_8455_ conf_1_00__- __subject.md": {
-    "mtime": 1775978055.7330225,
+    "mtime": 1775993573.535742,
     "relations": {},
     "wikilinks": []
   },
   "Relation_ weight_7760_ conf_1_00__- __familiarity with individuals and situations_ or practical skill.md": {
-    "mtime": 1775978055.7136295,
+    "mtime": 1775993573.512583,
     "relations": {},
     "wikilinks": []
   },
   "Relation_ weight_7130_ conf_1_00__- __familiarity with individuals and situations_ weight_426_ conf_0_60__- __familiarity with individuals and situations_ weight_141_ conf_0_60__- __gravity.md": {
-    "mtime": 1775978055.713442,
+    "mtime": 1775993573.5123646,
     "relations": {},
     "wikilinks": []
   },
   "Relation_ weight_8457_ conf_0_57__- __Subject_ Knowledge _Relation_ Object_.md": {
-    "mtime": 1775978055.7138205,
+    "mtime": 1775993573.512809,
     "relations": {},
     "wikilinks": []
   },
   "familiarity with individuals and situations_ weight_8271_ conf_0_57__- __gravity.md": {
-    "mtime": 1775978055.7269216,
+    "mtime": 1775993573.5284696,
     "relations": {},
     "wikilinks": []
   },
   "familiarity with individuals and situations_ weight_7332_ conf_1_00__- ___is__ weight_747_ conf_0_60__- ___stocks_.md": {
-    "mtime": 1775978055.726472,
+    "mtime": 1775993573.5279555,
     "relations": {},
     "wikilinks": []
   },
   "_is__ weight_6692_ conf_1_00__- __being_ weight_1387_ conf_0_79__- __blue.md": {
-    "mtime": 1775978055.7029529,
+    "mtime": 1775993573.5001936,
     "relations": {},
     "wikilinks": []
   },
   "rule-based_ weight_7757_ conf_1_00__- ___is__ weight_430_ conf_0_60__- __being_ weight_142_ conf_0_60__- __blue.md": {
-    "mtime": 1775978055.7328198,
+    "mtime": 1775993573.5355136,
     "relations": {},
     "wikilinks": []
   },
   "b_ weight_8456_ conf_1_00__- __object.md": {
-    "mtime": 1775978055.7190447,
+    "mtime": 1775993573.5189605,
     "relations": {},
     "wikilinks": []
   },
   "_is__ weight_7339_ conf_1_00__- __being_ weight_746_ conf_0_70__- __blue.md": {
-    "mtime": 1775978055.7033122,
+    "mtime": 1775993573.5004988,
     "relations": {},
     "wikilinks": []
   },
   "familiarity with individuals and situations_ weight_6680_ conf_1_00__- ___is__ weight_1388_ conf_0_59__- ___stocks_.md": {
-    "mtime": 1775978055.7260861,
+    "mtime": 1775993573.5274916,
     "relations": {},
     "wikilinks": []
   },
   "_is__ weight_7956_ conf_0_57__- __being_ weight_142_ conf_0_60__- __blue.md": {
-    "mtime": 1775978055.7036524,
+    "mtime": 1775993573.5008478,
     "relations": {},
     "wikilinks": []
   },
   "_is__ weight_8273_ conf_0_57__- ___stocks_.md": {
-    "mtime": 1775978055.7037804,
+    "mtime": 1775993573.500945,
     "relations": {},
     "wikilinks": []
   },
   "situations weight 7210 conf 0 57.md": {
-    "mtime": 1775978055.7378163,
+    "mtime": 1775993573.5416987,
     "relations": {},
     "wikilinks": []
   },
   "being_ weight_8272_ conf_1_00__- __blue.md": {
-    "mtime": 1775978055.7205477,
+    "mtime": 1775993573.5206773,
     "relations": {},
     "wikilinks": []
   },
   "situations weight 7952 conf 1 00.md": {
-    "mtime": 1775978055.7380955,
+    "mtime": 1775993573.5420043,
     "relations": {},
     "wikilinks": []
   },
   "familiarity with individuals and situations_ weight_7952_ conf_1_00__- __familiarity with individuals and situations_ weight_141_ conf_0_60__- __gravity.md": {
-    "mtime": 1775978055.726746,
+    "mtime": 1775993573.5282815,
     "relations": {},
     "wikilinks": []
   },
   "situations weight 5248 conf 0 57.md": {
-    "mtime": 1775978055.7369256,
+    "mtime": 1775993573.5406108,
     "relations": {},
     "wikilinks": []
   },
   "situations weight 5260 conf 1 00.md": {
-    "mtime": 1775978055.7370324,
+    "mtime": 1775993573.540736,
     "relations": {},
     "wikilinks": []
   },
   "Relation_ weight_8855_ conf_0_99__- __familiarity with individuals and situations_ or practical skill.md": {
-    "mtime": 1775978055.7140262,
+    "mtime": 1775993573.5130162,
     "relations": {},
     "wikilinks": []
   },
   "familiarity with individuals and situations_ weight_7775_ conf_1_00__- ___is__ weight_1388_ conf_0_59__- ___stocks_.md": {
-    "mtime": 1775978055.726647,
+    "mtime": 1775993573.5281696,
     "relations": {},
     "wikilinks": []
   },
   "_is__ weight_9368_ conf_0_56__- ___stocks_.md": {
-    "mtime": 1775978055.7042472,
+    "mtime": 1775993573.5013635,
     "relations": {},
     "wikilinks": []
   },
   "familiarity with individuals and situations_ weight_9047_ conf_1_00__- __familiarity with individuals and situations_ weight_141_ conf_0_60__- __gravity.md": {
-    "mtime": 1775978055.7272415,
+    "mtime": 1775990568.2702196,
     "relations": {},
     "wikilinks": []
   },
   "_is__ weight_9051_ conf_0_57__- __being_ weight_142_ conf_0_60__- __blue.md": {
-    "mtime": 1775978055.7041445,
+    "mtime": 1775993573.5012732,
     "relations": {},
     "wikilinks": []
   },
   "Relation_ weight_8225_ conf_1_00__- __familiarity with individuals and situations_ weight_426_ conf_0_60__- __familiarity with individuals and situations_ weight_141_ conf_0_60__- __gravity.md": {
-    "mtime": 1775975278.5819917,
+    "mtime": 1775993573.5127242,
     "relations": {},
     "wikilinks": []
   },
   "_is__ weight_8434_ conf_0_99__- __being_ weight_746_ conf_0_70__- __blue.md": {
-    "mtime": 1775975278.5712767,
+    "mtime": 1775993573.5010557,
     "relations": {},
     "wikilinks": []
   },
   "rule-based_ weight_8852_ conf_1_00__- ___is__ weight_430_ conf_0_60__- __being_ weight_142_ conf_0_60__- __blue.md": {
-    "mtime": 1775978055.7332213,
+    "mtime": 1775993573.535958,
     "relations": {},
     "wikilinks": []
   },
   "familiarity with individuals and situations_ weight_8219_ conf_1_00__- ___is__ weight_1071_ conf_0_60__- __being_ weight_142_ conf_0_60__- __blue.md": {
-    "mtime": 1775978055.726843,
+    "mtime": 1775993573.5283787,
     "relations": {},
     "wikilinks": []
   },
   "familiarity with individuals and situations_ weight_8427_ conf_1_00__- ___is__ weight_747_ conf_0_60__- ___stocks_.md": {
-    "mtime": 1775978055.727039,
+    "mtime": 1775993573.5285637,
     "relations": {},
     "wikilinks": []
   },
   "rule-based_ weight_9046_ conf_1_00__- ___is__ weight_143_ conf_0_60__- ___stocks_.md": {
-    "mtime": 1775978055.7333152,
+    "mtime": 1775993573.536074,
     "relations": {},
     "wikilinks": []
   },
   "situations weight 6063 conf 1 00.md": {
-    "mtime": 1775978055.7372935,
+    "mtime": 1775993573.541039,
     "relations": {},
     "wikilinks": []
   },
   "situations o.md": {
-    "mtime": 1775978055.7339044,
+    "mtime": 1775993573.5367446,
     "relations": {},
     "wikilinks": []
   },
   "true belief.md": {
-    "mtime": 1775978055.7408013,
+    "mtime": 1775993573.5453339,
     "relations": {},
     "wikilinks": []
   },
   "situations weight 5619 conf 1 00.md": {
-    "mtime": 1775978055.7371256,
+    "mtime": 1775993573.540833,
     "relations": {},
     "wikilinks": []
   },
   "_is__ weight_7787_ conf_1_00__- __being_ weight_1387_ conf_0_79__- __blue.md": {
-    "mtime": 1775978055.7035458,
+    "mtime": 1775993573.5007317,
     "relations": {},
     "wikilinks": []
   },
   "situations weight 6891 conf 1 00.md": {
-    "mtime": 1775978055.7376382,
+    "mtime": 1775993573.5414536,
     "relations": {},
     "wikilinks": []
   },
   "b_ weight_9551_ conf_1_00__- __object.md": {
-    "mtime": 1775978055.7192295,
+    "mtime": 1775993573.519177,
     "relations": {},
     "wikilinks": []
   },
   "being_ weight_9367_ conf_1_00__- __blue.md": {
-    "mtime": 1775978055.720638,
+    "mtime": 1775993573.5207703,
     "relations": {},
     "wikilinks": []
   },
   "rule-based_ weight_9550_ conf_1_00__- __subject.md": {
-    "mtime": 1775978055.7334976,
+    "mtime": 1775993573.5362732,
     "relations": {},
     "wikilinks": []
   },
   "familiarity with individuals and situations_ weight_9366_ conf_0_56__- __gravity.md": {
-    "mtime": 1775978055.7274342,
+    "mtime": 1775993573.5289714,
     "relations": {},
     "wikilinks": []
   },
   "Relation_ weight_9552_ conf_0_56__- __Subject_ Knowledge _Relation_ Object_.md": {
-    "mtime": 1775978055.7144167,
+    "mtime": 1775993573.5134287,
     "relations": {},
     "wikilinks": []
   },
   "Subject3.md": {
-    "mtime": 1775975278.5849137,
+    "mtime": 1775993573.515601,
     "relations": {},
     "wikilinks": [
       "Object3"
     ]
   },
   "situations weight 4608 conf 1 00.md": {
-    "mtime": 1775978055.7365716,
+    "mtime": 1775993573.5401962,
     "relations": {},
     "wikilinks": []
   },
   "situations weight 9366 conf 0 56.md": {
-    "mtime": 1775978055.7386057,
+    "mtime": 1775993573.5427213,
     "relations": {},
     "wikilinks": []
   },
   "situations weight 4929 conf 1 00.md": {
-    "mtime": 1775978055.7367494,
+    "mtime": 1775993573.5404043,
     "relations": {},
     "wikilinks": []
   },
   "familiarity with individuals and situations_ weight_9610_ conf_1_00__- ___is__ weight_747_ conf_0_60__- ___stocks_.md": {
-    "mtime": 1775978055.7276268,
+    "mtime": 1775993573.5291617,
     "relations": {},
     "wikilinks": []
   },
   "familiarity with individuals and situations_ weight_10549_ conf_0_56__- __gravity.md": {
-    "mtime": 1775978055.7218988,
+    "mtime": 1775993573.5222688,
     "relations": {},
     "wikilinks": []
   },
   "being_ weight_10550_ conf_1_00__- __blue.md": {
-    "mtime": 1775978055.7194133,
+    "mtime": 1775993573.519384,
     "relations": {},
     "wikilinks": []
   },
   "rule-based_ weight_10035_ conf_1_00__- ___is__ weight_430_ conf_0_60__- __being_ weight_142_ conf_0_60__- __blue.md": {
-    "mtime": 1775978055.729902,
+    "mtime": 1775993573.5318053,
     "relations": {},
     "wikilinks": []
   },
   "_is__ weight_8970_ conf_1_00__- __being_ weight_1387_ conf_0_79__- __blue.md": {
-    "mtime": 1775978055.704025,
+    "mtime": 1775993573.5011733,
     "relations": {},
     "wikilinks": []
   },
   "rule-based_ weight_10733_ conf_1_00__- __subject.md": {
-    "mtime": 1775978055.7301931,
+    "mtime": 1775993573.5321143,
     "relations": {},
     "wikilinks": []
   },
   "Relation_ weight_9408_ conf_1_00__- __familiarity with individuals and situations_ weight_426_ conf_0_60__- __familiarity with individuals and situations_ weight_141_ conf_0_60__- __gravity.md": {
-    "mtime": 1775978055.7143252,
+    "mtime": 1775993573.513331,
     "relations": {},
     "wikilinks": []
   },
   "rule-based_ weight_10229_ conf_1_00__- ___is__ weight_143_ conf_0_60__- ___stocks_.md": {
-    "mtime": 1775978055.7299972,
+    "mtime": 1775993573.531904,
     "relations": {},
     "wikilinks": []
   },
   "familiarity with individuals and situations_ weight_8958_ conf_1_00__- ___is__ weight_1388_ conf_0_59__- ___stocks_.md": {
-    "mtime": 1775978055.7271414,
+    "mtime": 1775993573.5286803,
     "relations": {},
     "wikilinks": []
   },
   "Relation_ weight_10735_ conf_0_56__- __Subject_ Knowledge _Relation_ Object_.md": {
-    "mtime": 1775978055.7109017,
+    "mtime": 1775993573.5090418,
     "relations": {},
     "wikilinks": []
   },
   "_is__ weight_10234_ conf_0_56__- __being_ weight_142_ conf_0_60__- __blue.md": {
-    "mtime": 1775978055.6989017,
+    "mtime": 1775993573.4957087,
     "relations": {},
     "wikilinks": []
   },
   "familiarity with individuals and situations_ weight_9402_ conf_1_00__- ___is__ weight_1071_ conf_0_60__- __being_ weight_142_ conf_0_60__- __blue.md": {
-    "mtime": 1775978055.7275317,
+    "mtime": 1775993573.5290687,
     "relations": {},
     "wikilinks": []
   },
   "familiarity with individuals and situations_ weight_10230_ conf_1_00__- __familiarity with individuals and situations_ weight_141_ conf_0_60__- __gravity.md": {
-    "mtime": 1775978055.7218037,
+    "mtime": 1775993573.522152,
     "relations": {},
     "wikilinks": []
   },
   "b_ weight_10734_ conf_1_00__- __object.md": {
-    "mtime": 1775978055.7180238,
+    "mtime": 1775993573.5176828,
     "relations": {},
     "wikilinks": []
   },
   "_is__ weight_10551_ conf_0_56__- ___stocks_.md": {
-    "mtime": 1775975278.5666163,
+    "mtime": 1775993573.495844,
     "relations": {},
     "wikilinks": []
   },
   "situations weight 7124 conf 1 00.md": {
-    "mtime": 1775978055.7377267,
+    "mtime": 1775993573.5415552,
     "relations": {},
     "wikilinks": []
   },
   "situations weight 8427 conf 1 00.md": {
-    "mtime": 1775978055.7384274,
+    "mtime": 1775993573.5424123,
     "relations": {},
     "wikilinks": []
   },
   "situations weight 6680 conf 1 00.md": {
-    "mtime": 1775978055.737548,
+    "mtime": 1775993573.5413492,
     "relations": {},
     "wikilinks": []
   },
   "_is__ weight_9617_ conf_0_99__- __being_ weight_746_ conf_0_70__- __blue.md": {
-    "mtime": 1775978055.7043538,
+    "mtime": 1775993573.5014715,
     "relations": {},
     "wikilinks": []
   },
   "Relation_ weight_10038_ conf_0_99__- __familiarity with individuals and situations_ or practical skill.md": {
-    "mtime": 1775978055.710701,
+    "mtime": 1775993573.5088093,
     "relations": {},
     "wikilinks": []
   },
   "situations weight 7775 conf 1 00.md": {
-    "mtime": 1775978055.737981,
+    "mtime": 1775993573.5419118,
     "relations": {},
     "wikilinks": []
   },
   "situations weight 8271 conf 0 57.md": {
-    "mtime": 1775978055.7383375,
+    "mtime": 1775993573.5423143,
     "relations": {},
     "wikilinks": []
   },
   "situations weight 1201 conf 0 80.md": {
-    "mtime": 1775978055.7344708,
+    "mtime": 1775993573.5377052,
     "relations": {},
     "wikilinks": []
   },
   "situations or practica.md": {
-    "mtime": 1775978055.7339947,
+    "mtime": 1775993573.536856,
     "relations": {},
     "wikilinks": []
   },
   "familiarity with individuals and situations_ weight_11473_ conf_1_00__- __familiarity with individuals and situations_ weight_141_ conf_0_60__- __gravity.md": {
-    "mtime": 1775978055.722434,
+    "mtime": 1775990568.2650416,
     "relations": {},
     "wikilinks": []
   },
   "Relation_ weight_11281_ conf_0_98__- __familiarity with individuals and situations_ or practical skill.md": {
-    "mtime": 1775978055.7109964,
+    "mtime": 1775990568.2534611,
     "relations": {},
     "wikilinks": []
   },
   "b_ weight_11977_ conf_1_00__- __object.md": {
-    "mtime": 1775978055.7181208,
+    "mtime": 1775993573.5177886,
     "relations": {},
     "wikilinks": []
   },
   "_is__ weight_10213_ conf_1_00__- __being_ weight_1387_ conf_0_79__- __blue.md": {
-    "mtime": 1775978055.6987772,
+    "mtime": 1775993573.4955513,
     "relations": {},
     "wikilinks": []
   },
   "being_ weight_11793_ conf_1_00__- __blue.md": {
-    "mtime": 1775978055.7195058,
+    "mtime": 1775993573.5194862,
     "relations": {},
     "wikilinks": []
   },
   "rule-based_ weight_11976_ conf_1_00__- __subject.md": {
-    "mtime": 1775978055.730436,
+    "mtime": 1775990568.273381,
     "relations": {},
     "wikilinks": []
   },
   "familiarity with individuals and situations_ weight_10853_ conf_1_00__- ___is__ weight_747_ conf_0_60__- ___stocks_.md": {
-    "mtime": 1775978055.7222285,
+    "mtime": 1775993573.522593,
     "relations": {},
     "wikilinks": []
   },
   "familiarity with individuals and situations_ weight_11792_ conf_0_56__- __gravity.md": {
-    "mtime": 1775978055.7225282,
+    "mtime": 1775993573.5230374,
     "relations": {},
     "wikilinks": []
   },
   "Relation_ weight_10651_ conf_1_00__- __familiarity with individuals and situations_ weight_426_ conf_0_60__- __familiarity with individuals and situations_ weight_141_ conf_0_60__- __gravity.md": {
-    "mtime": 1775978055.710807,
+    "mtime": 1775993573.508931,
     "relations": {},
     "wikilinks": []
   },
   "Relation_ weight_11978_ conf_0_56__- __Subject_ Knowledge _Relation_ Object_.md": {
-    "mtime": 1775978055.7111144,
+    "mtime": 1775993573.509372,
     "relations": {},
     "wikilinks": []
   },
   "familiarity with individuals and situations_ weight_10645_ conf_1_00__- ___is__ weight_1071_ conf_0_60__- __being_ weight_142_ conf_0_60__- __blue.md": {
-    "mtime": 1775978055.7219985,
+    "mtime": 1775993573.5223804,
     "relations": {},
     "wikilinks": []
   },
   "familiarity with individuals and situations_ weight_10201_ conf_1_00__- ___is__ weight_1388_ conf_0_59__- ___stocks_.md": {
-    "mtime": 1775978055.7217038,
+    "mtime": 1775993573.522039,
     "relations": {},
     "wikilinks": []
   },
   "_is__ weight_11477_ conf_0_56__- __being_ weight_142_ conf_0_60__- __blue.md": {
-    "mtime": 1775978055.6994946,
+    "mtime": 1775993573.4963238,
     "relations": {},
     "wikilinks": []
   },
   "_is__ weight_11794_ conf_0_56__- ___stocks_.md": {
-    "mtime": 1775978055.6996002,
+    "mtime": 1775990568.2428255,
     "relations": {},
     "wikilinks": []
   },
   "amiliarity with individuals.md": {
-    "mtime": 1775978055.7174602,
+    "mtime": 1775993573.517021,
     "relations": {},
     "wikilinks": [
       "situations weight 141 conf 0 60"
     ]
   },
   "_is__ weight_10860_ conf_0_98__- __being_ weight_746_ conf_0_70__- __blue.md": {
-    "mtime": 1775978055.6992846,
+    "mtime": 1775993573.4960983,
     "relations": {},
     "wikilinks": []
   },
   "situations weight 8219 conf 1.md": {
-    "mtime": 1775978055.7381904,
+    "mtime": 1775993573.5421069,
     "relations": {},
     "wikilinks": []
   },
   "situations weight 6271 conf 1 00.md": {
-    "mtime": 1775978055.7374744,
+    "mtime": 1775993573.5412478,
     "relations": {},
     "wikilinks": []
   },
   "situations weight 5880 conf 1 00.md": {
-    "mtime": 1775978055.7372184,
+    "mtime": 1775993573.5409398,
     "relations": {},
     "wikilinks": []
   },
   "situations weight 8219 conf 1 00.md": {
-    "mtime": 1775978055.7382638,
+    "mtime": 1775993573.5422082,
     "relations": {},
     "wikilinks": []
   },
   "rule-based_ weight_11278_ conf_1_00__- ___is__ weight_430_ conf_0_60__- __being_ weight_142_ conf_0_60__- __blue.md": {
-    "mtime": 1775978055.7302766,
+    "mtime": 1775993573.5322318,
+    "relations": {},
+    "wikilinks": []
+  },
+  "situations weight 745 conf 0 60.md": {
+    "mtime": 1775993573.541798,
+    "relations": {},
+    "wikilinks": []
+  },
+  "rule-based_ weight_11472_ conf_1_00__- ___is__ weight_143_ conf_0_60__- ___stocks_.md": {
+    "mtime": 1775993573.5323417,
+    "relations": {},
+    "wikilinks": []
+  },
+  "being_ weight_13076_ conf_1_00__- __blue.md": {
+    "mtime": 1775993573.5195928,
+    "relations": {},
+    "wikilinks": []
+  },
+  "rule-based_ weight_12755_ conf_1_00__- ___is__ weight_143_ conf_0_60__- ___stocks_.md": {
+    "mtime": 1775990568.2735686,
+    "relations": {},
+    "wikilinks": []
+  },
+  "_is__ weight_12760_ conf_0_56__- __being_ weight_142_ conf_0_60__- __blue.md": {
+    "mtime": 1775993573.4968946,
+    "relations": {},
+    "wikilinks": []
+  },
+  "familiarity with individuals and situations_ weight_12756_ conf_1_00__- __familiarity with individuals and situations_ weight_141_ conf_0_60__- __gravity.md": {
+    "mtime": 1775993573.523461,
+    "relations": {},
+    "wikilinks": []
+  },
+  "rule-based_ weight_13259_ conf_1_00__- __subject.md": {
+    "mtime": 1775993573.5327911,
+    "relations": {},
+    "wikilinks": []
+  },
+  "Relation_ weight_13261_ conf_0_55__- __Subject_ Knowledge _Relation_ Object_.md": {
+    "mtime": 1775993573.5095994,
+    "relations": {},
+    "wikilinks": []
+  },
+  "familiarity with individuals and situations_ weight_12136_ conf_1_00__- ___is__ weight_747_ conf_0_60__- ___stocks_.md": {
+    "mtime": 1775993573.523348,
+    "relations": {},
+    "wikilinks": []
+  },
+  "familiarity with individuals and situations_ weight_13075_ conf_0_55__- __gravity.md": {
+    "mtime": 1775993573.523569,
+    "relations": {},
+    "wikilinks": []
+  },
+  "Relation_ weight_11934_ conf_1_00__- __familiarity with individuals and situations_ weight_426_ conf_0_60__- __familiarity with individuals and situations_ weight_141_ conf_0_60__- __gravity.md": {
+    "mtime": 1775993573.5092728,
+    "relations": {},
+    "wikilinks": []
+  },
+  "_is__ weight_13077_ conf_0_55__- ___stocks_.md": {
+    "mtime": 1775993573.497017,
+    "relations": {},
+    "wikilinks": []
+  },
+  "rule-based_ weight_12561_ conf_1_00__- ___is__ weight_430_ conf_0_60__- __being_ weight_142_ conf_0_60__- __blue.md": {
+    "mtime": 1775993573.5325477,
+    "relations": {},
+    "wikilinks": []
+  },
+  "b_ weight_13260_ conf_1_00__- __object.md": {
+    "mtime": 1775993573.5178888,
+    "relations": {},
+    "wikilinks": []
+  },
+  "Relation_ weight_12564_ conf_0_98__- __familiarity with individuals and situations_ or practical skill.md": {
+    "mtime": 1775993573.5094912,
+    "relations": {},
+    "wikilinks": []
+  },
+  "_is__ weight_12143_ conf_0_98__- __being_ weight_746_ conf_0_70__- __blue.md": {
+    "mtime": 1775993573.4967859,
+    "relations": {},
+    "wikilinks": []
+  },
+  "dividuals.md": {
+    "mtime": 1775993573.5212376,
+    "relations": {},
+    "wikilinks": [
+      "situations weight 11928 conf 1 00"
+    ]
+  },
+  "familiarity with individuals and situations_ weight_11484_ conf_1_00__- ___is__ weight_1388_ conf_0_59__- ___stocks_.md": {
+    "mtime": 1775993573.5229533,
+    "relations": {},
+    "wikilinks": []
+  },
+  "situations weight 11928 conf 1 00.md": {
+    "mtime": 1775993573.537607,
+    "relations": {},
+    "wikilinks": []
+  },
+  "_is__ weight_11496_ conf_1_00__- __being_ weight_1387_ conf_0_79__- __blue.md": {
+    "mtime": 1775993573.4964511,
+    "relations": {},
+    "wikilinks": []
+  },
+  "situations weight 10645 conf 1 00.md": {
+    "mtime": 1775993573.5371609,
+    "relations": {},
+    "wikilinks": []
+  },
+  "situations weight 8958 conf 1 00.md": {
+    "mtime": 1775993573.5425282,
+    "relations": {},
+    "wikilinks": []
+  },
+  "familiarity with individuals and situations_ weight_11928_ conf_1_00__- ___is__ weight_1071_ conf_0_60__- __being_ weight_142_ conf_0_60__- __blue.md": {
+    "mtime": 1775993573.5231402,
     "relations": {},
     "wikilinks": []
   }

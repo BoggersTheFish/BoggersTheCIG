@@ -5,3 +5,7 @@ Used in: [[neighbors]]
 ---
 
 [[Shared-Sub-ideas/neighbors]]
+
+---
+
+[[Shared-Sub-ideas/quantum-mechanics-wave-particle-dualitytxt]]

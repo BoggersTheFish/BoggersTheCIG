@@ -177,3 +177,7 @@ Used in: [[neighbors]]
 ---
 
 [[neighbors/Sub-ideas/quantum_mechanics_wave_particle_dualitytxt]]
+
+---
+
+[[neighbors/Sub-ideas/neighbors]]

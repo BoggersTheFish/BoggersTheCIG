@@ -5,4 +5,4 @@
 
 ## Neighbors
 
-- [[object: "Artificial General Intelligence"]] (relation:_"is_a", weight=13168, conf=1.00)
+- [[object: "Artificial General Intelligence"]] (relation:_"is_a", weight=14508, conf=1.00)
