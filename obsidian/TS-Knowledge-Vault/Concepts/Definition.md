@@ -8,4 +8,4 @@ bridge:: true
 
 ## Neighbors
 
-- [[Knowledge Graph Reasoning]] (Research, weight=14568, conf=0.98)
+- [[Knowledge Graph Reasoning]] (Research, weight=15968, conf=0.97)

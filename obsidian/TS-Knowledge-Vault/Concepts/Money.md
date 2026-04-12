@@ -5,4 +5,4 @@
 
 ## Neighbors
 
-- [["stocks"]] ("investment", weight=13972, conf=0.95)
+- [["stocks"]] ("investment", weight=15372, conf=0.95)
