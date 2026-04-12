@@ -1,8 +1,11 @@
 ---
+bridge:: true
 ---
 
 # 1  is the subject of the triple  Knowledge - Wikipedia Knowledge is an awareness of facts
 
+> **Bridge Node** — connects multiple semantic clusters
+
 ## Neighbors
 
-- [[or a practical skill]] (a_familiarity_with_individuals_and_situations, weight=11916, conf=1.00)
+- [[or a practical skill]] (a_familiarity_with_individuals_and_situations, weight=13199, conf=1.00)
