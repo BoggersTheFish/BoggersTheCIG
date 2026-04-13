@@ -1,8 +1,11 @@
 ---
+bridge:: true
 ---
 
 # Orphan
 
+> **Bridge Node** — connects multiple semantic clusters
+
 ## Neighbors
 
-- [[X]] (r, weight=19089, conf=1.00)
+- [[X]] (r, weight=20675, conf=1.00)
