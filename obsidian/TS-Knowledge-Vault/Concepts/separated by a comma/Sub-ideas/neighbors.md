@@ -53,3 +53,7 @@ Used in: [[separated by a comma]]
 ---
 
 [[neighbors/Sub-ideas/sub-ideatxt]]
+
+---
+
+[[Shared-Sub-ideas/neighbors]]

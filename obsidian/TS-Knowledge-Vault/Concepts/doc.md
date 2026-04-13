@@ -5,4 +5,4 @@
 
 ## Neighbors
 
-- [[jupyter={'display_start_end': display_start_ends}]] (style='dep', weight=23906, conf=0.93)
+- [[jupyter={'display_start_end': display_start_ends}]] (style='dep', weight=25696, conf=0.93)

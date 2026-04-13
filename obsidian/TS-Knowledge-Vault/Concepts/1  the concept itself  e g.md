@@ -5,4 +5,4 @@
 
 ## Neighbors
 
-- [[(2]] ("cognitive", weight=23860, conf=0.91)
+- [[(2]] ("cognitive", weight=25650, conf=0.91)
