@@ -365,3 +365,7 @@ Used in: [[Orphan Concepts _degree _ 2_]]
 ---
 
 [[Shared-Sub-ideas/suffix_and_no_ext-neighbor-gravity-time]]
+
+---
+
+[[Shared-Sub-ideas/neighbors]]

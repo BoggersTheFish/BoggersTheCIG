@@ -29,3 +29,7 @@ Used in: [[neighbors]]
 ---
 
 [[quantum-mechanics-wave-particle-duality/Sub-ideas/neighbors]]
+
+---
+
+[[Shared-Sub-ideas/quantum-mechanics-wave-particle-duality-stocks-deg]]

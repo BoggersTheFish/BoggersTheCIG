@@ -13,3 +13,7 @@ Used in: [[sub-ideatxt]]
 ---
 
 [[Shared-Sub-ideas/neighbors]]
+
+---
+
+[[Shared-Sub-ideas/neighbor_quantum_mechanics_qmwaveparticle_dualityt]]

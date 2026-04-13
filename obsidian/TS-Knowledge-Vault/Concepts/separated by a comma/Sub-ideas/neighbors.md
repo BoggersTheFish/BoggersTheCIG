@@ -49,3 +49,7 @@ Used in: [[separated by a comma]]
 ---
 
 [[neighbors/Sub-ideas/quantum-mechanics-wave-particle-dualitytxt]]
+
+---
+
+[[neighbors/Sub-ideas/sub-ideatxt]]

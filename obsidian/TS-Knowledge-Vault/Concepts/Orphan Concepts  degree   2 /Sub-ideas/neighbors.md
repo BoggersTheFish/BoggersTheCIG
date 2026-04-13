@@ -53,3 +53,7 @@ Used in: [[Orphan Concepts  degree   2 ]]
 ---
 
 [[Shared-Sub-ideas/-neighbors--stocks_weights-weight14684-conf100-src]]
+
+---
+
+[[neighbors/Sub-ideas/neighbors]]
