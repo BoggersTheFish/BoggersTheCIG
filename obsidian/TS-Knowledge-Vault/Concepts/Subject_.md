@@ -8,4 +8,4 @@ bridge:: true
 
 ## Neighbors
 
-- [[(Relation]] (Knowledge___Wikipedia, weight=17424, conf=1.00)
+- [[(Relation]] (Knowledge___Wikipedia, weight=18949, conf=1.00)

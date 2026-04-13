@@ -185,3 +185,11 @@ Used in: [[neighbors]]
 ---
 
 [[Shared-Sub-ideas/neighborrelations-weight17563-conf100-srchomerunne]]
+
+---
+
+[[neighbors/Sub-ideas/quantum-mechanics_wave-particle-dualitytxt]]
+
+---
+
+[[Shared-Sub-ideas/neighbors]]
