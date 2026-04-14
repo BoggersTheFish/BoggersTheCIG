@@ -205,3 +205,11 @@ Used in: [[neighbors]]
 ---
 
 [[neighbors/Sub-ideas/quantum-mechanics-wave-particle-duality]]
+
+---
+
+[[neighbors/Sub-ideas/neighbors]]
+
+---
+
+[[Shared-Sub-ideas/neighbors]]

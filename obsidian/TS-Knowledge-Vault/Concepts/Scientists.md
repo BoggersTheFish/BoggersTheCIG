@@ -5,4 +5,4 @@
 
 ## Neighbors
 
-- [["advances", "neural networks"]] ("Cognitive_Science", weight=27489, conf=1.00)
+- [["advances", "neural networks"]] ("Cognitive_Science", weight=29404, conf=1.00)
