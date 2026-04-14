@@ -5,4 +5,4 @@
 
 ## Neighbors
 
-- [[as demonstrated through (Relation]] (such_as_science_or_technology, weight=31459, conf=0.91)
+- [[as demonstrated through (Relation]] (such_as_science_or_technology, weight=33511, conf=0.91)
