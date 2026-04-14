@@ -1,11 +1,8 @@
 ---
-bridge:: true
 ---
 
 # nd surrounded by parentheses The object
 
-> **Bridge Node** — connects multiple semantic clusters
-
 ## Neighbors
 
-- [[the target of knowledge e g Knowledge]] (is_a, weight=33553, conf=1.00)
+- [[the target of knowledge e g Knowledge]] (is_a, weight=35647, conf=1.00)

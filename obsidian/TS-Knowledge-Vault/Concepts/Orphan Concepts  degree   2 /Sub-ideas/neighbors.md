@@ -69,3 +69,11 @@ Used in: [[Orphan Concepts  degree   2 ]]
 ---
 
 [[Shared-Sub-ideas/succinctqm-mechanics-wpduality]]
+
+---
+
+[[neighbors/Sub-ideas/neighbors]]
+
+---
+
+[[Shared-Sub-ideas/neighbors]]

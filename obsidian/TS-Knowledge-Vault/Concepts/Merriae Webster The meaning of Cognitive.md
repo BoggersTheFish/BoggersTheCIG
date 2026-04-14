@@ -1,11 +1,8 @@
 ---
-bridge:: true
 ---
 
 # Merriae Webster The meaning of Cognitive
 
-> **Bridge Node** — connects multiple semantic clusters
-
 ## Neighbors
 
-- [[of]] (is_a, weight=33563, conf=1.00)
+- [[of]] (is_a, weight=35657, conf=1.00)

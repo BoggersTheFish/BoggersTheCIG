@@ -8,9 +8,9 @@ bridge:: true
 
 ## Neighbors
 
-- [[truthful belief]] (propositional_knowledge, weight=33473, conf=1.00)
-- [[Facts]] (Propositional, weight=33472, conf=1.00)
-- [[Reality]] (Propriety, weight=33471, conf=1.00)
-- [[Understanding]] (Perspicacity, weight=33470, conf=1.00)
-- [[Consciousness]] (Awareness, weight=33469, conf=1.00)
-- [[true belief]] (propositional knowledge, weight=23866, conf=1.00, src=https://en.m.wikipedia.org/wiki/Knowledg)
+- [[truthful belief]] (propositional_knowledge, weight=35567, conf=1.00)
+- [[Facts]] (Propositional, weight=35566, conf=1.00)
+- [[Reality]] (Propriety, weight=35565, conf=1.00)
+- [[Understanding]] (Perspicacity, weight=35564, conf=1.00)
+- [[Consciousness]] (Awareness, weight=35563, conf=1.00)
+- [[true belief]] (propositional knowledge, weight=25960, conf=1.00, src=https://en.m.wikipedia.org/wiki/Knowledg)

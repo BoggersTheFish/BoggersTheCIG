@@ -213,3 +213,7 @@ Used in: [[neighbors]]
 ---
 
 [[Shared-Sub-ideas/neighbors]]
+
+---
+
+[[neighbors/Sub-ideas/neighbors]]
