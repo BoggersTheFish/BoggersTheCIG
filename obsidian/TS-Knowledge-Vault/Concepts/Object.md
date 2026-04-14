@@ -5,4 +5,4 @@
 
 ## Neighbors
 
-- [[Triplet]] ("Psychology", weight=12359, conf=0.68, src=https://www.britannica.com/topic/cogniti)
+- [[Triplet]] ("Psychology", weight=14208, conf=0.67, src=https://www.britannica.com/topic/cogniti)

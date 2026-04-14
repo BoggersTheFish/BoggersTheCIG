@@ -37,3 +37,7 @@ Used in: [[familiarity with individuals]]
 ---
 
 [[Shared-Sub-ideas/suffix-quantum-mechanics-wave-particle-duality]]
+
+---
+
+[[Shared-Sub-ideas/-neighbor--related-to-weight-27653-confidence-10--]]

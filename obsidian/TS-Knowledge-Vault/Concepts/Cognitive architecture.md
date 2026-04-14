@@ -8,7 +8,7 @@ bridge:: true
 
 ## Neighbors
 
-- [[theory]] (is_a, weight=25734, conf=0.91)
-- [[structure]] (involves, weight=25733, conf=0.91)
-- [[mind]] (involves, weight=25732, conf=0.91)
-- [[computational_instantiation]] (has, weight=25731, conf=0.91)
+- [[theory]] (is_a, weight=27583, conf=0.91)
+- [[structure]] (involves, weight=27582, conf=0.91)
+- [[mind]] (involves, weight=27581, conf=0.91)
+- [[computational_instantiation]] (has, weight=27580, conf=0.91)

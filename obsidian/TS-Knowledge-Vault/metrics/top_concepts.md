@@ -2,9 +2,9 @@
 
 | Concept | Degree |
 |---------|--------|
-| [[Orphan Concepts  degree   2 ]] | 461 |
-| [[familiarity with individuals]] | 104 |
-| [[Orphan Concepts (degree < 2)]] | 100 |
+| [[Orphan Concepts  degree   2 ]] | 478 |
+| [[familiarity with individuals]] | 110 |
+| [[Orphan Concepts (degree < 2)]] | 104 |
 | [[Knowledge]] | 6 |
 | [[surrounded by parentheses The object]] | 5 |
 | [[Cognitive architecture]] | 4 |

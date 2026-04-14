@@ -5,4 +5,4 @@
 
 ## Neighbors
 
-- [[wave]] (related_to, weight=20614, conf=1.00)
+- [[wave]] (related_to, weight=22463, conf=1.00)

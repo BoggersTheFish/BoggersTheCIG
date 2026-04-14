@@ -1,8 +1,11 @@
 ---
+bridge:: true
 ---
 
 # Definition
 
+> **Bridge Node** — connects multiple semantic clusters
+
 ## Neighbors
 
-- [[Knowledge Graph Reasoning]] (Research, weight=25709, conf=0.95)
+- [[Knowledge Graph Reasoning]] (Research, weight=27558, conf=0.94)
