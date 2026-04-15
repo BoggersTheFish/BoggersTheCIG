@@ -217,3 +217,11 @@ Used in: [[neighbors]]
 ---
 
 [[neighbors/Sub-ideas/neighbors]]
+
+---
+
+[[neighbors/Sub-ideas/quantum-mechanics-wave-particle-dualityrelation-ob]]
+
+---
+
+[[Shared-Sub-ideas/sub-idea-neighbor-relationships-in-quantum-mechani]]

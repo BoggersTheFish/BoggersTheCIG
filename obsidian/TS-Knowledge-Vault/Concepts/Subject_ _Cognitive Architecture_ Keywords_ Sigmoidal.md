@@ -5,4 +5,4 @@
 
 ## Neighbors
 
-- [[Subsymbolic, Behavior]] (Symbolic, weight=13268, conf=1.00, src=https://cogarch.ict.usc.edu/)
+- [[Subsymbolic, Behavior]] (Symbolic, weight=15418, conf=1.00, src=https://cogarch.ict.usc.edu/)

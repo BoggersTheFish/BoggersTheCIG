@@ -5,4 +5,4 @@
 
 ## Neighbors
 
-- [[spacetime]] (bends, weight=35782, conf=1.00)
+- [[spacetime]] (bends, weight=37935, conf=1.00)
