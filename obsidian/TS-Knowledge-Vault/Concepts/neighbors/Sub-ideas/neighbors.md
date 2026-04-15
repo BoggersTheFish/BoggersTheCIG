@@ -229,3 +229,11 @@ Used in: [[neighbors]]
 ---
 
 [[Shared-Sub-ideas/-neighbors-quantum-mechanics-wave-particle-duality]]
+
+---
+
+[[neighbors/Sub-ideas/neighbors-kebaab-case-no-spaces-with-file-extensio]]
+
+---
+
+[[Shared-Sub-ideas/neighbors]]

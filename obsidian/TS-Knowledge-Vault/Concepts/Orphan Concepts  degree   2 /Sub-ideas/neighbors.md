@@ -85,3 +85,7 @@ Used in: [[Orphan Concepts  degree   2 ]]
 ---
 
 [[Shared-Sub-ideas/qmwd-cba-rkoobexplanation-the-abbreviated-filename]]
+
+---
+
+[[neighbors/Sub-ideas/neighbors]]

@@ -9,3 +9,7 @@ Used in: [[Orphan Concepts _degree _ 2_]]
 ---
 
 [[Shared-Sub-ideas/-neighbors--cognitive-definition--meaning-degree1-]]
+
+---
+
+[[quantum-mechanics-wave-particle-duality-kebab-case/Sub-ideas/neighbors]]
