@@ -5,4 +5,4 @@
 
 ## Neighbors
 
-- [[symbolic reasoning]] (related_to, weight=23520, conf=1.00)
+- [[symbolic reasoning]] (related_to, weight=25875, conf=1.00)

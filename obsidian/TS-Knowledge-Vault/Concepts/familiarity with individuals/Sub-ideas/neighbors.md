@@ -53,3 +53,7 @@ Used in: [[familiarity with individuals]]
 ---
 
 [[Shared-Sub-ideas/sub-ideanbaaab-case-no-spacesquantum-mechanicsnbaa]]
+
+---
+
+[[Shared-Sub-ideas/neighbors]]

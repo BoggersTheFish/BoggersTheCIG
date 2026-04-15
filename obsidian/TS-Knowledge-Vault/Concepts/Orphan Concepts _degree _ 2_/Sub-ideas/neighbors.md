@@ -385,3 +385,7 @@ Used in: [[Orphan Concepts _degree _ 2_]]
 ---
 
 [[Shared-Sub-ideas/neighbor_relationstxt]]
+
+---
+
+[[Shared-Sub-ideas/neighbors]]
