@@ -49,3 +49,7 @@ Used in: [[familiarity with individuals]]
 ---
 
 [[Shared-Sub-ideas/suffix-with-the-word-neighborquantum-mechanics-rel]]
+
+---
+
+[[Shared-Sub-ideas/sub-ideanbaaab-case-no-spacesquantum-mechanicsnbaa]]

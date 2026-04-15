@@ -381,3 +381,7 @@ Used in: [[Orphan Concepts _degree _ 2_]]
 ---
 
 [[neighbors/Sub-ideas/suffix-qm-wn]]
+
+---
+
+[[Shared-Sub-ideas/neighbor_relationstxt]]

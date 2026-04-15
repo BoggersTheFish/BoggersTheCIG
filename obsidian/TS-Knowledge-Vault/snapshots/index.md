@@ -8999,3 +8999,87 @@ Auto-generated after vault-modifying operations.
 **After:** +.md"+00.md"+2_.md"+A.md" — nodes +0, edges +0, coherence +0%
 
 [![graph](graph-2026-04-15-05-18-self-improve.png)](graph-2026-04-15-05-18-self-improve.png) [commit](https://github.com/BoggersTheFish/BoggersTheCIG/commit/a665a6b)
+
+### 2026-04-15 07:38 UTC
+
+**After:** vault organize (18 moves) — nodes +17, edges +17, coherence -2%
+
+[![graph](graph-2026-04-15-07-38-after-organize.png)](graph-2026-04-15-07-38-after-organize.png) [commit](https://github.com/BoggersTheFish/BoggersTheCIG/commit/64fee3d)
+
+### 2026-04-15 07:38 UTC
+
+**After:** 0 extracts, 4 merges — nodes +0, edges +0, coherence +0%
+
+[![graph](graph-2026-04-15-07-38-extract-subideas.png)](graph-2026-04-15-07-38-extract-subideas.png) [commit](https://github.com/BoggersTheFish/BoggersTheCIG/commit/64fee3d)
+
+### 2026-04-15 07:38 UTC
+
+**After:** +.md"+2_.md"+80.md"+A.md" — nodes +0, edges +0, coherence +0%
+
+[![graph](graph-2026-04-15-07-38-self-improve.png)](graph-2026-04-15-07-38-self-improve.png) [commit](https://github.com/BoggersTheFish/BoggersTheCIG/commit/64fee3d)
+
+### 2026-04-15 07:39 UTC
+
+**After:** external ingest (+4 triples) — nodes +6, edges +3, coherence -1%
+
+[![graph](graph-2026-04-15-07-39-after-ingest.png)](graph-2026-04-15-07-39-after-ingest.png) [commit](https://github.com/BoggersTheFish/BoggersTheCIG/commit/64fee3d)
+
+### 2026-04-15 07:59 UTC
+
+**After:** vault analysis (+999 triples) — nodes +6, edges +8, coherence +0%
+
+[![graph](graph-2026-04-15-07-59-after-analyze-vault.png)](graph-2026-04-15-07-59-after-analyze-vault.png) [commit](https://github.com/BoggersTheFish/BoggersTheCIG/commit/64fee3d)
+
+### 2026-04-15 07:59 UTC
+
+**After:** 2 extracts, 0 merges — nodes +0, edges +0, coherence +0%
+
+[![graph](graph-2026-04-15-07-59-extract-subideas.png)](graph-2026-04-15-07-59-extract-subideas.png) [commit](https://github.com/BoggersTheFish/BoggersTheCIG/commit/64fee3d)
+
+### 2026-04-15 08:20 UTC
+
+**After:** vault analysis (+1000 triples) — nodes +0, edges +2, coherence +0%
+
+[![graph](graph-2026-04-15-08-20-after-analyze-vault.png)](graph-2026-04-15-08-20-after-analyze-vault.png) [commit](https://github.com/BoggersTheFish/BoggersTheCIG/commit/64fee3d)
+
+### 2026-04-15 08:20 UTC
+
+**After:** 2 extracts, 0 merges — nodes +0, edges +0, coherence +0%
+
+[![graph](graph-2026-04-15-08-20-extract-subideas.png)](graph-2026-04-15-08-20-extract-subideas.png) [commit](https://github.com/BoggersTheFish/BoggersTheCIG/commit/64fee3d)
+
+### 2026-04-15 09:01 UTC
+
+**After:** vault organize (10 moves) — nodes +0, edges +0, coherence +0%
+
+[![graph](graph-2026-04-15-09-01-after-organize.png)](graph-2026-04-15-09-01-after-organize.png) [commit](https://github.com/BoggersTheFish/BoggersTheCIG/commit/64fee3d)
+
+### 2026-04-15 09:02 UTC
+
+**After:** 2 extracts, 2 merges — nodes +0, edges +0, coherence +0%
+
+[![graph](graph-2026-04-15-09-02-extract-subideas.png)](graph-2026-04-15-09-02-extract-subideas.png) [commit](https://github.com/BoggersTheFish/BoggersTheCIG/commit/64fee3d)
+
+### 2026-04-15 09:02 UTC
+
+**After:** +.md"+2_+2_.md"+80.md" — nodes +0, edges +0, coherence +0%
+
+[![graph](graph-2026-04-15-09-02-self-improve.png)](graph-2026-04-15-09-02-self-improve.png) [commit](https://github.com/BoggersTheFish/BoggersTheCIG/commit/64fee3d)
+
+### 2026-04-15 09:41 UTC
+
+**After:** vault organize (20 moves) — nodes +0, edges +0, coherence +0%
+
+[![graph](graph-2026-04-15-09-41-after-organize.png)](graph-2026-04-15-09-41-after-organize.png) [commit](https://github.com/BoggersTheFish/BoggersTheCIG/commit/64fee3d)
+
+### 2026-04-15 09:42 UTC
+
+**After:** 0 extracts, 4 merges — nodes +0, edges +0, coherence +0%
+
+[![graph](graph-2026-04-15-09-42-extract-subideas.png)](graph-2026-04-15-09-42-extract-subideas.png) [commit](https://github.com/BoggersTheFish/BoggersTheCIG/commit/64fee3d)
+
+### 2026-04-15 09:42 UTC
+
+**After:** +.md"+2_+2_.md"+80.md" — nodes +0, edges +0, coherence +0%
+
+[![graph](graph-2026-04-15-09-42-self-improve.png)](graph-2026-04-15-09-42-self-improve.png) [commit](https://github.com/BoggersTheFish/BoggersTheCIG/commit/64fee3d)
