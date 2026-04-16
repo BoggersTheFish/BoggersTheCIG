@@ -2,9 +2,9 @@
 
 | Concept | Degree |
 |---------|--------|
-| [[Orphan Concepts  degree   2 ]] | 648 |
-| [[familiarity with individuals]] | 151 |
-| [[Orphan Concepts (degree < 2)]] | 144 |
+| [[Orphan Concepts  degree   2 ]] | 665 |
+| [[familiarity with individuals]] | 152 |
+| [[Orphan Concepts (degree < 2)]] | 148 |
 | [[Knowledge]] | 6 |
 | [[e.g.]] | 6 |
 | [[Object]] | 5 |

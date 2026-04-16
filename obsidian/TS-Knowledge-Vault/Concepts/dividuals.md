@@ -1,11 +1,8 @@
 ---
-bridge:: true
 ---
 
 # dividuals
 
-> **Bridge Node** — connects multiple semantic clusters
-
 ## Neighbors
 
-- [[situations weight 11928 conf 1 00]] (related_to, weight=36254, conf=1.00)
+- [[situations weight 11928 conf 1 00]] (related_to, weight=38934, conf=1.00)

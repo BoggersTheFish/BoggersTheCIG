@@ -243,3 +243,7 @@ Used in: [[neighbors]]
 [[neighbors/Sub-ideas/neighbors]]
 
 [[neighbors/Sub-ideas/qa-neighborhoodstxt]]
+
+---
+
+[[Shared-Sub-ideas/neighbors]]
