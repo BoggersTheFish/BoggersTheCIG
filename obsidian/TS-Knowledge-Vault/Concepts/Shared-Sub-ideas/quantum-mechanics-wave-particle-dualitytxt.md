@@ -1,3 +1,3 @@
 # Quantum Mechanics Wave Particle Dualitytxt
 
-Used in: [[-neighbor-relations-neighbors--neighbor-gravity-de]], [[-neighbors-quantum-mechanics-wave-particle-duality]], [[Orphan Concepts  degree   2 ]], [[Orphan Concepts _degree _ 2_]], [[Shared-Sub-ideas/neighbors]], [[neighborrelations-weight17563-conf100-srchomerunne]], [[neighbors]], [[quantum-mechanics-wave-particle-duality-kebaab-cas]], [[quantum_mechanics-wave-particle-duality]]
+Used in: [[-neighbor-relations-neighbors--neighbor-gravity-de]], [[-neighbors-quantum-mechanics-wave-particle-duality]], [[Orphan Concepts  degree   2 ]], [[Orphan Concepts _degree _ 2_]], [[Shared-Sub-ideas/neighbors]], [[e_g_]], [[neighborrelations-weight17563-conf100-srchomerunne]], [[neighbors]], [[quantum-mechanics-wave-particle-duality-kebaab-cas]], [[quantum-mechanics-wave-particle-duality-kebabcase-]], [[quantum_mechanics-wave-particle-duality]]
