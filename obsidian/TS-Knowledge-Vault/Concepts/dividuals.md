@@ -8,4 +8,4 @@ bridge:: true
 
 ## Neighbors
 
-- [[situations weight 11928 conf 1 00]] (related_to, weight=33629, conf=1.00)
+- [[situations weight 11928 conf 1 00]] (related_to, weight=36254, conf=1.00)

@@ -5,4 +5,4 @@
 
 ## Neighbors
 
-- [[Object]] (Relation, weight=47245, conf=1.00)
+- [[Object]] (Relation, weight=49870, conf=1.00)
