@@ -93,3 +93,7 @@ Used in: [[Orphan Concepts  degree   2 ]]
 ---
 
 [[Shared-Sub-ideas/quantum-mechanics_wave-particle-dualitymd]]
+
+---
+
+[[neighbors/Sub-ideas/neighbors]]
