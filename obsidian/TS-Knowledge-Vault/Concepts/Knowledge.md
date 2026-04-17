@@ -1,13 +1,16 @@
 ---
+bridge:: true
 ---
 
 # Knowledge
 
+> **Bridge Node** — connects multiple semantic clusters
+
 ## Neighbors
 
-- [[truthful belief]] (propositional_knowledge, weight=55309, conf=1.00)
-- [[Facts]] (Propositional, weight=55308, conf=1.00)
-- [[Reality]] (Propriety, weight=55307, conf=1.00)
-- [[Understanding]] (Perspicacity, weight=55306, conf=1.00)
-- [[Consciousness]] (Awareness, weight=55305, conf=1.00)
-- [[true belief]] (propositional knowledge, weight=45702, conf=1.00, src=https://en.m.wikipedia.org/wiki/Knowledg)
+- [[truthful belief]] (propositional_knowledge, weight=58060, conf=1.00)
+- [[Facts]] (Propositional, weight=58059, conf=1.00)
+- [[Reality]] (Propriety, weight=58058, conf=1.00)
+- [[Understanding]] (Perspicacity, weight=58057, conf=1.00)
+- [[Consciousness]] (Awareness, weight=58056, conf=1.00)
+- [[true belief]] (propositional knowledge, weight=48453, conf=1.00, src=https://en.m.wikipedia.org/wiki/Knowledg)

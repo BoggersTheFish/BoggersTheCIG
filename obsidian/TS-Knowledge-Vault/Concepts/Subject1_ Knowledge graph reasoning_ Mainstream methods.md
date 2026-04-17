@@ -5,4 +5,4 @@
 
 ## Neighbors
 
-- [[and research directions for the future (2025]] (applications, weight=23768, conf=0.67, src=https://www.sciencedirect.com/science/ar)
+- [[and research directions for the future (2025]] (applications, weight=26519, conf=0.67, src=https://www.sciencedirect.com/science/ar)

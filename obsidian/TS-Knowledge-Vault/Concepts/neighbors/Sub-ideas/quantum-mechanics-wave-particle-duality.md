@@ -33,3 +33,7 @@ Used in: [[neighbors]]
 ---
 
 [[Shared-Sub-ideas/quantum-mechanics-wave-particle-duality-stocks-deg]]
+
+---
+
+[[Shared-Sub-ideas/-neighborhoods--relation-object-scientificfactual-]]

@@ -5,4 +5,4 @@
 
 ## Neighbors
 
-- [[Used in]] (related_to, weight=55330, conf=0.87)
+- [[Used in]] (related_to, weight=58081, conf=0.87)

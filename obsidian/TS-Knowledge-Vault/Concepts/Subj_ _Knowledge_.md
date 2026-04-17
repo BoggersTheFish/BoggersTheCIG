@@ -5,4 +5,4 @@
 
 ## Neighbors
 
-- [[Obj. "Knowledge"]] (Rel. "Wikipedia", weight=17471, conf=0.68, src=https://en.wikipedia.org/wiki/Knowledge)
+- [[Obj. "Knowledge"]] (Rel. "Wikipedia", weight=20222, conf=0.68, src=https://en.wikipedia.org/wiki/Knowledge)
