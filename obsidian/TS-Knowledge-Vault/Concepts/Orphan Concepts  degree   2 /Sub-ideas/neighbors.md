@@ -97,3 +97,7 @@ Used in: [[Orphan Concepts  degree   2 ]]
 ---
 
 [[neighbors/Sub-ideas/neighbors]]
+
+---
+
+[[Shared-Sub-ideas/qa_qs-nnn_qs-qp-rel-op-obj_wgt-wgt_src]]
