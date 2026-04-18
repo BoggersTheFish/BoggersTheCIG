@@ -8,5 +8,5 @@ bridge:: true
 
 ## Neighbors
 
-- [[an awareness of facts]] (is_a, weight=69568, conf=1.00)
-- [[triple a An awareness of facts]] (is_a, weight=21058, conf=1.00)
+- [[an awareness of facts]] (is_a, weight=72525, conf=1.00)
+- [[triple a An awareness of facts]] (is_a, weight=24015, conf=1.00)
