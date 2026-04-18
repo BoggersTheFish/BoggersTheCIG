@@ -1,8 +1,11 @@
 ---
+bridge:: true
 ---
 
 # 1  Knowledge - Wikipedia Knowledge is an awareness of facts
 
+> **Bridge Node** — connects multiple semantic clusters
+
 ## Neighbors
 
-- [[or (3]] ((2, weight=63664, conf=0.86)
+- [[or (3]] ((2, weight=66532, conf=0.85)

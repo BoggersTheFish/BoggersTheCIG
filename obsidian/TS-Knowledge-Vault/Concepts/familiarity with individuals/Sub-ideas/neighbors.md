@@ -89,3 +89,7 @@ Used in: [[familiarity with individuals]]
 ---
 
 [[neighbors/Sub-ideas/-neighbors-related-situations-weighted-based-on-co]]
+
+---
+
+[[neighbors/Sub-ideas/neighbors]]
