@@ -93,3 +93,11 @@ Used in: [[familiarity with individuals]]
 ---
 
 [[neighbors/Sub-ideas/neighbors]]
+
+---
+
+[[neighbors/Sub-ideas/neighbors]]
+
+---
+
+[[Shared-Sub-ideas/sub-ideatxttext-neighbors--situations-or-practical]]

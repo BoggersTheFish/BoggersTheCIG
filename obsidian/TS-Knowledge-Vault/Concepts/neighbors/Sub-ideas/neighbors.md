@@ -267,3 +267,11 @@ Used in: [[neighbors]]
 [[neighbors/Sub-ideas/neighbors_gravity_timetxt]]
 
 [[neighbors/Sub-ideas/neighbors]]
+
+---
+
+[[neighbors/Sub-ideas/neighbors]]
+
+---
+
+[[Shared-Sub-ideas/-neighborhood--quantum-mechanics-degree1-weight695]]

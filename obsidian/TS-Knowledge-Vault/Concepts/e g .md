@@ -5,4 +5,4 @@
 
 ## Neighbors
 
-- [[Relation, Object]] (scientific/factual_entities, weight=30841, conf=1.00, src=/home/runner/work/BoggersTheCIG/BoggersT)
+- [[Relation, Object]] (scientific/factual_entities, weight=33756, conf=1.00, src=/home/runner/work/BoggersTheCIG/BoggersT)
