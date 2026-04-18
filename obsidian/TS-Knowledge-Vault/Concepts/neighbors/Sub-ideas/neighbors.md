@@ -275,3 +275,7 @@ Used in: [[neighbors]]
 ---
 
 [[Shared-Sub-ideas/-neighborhood--quantum-mechanics-degree1-weight695]]
+
+---
+
+[[neighbors/Sub-ideas/neighbors]]
