@@ -113,3 +113,7 @@ Used in: [[Orphan Concepts  degree   2 ]]
 ---
 
 [[Shared-Sub-ideas/sub-idea_quantum-mechanics-wave-particle-dualitytx]]
+
+---
+
+[[Shared-Sub-ideas/neighbors]]

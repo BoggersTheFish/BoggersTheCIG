@@ -5,4 +5,4 @@
 
 ## Neighbors
 
-- [[Obj. "Skills or techniques"]] (Rel. "Practical", weight=40546, conf=0.66, src=https://en.wikipedia.org/wiki/Knowledge)
+- [[Obj. "Skills or techniques"]] (Rel. "Practical", weight=43581, conf=0.66, src=https://en.wikipedia.org/wiki/Knowledge)
