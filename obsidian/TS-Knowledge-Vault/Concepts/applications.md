@@ -5,4 +5,4 @@
 
 ## Neighbors
 
-- [[trends]] (related_to, weight=38972, conf=1.00)
+- [[trends]] (related_to, weight=41979, conf=1.00)

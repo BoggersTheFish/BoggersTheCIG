@@ -29,3 +29,7 @@ Used in: [[quantum-mechanics-wave-particle-dualitytxt]]
 ---
 
 [[Shared-Sub-ideas/neighbors]]
+
+---
+
+[[Shared-Sub-ideas/quantum-mechanics-wave-particle-duality-black-ipho]]

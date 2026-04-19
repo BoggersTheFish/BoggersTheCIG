@@ -5,5 +5,5 @@
 
 ## Neighbors
 
-- [[an awareness of facts]] (is_a, weight=75504, conf=1.00)
-- [[triple a An awareness of facts]] (is_a, weight=26994, conf=1.00)
+- [[an awareness of facts]] (is_a, weight=78511, conf=1.00)
+- [[triple a An awareness of facts]] (is_a, weight=30001, conf=1.00)
