@@ -5,5 +5,5 @@
 
 ## Neighbors
 
-- [["is"]] ("Cognitive", weight=81471, conf=0.87)
-- [["is", "conscious"]] ("cognitive", weight=81470, conf=0.87)
+- [["is"]] ("Cognitive", weight=84525, conf=0.86)
+- [["is", "conscious"]] ("cognitive", weight=84524, conf=0.86)

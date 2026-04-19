@@ -5,4 +5,4 @@
 
 ## Neighbors
 
-- [[Object3]] (Relation3, weight=71815, conf=0.69, src=https://en.m.wikipedia.org/wiki/Knowledg)
+- [[Object3]] (Relation3, weight=74869, conf=0.79, src=https://en.m.wikipedia.org/wiki/Knowledg)

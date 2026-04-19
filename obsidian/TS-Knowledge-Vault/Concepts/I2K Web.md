@@ -5,4 +5,4 @@
 
 ## Neighbors
 
-- [[quick check]] (quick_check, weight=81422, conf=0.91)
+- [[quick check]] (quick_check, weight=84476, conf=0.90)
