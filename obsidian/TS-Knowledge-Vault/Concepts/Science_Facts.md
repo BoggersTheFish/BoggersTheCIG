@@ -1,11 +1,8 @@
 ---
-bridge:: true
 ---
 
 # Science/Facts
 
-> **Bridge Node** — connects multiple semantic clusters
-
 ## Neighbors
 
-- [[Practical Skill]] (Knowledge, weight=84509, conf=0.84)
+- [[Practical Skill]] (Knowledge, weight=87632, conf=0.84)

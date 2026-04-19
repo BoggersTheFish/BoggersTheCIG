@@ -5,4 +5,4 @@
 
 ## Neighbors
 
-- [[Structure Used in]] (related_to, weight=84480, conf=0.90)
+- [[Structure Used in]] (related_to, weight=87603, conf=0.89)

@@ -5,4 +5,4 @@
 
 ## Neighbors
 
-- [[or (d]] ((c, weight=37183, conf=0.85, src=/home/runner/work/BoggersTheCIG/BoggersT)
+- [[or (d]] ((c, weight=40306, conf=0.85, src=/home/runner/work/BoggersTheCIG/BoggersT)

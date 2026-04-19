@@ -8,4 +8,4 @@ bridge:: true
 
 ## Neighbors
 
-- [[skills]] (related_to, weight=84548, conf=1.00)
+- [[skills]] (related_to, weight=87671, conf=1.00)
