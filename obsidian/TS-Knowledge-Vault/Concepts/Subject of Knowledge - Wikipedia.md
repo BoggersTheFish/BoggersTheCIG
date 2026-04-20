@@ -5,4 +5,4 @@
 
 ## Neighbors
 
-- [[Object of Knowledge - Wikipedia]] (Relation_of_Knowledge___Wikipedia, weight=94056, conf=0.81)
+- [[Object of Knowledge - Wikipedia]] (Relation_of_Knowledge___Wikipedia, weight=97374, conf=0.80)
