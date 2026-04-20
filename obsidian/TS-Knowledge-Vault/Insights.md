@@ -1,10 +1,10 @@
-# TS Insights — 2026-04-19 19:38 UTC
+# TS Insights — 2026-04-20 00:29 UTC
 Generated automatically each self-improvement cycle.
 ## Highest-Confidence New Knowledge
 
-- **sky** –[is_a]→ **blue** (conf: 1.00)
-- **separated by a comma and surrounded by parentheses The object** –[is_a]→ **the target of knowledge e g Knowledge** (conf: 1.00)
-- **separated by a comma** –[related_to]→ **surrounded by parentheses The object is the target of knowledge e g Knowledge** (conf: 1.00)
+- **Orphan Concepts  degree   2 ** –[degree=1]→ **"stocks"** (conf: 1.00) ([source](/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concep))
+- **Orphan Concepts  degree   2 ** –[degree=1]→ **Neighbor Relations** (conf: 1.00) ([source](/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concep))
+- **Orphan Concepts  degree   2 ** –[degree=1]→ **"Is True"** (conf: 1.00) ([source](/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concep))
 
 ## Active Contradictions
 
@@ -12,7 +12,7 @@ Generated automatically each self-improvement cycle.
 
 ## Top Bridge Node
 
-- **[[Orphan Concepts  degree   2 ]]** — bridge score: 1.5395, betweenness: 0.8482, cluster span: 0.815
+- **[[Orphan Concepts  degree   2 ]]** — bridge score: 1.5817, betweenness: 0.8715, cluster span: 0.815
 
 ## Corroborated Hypotheses
 

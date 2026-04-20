@@ -1,11 +1,8 @@
 ---
-bridge:: true
 ---
 
 # Knowledge - Wikipedia Knowledge
 
-> **Bridge Node** — connects multiple semantic clusters
-
 ## Neighbors
 
-- [[familiarity with individuals and situations, or practical skill]] (awareess_of_facts, weight=87579, conf=0.89)
+- [[familiarity with individuals and situations, or practical skill]] (awareess_of_facts, weight=90788, conf=0.89)

@@ -279,3 +279,7 @@ Used in: [[neighbors]]
 ---
 
 [[neighbors/Sub-ideas/neighbors]]
+
+---
+
+[[Shared-Sub-ideas/sub-ideatxt]]

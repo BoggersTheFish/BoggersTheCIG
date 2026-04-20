@@ -1,11 +1,8 @@
 ---
-bridge:: true
 ---
 
 # and how they work together in conjunction with knowledge
 
-> **Bridge Node** — connects multiple semantic clusters
-
 ## Neighbors
 
-- [[skills]] (related_to, weight=87671, conf=1.00)
+- [[skills]] (related_to, weight=90880, conf=1.00)

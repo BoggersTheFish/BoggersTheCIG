@@ -5,4 +5,4 @@
 
 ## Neighbors
 
-- [[Object]] (Relation, weight=47516, conf=1.00, src=https://www.merriam-webster.com/dictiona)
+- [[Object]] (Relation, weight=50725, conf=1.00, src=https://www.merriam-webster.com/dictiona)
