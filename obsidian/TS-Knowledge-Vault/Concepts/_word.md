@@ -5,4 +5,4 @@
 
 ## Neighbors
 
-- [[None]] ('neg', weight=3089, conf=0.70, src=https://www.merriam-webster.com/dictiona)
+- [[None]] ('neg', weight=6356, conf=0.69, src=https://www.merriam-webster.com/dictiona)

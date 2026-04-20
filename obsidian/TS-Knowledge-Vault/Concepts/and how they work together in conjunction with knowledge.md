@@ -5,4 +5,4 @@
 
 ## Neighbors
 
-- [[skills]] (related_to, weight=90880, conf=1.00)
+- [[skills]] (related_to, weight=94147, conf=1.00)
