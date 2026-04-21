@@ -1,0 +1,7 @@
+---
+---
+
+# Practical Skill
+
+## Neighbors
+

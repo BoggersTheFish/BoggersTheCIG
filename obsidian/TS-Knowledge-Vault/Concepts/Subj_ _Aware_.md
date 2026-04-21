@@ -5,4 +5,4 @@
 
 ## Neighbors
 
-- [[Obj. "Individuals and situations"]] (Rel. "Negative", weight=62891, conf=0.64, src=https://en.wikipedia.org/wiki/Knowledge)
+- [[Obj. "Individuals and situations"]] (Rel. "Negative", weight=66286, conf=0.63, src=https://en.wikipedia.org/wiki/Knowledge)
