@@ -5,4 +5,4 @@
 
 ## Neighbors
 
-- [[familiarity with individuals and situations, or practical skill]] (awareess_of_facts, weight=97373, conf=0.87)
+- [[familiarity with individuals and situations, or practical skill]] (awareess_of_facts, weight=100711, conf=0.87)
