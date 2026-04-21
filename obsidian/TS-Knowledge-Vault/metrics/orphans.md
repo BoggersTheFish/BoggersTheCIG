@@ -1,5 +1,10 @@
 # Orphan Concepts (degree < 2)
 
+- [["is", weight=103692, conf=0.47)
+- [[being, weight=142, conf=0.60)
+- [[blue]] (degree=1)
+- [["is", weight=104009, conf=0.47)
+- [["stocks"]] (degree=1)
 - [["is", weight=43700, conf=0.91)
 - [[being, weight=746, conf=0.70)
 - [[blue]] (degree=1)
@@ -270,5 +275,3 @@
 - [["is", weight=99680, conf=0.83)
 - [[being, weight=746, conf=0.70)
 - [[blue]] (degree=1)
-- [['KNOWLEDGE Definition & Meaning - Merriam-Webster knowledge]] (degree=1)
-- [[(word]] (degree=1)
