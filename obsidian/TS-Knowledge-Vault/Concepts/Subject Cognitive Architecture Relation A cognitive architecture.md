@@ -5,4 +5,4 @@
 
 ## Neighbors
 
-- [[hypothesis about the fixed structures that provide a mind]] (is_a, weight=82614, conf=1.00)
+- [[hypothesis about the fixed structures that provide a mind]] (is_a, weight=86163, conf=1.00)
