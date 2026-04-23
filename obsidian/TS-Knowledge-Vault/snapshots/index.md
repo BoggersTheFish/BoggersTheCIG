@@ -11273,3 +11273,81 @@ Auto-generated after vault-modifying operations.
 **After:** +.md"+00.md"+1.md"+2_ — nodes +0, edges +0, coherence +0%
 
 [![graph](graph-2026-04-23-11-41-self-improve.png)](graph-2026-04-23-11-41-self-improve.png) [commit](https://github.com/BoggersTheFish/BoggersTheCIG/commit/548152b)
+
+### 2026-04-23 17:18 UTC
+
+**After:** vault organize (9 moves) — nodes +17, edges +17, coherence -1%
+
+[![graph](graph-2026-04-23-17-18-after-organize.png)](graph-2026-04-23-17-18-after-organize.png) [commit](https://github.com/BoggersTheFish/BoggersTheCIG/commit/afc36fc)
+
+### 2026-04-23 17:18 UTC
+
+**After:** 0 extracts, 2 merges — nodes +0, edges +0, coherence +0%
+
+[![graph](graph-2026-04-23-17-18-extract-subideas.png)](graph-2026-04-23-17-18-extract-subideas.png) [commit](https://github.com/BoggersTheFish/BoggersTheCIG/commit/afc36fc)
+
+### 2026-04-23 17:18 UTC
+
+**After:** .md"+1.md"+2_+2_.md"+A.md" — nodes +0, edges +0, coherence +0%
+
+[![graph](graph-2026-04-23-17-18-self-improve.png)](graph-2026-04-23-17-18-self-improve.png) [commit](https://github.com/BoggersTheFish/BoggersTheCIG/commit/afc36fc)
+
+### 2026-04-23 18:48 UTC
+
+**After:** vault analysis (+1708 triples) — nodes +0, edges +1, coherence +0%
+
+[![graph](graph-2026-04-23-18-48-after-analyze-vault.png)](graph-2026-04-23-18-48-after-analyze-vault.png) [commit](https://github.com/BoggersTheFish/BoggersTheCIG/commit/afc36fc)
+
+### 2026-04-23 18:48 UTC
+
+**After:** 1 extracts, 0 merges — nodes +0, edges +0, coherence +0%
+
+[![graph](graph-2026-04-23-18-48-extract-subideas.png)](graph-2026-04-23-18-48-extract-subideas.png) [commit](https://github.com/BoggersTheFish/BoggersTheCIG/commit/afc36fc)
+
+### 2026-04-23 20:17 UTC
+
+**After:** vault analysis (+1708 triples) — nodes +0, edges +1, coherence +0%
+
+[![graph](graph-2026-04-23-20-17-after-analyze-vault.png)](graph-2026-04-23-20-17-after-analyze-vault.png) [commit](https://github.com/BoggersTheFish/BoggersTheCIG/commit/afc36fc)
+
+### 2026-04-23 20:17 UTC
+
+**After:** 1 extracts, 0 merges — nodes +0, edges +0, coherence +0%
+
+[![graph](graph-2026-04-23-20-17-extract-subideas.png)](graph-2026-04-23-20-17-extract-subideas.png) [commit](https://github.com/BoggersTheFish/BoggersTheCIG/commit/afc36fc)
+
+### 2026-04-23 21:05 UTC
+
+**After:** vault organize (5 moves) — nodes +0, edges +0, coherence +0%
+
+[![graph](graph-2026-04-23-21-05-after-organize.png)](graph-2026-04-23-21-05-after-organize.png) [commit](https://github.com/BoggersTheFish/BoggersTheCIG/commit/afc36fc)
+
+### 2026-04-23 21:06 UTC
+
+**After:** 1 extracts, 1 merges — nodes +0, edges +0, coherence +0%
+
+[![graph](graph-2026-04-23-21-06-extract-subideas.png)](graph-2026-04-23-21-06-extract-subideas.png) [commit](https://github.com/BoggersTheFish/BoggersTheCIG/commit/afc36fc)
+
+### 2026-04-23 21:06 UTC
+
+**After:** .md"+1.md"+2_+2_.md"+A.md" — nodes +0, edges +0, coherence +0%
+
+[![graph](graph-2026-04-23-21-06-self-improve.png)](graph-2026-04-23-21-06-self-improve.png) [commit](https://github.com/BoggersTheFish/BoggersTheCIG/commit/afc36fc)
+
+### 2026-04-23 21:46 UTC
+
+**After:** vault organize (10 moves) — nodes +0, edges +0, coherence +0%
+
+[![graph](graph-2026-04-23-21-46-after-organize.png)](graph-2026-04-23-21-46-after-organize.png) [commit](https://github.com/BoggersTheFish/BoggersTheCIG/commit/afc36fc)
+
+### 2026-04-23 21:46 UTC
+
+**After:** 1 extracts, 1 merges — nodes +0, edges +0, coherence +0%
+
+[![graph](graph-2026-04-23-21-46-extract-subideas.png)](graph-2026-04-23-21-46-extract-subideas.png) [commit](https://github.com/BoggersTheFish/BoggersTheCIG/commit/afc36fc)
+
+### 2026-04-23 21:46 UTC
+
+**After:** +.md"+1.md"+2_+2_.md" — nodes +0, edges +0, coherence +0%
+
+[![graph](graph-2026-04-23-21-46-self-improve.png)](graph-2026-04-23-21-46-self-improve.png) [commit](https://github.com/BoggersTheFish/BoggersTheCIG/commit/afc36fc)
