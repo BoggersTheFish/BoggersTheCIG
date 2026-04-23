@@ -1,8 +1,11 @@
 ---
+bridge:: true
 ---
 
 # Earth
 
+> **Bridge Node** — connects multiple semantic clusters
+
 ## Neighbors
 
-- [[gravity]] (has, weight=117964, conf=1.00)
+- [[gravity]] (has, weight=121352, conf=1.00)
