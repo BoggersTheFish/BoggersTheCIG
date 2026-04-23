@@ -5,4 +5,4 @@
 
 ## Neighbors
 
-- [[Practical Skill]] (Knowledge, weight=114434, conf=1.00)
+- [[Practical Skill]] (Knowledge, weight=117803, conf=0.99)

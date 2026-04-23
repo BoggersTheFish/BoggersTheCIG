@@ -141,3 +141,7 @@ Used in: [[Orphan Concepts  degree   2 ]]
 ---
 
 [[Shared-Sub-ideas/quantum-mechanics_wptwoexplanation-the-file-name-i]]
+
+---
+
+[[neighbors/Sub-ideas/neighbors]]

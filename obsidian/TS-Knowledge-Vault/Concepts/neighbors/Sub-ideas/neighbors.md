@@ -287,3 +287,7 @@ Used in: [[neighbors]]
 ---
 
 [[neighbors/Sub-ideas/short-filename-kebaab-case-no-spaces-for-neighbors]]
+
+---
+
+[[neighbors/Sub-ideas/sub-ideabaab-case]]
