@@ -5,4 +5,4 @@
 
 ## Neighbors
 
-- [[polarity, label]] (where each tuple corresponds to a triplet (which we define as (word, weight=40798, conf=0.64, src=https://www.merriam-webster.com/dictiona)
+- [[polarity, label]] (where each tuple corresponds to a triplet (which we define as (word, weight=44562, conf=0.63, src=https://www.merriam-webster.com/dictiona)
