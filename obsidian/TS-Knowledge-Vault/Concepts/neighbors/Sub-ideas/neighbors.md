@@ -295,3 +295,7 @@ Used in: [[neighbors]]
 ---
 
 [[neighbors/Sub-ideas/shortfilename-kebaab-case-no-spaces-for-this-subid]]
+
+---
+
+[[Shared-Sub-ideas/quantum-mechanics-wave-particle-duality]]
