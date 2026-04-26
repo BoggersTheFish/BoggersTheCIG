@@ -37,3 +37,7 @@ Used in: [[neighbors]]
 ---
 
 [[Shared-Sub-ideas/-neighborhoods--relation-object-scientificfactual-]]
+
+---
+
+[[Shared-Sub-ideas/neighbor_gravity_timemd]]
