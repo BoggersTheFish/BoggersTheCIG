@@ -5,4 +5,4 @@
 
 ## Neighbors
 
-- [[situations]] (related_to, weight=106861, conf=1.00)
+- [[situations]] (related_to, weight=110850, conf=1.00)

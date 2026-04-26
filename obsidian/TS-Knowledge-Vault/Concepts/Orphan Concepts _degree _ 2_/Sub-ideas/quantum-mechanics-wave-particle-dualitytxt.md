@@ -21,3 +21,7 @@ Used in: [[Orphan Concepts _degree _ 2_]]
 ---
 
 [[Shared-Sub-ideas/-neighbors--cognitive-definition--meaning---merria]]
+
+---
+
+[[Shared-Sub-ideas/sugr-case-no-spaces-1-word-pdf]]

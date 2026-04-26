@@ -5,4 +5,4 @@
 
 ## Neighbors
 
-- [[with the capabilities of neuroscience to achieve artificial general intelligence.]] (such_as_machine_learning, weight=147808, conf=0.94)
+- [[with the capabilities of neuroscience to achieve artificial general intelligence.]] (such_as_machine_learning, weight=151797, conf=0.94)
