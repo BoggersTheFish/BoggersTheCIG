@@ -5,4 +5,4 @@
 
 ## Neighbors
 
-- [["iPhone"]] ("company", weight=155813, conf=0.93)
+- [["iPhone"]] ("company", weight=159910, conf=0.92)
