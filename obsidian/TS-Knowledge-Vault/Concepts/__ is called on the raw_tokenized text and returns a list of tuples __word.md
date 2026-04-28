@@ -5,4 +5,4 @@
 
 ## Neighbors
 
-- [[label]] (polarity, weight=76331, conf=0.60, src=https://www.merriam-webster.com/dictiona)
+- [[label]] (polarity, weight=80508, conf=0.59, src=https://www.merriam-webster.com/dictiona)

@@ -303,3 +303,7 @@ Used in: [[neighbors]]
 ---
 
 [[neighbors/Sub-ideas/sub-ideakatitle-quantum-mechanics--wave-particle-d]]
+
+---
+
+[[neighbors/Sub-ideas/neighbors]]
