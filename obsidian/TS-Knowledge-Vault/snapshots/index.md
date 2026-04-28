@@ -12083,3 +12083,87 @@ Auto-generated after vault-modifying operations.
 **After:** +.md"+00.md"+2_+2_.md" — nodes +0, edges +0, coherence +0%
 
 [![graph](graph-2026-04-27-17-16-self-improve.png)](graph-2026-04-27-17-16-self-improve.png) [commit](https://github.com/BoggersTheFish/BoggersTheCIG/commit/060f734)
+
+### 2026-04-27 21:56 UTC
+
+**After:** vault organize (7 moves) — nodes +17, edges +17, coherence -1%
+
+[![graph](graph-2026-04-27-21-56-after-organize.png)](graph-2026-04-27-21-56-after-organize.png) [commit](https://github.com/BoggersTheFish/BoggersTheCIG/commit/f1da92d)
+
+### 2026-04-27 21:56 UTC
+
+**After:** 1 extracts, 1 merges — nodes +0, edges +0, coherence +0%
+
+[![graph](graph-2026-04-27-21-56-extract-subideas.png)](graph-2026-04-27-21-56-extract-subideas.png) [commit](https://github.com/BoggersTheFish/BoggersTheCIG/commit/f1da92d)
+
+### 2026-04-27 21:56 UTC
+
+**After:** +.md"+00.md"+2_.md"+57.md" — nodes +0, edges +0, coherence +0%
+
+[![graph](graph-2026-04-27-21-56-self-improve.png)](graph-2026-04-27-21-56-self-improve.png) [commit](https://github.com/BoggersTheFish/BoggersTheCIG/commit/f1da92d)
+
+### 2026-04-27 21:57 UTC
+
+**After:** external ingest (+1 triples) — nodes +0, edges +0, coherence +0%
+
+[![graph](graph-2026-04-27-21-57-after-ingest.png)](graph-2026-04-27-21-57-after-ingest.png) [commit](https://github.com/BoggersTheFish/BoggersTheCIG/commit/f1da92d)
+
+### 2026-04-27 23:32 UTC
+
+**After:** vault analysis (+1952 triples) — nodes +0, edges +2, coherence +0%
+
+[![graph](graph-2026-04-27-23-32-after-analyze-vault.png)](graph-2026-04-27-23-32-after-analyze-vault.png) [commit](https://github.com/BoggersTheFish/BoggersTheCIG/commit/f1da92d)
+
+### 2026-04-27 23:32 UTC
+
+**After:** 1 extracts, 0 merges — nodes +0, edges +0, coherence +0%
+
+[![graph](graph-2026-04-27-23-32-extract-subideas.png)](graph-2026-04-27-23-32-extract-subideas.png) [commit](https://github.com/BoggersTheFish/BoggersTheCIG/commit/f1da92d)
+
+### 2026-04-28 01:06 UTC
+
+**After:** vault analysis (+1952 triples) — nodes +0, edges +1, coherence +0%
+
+[![graph](graph-2026-04-28-01-06-after-analyze-vault.png)](graph-2026-04-28-01-06-after-analyze-vault.png) [commit](https://github.com/BoggersTheFish/BoggersTheCIG/commit/f1da92d)
+
+### 2026-04-28 01:06 UTC
+
+**After:** 1 extracts, 0 merges — nodes +0, edges +0, coherence +0%
+
+[![graph](graph-2026-04-28-01-06-extract-subideas.png)](graph-2026-04-28-01-06-extract-subideas.png) [commit](https://github.com/BoggersTheFish/BoggersTheCIG/commit/f1da92d)
+
+### 2026-04-28 01:56 UTC
+
+**After:** vault organize (1 moves) — nodes +0, edges +0, coherence +0%
+
+[![graph](graph-2026-04-28-01-56-after-organize.png)](graph-2026-04-28-01-56-after-organize.png) [commit](https://github.com/BoggersTheFish/BoggersTheCIG/commit/f1da92d)
+
+### 2026-04-28 01:57 UTC
+
+**After:** 1 extracts, 1 merges — nodes +0, edges +0, coherence +0%
+
+[![graph](graph-2026-04-28-01-56-extract-subideas.png)](graph-2026-04-28-01-56-extract-subideas.png) [commit](https://github.com/BoggersTheFish/BoggersTheCIG/commit/f1da92d)
+
+### 2026-04-28 01:57 UTC
+
+**After:** +.md"+00.md"+2_+2_.md" — nodes +0, edges +0, coherence +0%
+
+[![graph](graph-2026-04-28-01-57-self-improve.png)](graph-2026-04-28-01-57-self-improve.png) [commit](https://github.com/BoggersTheFish/BoggersTheCIG/commit/f1da92d)
+
+### 2026-04-28 02:41 UTC
+
+**After:** vault organize (8 moves) — nodes +0, edges +0, coherence +0%
+
+[![graph](graph-2026-04-28-02-41-after-organize.png)](graph-2026-04-28-02-41-after-organize.png) [commit](https://github.com/BoggersTheFish/BoggersTheCIG/commit/f1da92d)
+
+### 2026-04-28 02:41 UTC
+
+**After:** 0 extracts, 2 merges — nodes +0, edges +0, coherence +0%
+
+[![graph](graph-2026-04-28-02-41-extract-subideas.png)](graph-2026-04-28-02-41-extract-subideas.png) [commit](https://github.com/BoggersTheFish/BoggersTheCIG/commit/f1da92d)
+
+### 2026-04-28 02:41 UTC
+
+**After:** +.md"+00.md"+2_+2_.md" — nodes +0, edges +0, coherence +0%
+
+[![graph](graph-2026-04-28-02-41-self-improve.png)](graph-2026-04-28-02-41-self-improve.png) [commit](https://github.com/BoggersTheFish/BoggersTheCIG/commit/f1da92d)

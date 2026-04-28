@@ -173,3 +173,7 @@ Used in: [[Orphan Concepts  degree   2 ]]
 ---
 
 [[Shared-Sub-ideas/quantum-mechanics-without-spaces-or-quantum_mechan]]
+
+---
+
+[[neighbors/Sub-ideas/neighbors]]

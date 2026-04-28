@@ -1,8 +1,11 @@
 ---
+bridge:: true
 ---
 
 # Relation Augmenting
 
+> **Bridge Node** — connects multiple semantic clusters
+
 ## Neighbors
 
-- [[combining the strengths of statistical AI]] (related_to, weight=160035, conf=1.00)
+- [[combining the strengths of statistical AI]] (related_to, weight=164179, conf=1.00)

@@ -481,3 +481,7 @@ Used in: [[Orphan Concepts _degree _ 2_]]
 ---
 
 [[Shared-Sub-ideas/neighbors-no-space-quantum-mechanics-wave-particle]]
+
+---
+
+[[Shared-Sub-ideas/-neighbors]]
