@@ -307,3 +307,7 @@ Used in: [[neighbors]]
 ---
 
 [[neighbors/Sub-ideas/neighbors]]
+
+---
+
+[[neighbors/Sub-ideas/neighbors-stocks-subject-knowledge-relation-object]]

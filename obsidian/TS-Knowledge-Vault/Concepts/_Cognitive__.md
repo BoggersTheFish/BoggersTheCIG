@@ -5,4 +5,4 @@
 
 ## Neighbors
 
-- [[being or involving conscious intellectual activity"]] (a relation ("relating to, weight=125791, conf=0.56, src=https://www.merriam-webster.com/dictiona)
+- [[being or involving conscious intellectual activity"]] (a relation ("relating to, weight=129999, conf=0.55, src=https://www.merriam-webster.com/dictiona)

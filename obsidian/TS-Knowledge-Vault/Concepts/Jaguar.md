@@ -5,4 +5,4 @@
 
 ## Neighbors
 
-- [["black"]] ("car", weight=168275, conf=0.74)
+- [["black"]] ("car", weight=172483, conf=0.72)
