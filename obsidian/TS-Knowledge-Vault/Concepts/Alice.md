@@ -5,4 +5,4 @@
 
 ## Neighbors
 
-- [["book"]] ("Love", weight=176708, conf=0.70)
+- [["book"]] ("Love", weight=180960, conf=0.69)
