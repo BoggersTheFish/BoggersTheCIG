@@ -1,8 +1,11 @@
 ---
+bridge:: true
 ---
 
 # Object
 
+> **Bridge Node** — connects multiple semantic clusters
+
 ## Neighbors
 
-- [[Triplet]] ("Psychology", weight=159121, conf=0.51, src=https://www.britannica.com/topic/cogniti)
+- [[Triplet]] ("Psychology", weight=163361, conf=0.50, src=https://www.britannica.com/topic/cogniti)

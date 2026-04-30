@@ -311,3 +311,7 @@ Used in: [[neighbors]]
 ---
 
 [[neighbors/Sub-ideas/neighbors-stocks-subject-knowledge-relation-object]]
+
+---
+
+[[neighbors/Sub-ideas/sub-ideaqatext-neighbors--quantum-mechanics-wave-p]]
