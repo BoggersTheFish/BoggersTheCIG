@@ -1,11 +1,8 @@
 ---
-bridge:: true
 ---
 
 # Obj Individuals
 
-> **Bridge Node** — connects multiple semantic clusters
-
 ## Neighbors
 
-- [[situations]] (related_to, weight=140005, conf=1.00)
+- [[situations]] (related_to, weight=144307, conf=1.00)

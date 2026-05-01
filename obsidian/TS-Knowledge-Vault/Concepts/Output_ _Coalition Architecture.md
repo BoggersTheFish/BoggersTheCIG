@@ -5,4 +5,4 @@
 
 ## Neighbors
 
-- [[Mind"]] (Hypothesis, weight=76683, conf=0.59, src=https://cogarch.ict.usc.edu/)
+- [[Mind"]] (Hypothesis, weight=80985, conf=0.58, src=https://cogarch.ict.usc.edu/)
