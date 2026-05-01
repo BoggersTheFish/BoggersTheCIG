@@ -2,7 +2,7 @@
 
 | Concept | Degree |
 |---------|--------|
-| [[Orphan Concepts  degree   2 ]] | 1311 |
+| [[Orphan Concepts  degree   2 ]] | 1328 |
 | [[Orphan Concepts (degree < 2)]] | 243 |
 | [[familiarity with individuals]] | 161 |
 | [[situations weight 141 conf 0 60]] | 8 |

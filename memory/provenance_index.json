@@ -7437,13 +7437,6 @@
     "confidence": 1.0,
     "sources": [
       {
-        "source": "vault:Earth.md",
-        "source_type": "vault:Earth.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1776902653
-      },
-      {
         "source": "test",
         "source_type": "test",
         "provenance": "",
@@ -7575,6 +7568,13 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1777586052
+      },
+      {
+        "source": "test",
+        "source_type": "test",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1777671921
       }
     ]
   },
@@ -10475,27 +10475,6 @@
     "confidence": 1.0,
     "sources": [
       {
-        "source": "test",
-        "source_type": "test",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1777433929
-      },
-      {
-        "source": "test",
-        "source_type": "test",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1777433937
-      },
-      {
-        "source": "e2e",
-        "source_type": "e2e",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1777433939
-      },
-      {
         "source": "vault:Gravity.md",
         "source_type": "vault:Gravity.md",
         "provenance": "",
@@ -10613,6 +10592,27 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1777596024
+      },
+      {
+        "source": "test",
+        "source_type": "test",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1777671913
+      },
+      {
+        "source": "test",
+        "source_type": "test",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1777671922
+      },
+      {
+        "source": "e2e",
+        "source_type": "e2e",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1777671923
       }
     ]
   },
@@ -14172,13 +14172,6 @@
         "source_type": "human",
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
-        "ts": 1776825095
-      },
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
         "ts": 1776856029
       },
       {
@@ -14306,6 +14299,13 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777582957
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777668906
       }
     ]
   },
@@ -14324,13 +14324,6 @@
   "orphan concepts  degree   2|degree=1|neighbor relations": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825108
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -14463,19 +14456,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777582969
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777668922
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|\"is true\"": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825086
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -14608,6 +14601,13 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777582950
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777668896
       }
     ]
   },
@@ -14638,13 +14638,6 @@
   "orphan concepts  degree   2|degree=1|\"black\"": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825089
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -14777,19 +14770,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777582952
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777668899
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|foo": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825103
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -14922,19 +14915,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777582964
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777668916
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|quick check": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825130
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -15067,19 +15060,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777582993
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777668949
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|money": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825106
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -15212,19 +15205,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777582967
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777668919
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|\"iphone\"": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825092
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -15357,19 +15350,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777582955
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777668903
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|\"cognitive definition & meaning - merriae/webster the meaning of cognitive is of": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825084
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -15502,19 +15495,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777582947
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777668892
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|neighbors gravity time": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825111
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -15647,19 +15640,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777582972
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777668925
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|otto 'pop' carter": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825113
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -15792,19 +15785,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777582974
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777668929
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|subject: cognitive architecture) (relation: defines the mind in natural or artificial systems) (object: \"fixed structures that provide a mind": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825125
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -15937,19 +15930,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777582988
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777668943
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|1) the concept itself (e.g.": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825100
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -16082,6 +16075,13 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777582962
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777668912
       }
     ]
   },
@@ -16112,13 +16112,6 @@
   "orphan concepts  degree   2|degree=1|1) (subject": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825098
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -16251,6 +16244,13 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777582960
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777668909
       }
     ]
   },
@@ -16269,13 +16269,6 @@
   "a|causes|b": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "test",
-        "source_type": "test",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1776827971
-      },
       {
         "source": "test",
         "source_type": "test",
@@ -16408,19 +16401,19 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1777586053
+      },
+      {
+        "source": "test",
+        "source_type": "test",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1777671921
       }
     ]
   },
   "a|relates_to|c": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "test",
-        "source_type": "test",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1776827971
-      },
       {
         "source": "test",
         "source_type": "test",
@@ -16553,19 +16546,19 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1777586053
+      },
+      {
+        "source": "test",
+        "source_type": "test",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1777671921
       }
     ]
   },
   "a|rel|b": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "test",
-        "source_type": "test",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1776827971
-      },
       {
         "source": "test",
         "source_type": "test",
@@ -16698,33 +16691,19 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1777586053
+      },
+      {
+        "source": "test",
+        "source_type": "test",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1777671922
       }
     ]
   },
   "a|r|b": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "test",
-        "source_type": "test",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1777433938
-      },
-      {
-        "source": "test",
-        "source_type": "test",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1777433938
-      },
-      {
-        "source": "test",
-        "source_type": "test",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1777433939
-      },
       {
         "source": "vault:A.md",
         "source_type": "vault:A.md",
@@ -16843,26 +16822,33 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1777596000
+      },
+      {
+        "source": "test",
+        "source_type": "test",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1777671922
+      },
+      {
+        "source": "test",
+        "source_type": "test",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1777671922
+      },
+      {
+        "source": "test",
+        "source_type": "test",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1777671923
       }
     ]
   },
   "b|r|c": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "test",
-        "source_type": "test",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1777189945
-      },
-      {
-        "source": "test",
-        "source_type": "test",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1777189946
-      },
       {
         "source": "test",
         "source_type": "test",
@@ -16988,19 +16974,26 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1777586054
+      },
+      {
+        "source": "test",
+        "source_type": "test",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1777671922
+      },
+      {
+        "source": "test",
+        "source_type": "test",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1777671922
       }
     ]
   },
   "x|r|y": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "vault:X.md",
-        "source_type": "vault:X.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1777299106
-      },
       {
         "source": "vault:X.md",
         "source_type": "vault:X.md",
@@ -17133,19 +17126,19 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1777596107
+      },
+      {
+        "source": "test",
+        "source_type": "test",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1777671922
       }
     ]
   },
   "orphan|r|x": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "vault:Orphan.md",
-        "source_type": "vault:Orphan.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1776902757
-      },
       {
         "source": "test",
         "source_type": "test",
@@ -17278,19 +17271,19 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1777586054
+      },
+      {
+        "source": "test",
+        "source_type": "test",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1777671922
       }
     ]
   },
   "a|r|c": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "vault:A.md",
-        "source_type": "vault:A.md",
-        "provenance": "",
-        "confidence": 0.6,
-        "ts": 1777298989
-      },
       {
         "source": "vault:A.md",
         "source_type": "vault:A.md",
@@ -17423,6 +17416,13 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1777596002
+      },
+      {
+        "source": "test",
+        "source_type": "test",
+        "provenance": "",
+        "confidence": 0.6,
+        "ts": 1777671923
       }
     ]
   },
@@ -19281,13 +19281,6 @@
         "source_type": "human",
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
-        "ts": 1776825136
-      },
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
         "ts": 1776856069
       },
       {
@@ -19415,19 +19408,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777582998
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777668956
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|\"book\"": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825138
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -19560,19 +19553,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583001
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777668959
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|\"is\"": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825141
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -19705,6 +19698,13 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583003
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777668962
       }
     ]
   },
@@ -19723,13 +19723,6 @@
   "orphan concepts  degree   2|degree=1|(2": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825147
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -19862,19 +19855,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583008
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777668969
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|(subject)": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825150
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -20007,19 +20000,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583011
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777668972
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|1   subject": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825152
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -20152,19 +20145,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583013
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777668976
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|1  knowledge - wikipedia knowledge is an awareness of facts": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825155
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -20297,19 +20290,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583016
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777668979
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|1  is the subject of the triple  knowledge - wikipedia knowledge is an awareness of facts": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825158
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -20442,19 +20435,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583018
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777668982
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|1  the concept itself  e g": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825160
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -20587,19 +20580,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583021
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777668986
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|1) knowledge - wikipedia knowledge is an awareness of facts": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825163
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -20732,19 +20725,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583024
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777668989
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|1) is the subject of the triple (knowledge - wikipedia knowledge is an awareness of facts": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825166
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -20877,19 +20870,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583026
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777668992
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|alice": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825169
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -21022,19 +21015,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583029
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777668995
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|apple": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825171
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -21167,19 +21160,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583031
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777668999
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|augmenting": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825174
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -21312,19 +21305,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583034
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669002
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|brown bear": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825177
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -21457,19 +21450,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583036
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669005
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|cognitive definition   meaning - merriae webster the meaning of cognitive is of": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825180
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -21602,19 +21595,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583039
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669008
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|consciousness": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825182
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -21747,19 +21740,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583041
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669012
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|definition": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825185
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -21892,19 +21885,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583044
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669015
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|earth": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825188
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -22037,19 +22030,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583046
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669018
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|facts": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825191
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -22182,19 +22175,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583049
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669021
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|gravity": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825193
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -22327,19 +22320,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583051
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669025
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|i2k web": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825196
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -22472,19 +22465,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583054
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669028
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|its": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825199
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -22617,19 +22610,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583056
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669031
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|jaguar": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825202
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -22762,19 +22755,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583058
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669034
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|knowledge - wikipedia knowledge": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825204
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -22907,19 +22900,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583061
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669038
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|merriae webster the meaning of cognitive": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825207
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -23052,19 +23045,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583063
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669041
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|neighborhood theory": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825210
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -23197,19 +23190,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583066
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669044
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|networks used in": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825213
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -23342,19 +23335,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583068
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669048
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|object of knowledge - wikipedia": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825216
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -23487,26 +23480,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583070
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669051
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|object1": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1777187029
-      },
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1777187159
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -23632,19 +23618,26 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583171
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669054
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669183
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|object3": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825221
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -23777,19 +23770,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583075
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669057
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|orphan": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825224
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -23922,19 +23915,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583078
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669061
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|quantum mechanics": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825227
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -24067,19 +24060,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583080
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669064
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|reality": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825230
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -24212,19 +24205,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583083
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669067
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|relation  augmenting and combining the strengths of statistical ai": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825233
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -24357,19 +24350,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583085
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669070
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|relation augmenting": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825235
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -24502,19 +24495,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583087
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669073
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|relation2": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825238
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -24647,19 +24640,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583090
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669077
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|relation3": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825241
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -24792,19 +24785,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583092
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669080
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|relation: augmenting and combining the strengths of statistical ai": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825244
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -24937,19 +24930,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583095
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669083
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|science facts": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825247
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -25082,19 +25075,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583097
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669086
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|science/facts": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825249
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -25227,19 +25220,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583100
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669090
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|scientists": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825252
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -25372,19 +25365,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583102
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669093
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|structure used in": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825255
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -25517,19 +25510,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583105
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669096
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|sub ideaneighborhubskebaab case with no spaces": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825258
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -25662,19 +25655,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583107
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669099
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|subject  cognitive architecture   relation  defines the mind in natural or artificial systems   object   fixed structures that provide a mind": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825261
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -25807,19 +25800,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583110
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669103
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|subject  has practical skills in various fields": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825264
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -25952,19 +25945,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583112
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669106
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|subject of knowledge - wikipedia": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825267
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -26097,19 +26090,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583115
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669109
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|subject)": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825269
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -26242,19 +26235,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583117
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669112
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|subject) has practical skills in various fields": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825272
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -26387,26 +26380,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583120
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669115
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|subject1": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1777187096
-      },
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1777187202
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -26532,19 +26518,26 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583202
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669119
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669225
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|subject2": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825277
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -26677,19 +26670,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583125
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669122
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|the object": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825280
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -26822,19 +26815,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583127
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669125
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|understanding": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825283
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -26967,19 +26960,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583130
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669128
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|wave particle dualitytxt used in": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825285
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -27112,19 +27105,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583132
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669131
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|what do you mimic?": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825288
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -27257,19 +27250,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583135
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669135
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|wikipedia knowledge": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825291
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -27402,19 +27395,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583137
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669138
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|y": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825293
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -27547,19 +27540,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583139
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669141
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|an awareness of facts": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825296
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -27692,19 +27685,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583142
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669144
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|and how they work together in conjunction with knowledge": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825299
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -27837,19 +27830,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583144
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669148
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|and how they work together \u2013 in conjunction with knowledge and skills.\"": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825302
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -27982,6 +27975,13 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583147
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669151
       }
     ]
   },
@@ -28000,13 +28000,6 @@
   "orphan concepts  degree   2|degree=1|computational_instantiation": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825308
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -28139,19 +28132,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583152
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669157
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|doc": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825310
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -28284,6 +28277,13 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583154
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669160
       }
     ]
   },
@@ -28302,13 +28302,6 @@
   "orphan concepts  degree   2|degree=1|in conjunction with knowledge": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825316
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -28441,19 +28434,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583159
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669167
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|jupyter={'display_start_end': display_start_ends}": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825319
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -28586,19 +28579,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583161
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669170
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|mind": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825321
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -28731,19 +28724,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583164
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669173
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|nd surrounded by parentheses the object": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825324
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -28876,19 +28869,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583166
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669177
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|nded by parentheses the object": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825327
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -29021,19 +29014,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583169
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669180
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|of neighbors": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825332
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -29166,19 +29159,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583173
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669186
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|or ...": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825335
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -29311,19 +29304,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583176
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669189
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|or analysis": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825338
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -29456,19 +29449,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583178
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669193
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|or mem'r'ng": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825341
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -29601,19 +29594,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583181
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669196
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|or remembering": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825344
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -29746,19 +29739,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583183
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669199
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|practical skills in various fields": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825347
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -29891,19 +29884,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583185
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669202
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|situations": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825350
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -30036,19 +30029,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583188
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669205
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|situations or practical skill": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825352
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -30181,19 +30174,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583190
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669209
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|sky": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825355
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -30326,19 +30319,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583193
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669212
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|spacetime": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825358
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -30471,19 +30464,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583195
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669215
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|structure": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825361
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -30616,19 +30609,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583197
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669219
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|subject   neuro-symbolic ai - ibm research": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825364
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -30761,19 +30754,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583200
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669222
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|subject: \"neuro-symbolic ai - ibm research\"": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825370
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -30906,19 +30899,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583205
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669229
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|surrounded by parentheses": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825372
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -31051,19 +31044,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583207
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669232
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|surrounded by parentheses the object is the target of knowledge e g k": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825375
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -31196,19 +31189,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583209
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669235
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|surrounded by parentheses the object is the target of knowledge e g knowledge": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825378
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -31341,19 +31334,19 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583212
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669238
       }
     ]
   },
   "orphan concepts  degree   2|degree=1|the target of knowledge": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825381
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -31486,6 +31479,13 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583214
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669242
       }
     ]
   },
@@ -31969,13 +31969,6 @@
         "source_type": "human",
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
-        "ts": 1776825384
-      },
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
         "ts": 1776856299
       },
       {
@@ -32103,6 +32096,13 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583217
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669245
       }
     ]
   },
@@ -32145,13 +32145,6 @@
   "orphan concepts  degree   2|degree=1|bar": {
     "confidence": 1.0,
     "sources": [
-      {
-        "source": "obsidian_human",
-        "source_type": "human",
-        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
-        "confidence": 0.9,
-        "ts": 1776825396
-      },
       {
         "source": "obsidian_human",
         "source_type": "human",
@@ -32284,6 +32277,13 @@
         "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
         "confidence": 0.9,
         "ts": 1777583226
+      },
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669258
       }
     ]
   },
@@ -82452,6 +82452,210 @@
         "provenance": "",
         "confidence": 0.6,
         "ts": 1777595609
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|relation, weight=185298, conf=0.39)\n- [[subject) knowledge (relation) object\"": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777668932
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|b, weight=185297, conf=0.80)\n- [[object": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777668946
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|rule-based, weight=185296, conf=0.72)\n- [[subject": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777668953
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|\"is\", weight=185114, conf=0.39)\n- [[\"stocks\"": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777668966
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|being, weight=185113, conf=1.00)\n- [[blue": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669154
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|familiarity with individuals and situations, weight=185112, conf=0.39)\n- [[gravity": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669164
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|\"is\", weight=184797, conf=0.39)\n- [[being, weight=142, conf=0.60)\n- [[blue": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669248
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|familiarity with individuals and situations, weight=184793, conf=1.00)\n- [[familiarity with individuals and situations, weight=141, conf=0.60)\n- [[gravity": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669251
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|rule-based, weight=184792, conf=0.70)\n- [[\"is\", weight=143, conf=0.60)\n- [[\"stocks\"": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669255
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|relation, weight=184601, conf=0.68)\n- [[familiarity with individuals and situations, or practical skill": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669261
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|rule-based, weight=184598, conf=0.80)\n- [[\"is\", weight=430, conf=0.60)\n- [[being, weight=142, conf=0.60)\n- [[blue": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669264
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|\"is\", weight=184180, conf=0.68)\n- [[being, weight=746, conf=0.70)\n- [[blue": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669268
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|familiarity with individuals and situations, weight=184173, conf=1.00)\n- [[\"is\", weight=747, conf=0.60)\n- [[\"stocks\"": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669271
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|relation, weight=183971, conf=0.70)\n- [[familiarity with individuals and situations, weight=426, conf=0.60)\n- [[familiarity with individuals and situations, weight=141, conf=0.60)\n- [[gravity": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669274
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|familiarity with individuals and situations, weight=183965, conf=0.80)\n- [[\"is\", weight=1071, conf=0.60)\n- [[being, weight=142, conf=0.60)\n- [[blue": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669277
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|\"is\", weight=183533, conf=0.70)\n- [[being, weight=1387, conf=0.79)\n- [[blue": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669281
+      }
+    ]
+  },
+  "orphan concepts  degree   2|degree=1|familiarity with individuals and situations, weight=183521, conf=1.00)\n- [[\"is\", weight=1388, conf=0.59)\n- [[\"stocks\"": {
+    "confidence": 0.9,
+    "sources": [
+      {
+        "source": "obsidian_human",
+        "source_type": "human",
+        "provenance": "/home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Orphan Concepts _degree _ 2_.md",
+        "confidence": 0.9,
+        "ts": 1777669284
       }
     ]
   }
