@@ -5,5 +5,5 @@
 
 ## Neighbors
 
-- [[2021; (Artificial General Intelligence, combined strengths of neural networks and symbolic reasoning]] (IBM Research) - Oct 12, weight=179326, conf=1.00, src=https://research.ibm.com/topics/neuro-sy)
-- [[Relation, Object]] (IBM Research) (Subject, weight=93129, conf=1.00, src=https://research.ibm.com/topics/neuro-sy)
+- [[2021; (Artificial General Intelligence, combined strengths of neural networks and symbolic reasoning]] (IBM Research) - Oct 12, weight=183773, conf=1.00, src=https://research.ibm.com/topics/neuro-sy)
+- [[Relation, Object]] (IBM Research) (Subject, weight=97576, conf=1.00, src=https://research.ibm.com/topics/neuro-sy)
