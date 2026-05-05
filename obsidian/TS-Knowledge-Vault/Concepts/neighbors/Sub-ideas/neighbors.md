@@ -315,3 +315,7 @@ Used in: [[neighbors]]
 ---
 
 [[neighbors/Sub-ideas/sub-ideaqatext-neighbors--quantum-mechanics-wave-p]]
+
+---
+
+[[neighbors/Sub-ideas/neighborstxt]]
