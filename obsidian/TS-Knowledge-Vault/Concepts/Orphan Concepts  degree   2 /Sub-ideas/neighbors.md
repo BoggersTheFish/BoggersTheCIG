@@ -189,3 +189,7 @@ Used in: [[Orphan Concepts  degree   2 ]]
 ---
 
 [[Shared-Sub-ideas/neighborstxt]]
+
+---
+
+[[Shared-Sub-ideas/neighbors]]
