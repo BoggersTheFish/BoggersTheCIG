@@ -5,4 +5,4 @@
 
 ## Neighbors
 
-- [[2021]] (October 12, weight=176247, conf=0.41, src=https://research.ibm.com/topics/neuro-sy)
+- [[2021]] (October 12, weight=180830, conf=0.39, src=https://research.ibm.com/topics/neuro-sy)

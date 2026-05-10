@@ -5,7 +5,7 @@
 
 ## Neighbors
 
-- [[theory]] (is_a, weight=211995, conf=0.51)
-- [[structure]] (involves, weight=211994, conf=0.51)
-- [[mind]] (involves, weight=211993, conf=0.51)
-- [[computational_instantiation]] (has, weight=211992, conf=0.51)
+- [[theory]] (is_a, weight=216578, conf=0.50)
+- [[structure]] (involves, weight=216577, conf=0.50)
+- [[mind]] (involves, weight=216576, conf=0.50)
+- [[computational_instantiation]] (has, weight=216575, conf=0.50)
