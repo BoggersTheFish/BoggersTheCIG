@@ -197,3 +197,7 @@ Used in: [[Orphan Concepts  degree   2 ]]
 ---
 
 [[neighbors/Sub-ideas/stocks-degree1-weight212206-conf100-srchomerunnerw]]
+
+---
+
+[[Shared-Sub-ideas/neighbors]]

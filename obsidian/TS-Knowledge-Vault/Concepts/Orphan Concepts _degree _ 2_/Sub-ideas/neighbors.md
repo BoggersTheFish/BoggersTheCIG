@@ -533,3 +533,7 @@ Used in: [[Orphan Concepts _degree _ 2_]]
 ---
 
 [[Shared-Sub-ideas/-neighbors--cognitive-nda--is-true-deg-a--black-nd]]
+
+---
+
+[[neighbors/Sub-ideas/neighbors]]
