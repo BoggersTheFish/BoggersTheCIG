@@ -5,4 +5,4 @@
 
 ## Neighbors
 
-- [["Is True"]] ("Knows", weight=221212, conf=1.00)
+- [["Is True"]] ("Knows", weight=225785, conf=0.92)

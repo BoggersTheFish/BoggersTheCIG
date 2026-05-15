@@ -323,3 +323,9 @@ Used in: [[neighbors]]
 ---
 
 [[neighbors/Sub-ideas/neighbortxtexample-neighbors--cognitive-definition]]
+
+---
+
+[[neighbors/Sub-ideas/neighbors]]
+
+[[neighbors/Sub-ideas/neighbors]]
