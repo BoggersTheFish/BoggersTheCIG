@@ -8,4 +8,4 @@ bridge:: true
 
 ## Neighbors
 
-- [[Triplet]] ("Psychology", weight=230773, conf=0.31, src=https://www.britannica.com/topic/cogniti)
+- [[Triplet]] ("Psychology", weight=235403, conf=0.31, src=https://www.britannica.com/topic/cogniti)

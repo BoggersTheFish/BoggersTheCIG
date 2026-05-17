@@ -29,3 +29,7 @@ Used in: [[quantum-mechanics-wave-particle-duality]]
 ---
 
 [[Shared-Sub-ideas/-neighbor-relationships--quantum-mechanics-degree1]]
+
+---
+
+[[Shared-Sub-ideas/neighbors]]

@@ -337,3 +337,7 @@ Used in: [[neighbors]]
 ---
 
 [[Shared-Sub-ideas/sugest-neighboring-relationships]]
+
+---
+
+[[neighbors/Sub-ideas/quantum-mechanics-wav-part-duy]]

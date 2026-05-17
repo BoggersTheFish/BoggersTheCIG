@@ -5,4 +5,4 @@
 
 ## Neighbors
 
-- [[General Intelligence]] (Augmenting, weight=143237, conf=0.55, src=https://research.ibm.com/topics/neuro-sy)
+- [[General Intelligence]] (Augmenting, weight=147867, conf=0.54, src=https://research.ibm.com/topics/neuro-sy)
