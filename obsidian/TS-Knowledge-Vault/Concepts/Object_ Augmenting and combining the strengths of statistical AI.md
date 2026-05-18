@@ -5,4 +5,4 @@
 
 ## Neighbors
 
-- [[with the capabilities of human cognition, like reasoning and problem solving.]] (such as machine learning, weight=72300, conf=0.44, src=https://research.ibm.com/topics/neuro-sy)
+- [[with the capabilities of human cognition, like reasoning and problem solving.]] (such as machine learning, weight=76968, conf=0.44, src=https://research.ibm.com/topics/neuro-sy)
