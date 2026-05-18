@@ -5,4 +5,4 @@
 
 ## Neighbors
 
-- [[or (3]] ((2)_acquaintance_with_individuals_and_situations, weight=248782, conf=0.83)
+- [[or (3]] ((2)_acquaintance_with_individuals_and_situations, weight=253424, conf=0.82)
