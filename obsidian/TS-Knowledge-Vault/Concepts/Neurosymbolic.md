@@ -5,4 +5,4 @@
 
 ## Neighbors
 
-- [[Artificial]] (AI, weight=9234, conf=0.90, src=https://en.wikipedia.org/wiki/Symbolic_a)
+- [[Artificial]] (AI, weight=9358, conf=0.89, src=https://en.wikipedia.org/wiki/Symbolic_a)
