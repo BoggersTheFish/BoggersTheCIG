@@ -1,14 +1,11 @@
 ---
-bridge:: true
 ---
 
 # Cognitive architecture
 
-> **Bridge Node** — connects multiple semantic clusters
-
 ## Neighbors
 
-- [[theory]] (is_a, weight=262897, conf=0.41)
-- [[structure]] (involves, weight=262896, conf=0.41)
-- [[mind]] (involves, weight=262895, conf=0.41)
-- [[computational_instantiation]] (has, weight=262894, conf=0.41)
+- [[theory]] (is_a, weight=268966, conf=0.40)
+- [[structure]] (involves, weight=268965, conf=0.40)
+- [[mind]] (involves, weight=268964, conf=0.40)
+- [[computational_instantiation]] (has, weight=268963, conf=0.40)

@@ -553,3 +553,7 @@ Used in: [[Orphan Concepts _degree _ 2_]]
 ---
 
 [[neighbors/Sub-ideas/quantum_mechanics_wave_particle_dualitytxt]]
+
+---
+
+[[neighbors/Sub-ideas/sub-idea-neighbor-relations]]

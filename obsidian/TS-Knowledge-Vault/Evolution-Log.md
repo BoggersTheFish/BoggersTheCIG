@@ -8000,3 +8000,27 @@ Tracks self-improvement cycles. See `eval/self_improve_log.jsonl` for machine-re
 
 - EXTRACT: Orphan Concepts  degree   2  -> Orphan Concepts  degree   2 /Sub-ideas/quantum-mechanics_qmd-1txttext-neighbors--stocks-d.md
 - MERGE: ['-neighbors--cognitive-definition--meaning---merria', 'Orphan Concepts _degree _ 2_'] -> Shared-Sub-ideas/neighbors.md
+
+## Auto-organize 2026-05-19 13:33 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/_is__ weight_261016_ conf_0_43__- __being_ weight_1387_ conf_0_79__- __blue.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/_is__ weight_261016_ conf_0_43__- __being_ weight_1387_ conf_0_79__- __blue.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/__such_.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/__such_.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/_is__ weight_253244_ conf_0_24__- ___stocks_.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/_is__ weight_253244_ conf_0_24__- ___stocks_.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/____ _ME_.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/____ _ME_.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Relation_ weight_13261_ conf_0_55__- __Subject_ Knowledge _Relation_ Object_.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/External/Relation_ weight_13261_ conf_0_55__- __Subject_ Knowledge _Relation_ Object_.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Relation_ weight_119905_ conf_0_81__- __familiarity with individuals and situations_ weight_426_ conf_0_60__- __familiarity with individuals and situations_ weight_141_ conf_0_60__- __gravity.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Biology/Relation_ weight_119905_ conf_0_81__- __familiarity with individuals and situations_ weight_426_ conf_0_60__- __familiarity with individuals and situations_ weight_141_ conf_0_60__- __gravity.md
+
+## Extract & Merge Sub-ideas 2026-05-19 13:33 UTC
+
+- MERGE: ['Orphan Concepts  degree   2 ', 'quantum-mechanics_qmd-1txttext-neighbors--stocks-d'] -> Shared-Sub-ideas/neighbors_quantum-mechanics_wave-particle-duality.md
+- EXTRACT: Orphan Concepts _degree _ 2_ -> Orphan Concepts _degree _ 2_/Sub-ideas/neighbors.md
+
+## Extract & Merge Sub-ideas 2026-05-19 16:02 UTC
+
+- EXTRACT: neighbors_quantum-mechanics_wave-particle-duality -> neighbors_quantum-mechanics_wave-particle-duality/Sub-ideas/neighbors.md
+- EXTRACT: neighbors -> neighbors/Sub-ideas/sub-idea-neighbor-relations.md
+
+## Extract & Merge Sub-ideas 2026-05-19 18:30 UTC
+
+- EXTRACT: sub-idea-neighbor-relations -> sub-idea-neighbor-relations/Sub-ideas/neighbors.md
+- EXTRACT: neighbors -> neighbors/Sub-ideas/prefix-.md
