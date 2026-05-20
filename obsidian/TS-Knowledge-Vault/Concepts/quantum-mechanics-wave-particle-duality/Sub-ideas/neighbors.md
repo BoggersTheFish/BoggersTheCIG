@@ -33,3 +33,7 @@ Used in: [[quantum-mechanics-wave-particle-duality]]
 ---
 
 [[Shared-Sub-ideas/neighbors]]
+
+---
+
+[[neighbors/Sub-ideas/qa-neighborstxtexplanationthe-sub-idea-is-related-]]

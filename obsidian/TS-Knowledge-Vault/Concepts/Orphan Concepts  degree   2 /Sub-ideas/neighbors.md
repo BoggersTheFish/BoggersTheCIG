@@ -221,3 +221,7 @@ Used in: [[Orphan Concepts  degree   2 ]]
 ---
 
 [[neighbors/Sub-ideas/sub-idea-quantum-mechanics-and-wave-particle-duali]]
+
+---
+
+[[neighbors/Sub-ideas/quantum-mechaniques-and-wave-particle-duality]]

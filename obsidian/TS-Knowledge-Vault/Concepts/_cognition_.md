@@ -5,4 +5,4 @@
 
 ## Neighbors
 
-- [[('(such', 'PUNCT', 'as', 'thinking, …]] ('NNP'), weight=15472, conf=0.69, src=https://www.merriam-webster.com/dictiona)
+- [[('(such', 'PUNCT', 'as', 'thinking, …]] ('NNP'), weight=20192, conf=0.68, src=https://www.merriam-webster.com/dictiona)
