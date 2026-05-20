@@ -5,4 +5,4 @@
 
 ## Neighbors
 
-- [['as', 'thinking, …']] ('PUNCT', weight=10756, conf=0.69, src=https://www.merriam-webster.com/dictiona)
+- [['as', 'thinking, …']] ('PUNCT', weight=15475, conf=0.89, src=https://www.merriam-webster.com/dictiona)

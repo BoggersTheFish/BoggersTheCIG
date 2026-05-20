@@ -5,4 +5,4 @@
 
 ## Neighbors
 
-- [[('intellectual', 'ACC']] ('JJ', weight=6190, conf=0.90, src=/home/runner/work/BoggersTheCIG/BoggersT)
+- [[('intellectual', 'ACC']] ('JJ', weight=10909, conf=0.89, src=/home/runner/work/BoggersTheCIG/BoggersT)

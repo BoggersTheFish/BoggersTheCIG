@@ -1,8 +1,11 @@
 ---
+bridge:: true
 ---
 
 # 1) (Subject
 
+> **Bridge Node** — connects multiple semantic clusters
+
 ## Neighbors
 
-- [[Object]] (Relation, weight=268857, conf=0.85)
+- [[Object]] (Relation, weight=273576, conf=0.85)
