@@ -345,3 +345,7 @@ Used in: [[neighbors]]
 ---
 
 [[Shared-Sub-ideas/neighbors]]
+
+---
+
+[[neighbors/Sub-ideas/quantum-mechanics-wave-particle-dualityexamplequan]]
