@@ -5,4 +5,4 @@
 
 ## Neighbors
 
-- [[or (d]] ((c) A familiarity with individuals and situations, weight=233474, conf=0.32, src=https://en.wikipedia.org/wiki/Knowledge)
+- [[or (d]] ((c) A familiarity with individuals and situations, weight=233593, conf=0.31, src=https://en.wikipedia.org/wiki/Knowledge)

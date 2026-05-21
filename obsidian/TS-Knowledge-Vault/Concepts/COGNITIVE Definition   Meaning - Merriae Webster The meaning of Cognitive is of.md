@@ -5,4 +5,4 @@
 
 ## Neighbors
 
-- [[being, or involving conscious intellectual activity (such as thinking, reasoning, or analysis]] (relating_to, weight=278385, conf=0.40)
+- [[being, or involving conscious intellectual activity (such as thinking, reasoning, or analysis]] (relating_to, weight=278504, conf=0.39)

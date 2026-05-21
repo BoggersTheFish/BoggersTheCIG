@@ -8067,3 +8067,16 @@ Tracks self-improvement cycles. See `eval/self_improve_log.jsonl` for machine-re
 
 - EXTRACT: quantum-mechaniques-and-wave-particle-duality -> quantum-mechaniques-and-wave-particle-duality/Sub-ideas/neighbors.md
 - EXTRACT: neighbors -> neighbors/Sub-ideas/qa-neighborstxtexplanationthe-sub-idea-is-related-.md
+
+## Auto-organize 2026-05-21 04:29 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Relation_ weight_63031_ conf_0_88__- __familiarity with individuals and situations_ or practical skill.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/External/Relation_ weight_63031_ conf_0_88__- __familiarity with individuals and situations_ or practical skill.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/familiarity with individuals and situations_ weight_6680_ conf_1_00__- ___is__ weight_1388_ conf_0_59__- ___stocks_.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/External/familiarity with individuals and situations_ weight_6680_ conf_1_00__- ___is__ weight_1388_ conf_0_59__- ___stocks_.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/_is__ weight_257912_ conf_0_24__- ___stocks_.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/_is__ weight_257912_ conf_0_24__- ___stocks_.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/_is__ weight_272575_ conf_0_42__- __being_ weight_746_ conf_0_70__- __blue.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/_is__ weight_272575_ conf_0_42__- __being_ weight_746_ conf_0_70__- __blue.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/_is__ weight_261663_ conf_0_42__- __being_ weight_746_ conf_0_70__- __blue.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/_is__ weight_261663_ conf_0_42__- __being_ weight_746_ conf_0_70__- __blue.md
+
+## Extract & Merge Sub-ideas 2026-05-21 04:29 UTC
+
+- MERGE: ['Orphan Concepts  degree   2 ', 'neighbors'] -> Shared-Sub-ideas/neighbors.md
+- MERGE: ['Orphan Concepts _degree _ 2_', 'qa-neighborstxtexplanationthe-sub-idea-is-related-'] -> Shared-Sub-ideas/-neighbors--cognitive-definition--meaning---merria.md

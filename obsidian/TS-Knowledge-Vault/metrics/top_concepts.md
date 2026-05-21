@@ -2,7 +2,7 @@
 
 | Concept | Degree |
 |---------|--------|
-| [[Orphan Concepts  degree   2 ]] | 1651 |
+| [[Orphan Concepts  degree   2 ]] | 1668 |
 | [[Orphan Concepts (degree < 2)]] | 278 |
 | [[familiarity with individuals]] | 163 |
 | [[situations or practical skill]] | 9 |
@@ -11,4 +11,4 @@
 | [[Knowledge]] | 6 |
 | [[e.g.]] | 6 |
 | [[Relation, Object]] | 5 |
-| [[such as thinking]] | 5 |
+| [[Subject]] | 5 |

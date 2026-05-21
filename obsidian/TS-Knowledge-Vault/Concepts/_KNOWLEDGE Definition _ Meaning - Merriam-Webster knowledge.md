@@ -5,4 +5,4 @@
 
 ## Neighbors
 
-- [[erudiition, scholarship mean what is or can be known by an individual or by humankind. knowledge applies to facts or …']] (learning, weight=190626, conf=0.34, src=https://www.merriam-webster.com/dictiona)
+- [[erudiition, scholarship mean what is or can be known by an individual or by humankind. knowledge applies to facts or …']] (learning, weight=190745, conf=0.33, src=https://www.merriam-webster.com/dictiona)
