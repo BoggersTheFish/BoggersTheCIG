@@ -1,10 +1,10 @@
-# TS Insights — 2026-05-21 22:23 UTC
+# TS Insights — 2026-05-22 09:18 UTC
 Generated automatically each self-improvement cycle.
 ## Highest-Confidence New Knowledge
 
-- **X** –[r]→ **Y** (conf: 1.00)
-- **sky** –[is_a]→ **blue** (conf: 1.00)
-- **familiarity with individuals** –[related_to]→ **situations or practical skill** (conf: 1.00)
+- **X** –[r]→ **Y** (conf: 0.99)
+- **sky** –[is_a]→ **blue** (conf: 0.99)
+- **familiarity with individuals** –[related_to]→ **situations or practical skill** (conf: 0.99)
 
 ## Active Contradictions
 
@@ -12,7 +12,7 @@ Generated automatically each self-improvement cycle.
 
 ## Top Bridge Node
 
-- **[[Orphan Concepts  degree   2 ]]** — bridge score: 1.6453, betweenness: 0.9065, cluster span: 0.815
+- **[[Orphan Concepts  degree   2 ]]** — bridge score: 1.635, betweenness: 0.9008, cluster span: 0.815
 
 ## Corroborated Hypotheses
 
@@ -20,6 +20,6 @@ Generated automatically each self-improvement cycle.
 
 ## Human Edits Synced
 
-- +119 edges added from vault
-- -0 edges removed from vault
+- +0 edges added from vault
+- -119 edges removed from vault
 
