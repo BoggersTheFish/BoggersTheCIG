@@ -41,3 +41,7 @@ Used in: [[neighbors]]
 ---
 
 [[Shared-Sub-ideas/neighbor_gravity_timemd]]
+
+---
+
+[[Shared-Sub-ideas/neighbors]]

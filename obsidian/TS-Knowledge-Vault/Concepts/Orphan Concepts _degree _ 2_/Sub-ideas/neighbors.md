@@ -512,171 +512,48 @@ Used in: [[Orphan Concepts _degree _ 2_]]
 
 ---
 
-## Neighbors
+[[Shared-Sub-ideas/quantum-mechanics---the-meaning-definition--exampl]]
 
-- [["COGNITIVE Definition & Meaning - Merriae/Webster The meaning of Cognitive is of]] (degree=1)
-- [["Is True"]] (degree=1)
-- [["black"]] (degree=1)
-- [["iPhone"]] (degree=1)
-- [["stocks"]] (degree=1)
-- [[1) (Subject]] (degree=1)
-- [[1) the concept itself (e.g.]] (degree=1)
-- [[Foo]] (degree=1)
-- [[Money]] (degree=1)
-- [[Neighbor Relations]] (degree=1)
-- [[Neighbors Gravity Time]] (degree=1)
-- [[Otto 'Pop' Carter]] (degree=1)
-- [[Relation, weight=189648, conf=0.37)
-- [[Subject) Knowledge (Relation) Object"]] (degree=1)
-- [[Subject: Cognitive Architecture) (Relation: Defines the mind in natural or artificial systems) (Object: "Fixed structures that provide a mind]] (degree=1)
-- [[b, weight=189647, conf=0.77)
-- [[object]] (degree=1)
-- [[quick check]] (degree=1)
-- [[rule-based, weight=189646, conf=0.69)
-- [[subject]] (degree=1), weight=189645, conf=0.66)
-- [["advances", "neural networks"]] (degree=1)
-- [["book"]] (degree=1)
-- [["is"]] (degree=1)
-- [["is", weight=189464, conf=0.37)
-- [["stocks"]] (degree=1)
-- [[(2]] (degree=1)
-- [[(Subject)]] (degree=1)
-- [[1   Subject]] (degree=1)
-- [[1  Knowledge - Wikipedia Knowledge is an awareness of facts]] (degree=1)
-- [[1  is the subject of the triple  Knowledge - Wikipedia Knowledge is an awareness of facts]] (degree=1)
-- [[1  the concept itself  e g]] (degree=1)
-- [[1) Knowledge - Wikipedia Knowledge is an awareness of facts]] (degree=1)
-- [[1) is the subject of the triple (Knowledge - Wikipedia Knowledge is an awareness of facts]] (degree=1)
-- [[1) the concept itself (e.g.]] (degree=1)
-- [[Alice]] (degree=1)
-- [[Apple]] (degree=1)
-- [[Augmenting]] (degree=1)
-- [[Brown Bear]] (degree=1)
-- [[COGNITIVE Definition   Meaning - Merriae Webster The meaning of Cognitive is of]] (degree=1)
-- [[Consciousness]] (degree=1)
-- [[Definition]] (degree=1)
-- [[Earth]] (degree=1)
-- [[Facts]] (degree=1)
-- [[Foo]] (degree=1)
-- [[Gravity]] (degree=1)
-- [[I2K Web]] (degree=1)
-- [[Its]] (degree=1)
-- [[Jaguar]] (degree=1)
-- [[Knowledge - Wikipedia Knowledge]] (degree=1)
-- [[Merriae Webster The meaning of Cognitive]] (degree=1)
-- [[Money]] (degree=1)
-- [[Neighbor Relations]] (degree=1)
-- [[Neighborhood Theory]] (degree=1)
-- [[Neighbors Gravity Time]] (degree=1)
-- [[Networks Used in]] (degree=1)
-- [[Object of Knowledge - Wikipedia]] (degree=1)
-- [[Object1]] (degree=1)
-- [[Object3]] (degree=1)
-- [[Orphan]] (degree=1)
-- [[Otto 'Pop' Carter]] (degree=1)
-- [[Quantum Mechanics]] (degree=1)
-- [[Reality]] (degree=1)
-- [[Relation  Augmenting and combining the strengths of statistical AI]] (degree=1)
-- [[Relation Augmenting]] (degree=1)
-- [[Relation2]] (degree=1)
-- [[Relation3]] (degree=1)
-- [[Relation: Augmenting and combining the strengths of statistical AI]] (degree=1)
-- [[Science Facts]] (degree=1)
-- [[Science/Facts]] (degree=1)
-- [[Scientists]] (degree=1)
-- [[Structure Used in]] (degree=1)
-- [[Sub Ideaneighborhubskebaab Case With No Spaces]] (degree=1)
-- [[Subject  Cognitive Architecture   Relation  Defines the mind in natural or artificial systems   Object   Fixed structures that provide a mind]] (degree=1)
-- [[Subject  has practical skills in various fields]] (degree=1)
-- [[Subject of Knowledge - Wikipedia]] (degree=1)
-- [[Subject)]] (degree=1)
-- [[Subject) has practical skills in various fields]] (degree=1)
-- [[Subject1]] (degree=1)
-- [[Subject2]] (degree=1)
-- [[Subject: Cognitive Architecture) (Relation: Defines the mind in natural or artificial systems) (Object: "Fixed structures that provide a mind]] (degree=1)
-- [[The object]] (degree=1)
-- [[Understanding]] (degree=1)
-- [[Wave Particle Dualitytxt Used in]] (degree=1)
-- [[What Do You Mimic?]] (degree=1)
-- [[Wikipedia Knowledge]] (degree=1)
-- [[Y]] (degree=1)
-- [[a[0]]] (degree=1)
-- [[an awareness of facts]] (degree=1)
-- [[and how they work together in conjunction with knowledge]] (degree=1)
-- [[and how they work together – in conjunction with knowledge and skills."]] (degree=1)
-- [[being, weight=189463, conf=1.00)
-- [[blue]] (degree=1)
-- [[computational_instantiation]] (degree=1)
-- [[doc]] (degree=1)
-- [[familiarity with individuals and situations, weight=189462, conf=0.37)
-- [[gravity]] (degree=1)
-- [[in conjunction with knowledge]] (degree=1)
-- [[jupyter={'display_start_end': display_start_ends}]] (degree=1)
-- [[mind]] (degree=1)
-- [[nd surrounded by parentheses The object]] (degree=1)
-- [[nded by parentheses The object]] (degree=1)
-- [[object1]] (degree=1)
-- [[of Neighbors]] (degree=1)
-- [[or ...]] (degree=1)
-- [[or analysis]] (degree=1)
-- [[or mem'r'ng]] (degree=1)
-- [[or remembering]] (degree=1)
-- [[practical skills in various fields]] (degree=1)
-- [[situations]] (degree=1)
-- [[situations or practical skill]] (degree=1)
-- [[sky]] (degree=1)
-- [[spacetime]] (degree=1)
-- [[structure]] (degree=1)
-- [[subject   Neuro-symbolic AI - IBM Research]] (degree=1)
-- [[subject1]] (degree=1)
-- [[subject: "Neuro-symbolic AI - IBM Research"]] (degree=1)
-- [[surrounded by parentheses]] (degree=1)
-- [[surrounded by parentheses The object is the target of knowledge e g K]] (degree=1)
-- [[surrounded by parentheses The object is the target of knowledge e g Knowledge]] (degree=1)
-- [[the target of knowledge]] (degree=1), weight=189461, conf=0.68)
-- [["is", "conscious"]] (degree=1)
-- [["is", weight=189147, conf=0.38)
-- [[being, weight=142, conf=0.60)
-- [[blue]] (degree=1)
-- [[familiarity with individuals and situations, weight=189143, conf=1.00)
-- [[familiarity with individuals and situations, weight=141, conf=0.60)
-- [[gravity]] (degree=1)
-- [[rule-based, weight=189142, conf=0.68)
-- [["is", weight=143, conf=0.60)
-- [["stocks"]] (degree=1)
-- [[1) the concept itself (e.g.]] (degree=1)
-- [[Bar]] (degree=1)
-- [[Neighbor Relations]] (degree=1)
-- [[Neighbors Gravity Time]] (degree=1)
-- [[Otto 'Pop' Carter]] (degree=1)
-- [[Relation, weight=188951, conf=0.66)
-- [[familiarity with individuals and situations, or practical skill]] (degree=1)
-- [[rule-based, weight=188948, conf=0.77)
-- [["is", weight=430, conf=0.60)
-- [[being, weight=142, conf=0.60)
-- [[blue]] (degree=1)
-- [["is", weight=188530, conf=0.66)
-- [[being, weight=746, conf=0.70)
-- [[blue]] (degree=1)
-- [[familiarity with individuals and situations, weight=188523, conf=1.00)
-- [["is", weight=747, conf=0.60)
-- [["stocks"]] (degree=1)
-- [[1) the concept itself (e.g.]] (degree=1)
-- [[Neighbor Relations]] (degree=1)
-- [[Neighbors Gravity Time]] (degree=1)
-- [[Otto 'Pop' Carter]] (degree=1)
-- [[Relation, weight=188321, conf=0.68)
-- [[familiarity with individuals and situations, weight=426, conf=0.60)
-- [[familiarity with individuals and situations, weight=141, conf=0.60)
-- [[gravity]] (degree=1)
-- [[familiarity with individuals and situations, weight=188315, conf=0.77)
-- [["is", weight=1071, conf=0.60)
-- [[being, weight=142, conf=0.60)
-- [[blue]] (degree=1)
-- [["is", weight=187883, conf=0.68)
-- [[being, weight=1387, conf=0.79)
-- [[blue]] (degree=1)
-- [[familiarity with individuals and situations, weight=187871, conf=1.00)
-- [["is", weight=1388, conf=0.59)
-- [["stocks"]] (degree=1)
-- [["is", weight=187661, conf=0.68)
+---
+
+[[Shared-Sub-ideas/neighbors]]
+
+---
+
+[[Shared-Sub-ideas/quantum-mechanics-wave-particle-duality-kebab-case]]
+
+---
+
+[[neighbors/Sub-ideas/neighbors]]
+
+---
+
+[[Shared-Sub-ideas/neighbors]]
+
+---
+
+[[Shared-Sub-ideas/-neighbors--cognitive-nda--is-true-deg-a--black-nd]]
+
+---
+
+[[neighbors/Sub-ideas/neighbors]]
+
+---
+
+[[neighbors/Sub-ideas/neighbors]]
+
+---
+
+[[Shared-Sub-ideas/neighbors]]
+
+---
+
+[[neighbors/Sub-ideas/neighbors]]
+
+---
+
+[[neighbors/Sub-ideas/quantum_mechanics_wave_particle_dualitytxt]]
+
+---
+
+[[neighbors/Sub-ideas/sub-idea-neighbor-relations]]

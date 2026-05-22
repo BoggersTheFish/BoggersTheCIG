@@ -5,4 +5,4 @@
 
 ## Neighbors
 
-- [[NFL]] (MVP, weight=142165, conf=1.00, src=https://www.merriam-webster.com/dictiona)
+- [[NFL]] (MVP, weight=244791, conf=0.81, src=https://www.merriam-webster.com/dictiona)

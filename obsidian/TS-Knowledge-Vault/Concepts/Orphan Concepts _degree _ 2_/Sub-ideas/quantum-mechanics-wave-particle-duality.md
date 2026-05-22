@@ -17,3 +17,11 @@ Used in: [[Orphan Concepts _degree _ 2_]]
 ---
 
 [[Shared-Sub-ideas/neighbor-relations---gravity-time]]
+
+---
+
+[[quantum-mechanics-wave-particle-duality/Sub-ideas/neighbors]]
+
+---
+
+[[quantum-mechanics-wave-particle-duality/Sub-ideas/sub-idea-quark-hadron-duality-kebaab-case-no-space]]
