@@ -100,6 +100,14 @@ Repository object state during diagnosis:
 - The cleanup commit itself only changed markdown files.
 - The largest tracked files are existing memory/provenance and Obsidian snapshot artifacts, not new cleanup files.
 
+Final push command:
+
+```bash
+timeout 300s git push --progress origin HEAD:refs/heads/codex/cig-public-framing-cleanup
+```
+
+Result: succeeded. The progress output showed the branch upload sending the existing large repository history, around `1.03 GiB`, before creating the remote branch.
+
 ## Manual Retry If Needed
 
 If push stalls again, retry from a stable network shell:
