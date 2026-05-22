@@ -554,8 +554,14 @@ class ConceptGraph:
                     scores.append((name, float(sim)))
             return sorted(scores, key=lambda x: -x[1])[:top_k]
         except Exception as e:
-            logger.warning("Semantic search failed: %s", e)
-            return []
+            logger.debug("Vector semantic search unavailable, using lexical fallback: %s", e)
+            q_text = query.lower()
+            scores = []
+            for name, _ in candidates:
+                name_text = str(name).lower()
+                score = 1.0 if q_text in name_text else 0.0
+                scores.append((name, score))
+            return sorted(scores, key=lambda x: (-x[1], x[0]))[:top_k]
 
     def node_count(self) -> int:
         """Total node count."""

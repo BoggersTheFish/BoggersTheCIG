@@ -3,12 +3,14 @@ from pathlib import Path
 
 import pytest
 
+pytestmark = pytest.mark.slow
+
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 import sys
 sys.path.insert(0, str(PROJECT_ROOT))
 
 
-def test_auto_snapshot_graph_empty_returns_none(monkeypatch):
+def test_auto_snapshot_graph_empty_returns_none(monkeypatch, tmp_path):
     """Empty graph skips snapshot and returns None."""
     import networkx as nx
 
@@ -19,18 +21,8 @@ def test_auto_snapshot_graph_empty_returns_none(monkeypatch):
     monkeypatch.setattr("src.viz.ConceptGraph", lambda: EmptyGraph())
 
     from src.viz import auto_snapshot_graph
-    from src.config import PROJECT_ROOT
-
-    tmp = PROJECT_ROOT / "tests" / "_snap_tmp"
-    tmp.mkdir(exist_ok=True)
-    try:
-        out = auto_snapshot_graph(vault_path=tmp, reason="test-empty")
-        assert out is None
-    finally:
-        if (tmp / "snapshots").exists():
-            for f in (tmp / "snapshots").iterdir():
-                f.unlink()
-            (tmp / "snapshots").rmdir()
+    out = auto_snapshot_graph(vault_path=tmp_path, reason="test-empty")
+    assert out is None
 
 
 def test_auto_snapshot_graph_with_data(monkeypatch, tmp_path):
@@ -62,25 +54,16 @@ def test_auto_snapshot_graph_with_data(monkeypatch, tmp_path):
     assert "test" in content
 
 
-def test_export_to_obsidian():
+def test_export_to_obsidian(tmp_path):
     """Export creates Concepts dir and markdown files."""
     from src.viz import export_to_obsidian
     from src.concept_graph import ConceptGraph
-    from src.config import PROJECT_ROOT
 
     graph = ConceptGraph()
     graph.ingest_triples([("Foo", "relates", "Bar")], source="test")
 
-    tmp = PROJECT_ROOT / "tests" / "_viz_tmp"
-    tmp.mkdir(exist_ok=True)
-    try:
-        export_to_obsidian(graph, target_dir=tmp / "Concepts")
-        concepts = tmp / "Concepts"
-        assert concepts.exists()
-        files = list(concepts.glob("*.md"))
-        assert len(files) >= 1
-    finally:
-        if (tmp / "Concepts").exists():
-            for f in (tmp / "Concepts").iterdir():
-                f.unlink()
-            (tmp / "Concepts").rmdir()
+    export_to_obsidian(graph, target_dir=tmp_path / "Concepts")
+    concepts = tmp_path / "Concepts"
+    assert concepts.exists()
+    files = list(concepts.glob("*.md"))
+    assert len(files) >= 1

@@ -117,3 +117,33 @@ git push --progress origin HEAD:refs/heads/codex/cig-public-framing-cleanup
 ```
 
 If that still stalls, inspect whether the remote has all main-branch objects and consider pushing from a fresh clone of the remote with the cleanup patch applied.
+
+## Test Isolation Follow-Up
+
+Follow-up cleanup pass:
+
+- runtime paths used by tests are routed into a temporary directory before `src.config` is imported;
+- SQLite and provenance store defaults now derive from `src.config.MEMORY_DIR`;
+- store singletons are reset between tests;
+- self-improver tests are marked `integration`;
+- visualization tests are marked `slow`;
+- default test workflow is documented in `docs/TESTING.md`;
+- vector semantic search now has a lexical fallback when optional vector dependencies such as `numpy` are absent.
+
+Default test command:
+
+```bash
+python3 -m venv .venv
+. .venv/bin/activate
+python -m pip install --upgrade pip
+python -m pip install -r requirements-dev.txt
+python -m pytest -m "not slow and not external and not integration"
+```
+
+Result:
+
+- `43 passed`
+- `9 deselected`
+- no tracked `memory/`, `graphs/`, `obsidian/`, `data/`, `eval/`, or `viz/` files were mutated after the test run.
+
+The full suite is still not claimed green. Slow/integration tests remain separated because they may exercise broader workflow surfaces, plotting, Obsidian/vault behavior, or optional local services.

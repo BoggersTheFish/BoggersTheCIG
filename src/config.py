@@ -2,14 +2,25 @@
 import os
 from pathlib import Path
 
-# Paths
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
-DATA_DIR = PROJECT_ROOT / "data"
-GRAPHS_DIR = PROJECT_ROOT / "graphs"
-MODELS_DIR = PROJECT_ROOT / "models"
-MEMORY_DIR = PROJECT_ROOT / "memory"
-EVAL_DIR = PROJECT_ROOT / "eval"
-VIZ_DIR = PROJECT_ROOT / "viz"
+
+
+def _path_from_env(name: str, default: Path) -> Path:
+    """Resolve a path override while preserving repo-relative defaults."""
+    raw = os.getenv(name)
+    if not raw:
+        return default
+    path = Path(raw).expanduser()
+    return path if path.is_absolute() else PROJECT_ROOT / path
+
+
+# Paths
+DATA_DIR = _path_from_env("TS_DATA_DIR", PROJECT_ROOT / "data")
+GRAPHS_DIR = _path_from_env("TS_GRAPHS_DIR", PROJECT_ROOT / "graphs")
+MODELS_DIR = _path_from_env("TS_MODELS_DIR", PROJECT_ROOT / "models")
+MEMORY_DIR = _path_from_env("TS_MEMORY_DIR", PROJECT_ROOT / "memory")
+EVAL_DIR = _path_from_env("TS_EVAL_DIR", PROJECT_ROOT / "eval")
+VIZ_DIR = _path_from_env("TS_VIZ_DIR", PROJECT_ROOT / "viz")
 
 # Ensure directories exist
 for d in [DATA_DIR, GRAPHS_DIR, MODELS_DIR, MEMORY_DIR, EVAL_DIR, VIZ_DIR]:
@@ -74,7 +85,7 @@ _OLLAMA_PORTS = [OLLAMA_BASE_PORT + i for i in range(PARALLEL_THREADS)]
 OLLAMA_URLS = [f"http://localhost:{p}" for p in _OLLAMA_PORTS]
 
 # Obsidian TS Knowledge Vault (visual memory layer)
-OBSIDIAN_VAULT = PROJECT_ROOT / os.getenv("OBSIDIAN_VAULT", "obsidian/TS-Knowledge-Vault")
+OBSIDIAN_VAULT = _path_from_env("OBSIDIAN_VAULT", PROJECT_ROOT / "obsidian/TS-Knowledge-Vault")
 
 # External knowledge ingestion
 ENABLE_EXTERNAL_INGEST = os.getenv("ENABLE_EXTERNAL_INGEST", "false").lower() == "true"

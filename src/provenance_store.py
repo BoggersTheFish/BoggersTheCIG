@@ -21,8 +21,10 @@ from typing import Dict, List, Optional, Tuple
 
 logger = logging.getLogger(__name__)
 
-_STORE_PATH = Path(__file__).resolve().parent.parent / "memory" / "provenance_store.jsonl"
-_INDEX_PATH = Path(__file__).resolve().parent.parent / "memory" / "provenance_index.json"
+from src.config import MEMORY_DIR
+
+_STORE_PATH = MEMORY_DIR / "provenance_store.jsonl"
+_INDEX_PATH = MEMORY_DIR / "provenance_index.json"
 
 
 def _triple_key(s: str, r: str, o: str) -> str:
@@ -35,9 +37,11 @@ class ProvenanceStore:
     Thread-safe for single-process use.
     """
 
-    def __init__(self, store_path: Path = None):
+    def __init__(self, store_path: Path = None, index_path: Path = None):
         self._path = store_path or _STORE_PATH
-        self._index_path = _INDEX_PATH
+        self._index_path = index_path or (
+            self._path.with_name("provenance_index.json") if store_path else _INDEX_PATH
+        )
         # key → {confidence, sources: [{source, source_type, provenance, ts}]}
         self._index: Dict[str, dict] = {}
         self._load()
@@ -197,8 +201,12 @@ class ProvenanceStore:
 _default_store: Optional[ProvenanceStore] = None
 
 
-def get_store() -> ProvenanceStore:
+def get_store(store_path: Path = None, index_path: Path = None) -> ProvenanceStore:
     global _default_store
+    requested_path = Path(store_path) if store_path else None
+    requested_index = Path(index_path) if index_path else None
     if _default_store is None:
-        _default_store = ProvenanceStore()
+        _default_store = ProvenanceStore(requested_path, requested_index)
+    elif requested_path is not None and _default_store._path != requested_path:
+        _default_store = ProvenanceStore(requested_path, requested_index)
     return _default_store

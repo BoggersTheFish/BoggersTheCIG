@@ -20,7 +20,9 @@ from typing import Any, Dict, List, Optional, Tuple
 
 logger = logging.getLogger(__name__)
 
-_DB_PATH = Path(__file__).resolve().parent.parent / "memory" / "knowledge.db"
+from src.config import MEMORY_DIR
+
+_DB_PATH = MEMORY_DIR / "knowledge.db"
 
 
 def _pack_embedding(emb: List[float]) -> bytes:
@@ -321,6 +323,10 @@ _default_store: Optional[SQLiteStore] = None
 
 def get_store(db_path: Path = None) -> SQLiteStore:
     global _default_store
+    requested_path = Path(db_path) if db_path else None
     if _default_store is None:
-        _default_store = SQLiteStore(db_path)
+        _default_store = SQLiteStore(requested_path)
+    elif requested_path is not None and _default_store._path != requested_path:
+        _default_store.close()
+        _default_store = SQLiteStore(requested_path)
     return _default_store
