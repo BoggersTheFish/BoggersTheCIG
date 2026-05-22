@@ -8,4 +8,4 @@ bridge:: true
 
 ## Neighbors
 
-- [[Object]] (Relation, weight=292157, conf=0.81)
+- [[Object]] (Relation, weight=296452, conf=0.81)
