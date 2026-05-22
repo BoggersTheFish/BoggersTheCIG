@@ -1,129 +1,181 @@
-# BoggersTheCIG — TS Cognitive Engine
+# BoggersTheCIG
 
-**A self-evolving, local-first knowledge graph engine** built on the **Thinking System (TS)** architecture.
+Local-first provenance-aware concept graph for confidence-weighted claims, evidence, contradictions, Obsidian-readable memory, and TS-style inspectable knowledge state.
 
-It ingests information, builds a persistent epistemic graph, validates hypotheses with evidence, detects contradictions, and continuously self-improves — both its knowledge and its own code.
+**Status:** active experimental prototype. Useful as CIG infrastructure; not a finished autonomous reasoner.
 
-Everything runs locally. Zero cloud cost. Full transparency.
+## What It Is
 
----
+BoggersTheCIG is a local-first claim/evidence graph. It ingests text, extracts concept triples, stores provenance, tracks confidence, surfaces possible contradictions, and can export graph state into an Obsidian-readable vault.
+
+The repo is part of the broader BoggersTheFish TS / Thinking System stack. In that stack, CIG means provenance-aware claim graph infrastructure: claims, sources, confidence, contradictions, bridge nodes, and inspection surfaces.
+
+## What It Is Not
+
+- Not the whole TS system.
+- Not a finished autonomous reasoner.
+- Not a production knowledge base.
+- Not a formal theorem prover.
+- Not proof that confidence scores are calibrated truth probabilities.
+- Not safe to run as an unsupervised self-modifying agent.
+
+Experimental self-improvement and code-modification paths require human review.
+
+## Core Features
+
+- Text ingestion into subject/relation/object triples.
+- Local concept graph backed by SQLite and NetworkX cache paths.
+- Provenance records for claim sources and reinforcement.
+- Confidence-weighted edges.
+- Heuristic contradiction detection.
+- Bridge-node and causal-chain inspection.
+- Obsidian vault export for human-readable memory.
+- FastAPI endpoints for graph inspection and query paths.
+- Optional Ollama/local LLM extraction where available.
+
+## Architecture
+
+```text
+text input
+  -> triple extraction
+  -> concept graph
+  -> provenance/confidence store
+  -> contradiction and bridge checks
+  -> Obsidian export / API / visualization
+```
+
+Main modules:
+
+- `src/language_layer.py`: triple extraction and optional local model prompts.
+- `src/concept_graph.py`: graph backend and edge metadata.
+- `src/provenance_store.py`: source-chain and corroboration records.
+- `src/core_engine.py`: graph search, bridge detection, and contradiction signals.
+- `src/knowledge_ingest.py`: external ingestion helpers.
+- `src/obsidian_sync.py`: Obsidian graph export/sync.
+- `src/api/app.py`: FastAPI inspection endpoints.
+- `src/self_improver.py`: experimental confidence-gated self-improvement loop.
+
+More detail: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
 
 ## Quick Start
 
 ```bash
-git clone https://github.com/BoggersTheFish/BoggersTheCIG.git
+git clone https://github.com/BoggersTheFish/BoggersTheCIG
 cd BoggersTheCIG
 
-python -m venv venv && source venv/bin/activate
-pip install -r requirements.txt && pip install -e .
+python -m venv venv
+source venv/bin/activate
 
-# Start Ollama and pull a model
-ollama pull qwen2.5-coder:7b
-
-# Run a self-improvement cycle
-python src/main.py --self-improve
-```
-
-See [Setup](#setup) for full details.
-
----
-
-## Key Features
-
-- **Epistemic Knowledge Graph** with confidence scoring, provenance, and Ebbinghaus decay
-- **Evidence-based Hypothesis Validation** (web search + semantic similarity)
-- **Bidirectional Obsidian Sync** — your manual edits strengthen the graph
-- **Self-Code Modification** with isolated testing and coherence gates
-- **Continuous Background Evolution** via GitHub Actions (or locally)
-- **Rich API** + live dashboard
-- **Coherence Guardrails** — automatic rollback on quality regression
-
----
-
-## Architecture Overview
-
-The system is built as a **13-stage pipeline** running in continuous loops:
-
-1. **Language Layer** — Multi-prompt triple extraction with quality tracking
-2. **Concept Graph** — SQLite primary store + NetworkX cache
-3. **Provenance & Memory** — Full audit trail and decay mechanics
-4. **Core Reasoning** — Causal chains, bridge nodes, contradiction detection
-5. **Hypothesis Engine** — Gap detection → evidence validation
-6. **Self-Improver** — Confidence-gated commits + code evolution
-7. **Obsidian Integration** — Bidirectional human-AI collaboration
-8. **API & Dashboard** — FastAPI endpoints and live metrics
-
-Full details in the [Architecture section](#architecture) below.
-
----
-
-## Project Status
-
-**Active development** — This is the central engine of the entire TS ecosystem.
-
-Most recent major upgrades (v2):
-- Full epistemic reasoning system
-- SQLite + provenance tracking
-- Evidence-based validation
-- Safer self-modification pipeline
-
----
-
-## Setup
-
-### Prerequisites
-- Python 3.12+
-- Ollama running
-- 8GB+ RAM recommended
-
-### Installation
-
-```bash
 pip install -r requirements.txt
 pip install -e .
+
+export PYTHONPATH=.
+python src/main.py --input "Gravity bends spacetime"
 ```
 
-### Hardware-Aware Model Selection
+Optional local LLM paths require Ollama and a local model:
 
-The system auto-detects your hardware and recommends the best Ollama model.
-
----
-
-## Running
-
-**Basic usage**
 ```bash
-python src/main.py --input "Your text here"
-python src/main.py --self-improve
-python src/main.py --self-improve --ingest-external
+ollama serve
+ollama pull qwen2.5-coder:7b
+python src/main.py --input "Gravity bends spacetime"
 ```
 
-**API Server**
+Rule-based mode:
+
 ```bash
-uvicorn src.api.app:app --reload
+python src/main.py --input "Gravity bends spacetime" --no-llm
 ```
 
-See full command reference in the original detailed README (still present in the repo for now).
+API:
 
----
+```bash
+uvicorn src.api.app:app --reload --host 0.0.0.0 --port 8000
+```
 
-## Links in the TS Ecosystem
+## Minimal Example
 
-- **BoggersTheAI** — The full Thinking System Operating System
-- **TS-Core** — Reusable graph dynamics kernel
-- **bozo** — TensionLM experimental model
-- **GOAT-TS** — Theoretical cognitive architecture foundation
+```bash
+export PYTHONPATH=.
+python src/main.py --input "Alice supports the claim that gravity affects light."
+python src/main.py --input "Bob disputes the claim that gravity affects light."
+```
 
----
+Then inspect generated graph state in:
 
-## Philosophy
+- `memory/`
+- `graphs/`
+- `obsidian/TS-Knowledge-Vault/`
 
-We are not building another LLM wrapper.
+Exact outputs depend on whether rule-based extraction or local LLM extraction is enabled.
 
-We are building **systems that think more like reality thinks** — through constraint satisfaction, wave propagation, tension resolution, and continuous emergence.
+## Repo Map
 
----
+```text
+src/
+  language_layer.py              triple extraction
+  concept_graph.py               graph backend
+  provenance_store.py            provenance records
+  core_engine.py                 graph search, contradictions, bridges
+  knowledge_ingest.py            external ingestion helpers
+  obsidian_sync.py               Obsidian sync/export
+  api/app.py                     FastAPI layer
+  self_improver.py               experimental self-improvement path
 
-**Made with obsessive love for cognitive architectures.**
+tests/                           pytest suite
+memory/                          local knowledge/provenance stores
+graphs/                          graph exports/cache
+obsidian/TS-Knowledge-Vault/     Obsidian-readable memory
+docs/                            architecture, limits, first-contact docs
+```
 
-Questions? Open an issue or reach out.
+## Experimental Features
+
+The repo contains experimental paths for:
+
+- prompt evolution,
+- hypothesis generation,
+- evidence validation through search,
+- Obsidian bidirectional sync,
+- confidence-gated code suggestions,
+- isolated worktree self-improvement cycles.
+
+These are not proven autonomous improvement. They are prototype control loops that require human review. Treat generated code, commits, graph edits, and confidence updates as inspectable suggestions, not trusted autonomous behavior.
+
+## Known Limitations
+
+- Extraction can be wrong, incomplete, or overly literal.
+- Confidence scores are heuristic and not calibrated probabilities.
+- Contradiction detection is incomplete and heuristic.
+- LLM-backed extraction depends on local models where used.
+- External ingestion depends on search availability and conservative rate limits.
+- Large graphs may require the Docker-backed Memgraph path; the default NetworkX cache is intended for smaller local runs.
+- Obsidian vault output can be noisy.
+- Self-improvement workflows can modify code and commit when enabled; use dry-run paths and safe branches deliberately.
+
+More detail: [docs/LIMITATIONS.md](docs/LIMITATIONS.md).
+
+## Relationship To The TS Stack
+
+- [TS-Start-Here](https://github.com/BoggersTheFish/TS-Start-Here): public ecosystem map and repo taxonomy.
+- [TS-Reasoner-v0](https://github.com/BoggersTheFish/TS-Reasoner-v0): verifier-backed toy reasoning traces and repair telemetry.
+- [TS-Codex-OS](https://github.com/BoggersTheFish/TS-Codex-OS): project graph, tension ledger, planner, and release receipts.
+- [TS-Core](https://github.com/BoggersTheFish/TS-Core): graph/tension runtime kernel.
+
+BoggersTheCIG is the claim/evidence/provenance branch. It stores and inspects knowledge state; it does not replace verifier-backed reasoning traces.
+
+## Roadmap
+
+Near-term:
+
+- Make first-contact docs and limitations explicit.
+- Stabilize minimal ingestion -> graph -> provenance -> contradiction examples.
+- Add small reproducible CIG receipts.
+- Clarify relationship between `BoggersTheCIG` and `cig-ts-engine`.
+
+Later:
+
+- Improve extraction evaluation.
+- Add contradiction benchmark fixtures.
+- Add cleaner bridge-detection receipts.
+- Connect CIG state to TS-Reasoner trace/provenance examples.
