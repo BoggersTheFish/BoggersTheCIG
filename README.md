@@ -4,6 +4,8 @@ Local-first provenance-aware concept graph for confidence-weighted claims, evide
 
 **Status:** active experimental prototype. Useful as CIG infrastructure; not a finished autonomous reasoner.
 
+**Canonical route:** [TS-Start-Here](https://github.com/BoggersTheFish/TS-Start-Here) -> [TS-Reasoner-v0](https://github.com/BoggersTheFish/TS-Reasoner-v0) -> [TensionLM](https://github.com/BoggersTheFish/TensionLM) -> TS-Codex-OS / TS-Core / CIG.
+
 ## What It Is
 
 BoggersTheCIG is a local-first claim/evidence graph. It ingests text, extracts concept triples, stores provenance, tracks confidence, surfaces possible contradictions, and can export graph state into an Obsidian-readable vault.
