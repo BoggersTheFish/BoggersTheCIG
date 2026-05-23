@@ -5,4 +5,4 @@
 
 ## Neighbors
 
-- [[Object]] ("a series of trips", weight=66078, conf=0.56, src=https://www.merriam-webster.com/dictiona)
+- [[Object]] ("a series of trips", weight=66078, conf=0.54, src=https://www.merriam-webster.com/dictiona)
