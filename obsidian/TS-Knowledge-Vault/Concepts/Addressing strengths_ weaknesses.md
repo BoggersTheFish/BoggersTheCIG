@@ -1,7 +1,0 @@
----
----
-
-# Addressing strengths, weaknesses
-
-## Neighbors
-

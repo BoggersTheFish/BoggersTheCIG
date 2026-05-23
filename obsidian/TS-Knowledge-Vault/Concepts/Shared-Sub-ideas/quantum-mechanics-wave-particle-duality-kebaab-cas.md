@@ -1,3 +1,3 @@
 # Quantum Mechanics Wave Particle Duality Kebaab Cas
 
-Used in: [[-neighbor--related-to-weight-27653-confidence-10--]], [[Orphan Concepts  degree   2 ]], [[Orphan Concepts _degree _ 2_]], [[familiarity with individuals]], [[neighbors]], [[quantum-mechanics-wave-particle-duality-kebaab-cas/Sub-ideas/-neighbor--related-to-case-insensitive-keebba-case]], [[short-filename-kebaab-case-no-spaces-for-this-sub-]], [[sugr_123txt]]
+Used in: [[-neighbor--related-to-weight-27653-confidence-10--]], [[-neighborstext-neighbors---cognitive-definition--m]], [[Orphan Concepts  degree   2 ]], [[Orphan Concepts _degree _ 2_]], [[familiarity with individuals]], [[neighbors]], [[quantum-mechanics-wave-particle-duality-kebaab-cas/Sub-ideas/-neighbor--related-to-case-insensitive-keebba-case]], [[short-filename-kebaab-case-no-spaces-for-this-sub-]], [[sugr_123txt]]
