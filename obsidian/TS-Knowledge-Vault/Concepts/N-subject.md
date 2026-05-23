@@ -5,4 +5,4 @@
 
 ## Neighbors
 
-- [[N-object]] (N-relation, weight=238318, conf=0.31, src=https://aitopics.org/doc/arxivorg:0B708C)
+- [[N-object]] (N-relation, weight=238318, conf=0.30, src=https://aitopics.org/doc/arxivorg:0B708C)
