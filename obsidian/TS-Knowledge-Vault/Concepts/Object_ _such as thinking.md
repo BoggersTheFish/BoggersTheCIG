@@ -5,4 +5,4 @@
 
 ## Neighbors
 
-- [[or …"]] (reasoning, weight=106800, conf=0.99, src=https://www.merriam-webster.com/dictiona)
+- [[or …"]] (reasoning, weight=106800, conf=0.97, src=https://www.merriam-webster.com/dictiona)

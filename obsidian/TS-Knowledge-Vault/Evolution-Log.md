@@ -8184,3 +8184,13 @@ Tracks self-improvement cycles. See `eval/self_improve_log.jsonl` for machine-re
 
 - MERGE: ['Orphan Concepts  degree   2 ', 'neighbors_quantummechanics_waveparticledualitytxt'] -> Shared-Sub-ideas/neighbors.md
 - MERGE: ['Orphan Concepts _degree _ 2_', 'neighbors'] -> Shared-Sub-ideas/quantum-mechaniques-and-wave-particle-duality-keba.md
+
+## Auto-organize 2026-05-23 03:38 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Relation_ weight_21550_ conf_0_95__- __familiarity with individuals and situations_ or practical skill.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Hypotheses/Relation_ weight_21550_ conf_0_95__- __familiarity with individuals and situations_ or practical skill.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Addressing strengths_ weaknesses.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Hypotheses/Addressing strengths_ weaknesses.md
+
+## Extract & Merge Sub-ideas 2026-05-23 03:38 UTC
+
+- EXTRACT: Orphan Concepts  degree   2  -> Orphan Concepts  degree   2 /Sub-ideas/qa_quantum_mechanics_wave_particle_dualitytxt.md
+- MERGE: ['Orphan Concepts _degree _ 2_', 'quantum-mechaniques-and-wave-particle-duality-keba'] -> Shared-Sub-ideas/neighbors.md
