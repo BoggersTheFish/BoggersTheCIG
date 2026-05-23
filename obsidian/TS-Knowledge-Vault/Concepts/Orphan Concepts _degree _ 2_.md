@@ -6,4 +6,4 @@ bridge:: true
 
 > **Bridge Node** — connects multiple semantic clusters
 
-[[Orphan Concepts _degree _ 2_/Sub-ideas/sub-ideakaibab-caseno-spacesshort-filenametxt]]
+[[Shared-Sub-ideas/-neighborstext-neighbors---cognitive-definition--m]]
