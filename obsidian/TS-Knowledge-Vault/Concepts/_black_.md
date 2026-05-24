@@ -1,7 +1,0 @@
----
----
-
-# "black"
-
-## Neighbors
-

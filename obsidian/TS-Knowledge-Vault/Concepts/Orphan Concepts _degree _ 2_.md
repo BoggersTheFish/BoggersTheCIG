@@ -6,4 +6,4 @@ bridge:: true
 
 > **Bridge Node** — connects multiple semantic clusters
 
-[[Shared-Sub-ideas/sub-idea-neighbors-gravity-time]]
+[[Shared-Sub-ideas/neighbor-relationstxtfile-contains-sub-idea-with-f]]
