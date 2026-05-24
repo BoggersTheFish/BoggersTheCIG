@@ -5,5 +5,5 @@
 
 ## Neighbors
 
-- [[B]] (r, weight=296932, conf=0.85)
-- [[C]] (r, weight=296732, conf=0.85)
+- [[B]] (r, weight=296932, conf=0.81)
+- [[C]] (r, weight=296732, conf=0.81)

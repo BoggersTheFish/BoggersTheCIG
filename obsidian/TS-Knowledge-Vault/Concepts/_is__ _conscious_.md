@@ -1,7 +1,0 @@
----
----
-
-# "is", "conscious"
-
-## Neighbors
-
