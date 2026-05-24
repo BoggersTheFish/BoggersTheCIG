@@ -1,7 +1,0 @@
----
----
-
-# Triplet
-
-## Neighbors
-

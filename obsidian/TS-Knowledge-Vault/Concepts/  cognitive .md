@@ -5,6 +5,6 @@
 
 ## Neighbors
 
-- [[('definition', 'NOUN']] ('DET', weight=33788, conf=0.57, src=/home/runner/work/BoggersTheCIG/BoggersT)
-- [[('relaating', 'ADP']] ('DEF', weight=33787, conf=0.57, src=/home/runner/work/BoggersTheCIG/BoggersT)
-- [[('meaning', 'DET']] ('DEF', weight=33786, conf=0.57, src=/home/runner/work/BoggersTheCIG/BoggersT)
+- [[('definition', 'NOUN']] ('DET', weight=33788, conf=0.53, src=/home/runner/work/BoggersTheCIG/BoggersT)
+- [[('relaating', 'ADP']] ('DEF', weight=33787, conf=0.53, src=/home/runner/work/BoggersTheCIG/BoggersT)
+- [[('meaning', 'DET']] ('DEF', weight=33786, conf=0.53, src=/home/runner/work/BoggersTheCIG/BoggersT)
