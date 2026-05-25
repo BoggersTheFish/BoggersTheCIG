@@ -5,4 +5,4 @@
 
 ## Neighbors
 
-- [[General]] (Augmenting, weight=164098, conf=0.19, src=https://research.ibm.com/topics/neuro-sy)
+- [[General]] (Augmenting, weight=164098, conf=0.17, src=https://research.ibm.com/topics/neuro-sy)
