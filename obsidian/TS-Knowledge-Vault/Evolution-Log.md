@@ -8384,3 +8384,14 @@ Tracks self-improvement cycles. See `eval/self_improve_log.jsonl` for machine-re
 - EXTRACT: Orphan Concepts  degree   2  -> Orphan Concepts  degree   2 /Sub-ideas/suitable_filename-quantum-mechanics_quantum-partic.md
 - EXTRACT: Orphan Concepts _degree _ 2_ -> Orphan Concepts _degree _ 2_/Sub-ideas/neighbors.md
 - EXTRACT: quantum-mechanics-wave-particle-duality-no-extensi -> quantum-mechanics-wave-particle-duality-no-extensi/Sub-ideas/quantum-mechanics-wave-particle-dualitycoelectroma.md
+
+## Auto-organize 2026-05-25 21:50 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/_is__ weight_273192_ conf_0_24__- __being_ weight_142_ conf_0_60__- __blue.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Mathematics/_is__ weight_273192_ conf_0_24__- __being_ weight_142_ conf_0_60__- __blue.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/_is__ weight_247021_ conf_0_44__- __being_ weight_1387_ conf_0_79__- __blue.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Mathematics/_is__ weight_247021_ conf_0_44__- __being_ weight_1387_ conf_0_79__- __blue.md
+
+## Extract & Merge Sub-ideas 2026-05-25 21:50 UTC
+
+- MERGE: ['Orphan Concepts  degree   2 ', 'suitable_filename-quantum-mechanics_quantum-partic'] -> Shared-Sub-ideas/qm_wdpdualitiestxtqm-neighbors-wdp-dualities-kebaa.md
+- MERGE: ['Orphan Concepts _degree _ 2_', 'neighbors'] -> Shared-Sub-ideas/neighbors.md
+- EXTRACT: quantum-mechanics-wave-particle-dualitycoelectroma -> quantum-mechanics-wave-particle-dualitycoelectroma/Sub-ideas/-neighbors-definition--meaning---merriaewebster-th.md
