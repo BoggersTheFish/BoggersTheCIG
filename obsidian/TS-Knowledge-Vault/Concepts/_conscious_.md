@@ -5,4 +5,4 @@
 
 ## Neighbors
 
-- [[('intellectual', 'ACC']] ('JJ'), weight=38352, conf=0.41, src=https://www.merriam-webster.com/dictiona)
+- [[('intellectual', 'ACC']] ('JJ'), weight=38352, conf=0.38, src=https://www.merriam-webster.com/dictiona)
