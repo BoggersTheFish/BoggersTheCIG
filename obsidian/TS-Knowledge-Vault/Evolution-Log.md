@@ -8409,3 +8409,15 @@ Tracks self-improvement cycles. See `eval/self_improve_log.jsonl` for machine-re
 - MERGE: ['Orphan Concepts  degree   2 ', 'qm_wdpdualitiestxtqm-neighbors-wdp-dualities-kebaa'] -> Shared-Sub-ideas/quantum-mechanics-wave-particle-duality-kebaab-cas.md
 - EXTRACT: Orphan Concepts _degree _ 2_ -> Orphan Concepts _degree _ 2_/Sub-ideas/neighbors.md
 - EXTRACT: -neighbors-definition--meaning---merriaewebster-th -> -neighbors-definition--meaning---merriaewebster-th/Sub-ideas/sub-ideaquantum-mechanics-wave-particle-dualityfil.md
+
+## Auto-organize 2026-05-26 09:16 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/_is__ weight_109809_ conf_0_81__- __being_ weight_746_ conf_0_70__- __blue.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/External/_is__ weight_109809_ conf_0_81__- __being_ weight_746_ conf_0_70__- __blue.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/_is__ weight_158210_ conf_0_75__- __being_ weight_1387_ conf_0_79__- __blue.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/External/_is__ weight_158210_ conf_0_75__- __being_ weight_1387_ conf_0_79__- __blue.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/_is__ weight_180495_ conf_0_39__- __being_ weight_142_ conf_0_60__- __blue.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/External/_is__ weight_180495_ conf_0_39__- __being_ weight_142_ conf_0_60__- __blue.md
+
+## Extract & Merge Sub-ideas 2026-05-26 09:16 UTC
+
+- EXTRACT: Orphan Concepts  degree   2  -> Orphan Concepts  degree   2 /Sub-ideas/neighbors.md
+- MERGE: ['Orphan Concepts _degree _ 2_', 'neighbors'] -> Shared-Sub-ideas/quantum_mechanics_wave-particle_dualitymd.md
+- EXTRACT: sub-ideaquantum-mechanics-wave-particle-dualityfil -> sub-ideaquantum-mechanics-wave-particle-dualityfil/Sub-ideas/neighbors.md
