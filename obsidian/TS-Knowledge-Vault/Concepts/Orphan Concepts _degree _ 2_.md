@@ -6,4 +6,4 @@ bridge:: true
 
 > **Bridge Node** — connects multiple semantic clusters
 
-[[Shared-Sub-ideas/qml_neighborstxt]]
+[[Shared-Sub-ideas/neighbors---kebaab-case-with-no-spaces-and-txt-ext]]

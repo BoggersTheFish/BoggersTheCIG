@@ -14351,3 +14351,21 @@ Auto-generated after vault-modifying operations.
 **After:** +.md"+2_.md"+A.md"+AI.md" — nodes +0, edges +0, coherence +0%
 
 [![graph](graph-2026-05-26-18-39-self-improve.png)](graph-2026-05-26-18-39-self-improve.png) [commit](https://github.com/BoggersTheFish/BoggersTheCIG/commit/1b9f70f4)
+
+### 2026-05-26 22:32 UTC
+
+**After:** vault organize (5 moves) — nodes +0, edges -25, coherence -1%
+
+[![graph](graph-2026-05-26-22-32-after-organize.png)](graph-2026-05-26-22-32-after-organize.png) [commit](https://github.com/BoggersTheFish/BoggersTheCIG/commit/288c77bf)
+
+### 2026-05-26 22:32 UTC
+
+**After:** 2 extracts, 1 merges — nodes +0, edges +0, coherence +0%
+
+[![graph](graph-2026-05-26-22-32-extract-subideas.png)](graph-2026-05-26-22-32-extract-subideas.png) [commit](https://github.com/BoggersTheFish/BoggersTheCIG/commit/288c77bf)
+
+### 2026-05-26 22:32 UTC
+
+**After:** +.md"+2_.md"+Object_.md"+___stocks_.md" — nodes +0, edges +0, coherence +0%
+
+[![graph](graph-2026-05-26-22-32-self-improve.png)](graph-2026-05-26-22-32-self-improve.png) [commit](https://github.com/BoggersTheFish/BoggersTheCIG/commit/288c77bf)
