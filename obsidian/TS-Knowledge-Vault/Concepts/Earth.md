@@ -5,4 +5,4 @@
 
 ## Neighbors
 
-- [[gravity]] (has, weight=296732, conf=0.30)
+- [[gravity]] (has, weight=296734, conf=0.26)
