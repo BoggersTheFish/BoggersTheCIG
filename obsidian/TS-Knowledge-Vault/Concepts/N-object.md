@@ -1,7 +1,0 @@
----
----
-
-# N-object
-
-## Neighbors
-

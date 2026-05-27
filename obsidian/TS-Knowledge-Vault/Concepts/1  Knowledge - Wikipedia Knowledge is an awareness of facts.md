@@ -5,4 +5,3 @@
 
 ## Neighbors
 
-- [[or (3]] ((2, weight=296507, conf=0.10)
