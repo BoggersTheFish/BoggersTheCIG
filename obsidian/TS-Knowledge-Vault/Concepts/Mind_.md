@@ -1,7 +1,0 @@
----
----
-
-# Mind"
-
-## Neighbors
-
