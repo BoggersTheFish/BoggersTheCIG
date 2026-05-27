@@ -1,4 +1,4 @@
-# TS Insights — 2026-05-27 13:36 UTC
+# TS Insights — 2026-05-27 18:42 UTC
 Generated automatically each self-improvement cycle.
 ## Highest-Confidence New Knowledge
 
@@ -10,7 +10,7 @@ Generated automatically each self-improvement cycle.
 
 ## Top Bridge Node
 
-- **[[Orphan Concepts  degree   2 ]]** — bridge score: 0.7045, betweenness: 0.3862, cluster span: 0.824
+- **[[Orphan Concepts  degree   2 ]]** — bridge score: 0.4652, betweenness: 0.255, cluster span: 0.824
 
 ## Corroborated Hypotheses
 

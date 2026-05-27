@@ -2,9 +2,9 @@
 
 | Concept | Degree |
 |---------|--------|
-| [[Orphan Concepts  degree   2 ]] | 1037 |
+| [[Orphan Concepts  degree   2 ]] | 901 |
 | [[familiarity with individuals]] | 163 |
-| [[Orphan Concepts (degree < 2)]] | 35 |
+| [[Orphan Concepts (degree < 2)]] | 32 |
 | [[situations or practical skill]] | 9 |
 | [[situations weight 141 conf 0 60]] | 9 |
 | [[Knowledge]] | 6 |
