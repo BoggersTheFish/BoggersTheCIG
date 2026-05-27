@@ -1,10 +1,7 @@
 ---
-bridge:: true
 ---
 
 # Knowledge - Wikipedia Knowledge
-
-> **Bridge Node** — connects multiple semantic clusters
 
 ## Neighbors
 
