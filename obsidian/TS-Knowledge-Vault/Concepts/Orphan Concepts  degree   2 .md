@@ -6,4 +6,4 @@ bridge:: true
 
 > **Bridge Node** — connects multiple semantic clusters
 
-[[Shared-Sub-ideas/neighbors]]
+[[Orphan Concepts  degree   2 /Sub-ideas/sub-idea_01_neighbors_degrees1_weights296654_confs]]

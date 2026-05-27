@@ -6,4 +6,4 @@ bridge:: true
 
 > **Bridge Node** — connects multiple semantic clusters
 
-[[Shared-Sub-ideas/neighbor-related-concepts-kebaab-case-no-spaces-or]]
+[[Shared-Sub-ideas/neighbors]]
