@@ -6,4 +6,4 @@ bridge:: true
 
 > **Bridge Node** — connects multiple semantic clusters
 
-[[Shared-Sub-ideas/neighbors-keep-case-with-no-spaces-extension-txtex]]
+[[Shared-Sub-ideas/neighbor-relations-with-underscores-between-wordse]]

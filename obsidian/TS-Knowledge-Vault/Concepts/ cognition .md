@@ -5,4 +5,4 @@
 
 ## Neighbors
 
-- [[('(such', 'PUNCT', 'as', 'thinking, …]] ('NNP', weight=33786, conf=0.17, src=/home/runner/work/BoggersTheCIG/BoggersT)
+- [[('(such', 'PUNCT', 'as', 'thinking, …]] ('NNP', weight=33786, conf=0.16, src=/home/runner/work/BoggersTheCIG/BoggersT)
