@@ -6,4 +6,4 @@ bridge:: true
 
 > **Bridge Node** — connects multiple semantic clusters
 
-[[Shared-Sub-ideas/neighbor-relations-with-underscores-between-wordse]]
+[[Shared-Sub-ideas/qa-nbdshort-filename-for-this-sub-idea-that-can-be]]

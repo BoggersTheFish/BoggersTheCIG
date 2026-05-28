@@ -1,0 +1,7 @@
+---
+---
+
+# Output: "Coalition Architecture
+
+## Neighbors
+
