@@ -6,4 +6,4 @@ bridge:: true
 
 > **Bridge Node** — connects multiple semantic clusters
 
-[[Orphan Concepts  degree   2 /Sub-ideas/neighbors]]
+[[Shared-Sub-ideas/neighbors-keep-case-with-no-spaces-extension-txtex]]
