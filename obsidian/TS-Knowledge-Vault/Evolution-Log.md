@@ -8507,3 +8507,12 @@ Tracks self-improvement cycles. See `eval/self_improve_log.jsonl` for machine-re
 
 - MERGE: ['Orphan Concepts  degree   2 ', 'qm_neighborsmd'] -> Shared-Sub-ideas/neighbors.md
 - EXTRACT: Orphan Concepts _degree _ 2_ -> Orphan Concepts _degree _ 2_/Sub-ideas/-neighbors-sub-idea--neighbor-cognitive-architectu.md
+
+## Auto-organize 2026-05-28 03:43 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Relation_ weight_46035_ conf_0_93__- __familiarity with individuals and situations_ weight_426_ conf_0_60__- __familiarity with individuals and situations_ weight_141_ conf_0_60__- __gravity.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Biology/Relation_ weight_46035_ conf_0_93__- __familiarity with individuals and situations_ weight_426_ conf_0_60__- __familiarity with individuals and situations_ weight_141_ conf_0_60__- __gravity.md
+
+## Extract & Merge Sub-ideas 2026-05-28 03:43 UTC
+
+- EXTRACT: Orphan Concepts  degree   2  -> Orphan Concepts  degree   2 /Sub-ideas/neighbors.md
+- MERGE: ['-neighbors-sub-idea--neighbor-cognitive-architectu', 'Orphan Concepts _degree _ 2_'] -> Shared-Sub-ideas/neighborhoodsabbrev.md
