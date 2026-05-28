@@ -8556,3 +8556,13 @@ Tracks self-improvement cycles. See `eval/self_improve_log.jsonl` for machine-re
 
 - MERGE: ['Orphan Concepts  degree   2 ', 'neighbor-relations-with-underscores-between-wordse'] -> Shared-Sub-ideas/qa-nbdshort-filename-for-this-sub-idea-that-can-be.md
 - MERGE: ['Orphan Concepts _degree _ 2_', 'neighbors'] -> Shared-Sub-ideas/neighbors.md
+
+## Auto-organize 2026-05-28 22:38 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Relation_ weight_140003_ conf_0_43__- __Subject_ Knowledge _Relation_ Object_.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Hypotheses/Relation_ weight_140003_ conf_0_43__- __Subject_ Knowledge _Relation_ Object_.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Relation  Augmenting and combining the strengths of statistical AI.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Hypotheses/Relation  Augmenting and combining the strengths of statistical AI.md
+
+## Extract & Merge Sub-ideas 2026-05-28 22:39 UTC
+
+- MERGE: ['Orphan Concepts  degree   2 ', 'qa-nbdshort-filename-for-this-sub-idea-that-can-be'] -> Shared-Sub-ideas/neighbors.md
+- EXTRACT: Orphan Concepts _degree _ 2_ -> Orphan Concepts _degree _ 2_/Sub-ideas/short_filename-quantum-mechanicsext-txtsuffix-txtf.md
