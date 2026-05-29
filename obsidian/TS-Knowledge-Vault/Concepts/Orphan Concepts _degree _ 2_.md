@@ -6,4 +6,4 @@ bridge:: true
 
 > **Bridge Node** — connects multiple semantic clusters
 
-[[Orphan Concepts _degree _ 2_/Sub-ideas/short_filename-quantum-mechanicsext-txtsuffix-txtf]]
+[[Shared-Sub-ideas/neighbors]]
