@@ -8580,3 +8580,13 @@ Tracks self-improvement cycles. See `eval/self_improve_log.jsonl` for machine-re
 
 - EXTRACT: Orphan Concepts  degree   2  -> Orphan Concepts  degree   2 /Sub-ideas/qm-wpd.md
 - MERGE: ['Orphan Concepts _degree _ 2_', 'short_filename-quantum-mechanicsext-txtsuffix-txtf'] -> Shared-Sub-ideas/neighbors.md
+
+## Auto-organize 2026-05-29 09:26 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Relation_ weight_37785_ conf_0_52__- __Subject_ Knowledge _Relation_ Object_.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/External/Relation_ weight_37785_ conf_0_52__- __Subject_ Knowledge _Relation_ Object_.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/the target of knowledge e g Knowledge Neighbors.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/External/the target of knowledge e g Knowledge Neighbors.md
+
+## Extract & Merge Sub-ideas 2026-05-29 09:26 UTC
+
+- MERGE: ['Orphan Concepts  degree   2 ', 'qm-wpd'] -> Shared-Sub-ideas/neighbors.md
+- EXTRACT: Orphan Concepts _degree _ 2_ -> Orphan Concepts _degree _ 2_/Sub-ideas/qm-npexamples-with-neighbors--quantum-mechanics-an.md
