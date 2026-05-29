@@ -164,6 +164,7 @@
 - [["stocks"]] (degree=1)
 - [['(such']] (degree=1)
 - [['as', 'thinking, …']] (degree=1)
+- [[('definition', 'NOUN']] (degree=1)
 - [[('intellectual', 'ACC']] (degree=1)
 - [[(2]] (degree=1)
 - [[)` returns the list of tuples]] (degree=1)
@@ -197,4 +198,3 @@
 - [[Obj Individuals]] (degree=1)
 - [[Obj. "Individuals and situations"]] (degree=1)
 - [[Object Augmenting]] (degree=1)
-- [[Object of Knowledge - Wikipedia]] (degree=1)

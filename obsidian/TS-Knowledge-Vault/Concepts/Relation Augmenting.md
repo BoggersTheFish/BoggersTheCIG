@@ -8,4 +8,4 @@ bridge:: true
 
 ## Neighbors
 
-- [[combining the strengths of statistical AI]] (related_to, weight=296635, conf=0.13)
+- [[combining the strengths of statistical AI]] (related_to, weight=296636, conf=0.13)

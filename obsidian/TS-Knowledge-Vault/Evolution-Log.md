@@ -8604,3 +8604,12 @@ Tracks self-improvement cycles. See `eval/self_improve_log.jsonl` for machine-re
 
 - EXTRACT: Orphan Concepts  degree   2  -> Orphan Concepts  degree   2 /Sub-ideas/neighbors.md
 - MERGE: ['Orphan Concepts _degree _ 2_', 'qm-npexamples-with-neighbors--quantum-mechanics-an'] -> Shared-Sub-ideas/sub-ideaqmechanicstxt.md
+
+## Auto-organize 2026-05-29 18:55 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/_is__ weight_33870_ conf_0_95__- __being_ weight_1387_ conf_0_79__- __blue.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Biology/_is__ weight_33870_ conf_0_95__- __being_ weight_1387_ conf_0_79__- __blue.md
+
+## Extract & Merge Sub-ideas 2026-05-29 18:55 UTC
+
+- MERGE: ['Orphan Concepts  degree   2 ', 'neighbors'] -> Shared-Sub-ideas/neighbors.md
+- MERGE: ['Orphan Concepts _degree _ 2_', 'sub-ideaqmechanicstxt'] -> Shared-Sub-ideas/-neighbors--stocks-degree1--2-degree1--subject-deg.md
