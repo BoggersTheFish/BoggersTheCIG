@@ -6,4 +6,4 @@ bridge:: true
 
 > **Bridge Node** — connects multiple semantic clusters
 
-[[Shared-Sub-ideas/-neighbors--stocks-degree1--2-degree1--subject-deg]]
+[[Shared-Sub-ideas/-neighbors--quantum-mechanics-degree1--wave-partic]]
