@@ -8590,3 +8590,17 @@ Tracks self-improvement cycles. See `eval/self_improve_log.jsonl` for machine-re
 
 - MERGE: ['Orphan Concepts  degree   2 ', 'qm-wpd'] -> Shared-Sub-ideas/neighbors.md
 - EXTRACT: Orphan Concepts _degree _ 2_ -> Orphan Concepts _degree _ 2_/Sub-ideas/qm-npexamples-with-neighbors--quantum-mechanics-an.md
+
+## Auto-organize 2026-05-29 13:32 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Neurosymbolic.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Physics/Neurosymbolic.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/familiarity with individuals and situations_ weight_13476_ conf_1_00__- ___is__ weight_747_ conf_0_60__- ___stocks_.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Mathematics/familiarity with individuals and situations_ weight_13476_ conf_1_00__- ___is__ weight_747_ conf_0_60__- ___stocks_.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/_is__ weight_277912_ conf_0_24__- __being_ weight_142_ conf_0_60__- __blue.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Mathematics/_is__ weight_277912_ conf_0_24__- __being_ weight_142_ conf_0_60__- __blue.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Relation_ weight_119905_ conf_0_81__- __familiarity with individuals and situations_ weight_426_ conf_0_60__- __familiarity with individuals and situations_ weight_141_ conf_0_60__- __gravity.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Mathematics/Relation_ weight_119905_ conf_0_81__- __familiarity with individuals and situations_ weight_426_ conf_0_60__- __familiarity with individuals and situations_ weight_141_ conf_0_60__- __gravity.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/_is__ weight_44317_ conf_0_52__- __being_ weight_142_ conf_0_60__- __blue.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Biology/_is__ weight_44317_ conf_0_52__- __being_ weight_142_ conf_0_60__- __blue.md
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/_is__ weight_234772_ conf_0_25__- ___stocks_.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Biology/_is__ weight_234772_ conf_0_25__- ___stocks_.md
+
+## Extract & Merge Sub-ideas 2026-05-29 13:32 UTC
+
+- EXTRACT: Orphan Concepts  degree   2  -> Orphan Concepts  degree   2 /Sub-ideas/neighbors.md
+- MERGE: ['Orphan Concepts _degree _ 2_', 'qm-npexamples-with-neighbors--quantum-mechanics-an'] -> Shared-Sub-ideas/sub-ideaqmechanicstxt.md
