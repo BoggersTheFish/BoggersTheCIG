@@ -1,7 +1,0 @@
----
----
-
-# (word
-
-## Neighbors
-
