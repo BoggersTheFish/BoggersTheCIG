@@ -6,4 +6,4 @@ bridge:: true
 
 > **Bridge Node** — connects multiple semantic clusters
 
-[[Shared-Sub-ideas/quantum-mechanics-wave-particle-duality-1]]
+[[Shared-Sub-ideas/sub-ideaqmlqa-neighbors-no_spacesjpg]]
