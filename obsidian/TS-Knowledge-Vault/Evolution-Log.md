@@ -8696,3 +8696,8 @@ Tracks self-improvement cycles. See `eval/self_improve_log.jsonl` for machine-re
 
 - EXTRACT: Orphan Concepts  degree   2  -> Orphan Concepts  degree   2 /Sub-ideas/neighbors_stocks_degree1_weight296662_conf011_srch.md
 - MERGE: ['-neighborhoods--stocks-degree1--2-degree1--subject', 'Orphan Concepts _degree _ 2_'] -> Shared-Sub-ideas/neighbors.md
+
+## Extract & Merge Sub-ideas 2026-05-31 08:49 UTC
+
+- MERGE: ['Orphan Concepts  degree   2 ', 'neighbors_stocks_degree1_weight296662_conf011_srch'] -> Shared-Sub-ideas/neighbors.md
+- EXTRACT: Orphan Concepts _degree _ 2_ -> Orphan Concepts _degree _ 2_/Sub-ideas/quantum_mechanicsmd.md
