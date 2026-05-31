@@ -1,7 +1,0 @@
----
----
-
-# Relation
-
-## Neighbors
-
