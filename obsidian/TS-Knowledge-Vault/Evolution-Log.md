@@ -8785,3 +8785,11 @@ Tracks self-improvement cycles. See `eval/self_improve_log.jsonl` for machine-re
 ## Extract & Merge Sub-ideas 2026-06-02 04:28 UTC
 
 - EXTRACT: neighbortxt -> neighbortxt/Sub-ideas/neighbors.md
+
+## Auto-organize 2026-06-02 09:41 UTC
+
+- /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/_is__ weight_219452_ conf_0_50__- __being_ weight_1387_ conf_0_79__- __blue.md -> /home/runner/work/BoggersTheCIG/BoggersTheCIG/obsidian/TS-Knowledge-Vault/Concepts/Biology/_is__ weight_219452_ conf_0_50__- __being_ weight_1387_ conf_0_79__- __blue.md
+
+## Extract & Merge Sub-ideas 2026-06-02 09:41 UTC
+
+- EXTRACT: neighbors -> neighbors/Sub-ideas/neighbors.md
