@@ -8781,3 +8781,7 @@ Tracks self-improvement cycles. See `eval/self_improve_log.jsonl` for machine-re
 ## Extract & Merge Sub-ideas 2026-06-01 23:15 UTC
 
 - EXTRACT: neighborstxt-neighbor-relationships--stocks-degree -> neighborstxt-neighbor-relationships--stocks-degree/Sub-ideas/neighbortxt.md
+
+## Extract & Merge Sub-ideas 2026-06-02 04:28 UTC
+
+- EXTRACT: neighbortxt -> neighbortxt/Sub-ideas/neighbors.md
